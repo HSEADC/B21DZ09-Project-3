@@ -5,22 +5,55 @@
     <title>Self</title>
     <analytics></analytics>
   </head>
-
   <body class="index">
-    <div class="images">
-      <div class="image" id="bgPNG"></div>
-      <div class="image" id="bgJPG"></div>
-      <!-- <div class="image" id="bgSVG"></div> -->
-      <!-- <img src="images/image.png" /> -->
-      <!-- <img src="images/image.jpg" /> -->
-      <img src="images/image.jpg" />
-      <img src="images/image.svg" />
-    </div>
-
-    <div>This is a landing page for our project</div>
+    <form action="https://formspree.io/f/mwkzqbej" method="POST">
+      <label>
+        Электронная почта:<br />
+        <input type="email" name="email" />
+      </label>
+      <!-- your other form fields go here -->
+      <button type="submit">Send</button>
+    </form>
     <a href="./pages/page.html">Заглушка</a>
     <a href="instructions.html">Инструкции</a>
     <a href="articles.html">Статьи</a>
     <a href="questions.html">Вопрос-ответ</a>
   </body>
+  <script>
+    var form = document.getElementById('my-form')
+
+    async function handleSubmit(event) {
+      event.preventDefault()
+      var status = document.getElementById('my-form-status')
+      var data = new FormData(event.target)
+      fetch(event.target.action, {
+        method: form.method,
+        body: data,
+        headers: {
+          Accept: 'application/json'
+        }
+      })
+        .then((response) => {
+          if (response.ok) {
+            status.innerHTML = 'Thanks for your submission!'
+            form.reset()
+          } else {
+            response.json().then((data) => {
+              if (Object.hasOwn(data, 'errors')) {
+                status.innerHTML = data['errors']
+                  .map((error) => error['message'])
+                  .join(', ')
+              } else {
+                status.innerHTML =
+                  'Oops! There was a problem submitting your form'
+              }
+            })
+          }
+        })
+        .catch((error) => {
+          status.innerHTML = 'Oops! There was a problem submitting your form'
+        })
+    }
+    form.addEventListener('submit', handleSubmit)
+  </script>
 </html>
