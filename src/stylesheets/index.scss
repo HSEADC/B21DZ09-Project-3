@@ -3,9 +3,14 @@ body.index {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background: var(--orange);
+  color: var(--white);
 
   & > div,
   & > a {
     margin: 10px 0;
+  }
+  h1 {
+    font-size: 26.667vw;
   }
 }
