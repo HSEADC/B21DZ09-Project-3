@@ -93,32 +93,32 @@ module.exports = {
       chunks: ['page']
     }),
 
-    // Instructions page
-    new HtmlWebpackPlugin({
-      hash: true,
-      scriptLoading: 'blocking',
-      template: './src/instructions.html',
-      filename: './instructions.html',
-      chunks: ['index']
-    }),
-
-    // Articles page
-    new HtmlWebpackPlugin({
-      hash: true,
-      scriptLoading: 'blocking',
-      template: './src/articles.html',
-      filename: './articles.html',
-      chunks: ['index']
-    }),
-
-    // Questions page
-    new HtmlWebpackPlugin({
-      hash: true,
-      scriptLoading: 'blocking',
-      template: './src/questions.html',
-      filename: './questions.html',
-      chunks: ['index']
-    }),
+    // // Instructions page
+    // new HtmlWebpackPlugin({
+    //   hash: true,
+    //   scriptLoading: 'blocking',
+    //   template: './src/instructions.html',
+    //   filename: './instructions.html',
+    //   chunks: ['page']
+    // }),
+    //
+    // // Articles page
+    // new HtmlWebpackPlugin({
+    //   hash: true,
+    //   scriptLoading: 'blocking',
+    //   template: './src/articles.html',
+    //   filename: './articles.html',
+    //   chunks: ['page']
+    // }),
+    //
+    // // Questions page
+    // new HtmlWebpackPlugin({
+    //   hash: true,
+    //   scriptLoading: 'blocking',
+    //   template: './src/questions.html',
+    //   filename: './questions.html',
+    //   chunks: ['page']
+    // }),
 
     // Partials
     new HtmlWebpackPartialsPlugin([
