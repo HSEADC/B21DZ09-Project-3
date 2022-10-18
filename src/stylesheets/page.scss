@@ -49,10 +49,10 @@ body.page {
   }
 
   .image {
+    position: absolute;
+
     &#shape1_man {
       background-image: url('images/shape1_man.png');
-      position: absolute;
-      display: flex;
       margin: 15vw 0vw 0vw 35vw;
       width: 24.323vw;
       height: 18.438vw;
@@ -62,8 +62,6 @@ body.page {
     }
     &#shape2_stirka {
       background-image: url('images/shape2_stirka.png');
-      position: absolute;
-      display: flex;
       margin: 15vw 0vw 0vw 23.35vw;
       width: 10.365vw;
       height: 14.167vw;
@@ -73,8 +71,6 @@ body.page {
     }
     &#shape3_pilesos {
       background-image: url('images/shape3_pilesos.png');
-      position: absolute;
-      display: flex;
       margin: 15vw 0vw 0vw 54.4vw;
       width: 17.135vw;
       height: 18.021vw;
@@ -84,8 +80,6 @@ body.page {
     }
     &#shape4_holod {
       background-image: url('images/shape4_holod.png');
-      position: absolute;
-      display: flex;
       margin: 15vw 0vw 0vw 10vw;
       width: 14.583vw;
       height: 28.75vw;
@@ -95,8 +89,6 @@ body.page {
     }
     &#shape5_batareya {
       background-image: url('images/shape5_batareya.png');
-      position: absolute;
-      display: flex;
       margin: 15vw 0vw 0vw 26.75vw;
       width: 14.063vw;
       height: 8.698vw;
@@ -106,8 +98,6 @@ body.page {
     }
     &#shape6_plita {
       background-image: url('images/shape6_plita.png');
-      position: absolute;
-      display: flex;
       margin: 15vw 0vw 0vw 71vw;
       width: 16.042vw;
       height: 16.354vw;
@@ -117,8 +107,6 @@ body.page {
     }
     &#shape7_okno {
       background-image: url('images/shape7_okno.png');
-      position: absolute;
-      display: flex;
       margin: 15vw 0vw 0vw 36.3vw;
       width: 19.115vw;
       height: 21.354vw;
@@ -128,8 +116,6 @@ body.page {
     }
     &#shape8_shkaf {
       background-image: url('images/shape8_shkaf.png');
-      position: absolute;
-      display: flex;
       margin: 15vw 0vw 0vw 43.4vw;
       width: 23.958vw;
       height: 33.594vw;
