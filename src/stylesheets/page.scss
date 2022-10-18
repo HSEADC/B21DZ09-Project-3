@@ -1,11 +1,31 @@
+html.page {
+  scroll-behavior: smooth;
+}
+
 body.page {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  // display: flex;
+  // flex-direction: column;
+  // justify-content: center;
+  // align-items: center;
+  background-color: var(--orange);
+  color: var(--white);
 
   & > div,
   & > a {
     margin: 10px 0;
+  }
+
+  .block1 {
+    height: 100%;
+  }
+
+  .block2 {
+    height: 100%;
+    background-color: var(--white);
+    color: var(--orange);
+  }
+
+  .block3 {
+    height: 100%;
   }
 }
