@@ -15,17 +15,143 @@ body.page {
     margin: 10px 0;
   }
 
+  a {
+    color: var(--white);
+
+    &:hover {
+      color: var(--linkhover);
+    }
+
+    &.homepage {
+      margin: 10px 0px 0px 10px;
+      text-transform: lowercase;
+    }
+  }
+
+  h1 {
+    font-size: 26.667vw;
+    line-height: 115%;
+    margin: 93px 0px 0px 40px;
+  }
+
   .block1 {
-    height: 100%;
+    height: 105%;
   }
 
   .block2 {
-    height: 100%;
+    height: 105%;
     background-color: var(--white);
     color: var(--orange);
   }
 
   .block3 {
-    height: 100%;
+    height: 105%;
+  }
+
+  .block4 {
+    height: 105%;
+  }
+
+  .image {
+    &#shape1_man {
+      background-image: url('images/shape1_man.png');
+      position: absolute;
+      display: flex;
+      margin: 15vw 0vw 0vw 35vw;
+      width: 24.323vw;
+      height: 18.438vw;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100% auto;
+    }
+    &#shape2_stirka {
+      background-image: url('images/shape2_stirka.png');
+      position: absolute;
+      display: flex;
+      margin: 15vw 0vw 0vw 23.35vw;
+      width: 10.365vw;
+      height: 14.167vw;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100% auto;
+    }
+    &#shape3_pilesos {
+      background-image: url('images/shape3_pilesos.png');
+      position: absolute;
+      display: flex;
+      margin: 15vw 0vw 0vw 54.4vw;
+      width: 17.135vw;
+      height: 18.021vw;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100% auto;
+    }
+    &#shape4_holod {
+      background-image: url('images/shape4_holod.png');
+      position: absolute;
+      display: flex;
+      margin: 15vw 0vw 0vw 10vw;
+      width: 14.583vw;
+      height: 28.75vw;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100% auto;
+    }
+    &#shape5_batareya {
+      background-image: url('images/shape5_batareya.png');
+      position: absolute;
+      display: flex;
+      margin: 15vw 0vw 0vw 26.75vw;
+      width: 14.063vw;
+      height: 8.698vw;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100% auto;
+    }
+    &#shape6_plita {
+      background-image: url('images/shape6_plita.png');
+      position: absolute;
+      display: flex;
+      margin: 15vw 0vw 0vw 71vw;
+      width: 16.042vw;
+      height: 16.354vw;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100% auto;
+    }
+    &#shape7_okno {
+      background-image: url('images/shape7_okno.png');
+      position: absolute;
+      display: flex;
+      margin: 15vw 0vw 0vw 36.3vw;
+      width: 19.115vw;
+      height: 21.354vw;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100% auto;
+    }
+    &#shape8_shkaf {
+      background-image: url('images/shape8_shkaf.png');
+      position: absolute;
+      display: flex;
+      margin: 15vw 0vw 0vw 43.4vw;
+      width: 23.958vw;
+      height: 33.594vw;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100% auto;
+    }
+
+    &#bgPNG {
+      background-image: url('images/image.png');
+    }
+
+    &#bgJPG {
+      background-image: url('images/image.jpg');
+    }
+
+    &#bgSVG {
+      background-image: url('images/image.svg');
+    }
   }
 }

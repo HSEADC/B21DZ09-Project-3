@@ -22,43 +22,4 @@ body {
     height: 24px;
     margin: 0 10px;
   }
-
-  .image {
-    &#shape1_man {
-      background-image: url('images/shape1_man.png');
-    }
-    &#shape2_stirka {
-      background-image: url('images/shape2_stirka.png');
-    }
-    &#shape3_pilesos {
-      background-image: url('images/shape3_pilesos.png');
-    }
-    &#shape4_holod {
-      background-image: url('images/shape4_holod.png');
-    }
-    &#shape5_batareya {
-      background-image: url('images/shape5_batareya.png');
-    }
-    &#shape6_plita {
-      background-image: url('images/shape6_plita.png');
-    }
-    &#shape7_okno {
-      background-image: url('images/shape7_okno.png');
-    }
-    &#shape8_shkaf {
-      background-image: url('images/shape8_shkaf.png');
-    }
-
-    &#bgPNG {
-      background-image: url('images/image.png');
-    }
-
-    &#bgJPG {
-      background-image: url('images/image.jpg');
-    }
-
-    &#bgSVG {
-      background-image: url('images/image.svg');
-    }
-  }
 }
