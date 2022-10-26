@@ -91,37 +91,37 @@ module.exports = {
       filename: './pages/page.html'
     }),
 
-    // About page
-    new HtmlWebpackPlugin({
-      hash: true,
-      scriptLoading: 'blocking',
-      template: './src/about.html',
-      filename: './about.html'
-    }),
-
-    // Instructions page
-    new HtmlWebpackPlugin({
-      hash: true,
-      scriptLoading: 'blocking',
-      template: './src/instructions.html',
-      filename: './instructions.html'
-    }),
-
-    // Articles page
-    new HtmlWebpackPlugin({
-      hash: true,
-      scriptLoading: 'blocking',
-      template: './src/articles.html',
-      filename: './articles.html'
-    }),
-
-    // Questions page
-    new HtmlWebpackPlugin({
-      hash: true,
-      scriptLoading: 'blocking',
-      template: './src/questions.html',
-      filename: './questions.html'
-    }),
+    // // About page
+    // new HtmlWebpackPlugin({
+    //   hash: true,
+    //   scriptLoading: 'blocking',
+    //   template: './src/about.html',
+    //   filename: './about.html'
+    // }),
+    //
+    // // Instructions page
+    // new HtmlWebpackPlugin({
+    //   hash: true,
+    //   scriptLoading: 'blocking',
+    //   template: './src/instructions.html',
+    //   filename: './instructions.html'
+    // }),
+    //
+    // // Articles page
+    // new HtmlWebpackPlugin({
+    //   hash: true,
+    //   scriptLoading: 'blocking',
+    //   template: './src/articles.html',
+    //   filename: './articles.html'
+    // }),
+    //
+    // // Questions page
+    // new HtmlWebpackPlugin({
+    //   hash: true,
+    //   scriptLoading: 'blocking',
+    //   template: './src/questions.html',
+    //   filename: './questions.html'
+    // }),
 
     // Partials
     new HtmlWebpackPartialsPlugin([
