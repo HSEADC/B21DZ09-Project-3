@@ -80,8 +80,7 @@ module.exports = {
       hash: true,
       scriptLoading: 'blocking',
       template: './src/index.html',
-      filename: './index.html',
-      chunks: ['index']
+      filename: './index.html'
     }),
 
     // Internal pages
@@ -89,36 +88,40 @@ module.exports = {
       hash: true,
       scriptLoading: 'blocking',
       template: './src/pages/page.html',
-      filename: './pages/page.html',
-      chunks: ['page']
+      filename: './pages/page.html'
     }),
 
-    // // Instructions page
-    // new HtmlWebpackPlugin({
-    //   hash: true,
-    //   scriptLoading: 'blocking',
-    //   template: './src/instructions.html',
-    //   filename: './instructions.html',
-    //   chunks: ['page']
-    // }),
-    //
-    // // Articles page
-    // new HtmlWebpackPlugin({
-    //   hash: true,
-    //   scriptLoading: 'blocking',
-    //   template: './src/articles.html',
-    //   filename: './articles.html',
-    //   chunks: ['page']
-    // }),
-    //
-    // // Questions page
-    // new HtmlWebpackPlugin({
-    //   hash: true,
-    //   scriptLoading: 'blocking',
-    //   template: './src/questions.html',
-    //   filename: './questions.html',
-    //   chunks: ['page']
-    // }),
+    // About page
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/about.html',
+      filename: './about.html'
+    }),
+
+    // Instructions page
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/instructions.html',
+      filename: './instructions.html'
+    }),
+
+    // Articles page
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/articles.html',
+      filename: './articles.html'
+    }),
+
+    // Questions page
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/questions.html',
+      filename: './questions.html'
+    }),
 
     // Partials
     new HtmlWebpackPartialsPlugin([
