@@ -12,6 +12,27 @@ body.about {
     height: 56.354vw;
   }
 
+  footer {
+    position: block;
+    height: 9.271vw;
+    background-color: var(--orange);
+    color: var(--cream);
+  }
+
+  section {
+    position: block;
+
+    &.whoweare {
+      height: 65.938vw;
+      background-color: var(--orange);
+      color: var(--cream);
+    }
+
+    &.ourmisson {
+      height: 89.948vw;
+    }
+  }
+
   p {
     line-height: 2.083vw;
     letter-spacing: 0.018vw;
@@ -20,7 +41,7 @@ body.about {
       display: block;
       position: relative;
       margin: 4.6vw 0vw 0vw 3.76vw;
-      width: 37.083vw;
+      width: 37.4vw;
     }
   }
 
@@ -48,6 +69,16 @@ body.about {
     font-size: 11.458vw;
     line-height: 10.771vw;
     letter-spacing: 0.115vw;
+  }
+
+  h2 {
+    display: block;
+    position: relative;
+    padding: 5.469vw 0vw 0vw 3.802vw;
+    font-size: 5.208vw;
+    line-height: 5.156vw;
+    letter-spacing: 0.052vw;
+    width: 64vw;
   }
 
   .navigation {
