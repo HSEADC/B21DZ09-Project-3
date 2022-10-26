@@ -1,0 +1,114 @@
+body.about {
+  background-color: var(--cream);
+  color: var(--orange);
+  font-size: 1.823vw;
+  // background: url('./images/fon.svg');
+  // background-size: 100%;
+  // background-repeat: no-repeat;
+  // background-position: top;
+
+  header {
+    position: block;
+    height: 56.354vw;
+  }
+
+  p {
+    line-height: 2.083vw;
+    letter-spacing: 0.018vw;
+
+    &.headertext {
+      display: block;
+      position: relative;
+      margin: 4.6vw 0vw 0vw 3.76vw;
+      width: 37.083vw;
+    }
+  }
+
+  a {
+    text-transform: lowercase;
+    text-decoration: none;
+
+    &.promo {
+      display: block;
+      position: relative;
+      margin-right: auto;
+      margin-top: -0.36vw;
+      color: var(--unhoverlink);
+      letter-spacing: 0.018vw;
+
+      &:hover {
+        color: var(--orange);
+      }
+    }
+  }
+
+  h1 {
+    margin: 2.68vw 0vw 0vw 0vw;
+    padding: 0vw 3.14vw 0vw 3.14vw;
+    font-size: 11.458vw;
+    line-height: 10.771vw;
+    letter-spacing: 0.115vw;
+  }
+
+  .navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 2.14vw 3.906vw 0vw 3.906vw;
+  }
+
+  .logotype {
+    display: block;
+    position: relative;
+    margin: 0vw 2.1vw 0vw 0vw;
+    width: 2.188vw;
+    height: 2.188vw;
+    background: url('./images/logotype.svg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+
+  .vk {
+    display: block;
+    position: relative;
+    width: 2.813vw;
+    height: 1.823vw;
+    background: url('./images/vk.svg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+
+  // %backsettings {
+  //   background-size: 100%;
+  //   background-repeat: no-repeat;
+  //   background-position: top;
+  // }
+
+  .telegram {
+    display: block;
+    position: relative;
+    margin: 0vw 0vw 0vw 1.8vw;
+    width: 2.292vw;
+    height: 2.135vw;
+    background: url('./images/tg.svg');
+    // @extend %backsettings;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+
+  .dzen {
+    display: block;
+    position: relative;
+    margin: 0vw 0vw 0vw 2.2vw;
+    width: 2.292vw;
+    height: 2.292vw;
+    background: url('./images/dzen.svg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+}

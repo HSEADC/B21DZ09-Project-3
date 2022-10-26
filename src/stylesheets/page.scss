@@ -6,11 +6,6 @@ body.page {
   background-color: var(--orange);
   color: var(--white);
 
-  & > div,
-  & > a {
-    margin: 10px 0;
-  }
-
   a {
     color: var(--white);
 
