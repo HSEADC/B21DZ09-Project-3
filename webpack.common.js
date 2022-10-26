@@ -81,6 +81,7 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/index.html',
       filename: './index.html'
+      // chunks: ['index']
     }),
 
     // Internal pages
@@ -89,16 +90,18 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/pages/page.html',
       filename: './pages/page.html'
+      // chunks: ['page']
     }),
 
-    // // About page
-    // new HtmlWebpackPlugin({
-    //   hash: true,
-    //   scriptLoading: 'blocking',
-    //   template: './src/about.html',
-    //   filename: './about.html'
-    // }),
-    //
+    // About page
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/about.html',
+      filename: './about.html'
+      // chunks: ['page']
+    }),
+
     // // Instructions page
     // new HtmlWebpackPlugin({
     //   hash: true,

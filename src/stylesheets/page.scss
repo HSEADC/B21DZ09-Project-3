@@ -123,17 +123,5 @@ body.page {
       background-repeat: no-repeat;
       background-size: 100% auto;
     }
-
-    &#bgPNG {
-      background-image: url('images/image.png');
-    }
-
-    &#bgJPG {
-      background-image: url('images/image.jpg');
-    }
-
-    &#bgSVG {
-      background-image: url('images/image.svg');
-    }
   }
 }
