@@ -2,21 +2,10 @@ body.about {
   background-color: var(--cream);
   color: var(--orange);
   font-size: 1.823vw;
-  // background: url('./images/fon.svg');
-  // background-size: 100%;
-  // background-repeat: no-repeat;
-  // background-position: top;
 
   header {
     position: block;
     height: 56.354vw;
-  }
-
-  footer {
-    position: block;
-    height: 9.271vw;
-    background-color: var(--orange);
-    color: var(--cream);
   }
 
   section {
@@ -30,24 +19,60 @@ body.about {
 
     &.ourmisson {
       height: 89.948vw;
+      padding: 8.1vw 0vw 0vw 0vw;
+    }
+  }
+
+  footer {
+    position: block;
+    height: 9.271vw;
+    background-color: var(--orange);
+    color: var(--cream);
+
+    p {
+      font-size: 1.042vw;
+      line-height: 1.375vw;
+      letter-spacing: 0.01vw;
+      text-transform: lowercase;
+
+      &.and {
+        font-weight: 300;
+        margin: 0vw 0vw 0vw 1.23vw;
+      }
+
+      &.we {
+        margin: 0vw 0vw 0vw 2.8vw;
+      }
+
+      &.zakhar,
+      &.sonia {
+        margin: 0vw 0vw 0vw 1.3vw;
+      }
     }
   }
 
   p {
+    display: block;
+    position: relative;
     line-height: 2.083vw;
     letter-spacing: 0.018vw;
 
     &.headertext {
-      display: block;
-      position: relative;
       margin: 4.6vw 0vw 0vw 3.76vw;
       width: 37.4vw;
+    }
+
+    &.whowearetext {
+      margin: 3.7vw 0vw 0vw 3.76vw;
+      width: 32.292vw;
     }
   }
 
   a {
     text-transform: lowercase;
     text-decoration: none;
+    letter-spacing: 0.018vw;
+    transition: 0.4s;
 
     &.promo {
       display: block;
@@ -55,10 +80,32 @@ body.about {
       margin-right: auto;
       margin-top: -0.36vw;
       color: var(--unhoverlink);
-      letter-spacing: 0.018vw;
 
       &:hover {
         color: var(--orange);
+      }
+    }
+
+    &.promobutton {
+      display: flex;
+      flex-direction: row;
+      position: relative;
+      padding: 0.44vw 0vw 0.44vw 0vw;
+      margin: 0.04vw 0vw 0vw -0.6vw;
+      justify-content: center;
+      width: 26.25vw;
+      height: 3.021vw;
+      text-align: center;
+      border-radius: 2.083vw;
+      background-color: var(--orange);
+      color: var(--cream);
+
+      &:hover {
+        background-color: var(--unhoverlink);
+      }
+
+      > .arrowtoright {
+        margin: 0.62vw 0vw 0vw 1.6vw;
       }
     }
   }
@@ -81,6 +128,22 @@ body.about {
     width: 64vw;
   }
 
+  h3 {
+    display: block;
+    position: relative;
+    font-size: 3.333vw;
+    line-height: 3.3vw;
+    letter-spacing: 0.033vw;
+
+    &.mission {
+      width: 51.5vw;
+    }
+
+    &.numbers {
+      width: 13.8vw;
+    }
+  }
+
   .navigation {
     display: flex;
     flex-direction: row;
@@ -95,10 +158,7 @@ body.about {
     margin: 0vw 2.1vw 0vw 0vw;
     width: 2.188vw;
     height: 2.188vw;
-    background: url('./images/logotype.svg');
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: top;
+    background: no-repeat center/100% url('./images/logotype.svg');
   }
 
   .vk {
@@ -106,17 +166,8 @@ body.about {
     position: relative;
     width: 2.813vw;
     height: 1.823vw;
-    background: url('./images/vk.svg');
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: top;
+    background: no-repeat center/100% url('./images/vk.svg');
   }
-
-  // %backsettings {
-  //   background-size: 100%;
-  //   background-repeat: no-repeat;
-  //   background-position: top;
-  // }
 
   .telegram {
     display: block;
@@ -124,11 +175,7 @@ body.about {
     margin: 0vw 0vw 0vw 1.8vw;
     width: 2.292vw;
     height: 2.135vw;
-    background: url('./images/tg.svg');
-    // @extend %backsettings;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: top;
+    background: no-repeat center/100% url('./images/tg.svg');
   }
 
   .dzen {
@@ -137,9 +184,175 @@ body.about {
     margin: 0vw 0vw 0vw 2.2vw;
     width: 2.292vw;
     height: 2.292vw;
-    background: url('./images/dzen.svg');
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: top;
+    background: no-repeat center/100% url('./images/dzen.svg');
   }
+
+  .shapeman {
+    display: block;
+    position: relative;
+    margin: -13vw 0vw 0vw 58.8vw;
+    width: 35.521vw;
+    height: 26.927vw;
+    background: no-repeat center/100% url('./images/shape1_man.png');
+  }
+
+  .bottomarrow {
+    display: block;
+    position: relative;
+    margin: -3.07vw 0vw 0vw 3.76vw;
+    width: 3.177vw;
+    height: 3.177vw;
+    background: no-repeat center/100% url('./images/bottomarrow.svg');
+    animation: 2s infinite arrowmove;
+  }
+
+  @keyframes arrowmove {
+    0% {
+      margin-top: -3.07vw;
+    }
+    50% {
+      margin-top: -2.6vw;
+    }
+    100% {
+      margin-top: -3.07vw;
+    }
+  }
+
+  .mobilewarframes {
+    display: block;
+    position: relative;
+    margin: -18.4vw 0vw 0vw 38.303vw;
+    width: 57.745vw;
+    height: 46.007vw;
+    background: no-repeat center/100% url('./images/mobilewarframes.png');
+  }
+
+  .ourpluses {
+    display: flex;
+    flex-direction: row;
+    margin: 3.594vw auto 0vw;
+    justify-content: space-between;
+    width: 92.083vw;
+
+    p {
+      font-size: 1.719vw;
+      line-height: 1.788vw;
+      letter-spacing: 0.017vw;
+      font-weight: 300;
+    }
+  }
+
+  .howtopay {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 23.958vw;
+  }
+
+  .pipeburst {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 20.521vw;
+
+    p {
+      width: 17.917vw;
+    }
+  }
+
+  .pumpkin {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 20.938vw;
+  }
+
+  .arrowtoright {
+    display: block;
+    position: relative;
+    margin: 0.6vw 0vw 0vw 0vw;
+    width: 0.587vw;
+    height: 0.847vw;
+    background: no-repeat center/100% url('./images/arrowtoright.png');
+  }
+}
+
+.desktopwarframe {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  width: 92.353vw;
+  height: 47.396vw;
+  background: no-repeat center/100% url('./images/desktopwarframe.png');
+}
+
+.ourmissontextbox {
+  display: grid;
+  position: relative;
+  flex-wrap: wrap;
+  width: 51.5vw;
+  margin: 8.5vw auto 0vw;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 4.7vw;
+}
+
+.mission {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.footercontent {
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding: 2.7vw 2.3vw 0vw 2.3vw;
+  flex-direction: row;
+}
+
+.biglogotype {
+  display: block;
+  position: relative;
+  margin: 0vw 0vw 0vw 0vw;
+  width: 8.323vw;
+  height: 3.551vw;
+  background: no-repeat center/100% url('./images/biglogotype.svg');
+}
+
+.sashaportfolio {
+  display: block;
+  position: relative;
+  margin: 0vw 0vw 0vw 32.28vw;
+  width: 4.099vw;
+  height: 4.099vw;
+  background: no-repeat center/100% url('./images/sashaportfolio.svg');
+}
+
+.ulyanaportfolio {
+  display: block;
+  position: relative;
+  margin: 0vw 0vw 0vw -0.75vw;
+  width: 4.099vw;
+  height: 4.099vw;
+  background: no-repeat center/100% url('./images/ulyanaportfolio.svg');
+}
+
+.dimaportfolio {
+  display: block;
+  position: relative;
+  margin: 0vw 0vw 0vw -0.75vw;
+  width: 4.099vw;
+  height: 4.099vw;
+  background: no-repeat center/100% url('./images/dimaportfolio.svg');
+}
+
+.hselogo {
+  display: block;
+  position: relative;
+  margin: 0vw 0vw 0vw 2.05vw;
+  width: 9.323vw;
+  height: 3.67vw;
+  background: no-repeat center/100% url('./images/hselogo.svg');
 }
