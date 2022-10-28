@@ -225,7 +225,8 @@ body.page {
 
     &#anotherthings {
       display: block;
-      position: relative;
+      position: sticky;
+      top: 10vw;
       margin: -16.3vw auto 0vw;
       width: 89.635vw;
       height: 38.958vw;
@@ -234,11 +235,13 @@ body.page {
 
     &#battteryandhoover {
       display: block;
-      position: relative;
-      margin: -19.2vw auto 0vw;
+      position: sticky;
+      top: 30vw;
+      margin: -19.2vw auto -5vw;
       width: 89.635vw;
       height: 18.229vw;
       background: no-repeat center/100% url('./images/battteryandhoover.png');
+      z-index: 10;
     }
 
     &#shape1_man {
@@ -249,6 +252,7 @@ body.page {
       background-position: center;
       background-repeat: no-repeat;
       background-size: 100% auto;
+      z-index: 5;
     }
   }
 }
