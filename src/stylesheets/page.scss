@@ -1,6 +1,8 @@
 body.page {
+  background: no-repeat top/100% url('./images/promobackground.png');
   background-color: var(--orange);
-  color: var(--white);
+  color: var(--cream);
+  font-size: 1.823vw;
 
   a {
     color: var(--white);
@@ -21,22 +23,91 @@ body.page {
     margin: 93px 0px 0px 40px;
   }
 
-  .block1 {
-    height: 105%;
-  }
-
-  .block2 {
-    height: 105%;
-    background-color: var(--white);
+  footer {
+    display: block;
+    position: relative;
+    height: 9.531vw;
+    background-color: var(--cream);
     color: var(--orange);
   }
 
-  .block3 {
-    height: 105%;
+  section {
+    display: block;
+    position: relative;
+
+    &.manwiththings {
+      height: 141.458vw;
+    }
+
+    &.selfservie {
+      height: 35.938vw;
+    }
+
+    &.mailcollector {
+      height: 33.49vw;
+    }
   }
 
-  .block4 {
-    height: 105%;
+  a {
+    text-transform: lowercase;
+    text-decoration: none;
+    letter-spacing: 0.018vw;
+    transition: 0.4s;
+
+    &.aboutpage {
+      display: block;
+      position: relative;
+      margin-right: auto;
+      margin-top: -0.36vw;
+      color: var(--unhoverlink);
+
+      &:hover {
+        color: var(--cream);
+      }
+    }
+  }
+
+  .navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 2.14vw 3.906vw 0vw 3.906vw;
+  }
+
+  .logotype {
+    display: block;
+    position: relative;
+    margin: 0vw 2.1vw 0vw 0vw;
+    width: 2.188vw;
+    height: 2.188vw;
+    background: no-repeat center/100% url('./images/logotype.svg');
+  }
+
+  .vk {
+    display: block;
+    position: relative;
+    width: 2.813vw;
+    height: 1.823vw;
+    background: no-repeat center/100% url('./images/vk.svg');
+  }
+
+  .telegram {
+    display: block;
+    position: relative;
+    margin: 0vw 0vw 0vw 1.8vw;
+    width: 2.292vw;
+    height: 2.135vw;
+    background: no-repeat center/100% url('./images/tg.svg');
+  }
+
+  .dzen {
+    display: block;
+    position: relative;
+    margin: 0vw 0vw 0vw 2.2vw;
+    width: 2.292vw;
+    height: 2.292vw;
+    background: no-repeat center/100% url('./images/dzen.svg');
   }
 
   .image {
