@@ -102,14 +102,15 @@ module.exports = {
       // chunks: ['page']
     }),
 
-    // // Instructions page
-    // new HtmlWebpackPlugin({
-    //   hash: true,
-    //   scriptLoading: 'blocking',
-    //   template: './src/instructions.html',
-    //   filename: './instructions.html'
-    // }),
-    //
+    // Instructions page
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/instructions.html',
+      filename: './instructions.html'
+      // chunks: ['page']
+    }),
+
     // // Articles page
     // new HtmlWebpackPlugin({
     //   hash: true,
