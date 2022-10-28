@@ -297,3 +297,16 @@ button {
     cursor: pointer;
   }
 }
+
+@media only screen and (min-width: 360px) and (max-device-width: 768px) {
+  body.page {
+    font-size: 3vw;
+
+    .navigation {
+      margin: 5vw 2vw 0 2vw;
+      .logotype {transform: scale(2.5); margin-right: 7vw;}
+      .vk, .telegram, .dzen {transform: scale(2); margin-left: 5vw;}
+    }
+    h1 {font-size: 54vw; margin: 23vw 0vw 0vw 0.7vw;}
+  }
+}
