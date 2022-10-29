@@ -24,12 +24,9 @@ body.art1 {
       align-items: flex-start;
       padding: 3.1vw 16.4vw 0vw;
     }
-  }
-
-  h1 {
-    font-size: 3.333vw;
-    line-height: 4.01vw;
-    width: 52.865vw;
+    &.blocklinks {
+      margin: 5.052vw 0vw 5.052vw 0vw;
+    }
   }
 
   h2 {
