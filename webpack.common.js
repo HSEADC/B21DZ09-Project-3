@@ -147,7 +147,7 @@ module.exports = {
       // chunks: ['page']
     }),
 
-    // Single article page
+    // Single question page
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
