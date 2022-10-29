@@ -5,155 +5,219 @@ body.art1 {
   padding: 0vw 1.927vw;
   font-size: 1.823vw;
   line-height: 2.5vw;
-}
 
-section {
-  &.articleblock {
-    display: flex;
-    position: relative;
-    width: 63.438vw;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 3.1vw 16.4vw 0vw;
-  }
-}
+  header {
+    padding: 1.563vw 0vw 0vw 0vw;
 
-h1 {
-  font-size: 3.333vw;
-  line-height: 4.01vw;
-  width: 52.865vw;
-}
+    .navigation {
+      display: flex;
+      position: relative;
+      font-size: 0.833vw;
+      line-height: 0.99vw;
+      column-gap: 2.5vw;
+      align-items: center;
 
-h2 {
-  display: block;
-  position: relative;
-  font-size: 2.083vw;
-  line-height: 2.5vw;
-  margin: 3.125vw 0vw 0vw 5.3vw;
-}
+      .blacklogotype {
+        display: block;
+        position: relative;
+        width: 2.135vw;
+        height: 2.135vw;
+        background: no-repeat top/100% url('./images/blacklogotype.svg');
+      }
 
-a {
-  color: black;
-  text-decoration: none;
-}
+      .instructions {
+        margin: 0vw 0vw 0vw 0.8vw;
+      }
 
-p {
-  font-size: 1.51vw;
-  line-height: 2.039vw;
-  padding: 1.354vw 0vw 0vw;
+      .questions {
+        margin: 0vw auto 0vw 0vw;
+      }
 
-  &.articletext {
-    padding: 1.354vw 5.3vw 0vw;
-  }
+      input {
+        &.search {
+          display: block;
+          position: relative;
+          width: 23.594vw;
+          height: 2.135vw;
+          border-radius: 1.563vw;
+          border: 1px solid var(--black);
+          font-family: 'Inter';
+          text-transform: none;
+          font-size: 0.833vw;
+          padding: 0vw 0vw 0vw 0vw;
+        }
+      }
+    }
 
-  &.afterphoto {
-    padding: 3.125vw 5.3vw 0vw;
-  }
-}
+    .tagsoncardlinedesktop {
+      display: flex;
+      position: relative;
+      padding: 19.08vw 1.979vw 0vw 1.146vw;
+      flex-direction: row;
+      column-gap: 0.833vw;
+    }
 
-img {
-  &.bigarticleimg {
-    width: 63.438vw;
-    height: 22.292vw;
-    margin: 3.125vw 0vw 0vw;
-    background-color: black;
-    border-radius: 1.563vw;
-  }
-
-  &.smallarticleimg {
-    width: 31.094vw;
-    height: 22.292vw;
-    background-color: black;
-    border-radius: 1.563vw;
-  }
-
-  &#firstimg {
-    margin: 1.354vw 0vw 0vw 0vw;
-  }
-}
-
-.twoimgarticle {
-  display: flex;
-  position: relative;
-  flex-direction: row;
-  column-gap: 1.302vw;
-  margin: 3.125vw 0vw 0vw 0vw;
-}
-
-header {
-  padding: 1.563vw 0vw 0vw 0vw;
-
-  .navigation {
-    display: flex;
-    position: relative;
-    font-size: 0.833vw;
-    line-height: 0.99vw;
-    column-gap: 2.5vw;
-    align-items: center;
-
-    .blacklogotype {
+    .avatar {
       display: block;
       position: relative;
-      width: 2.135vw;
-      height: 2.135vw;
-      background: no-repeat top/100% url('./images/blacklogotype.svg');
-    }
-
-    .instructions {
-      margin: 0vw 0vw 0vw 0.8vw;
-    }
-
-    .questions {
-      margin: 0vw auto 0vw 0vw;
-    }
-
-    .search {
-      display: block;
-      position: relative;
-      width: 23.594vw;
-      height: 2.135vw;
+      width: 2.031vw;
+      height: 2.031vw;
+      background-color: var(--white);
       border-radius: 1.563vw;
-      border: 0.052vw solid black;
     }
   }
 
-  .tagsoncardlinedesktop {
-    display: flex;
-    position: relative;
-    padding: 19.08vw 1.979vw 0vw 1.146vw;
-    flex-direction: row;
-    column-gap: 0.833vw;
+  section {
+    &.articleblock {
+      display: flex;
+      position: relative;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 3.1vw 16.4vw 0vw;
+    }
+
+    &.findmore {
+      display: flex;
+      position: relative;
+      flex-direction: row;
+      column-gap: 1.302vw;
+      margin: 5.052vw 0vw 5.052vw 0vw;
+    }
   }
 
-  .avatar {
+  h1 {
+    font-size: 3.333vw;
+    line-height: 4.01vw;
+    width: 52.865vw;
+  }
+
+  h2 {
     display: block;
     position: relative;
-    width: 2.031vw;
-    height: 2.031vw;
-    background-color: white;
-    border-radius: 1.563vw;
+    font-size: 2.083vw;
+    line-height: 2.5vw;
+    margin: 3.125vw 0vw 0vw 5.3vw;
+
+    &.h2insidebox {
+      margin: 1.563vw 0vw 0vw 1.979vw;
+    }
   }
 
-  .whitesmallhashtag {
+  a {
+    color: black;
+    text-decoration: none;
+  }
+
+  p {
+    font-size: 1.51vw;
+    line-height: 2.039vw;
+    padding: 1.354vw 0vw 0vw;
+
+    &.articletext {
+      padding: 1.354vw 5.3vw 0vw;
+    }
+
+    &.afterphoto {
+      padding: 3.125vw 5.3vw 0vw;
+    }
+
+    &.whitesmallhashtag {
+      display: flex;
+      position: relative;
+      padding: 0.521vw 1.25vw;
+      width: fit-content;
+      background-color: white;
+      color: black;
+      border-radius: 1.563vw;
+      font-size: 0.833vw;
+      line-height: 0.99vw;
+    }
+  }
+
+  img {
+    &.bigarticleimg {
+      width: 63.438vw;
+      height: 22.292vw;
+      margin: 3.125vw 0vw 0vw;
+      background-color: var(--black);
+      border-radius: 1.563vw;
+    }
+
+    &.smallarticleimg {
+      width: 31.094vw;
+      height: 22.292vw;
+      background-color: var(--black);
+      border-radius: 1.563vw;
+    }
+
+    &#firstimg {
+      margin: 1.354vw 0vw 0vw 0vw;
+    }
+  }
+
+  .twoimgarticle {
     display: flex;
     position: relative;
-    padding: 0.521vw 1.25vw;
-    width: fit-content;
-    background-color: white;
-    color: black;
+    flex-direction: row;
+    column-gap: 1.302vw;
+    margin: 3.125vw 0vw 0vw 0vw;
+  }
+
+  .articlehead {
+    display: block;
+    position: relative;
+    margin: 1.6vw 0vw 0vw 0vw;
+    width: 96.042vw;
+    height: 22.292vw;
+    background-color: var(--black);
     border-radius: 1.563vw;
-    font-size: 0.833vw;
-    line-height: 0.99vw;
+    color: white;
   }
 }
 
-.articlehead {
+.morecard {
   display: block;
   position: relative;
-  margin: 1.6vw 0vw 0vw 0vw;
-  width: 96.042vw;
+  width: 31.094vw;
   height: 22.292vw;
-  background-color: black;
   border-radius: 1.563vw;
-  color: white;
+  background-color: var(--white);
+  border: 1px solid var(--black);
+
+  .crossarrow {
+    position: absolute;
+    width: 2.031vw;
+    height: 2.031vw;
+    top: 19.115vw;
+    left: 27.917vw;
+    background: no-repeat top/100% url('./images/crossarrow.svg');
+  }
+}
+
+.smallcard {
+  display: block;
+  position: relative;
+  width: 20.26vw;
+  height: 22.292vw;
+  border-radius: 1.563vw;
+  background-color: var(--white);
+  border: 1px solid var(--black);
+
+  .hashtagoncard {
+    position: absolute;
+    top: 19.115vw;
+    left: 1.146vw;
+  }
+}
+
+.whitesmallborderhashtag {
+  display: flex;
+  padding: 0.521vw 1.25vw;
+  width: fit-content;
+  background-color: white;
+  border: 1px solid var(--black);
+  color: black;
+  border-radius: 1.563vw;
+  font-size: 0.833vw;
+  line-height: 0.99vw;
 }
