@@ -5,3 +5,153 @@
   --unhoverlink: #ffa87a;
   --cream: #fff9ef;
 }
+
+body.art1,
+.instr1,
+.quest1,
+.instructions,
+.articles,
+.questions {
+  font-family: 'Inter', serif;
+  font-weight: 400;
+  color: black;
+  padding: 0vw 1.927vw;
+  font-size: 1.823vw;
+  line-height: 2.5vw;
+
+  // Заголовок второго уровня для всех страниц сайта
+  h2 {
+    display: block;
+    position: relative;
+    font-size: 2.083vw;
+    line-height: 2.5vw;
+
+    &.h2insidebox {
+      margin: 1.563vw 0vw 0vw 1.979vw;
+    }
+
+    &.h2category {
+      margin: 0vw 0vw 0vw 0vw;
+    }
+  }
+
+  // Оформление текстовых ссылок для всех страниц сайта
+  a {
+    color: black;
+    text-decoration: none;
+  }
+
+  // Оформление шапки для всех страниц сайта
+  header {
+    padding: 1.563vw 0vw 0vw 0vw;
+
+    // Оформление навигации для всех страниц сайта
+    .navigation {
+      display: flex;
+      position: relative;
+      font-size: 0.833vw;
+      line-height: 0.99vw;
+      column-gap: 2.5vw;
+      align-items: center;
+
+      .blacklogotype {
+        display: block;
+        position: relative;
+        width: 2.135vw;
+        height: 2.135vw;
+        background: no-repeat top/100% url('./images/blacklogotype.svg');
+      }
+
+      .instructionspage {
+        margin: 0vw 0vw 0vw 0.8vw;
+      }
+
+      .questionspage {
+        margin: 0vw auto 0vw 0vw;
+      }
+
+      input {
+        &.search {
+          display: block;
+          position: relative;
+          width: 23.594vw;
+          height: 2.135vw;
+          border-radius: 1.563vw;
+          border: 1px solid var(--black);
+          font-family: 'Inter';
+          text-transform: none;
+          font-size: 0.833vw;
+          padding: 0vw 0vw 0vw 0vw;
+        }
+      }
+    }
+
+    // Оформление части баннера для всех страниц сайта
+    .bannerhead {
+      display: block;
+      position: relative;
+      margin: 1.6vw 0vw 0vw 0vw;
+      width: 96.042vw;
+      height: 22.292vw;
+      border-radius: 1.563vw;
+      border: 1px solid var(--black);
+    }
+  }
+
+  section {
+    &.blocklinks {
+      display: flex;
+      position: relative;
+      flex-direction: row;
+      column-gap: 1.302vw;
+      margin: 5.052vw 0vw 5.052vw 0vw;
+    }
+  }
+
+  .morecard {
+    display: block;
+    position: relative;
+    width: 31.094vw;
+    height: 22.292vw;
+    border-radius: 1.563vw;
+    background-color: var(--white);
+    border: 1px solid var(--black);
+
+    .crossarrow {
+      position: absolute;
+      width: 2.031vw;
+      height: 2.031vw;
+      top: 19.115vw;
+      left: 27.917vw;
+      background: no-repeat top/100% url('./images/crossarrow.svg');
+    }
+  }
+
+  .smallcard {
+    display: block;
+    position: relative;
+    width: 20.26vw;
+    height: 22.292vw;
+    border-radius: 1.563vw;
+    background-color: var(--white);
+    border: 1px solid var(--black);
+
+    .hashtagoncard {
+      position: absolute;
+      top: 19.115vw;
+      left: 1.146vw;
+    }
+  }
+
+  .whitesmallborderhashtag {
+    display: flex;
+    padding: 0.521vw 1.25vw;
+    width: fit-content;
+    background-color: white;
+    border: 1px solid var(--black);
+    color: black;
+    border-radius: 1.563vw;
+    font-size: 0.833vw;
+    line-height: 0.99vw;
+  }
+}
