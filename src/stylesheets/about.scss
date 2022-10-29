@@ -260,7 +260,9 @@ body.about {
       margin-top: -3.07vw;
     }
   }
-
+  .hiddentext2 {
+    display: none;
+  }
   .mobilewarframes {
     display: block;
     position: relative;
@@ -292,7 +294,9 @@ body.about {
     align-items: flex-start;
     width: 23.958vw;
   }
-
+  .flipthescreen {
+    display: none;
+  }
   .pipeburst {
     display: flex;
     flex-direction: row;
@@ -345,4 +349,195 @@ body.about {
 .mission {
   grid-column-start: 1;
   grid-column-end: 3;
+}
+@media only screen and (min-width: 360px) and (max-device-width: 768px) {
+  body.about {
+    font-size: 4vw;
+    header {
+      height: 196.923vw;
+    }
+    section {
+      &.whoweare {
+        height: 216.41vw;
+      }
+    }
+    h1 {
+      font-size: 23.077vw;
+      line-height: 21.692vw;
+      margin: 15.385vw 0vw 0vw 0vw;
+    }
+    h2 {
+      font-size: 8.974vw;
+      line-height: 8.885vw;
+      padding-top: 10.513vw;
+    }
+    h3 {
+      font-size: 6.41vw;
+      line-height: 6.346vw;
+    }
+    .navigation {
+      margin: 13.846vw 2vw 0 2vw;
+      .logotype {
+        transform: scale(2.5);
+        margin-right: 7vw;
+      }
+      .vk,
+      .telegram,
+      .dzen {
+        transform: scale(2);
+        margin-left: 5vw;
+      }
+    }
+    p {
+      font-size: 4.103vw;
+      line-height: 4.615vw;
+      &.headertext {
+        width: 57.436vw;
+      }
+      &.whowearetext {
+        display: none;
+      }
+    }
+    .shapeman {
+      width: 74.103vw;
+      height: 55.385vw;
+      margin: 6.667vw 0vw 0vw 22.051vw;
+    }
+    .bottomarrow {
+      width: 6.667vw;
+      height: 6.667vw;
+      margin: -6.667vw 0vw 5vw 3.76vw;
+    }
+    .hiddentext2 {
+      display: inline-block;
+      width: 87.179vw;
+    }
+    .hiddentext1 {
+      display: none;
+    }
+    .mobilewarframes {
+      display: block;
+      position: relative;
+      margin: 15.128vw 0vw 0vw 18.718vw;
+      width: 62.821vw;
+      height: 136.667vw;
+      background: no-repeat center/100%
+        url('./images/mobilewarframes-adaptive.png');
+    }
+    .whoweare {
+      p {
+        font-size: 3.846vw;
+        line-height: 4vw;
+      }
+    }
+    .ourpluses {
+      margin-top: 8.718vw;
+      width: 92.564vw;
+      .howtopay {
+        .hiddentext2 {
+          width: 22.513vw;
+        }
+      }
+      .pipeburst {
+        width: 25vw;
+        .hiddentext2 {
+          width: 23.615vw;
+        }
+      }
+      .pumpkin {
+        width: 33.3vw;
+        .hiddentext2 {
+          width: 33vw;
+        }
+      }
+      .arrowtoright {
+        margin-right: 2.308vw;
+      }
+    }
+    .arrowtoright {
+      width: 1.5vw;
+      height: 2.2vw;
+      margin-top: 1vw;
+    }
+    .desktopwarframe {
+      display: none;
+    }
+    .flipthescreen {
+      display: flex;
+      .twoarrows {
+        display: block;
+        position: relative;
+        width: 6.667vw;
+        height: 6.667vw;
+        margin-left: 3.76vw;
+        margin-right: 3.333vw;
+        background: no-repeat center/100% url('./images/twoarrows.svg');
+      }
+      p {
+        font-size: 1.8vw;
+        line-height: 1.7vw;
+        letter-spacing: 0.01vw;
+        padding-top: 1.8vw;
+      }
+    }
+    .ourmissontextbox {
+      width: 91.795vw;
+      margin: 26.154vw 0 0 3.76vw;
+      h3 {
+        width: 73.333vw;
+      }
+      .promobutton {
+        font-size: 4.103vw;
+        line-height: 4.615vw;
+        padding: 0.9vw 3.846vw 0vw 3.846vw;
+        margin: 0.04vw 2vw 0vw -38vw;
+        width: 57.179vw;
+        height: 6.667vw;
+        text-align: center;
+        border-radius: 5vw;
+        .arrowtoright {
+          margin-top: 1.5vw;
+        }
+      }
+    }
+    footer {
+      height: 12vw;
+      .sashaportfolio,
+      .ulyanaportfolio,
+      .dimaportfolio {
+        display: none;
+      }
+      .biglogotype {
+        transform: scale(1.5);
+        margin: 1.5vw 0vw 0vw 8vw;
+      }
+      .hselogo {
+        transform: scale(1.5);
+        margin: 1.5vw 0vw 0vw 35vw;
+      }
+      p {
+        font-size: 1.8vw;
+        line-height: 1.7vw;
+        letter-spacing: 0.01vw;
+        &.we {
+          display: none;
+        }
+        &.we-a {
+          display: block;
+          margin: 1.1vw 0vw 0vw 5vw;
+        }
+      }
+    }
+  }
+  @keyframes arrowmove {
+    0% {
+      margin-top: -6.667vw;
+    }
+    50% {
+      margin-top: -5.8vw;
+    }
+    100% {
+      margin-top: -6.667vw;
+    }
+  }
 }
