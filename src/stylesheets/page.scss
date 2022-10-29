@@ -315,7 +315,7 @@ button {
     h3 {padding: 0vw 3vw; font-size: 6vw; line-height: 8vw; letter-spacing: 0.3vw;}
 
     .navigation {
-      margin: 5vw 2vw 0 2vw;
+      margin: 13.846vw 2vw 0 2vw;
       .logotype {transform: scale(2.5); margin-right: 7vw;}
       .vk, .telegram, .dzen {transform: scale(2); margin-left: 5vw;}
     }
@@ -333,8 +333,8 @@ button {
 
     .image {
 
-      &#anotherthings {transform: scale(1.9); top: 110vw; margin: -5vw 0vw;}
-      &#battteryandhoover {transform: scale(1.9); top: 140vw; margin: -10vw -5vw;}
+      &#anotherthings {height: 100vw; width: 100vw; top: 110vw; margin: -23vw 0vw; background: no-repeat top/100% url('./images/another-1.png');}
+      &#battteryandhoover {opacity: 0;}
       &#shape1_man {transform: scale(2); margin: 220vw 36vw;}
     }
 
