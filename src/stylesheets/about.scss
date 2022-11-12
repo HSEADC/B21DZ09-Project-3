@@ -544,3 +544,117 @@ body.about {
     }
   }
 }
+
+@media only screen and (min-width: 768px) and (max-device-width: 844px) {
+  body.about {
+    header {
+      height: 44.5vw;
+    }
+    section {
+      &.whoweare {
+        height: 46.209vw;
+      }
+    }
+    h1 {
+      margin: 2.3vw 0vw 0vw 7.2227vw;
+      padding: 0;
+    }
+    h2 {
+      margin-left: 7.2227vw;
+      padding: 3vw 0 0 0;
+    }
+    .navigation {
+      margin-top: 2vw;
+      margin-left: 8vw;
+      padding: 0;
+      .logotype {
+        margin-right: 2vw;
+      }
+      .vk,
+      .telegram,
+      .dzen {
+        margin-left: 2vw;
+      }
+      .dzen {
+        margin-right: 7.2227vw;
+      }
+    }
+    p.headertext {
+      margin-left: 7.227vw;
+      margin-top: 3vw;
+    }
+    .shapeman {
+      width: 25vw;
+      height: 18vw;
+      margin-left: 68.5vw;
+      margin-top: -11vw;
+    }
+    .bottomarrow {
+      margin: -4vw 0vw 5vw 7vw;
+    }
+    p.whowearetext {
+      display: none;
+    }
+    .mobilewarframes {
+      width: 49.526vw;
+      height: 39.81vw;
+      margin: -10vw 0 0 45vw;
+    }
+    .hiddentext1 {
+      display: none;
+    }
+    .hiddentext2 {
+      display: inline-block;
+    }
+    .ourpluses {
+      margin-top: -27vw;
+      margin-left: 8vw;
+      width: 50vw;
+      .howtopay {
+        width: 11.5vw;
+        .hiddentext2 {
+          width: 10vw;
+        }
+      }
+      .pipeburst {
+        width: 11.5vw;
+        .hiddentext2 {
+          width: 10vw;
+        }
+      }
+      .pumpkin {
+        width: 21.5vw;
+        .hiddentext2 {
+          width: 20vw;
+        }
+      }
+      .arrowtoright {
+        margin-right: 1.5vw;
+      }
+    }
+    section {
+      &.ourmisson {
+        padding-top: 4vw;
+      }
+    }
+    footer {
+      .footercontent {
+        padding-left: 7.227vw;
+        padding-right: 7.227vw;
+      }
+    }
+    p {
+      &.we {
+        width: 48vw;
+      }
+    }
+    .biglogotype {
+      width: 12vw;
+      height: 7vw;
+      background: no-repeat center/100% url('./images/bigcreamlogotype.svg');
+    }
+    a.sashaportfolio {
+      margin-left: 10vw;
+    }
+  }
+}
