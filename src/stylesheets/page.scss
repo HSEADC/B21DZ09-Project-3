@@ -233,7 +233,26 @@ body.page {
       margin: -16.3vw auto 0vw;
       width: 89.635vw;
       height: 38.958vw;
-      background: no-repeat center/100% url('./images/anotherthings.png');
+
+      .block1 {
+        display: block;
+        position: relative;
+        width: 40vw;
+        height: 28vw;
+        top: 7vw;
+        left: -2vw;
+        background: no-repeat center/100% url('./images/1920-obj-1.png');
+      }
+      .block2 {
+        display: block;
+        position: relative;
+        width: 38vw;
+        height: 42vw;
+        top: -30vw;
+        left: 53vw;
+        background: no-repeat center/100% url('./images/1920-obj-2.png');
+      }
+
     }
 
     &#battteryandhoover {
@@ -243,13 +262,33 @@ body.page {
       margin: -19.2vw auto -5vw;
       width: 89.635vw;
       height: 18.229vw;
-      background: no-repeat center/100% url('./images/battteryandhoover.png');
       z-index: 10;
+
+      .block3 {
+        display: block;
+        position: relative;
+        width: 15vw;
+        height: 9vw;
+        top: 9vw;
+        left: 7vw;
+        background: no-repeat center/100% url('./images/1920-obj-3.png');
+        z-index: 10;
+      }
+      .block4 {
+        display: block;
+        position: relative;
+        width: 17vw;
+        height: 17.5vw;
+        top: -8vw;
+        left: 32vw;
+        background: no-repeat center/100% url('./images/1920-obj-4.png');
+        z-index: 10;
+      }
     }
 
     &#shape1_man {
-      background-image: url('images/shape1_man.png');
-      margin: 43.7vw 0vw 0vw 25.55vw;
+      background-image: url('images/1920-man.png');
+      margin: 59.7vw 0vw 0vw 25.55vw;
       width: 24.323vw;
       height: 18.438vw;
       background-position: center;
