@@ -2,11 +2,11 @@ body.page {
   background: no-repeat top/100% url('./images/fon.png');
   background-color: var(--orange);
   color: var(--cream);
-  font-size: 1.823vw;
+  font-size: 35px;
 
   h1 {
-    font-size: 26.667vw;
-    line-height: 30.667vw;
+    font-size: 512px;
+    line-height: 589px;
     letter-spacing: 0.267vw;
     margin: -2.2vw 0vw 0vw 2.97vw;
   }
@@ -15,9 +15,9 @@ body.page {
     display: flex;
     position: relative;
     flex-direction: column;
-    padding: 0vw 30vw;
-    font-size: 3.333vw;
-    line-height: 3.3vw;
+    padding: 0vw 24vw;
+    font-size: 64px;
+    line-height: 63px;
     letter-spacing: 0.033vw;
     text-align: center;
   }
@@ -29,8 +29,8 @@ body.page {
     color: var(--orange);
 
     p {
-      font-size: 1.042vw;
-      line-height: 1.375vw;
+      font-size: 20px;
+      line-height: 27px;
       letter-spacing: 0.01vw;
       text-transform: lowercase;
 
@@ -54,7 +54,7 @@ body.page {
       display: flex;
       position: relative;
       align-items: center;
-      padding: 2.7vw 2.3vw 0vw 2.3vw;
+      padding: 2.5vw 75px 0vw 75px;
       flex-direction: row;
     }
 
@@ -70,7 +70,7 @@ body.page {
     .sashaportfolio {
       display: block;
       position: relative;
-      margin: 0vw 0vw 0vw 31vw;
+      margin-left: auto;
       width: 4.099vw;
       height: 4.099vw;
       background: no-repeat center/100% url('./images/sashaportfolioborder.svg');
@@ -131,32 +131,34 @@ body.page {
   }
 
   p {
-    line-height: 2.083vw;
+    line-height: 40px;
     letter-spacing: 0.018vw;
     text-transform: lowercase;
 
     &.quote {
-      margin: 12.1vw 0vw 0vw 37.6vw;
-      font-size: 3.646vw;
+      display: flex;
+      width: 476px;
+      margin: 12.1vw auto 0vw;
+      font-size: 70px;
     }
 
     &.whatsnext {
       display: flex;
-      width: 24.792vw;
+      width: 476px;
       margin: -0.2vw auto 0vw;
     }
 
     &.yourcontact {
-      margin: 8.9vw 0vw 0vw 0vw;
-      width: 32.917vw;
+      margin: 4.9vw 0vw 0vw 0vw;
+      width: 632px;
     }
 
     &#my-form-status {
       margin: 0.6vw 0vw 0vw 0vw;
       color: var(--unhoverlink);
-      line-height: 1.375vw;
+      line-height: 0.07vw;
       letter-spacing: 0.01vw;
-      font-size: 1.042vw;
+      font-size: 20px;
     }
   }
 
@@ -167,6 +169,7 @@ body.page {
     transition: 0.4s;
 
     &.aboutpage {
+      font-size: 35px;
       display: block;
       position: relative;
       margin-right: auto;
@@ -184,40 +187,40 @@ body.page {
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
-    padding: 2.14vw 3.906vw 0vw 3.906vw;
+    padding: 39px 75px 0vw 75px;
 
     .logotype {
       display: block;
       position: relative;
-      margin: 0vw 2.1vw 0vw 0vw;
-      width: 2.188vw;
-      height: 2.188vw;
+      margin: 0vw 40px 0vw 0vw;
+      width: 42px;
+      height: 42px;
       background: no-repeat center/100% url('./images/creamlogotype.svg');
     }
 
     .vk {
       display: block;
       position: relative;
-      width: 2.813vw;
-      height: 1.823vw;
+      width: 54px;
+      height: 35px;
       background: no-repeat center/100% url('./images/creamvk.svg');
     }
 
     .telegram {
       display: block;
       position: relative;
-      margin: 0vw 0vw 0vw 1.8vw;
-      width: 2.292vw;
-      height: 2.135vw;
+      margin: 0vw 0vw 0vw 33px;
+      width: 44px;
+      height: 41px;
       background: no-repeat center/100% url('./images/creamtg.svg');
     }
 
     .dzen {
       display: block;
       position: relative;
-      margin: 0vw 0vw 0vw 2.2vw;
-      width: 2.292vw;
-      height: 2.292vw;
+      margin: 0vw 0vw 0vw 43px;
+      width: 44px;
+      height: 44px;
       background: no-repeat center/100% url('./images/creamdzen.svg');
     }
   }
@@ -227,68 +230,80 @@ body.page {
     position: relative;
 
     &#anotherthings {
-      display: block;
       position: sticky;
       top: 10vw;
       margin: -16.3vw auto 0vw;
       width: 89.635vw;
       height: 38.958vw;
+    }
 
-      .block1 {
-        display: block;
-        position: relative;
-        width: 40vw;
-        height: 28vw;
-        top: 7vw;
-        left: -2vw;
-        background: no-repeat center/100% url('./images/1920-obj-1.png');
-      }
-      .block2 {
-        display: block;
-        position: relative;
-        width: 38vw;
-        height: 42vw;
-        top: -30vw;
-        left: 53vw;
-        background: no-repeat center/100% url('./images/1920-obj-2.png');
-      }
+    &#holod {
+      top: 6.4vw;
+      width: 14.58vw;
+      height: 28.9vw;
+      background: no-repeat center/100% url('./images/holod.png');
+    }
 
+    &#okno {
+      top: -17vw;
+      left: 20.8vw;
+      width: 19.12vw;
+      height: 21.25vw;
+      background: no-repeat center/100% url('./images/okno.png');
+    }
+
+    &#shkaf {
+      top: -50.1vw;
+      left: 53vw;
+      width: 24.0625vw;
+      height: 33.54vw;
+      background: no-repeat center/100% url('./images/shkaf.png');
+    }
+
+    &#plita {
+      top: -61vw;
+      left: 56.8vw;
+      width: 16.04vw;
+      height: 16.35vw;
+      background: no-repeat center/100% url('./images/plita.png');
+    }
+
+    &#stirka {
+      top: -81.6vw;
+      left: 79.3vw;
+      width: 10.4vw;
+      height: 14.17vw;
+      background: no-repeat center/100% url('./images/stirka.png');
     }
 
     &#battteryandhoover {
-      display: block;
       position: sticky;
       top: 30vw;
       margin: -19.2vw auto -5vw;
       width: 89.635vw;
       height: 18.229vw;
       z-index: 10;
+    }
 
-      .block3 {
-        display: block;
-        position: relative;
-        width: 15vw;
-        height: 9vw;
-        top: 9vw;
-        left: 7vw;
-        background: no-repeat center/100% url('./images/1920-obj-3.png');
-        z-index: 10;
-      }
-      .block4 {
-        display: block;
-        position: relative;
-        width: 17vw;
-        height: 17.5vw;
-        top: -8vw;
-        left: 32vw;
-        background: no-repeat center/100% url('./images/1920-obj-4.png');
-        z-index: 10;
-      }
+    &#batareya {
+      top: 9vw;
+      left: 11.4vw;
+      width: 14.11vw;
+      height: 9.17vw;
+      background: no-repeat center/100% url('./images/batareya.png');
+    }
+
+    &#pilesos {
+      top: -9vw;
+      left: 32.6vw;
+      width: 17.08vw;
+      height: 18.02vw;
+      background: no-repeat center/100% url('./images/pilesos.png');
     }
 
     &#shape1_man {
-      background-image: url('images/1920-man.png');
-      margin: 59.7vw 0vw 0vw 25.55vw;
+      background-image: url('images/shape1_man.png');
+      margin: 43.7vw 0vw 0vw 25.55vw;
       width: 24.323vw;
       height: 18.438vw;
       background-position: center;
@@ -308,11 +323,11 @@ input {
   background: none;
   border: 0px;
   border-bottom: 0.156vw solid white;
-  width: 32.917vw;
+  width: 632px;
   color: var(---unhoverlink);
   font-family: 'Aeonik Pro';
   text-transform: lowercase;
-  font-size: 1.823vw;
+  font-size: 35px;
   padding: 0vw 0vw 1vw 0.2vw;
 }
 
@@ -320,7 +335,7 @@ form {
   display: flex;
   position: relative;
   flex-direction: column;
-  width: 32.917vw;
+  width: 632px;
   margin: 2vw 0vw 0vw 0vw;
 }
 
@@ -345,51 +360,268 @@ button {
   }
 }
 
-@media only screen and (min-width: 2048px) {
+@media only screen and (min-width: 1195px) and (max-device-width: 1536px){
   body.page {
+    font-size: 29px;
+    .navigation {
+      .logotype {margin: 0vw 34px 0vw 0vw; width: 35px; height: 35px;}
+      .vk {width: 44px; height: 28px;}
+      .telegram {margin: 0vw 0vw 0vw 27px; width: 31px; height: 29px;}
+      .dzen {margin: 0vw 0vw 0vw 35px; width: 31px; height: 31px;}
+    }
+    section {
+      &.manwiththings {height: 154.458vw;}
+    }
+    a{
+      &.aboutpage {font-size: 29px;}
+    }
+    p {
+      line-height: 33px;
+      &.quote {
+        margin: 186px auto 0px;
+        width: 386px;
+        font-size: 58px;
+        line-height: 50px;
+      }
+      &.whatsnext {
+        width: 386px;
+        margin: -3.1px auto 0px;
+      }
+      &.yourcontact {
+        margin: 4.9vw 0vw 0vw 0vw;
+        width: 520px;
+      }
+    }
+    h1 {
+      margin: -24px 0px 0px 58px;
+      font-size: 426px;
+      line-height: 490px;
+    }
+    h3 {
+      padding: 0px 280px;
+      font-size: 51px;
+      line-height: 52px;
+    }
+    form {
+      width: 520px;
+      margin: 31px 0px 0px 0px;
+    }
+    input {
+      width: 520px;
+      font-size: 29px;
+    }
+    button {margin: 48px 0px 0px -8px;}
+    &#my-form-status {font-size: 16px;}
     .image {
       &#anotherthings {
-        .block1 {background: no-repeat center/100% url('./images/2560-obj-1.png');}
-        .block2 {background: no-repeat center/100% url('./images/2560-obj-2.png');}
+        top: 21.2vw;
+        width: 87.23vw;
+        height: 43.95vw;
       }
-      &#battteryandhoover {
-        .block3 {background: no-repeat center/100% url('./images/2560-obj-3.png');}
-        .block4 {background: no-repeat center/100% url('./images/2560-obj-4.png');}
+      &#holod {
+        top: 3.6vw;
+        width: 16.449vw;
+        height: 32.6vw;
       }
-      &#shape1_man {background-image: url('images/2560-man.png');}
+      &#okno {
+        top: -22.9vw;
+        left: 23.6vw;
+        width: 21.56vw;
+        height: 24vw;
+      }
+      &#shkaf {
+        top: -60.1vw;
+        left: 59.8vw;
+        width: 27.14vw;
+        height: 37.84vw;
+      }
+      &#plita {
+        top: -72.6vw;
+        left: 64.1vw;
+        width: 18.09vw;
+        height: 18.45vw;
+      }
+      &#stirka {
+        display: none;
+      }
+      &#batareya {
+        top: 7.9vw;
+        left: 14.2vw;
+        width: 15.95vw;
+        height: 10.35vw;
+      }
+      &#pilesos {
+        top: -12.4vw;
+        left: 38.1vw;
+        width: 19.53vw;
+        height: 20.50vw;
+      }
+      &#shape1_man {
+        background-image: url('images/shape1_man.png');
+        margin: 43.7vw 0vw 0vw 25.55vw;
+        width: 28.71vw;
+        height: 22.49vw;
+      }
+    }
+    footer {
+      p {
+        font-size: 16px;
+        line-height: 21px;
+      }
     }
   }
 }
 
-// @media only screen and (min-width: 800px) and (max-width: 1030px) and (orientation: portrait){
-//   body.page {
-//     .image {
-//       &#anotherthings {
-//         .block1 {background: no-repeat center/100% url('./images/1024-obj-1.png'); width: 100vw; height: 70vw; left: -10vw; top: 14vw;}
-//         .block2 {display: none;}
-//       }
-//       &#battteryandhoover {
-//         .block3 {display: none;}
-//         .block4 {background: no-repeat center/100% url('./images/1024-obj-2.png');}
-//       }
-//       &#shape1_man {background-image: url('images/1024-man.png');}
-//     }
-//   }
-// }
+@media only screen and (min-width: 1024px) and (max-device-width: 1194px) and (orientation: landscape){
+  body.page {
+    font-size: 25px;
+    section {
+      &.manwiththings {height: 154.458vw;}
+    }
+    a{
+      &.aboutpage {font-size: 29px;}
+    }
+    p {
+      line-height: 33px;
+      &.quote {
+        margin: 186px auto 0px;
+        width: 342px;
+        font-size: 50px;
+        line-height: 20px;
+      }
+      &.whatsnext {
+        width: 342px;
+        margin: -3.1px auto 0px;
+      }
+      &.yourcontact {
+        margin: 4.9vw 0vw 0vw 0vw;
+        width: 520px;
+      }
+    }
+    h1 {
+      margin: -24px 0px 0px 30px;
+      font-size: 350px;
+      line-height: 402px;
+    }
+    h3 {
+      padding: 0px 230px;
+      font-size: 47px;
+      line-height: 46px;
+    }
+    form {
+      width: 520px;
+      margin: 31px 0px 0px 0px;
+    }
+    input {
+      width: 520px;
+      font-size: 29px;
+    }
+    button {margin: 48px 0px 0px -8px;}
+    &#my-form-status {font-size: 16px;}
+    .image {
+      &#anotherthings {
+        top: 21.2vw;
+        width: 87.23vw;
+        height: 43.95vw;
+      }
+      &#holod {
+        display: none;
+      }
+      &#okno {
+        top: 11.4vw;
+        left: 12.3vw;
+        width: 25.2vw;
+        height: 28vw;
+      }
+      &#shkaf {
+        top: -32.2vw;
+        left: 54.4vw;
+        width: 31.82vw;
+        height: 44.36vw;
+      }
+      &#plita {
+        top: -46.8vw;
+        left: 59.6vw;
+        width: 21.21vw;
+        height: 21.63vw;
+      }
+      &#stirka {
+        display: none;
+      }
+      &#batareya {
+        top: 8.9vw;
+        left: 1.3vw;
+        width: 18.67vw;
+        height: 12.06vw;
+      }
+      &#pilesos {
+        top: -14.8vw;
+        left: 29vw;
+        width: 22.78vw;
+        height: 24.03vw;
+      }
+      &#shape1_man {
+        background-image: url('images/shape1_man.png');
+        margin: 43.7vw 0vw 0vw 16.55vw;
+        width: 32vw;
+        height: 24.12vw;
+      }
+    }
+    footer {
+      p {
+        font-size: 16px;
+        line-height: 21px;
+      }
+    }
+  }
+}
 
-@media only screen and (min-width: 320px) and (max-width: 768px) {
+@media only screen and (min-width: 769px) and (max-device-width: 1194px){
+  body.page {
+    font-size: 25px;
+    .navigation {
+      padding: 39px 40px 0vw 40px;
+      .logotype {margin: 0vw 29px 0vw 0vw; width: 31px; height: 31px;}
+      .vk {width: 38px; height: 25px;}
+      .telegram {margin: 0vw 0vw 0vw 23px; width: 36px; height: 34px;}
+      .dzen {margin: 0vw 0vw 0vw 30px; width: 36px; height: 36px;}
+    }
+    a {
+      &.aboutpage {font-size: 25px;}
+    }
+  }
+}
+
+@media only screen and (min-width: 429px) and (max-device-width: 768px){
+  body.page {
+    .navigation {
+      .logotype {margin: 0vw 40px 0vw 0vw; width: 60px; height: 60px;}
+      .vk {width: 67px; height: 50px;}
+      .telegram {margin: 0vw 0vw 0vw 53px; width: 56px; height: 55px;}
+      .dzen {margin: 0vw 0vw 0vw 44px; width: 60px; height: 60px;}
+    }
+    a{
+      &.aboutpage {font-size: 42px; margin-top: -1vw;}
+    }
+    p {font-size: 42px;}
+  }
+}
+
+@media only screen and (min-width: 200px) and (max-device-width: 428px){
+  body.page {
+    .navigation {
+      padding: 131px 36px 0vw 36px;
+    }
+  }
+}
+
+@media only screen and (min-width: 360px) and (max-device-width: 768px) {
   body.page {
     background: no-repeat top/100% url('./images/fon-1.png');
     font-size: 4vw;
 
     h1 {font-size: 54vw; margin: 30vw 0vw 0vw 0.7vw;}
     h3 {padding: 0vw 3vw; font-size: 6vw; line-height: 8vw; letter-spacing: 0.3vw;}
-
-    .navigation {
-      margin: 13.846vw 2vw 0 2vw;
-      .logotype {transform: scale(2.5); margin-right: 7vw;}
-      .vk, .telegram, .dzen {transform: scale(2); margin-left: 5vw;}
-    }
 
     section {
 
