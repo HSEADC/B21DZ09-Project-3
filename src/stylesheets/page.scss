@@ -156,9 +156,9 @@ body.page {
     text-decoration: none;
     letter-spacing: 0.018vw;
     transition: 0.4s;
+    font-size: 35px;
 
     &.aboutpage {
-      font-size: 35px;
       display: block;
       position: relative;
       margin-right: auto;
@@ -363,6 +363,9 @@ button {
       .telegram {margin: 0vw 0vw 0vw 27px; width: 31px; height: 29px;}
       .dzen {margin: 0vw 0vw 0vw 35px; width: 31px; height: 31px;}
     }
+    a {
+      font-size: 29px;
+    }
     h1 {
       font-size: 426px;
       line-height: 490px;
@@ -469,6 +472,9 @@ button {
       .telegram {margin: 0vw 0vw 0vw 23px; width: 36px; height: 34px;}
       .dzen {margin: 0vw 0vw 0vw 30px; width: 36px; height: 36px;}
     }
+    a {
+      font-size: 25px;
+    }
     h1 {
     font-size: 350px;
     line-height: 402px;
@@ -570,6 +576,9 @@ button {
       .vk {width: 38px; height: 25px;}
       .telegram {margin: 0vw 0vw 0vw 23px; width: 36px; height: 34px;}
       .dzen {margin: 0vw 0vw 0vw 30px; width: 36px; height: 36px;}
+    }
+    a {
+      font-size: 25px;
     }
     h1 {
       font-size: 350px;
@@ -677,6 +686,9 @@ button {
     section {
       &.manwiththings {height: 369vw;}
       &.mailcollector {height: 96vw;}
+    }
+    a {
+      font-size: 25px;
     }
     h1 {
       font-size: 285px;
@@ -799,9 +811,16 @@ button {
     line-height: 40px;
     .navigation {
       padding: 62px 42px 0vw 42px;
+      .logotype {margin: 0vw 29px 0vw 0vw; width: 54px; height: 54px;}
+      .vk {width: 70px; height: 49px;}
+      .telegram {margin: 0vw 0vw 0vw 43px; width: 56px; height: 54px;}
+      .dzen {margin: 0vw 0vw 0vw 50px; width: 54px; height: 54px;}
     }
     section {
       &.manwiththings {height: 369vw;}
+    }
+    a {
+      font-size: 35px;
     }
     h1 {
       font-size: 436px;
