@@ -3,30 +3,34 @@ body.page {
   background-color: var(--orange);
   color: var(--cream);
   font-size: 35px;
+  line-height: 40px;
 
   h1 {
     font-size: 512px;
     line-height: 589px;
-    letter-spacing: 0.267vw;
-    margin: -2.2vw 0vw 0vw 2.97vw;
+    letter-spacing: 5px;
+    margin: -42px 0px 0px 56px;
   }
 
   h3 {
     display: flex;
     position: relative;
     flex-direction: column;
-    padding: 0vw 24vw;
+    width: 840px;
     font-size: 64px;
     line-height: 63px;
-    letter-spacing: 0.033vw;
     text-align: center;
   }
 
   footer {
+    display: flex;
+    padding: 0px 75px 0px 75px;
     position: block;
     height: 9.271vw;
     background-color: var(--cream);
     color: var(--orange);
+    justify-content: space-between;
+    align-items: center;
 
     p {
       font-size: 20px;
@@ -48,14 +52,6 @@ body.page {
         font-weight: 300;
         margin: 0vw 1.23vw 0vw 1.23vw;
       }
-    }
-
-    .footercontent {
-      display: flex;
-      position: relative;
-      align-items: center;
-      padding: 2.5vw 75px 0vw 75px;
-      flex-direction: row;
     }
 
     .biglogotype {
@@ -110,7 +106,7 @@ body.page {
     position: relative;
 
     &.manwiththings {
-      height: 141.458vw;
+      padding: 0vw 0vw 5vw 0vw;
     }
 
     &.selfservie {
@@ -118,39 +114,32 @@ body.page {
       position: relative;
       align-items: center;
       justify-content: center;
-      height: 35.938vw;
+      height: 36vw;
     }
 
     &.mailcollector {
       display: flex;
       position: relative;
       flex-direction: column;
+      justify-content: center;
       align-items: center;
-      height: 33.49vw;
+      height: 34vw;
     }
   }
 
   p {
-    line-height: 40px;
-    letter-spacing: 0.018vw;
     text-transform: lowercase;
-
     &.quote {
       display: flex;
-      width: 476px;
+      width: 480px;
       margin: 12.1vw auto 0vw;
       font-size: 70px;
     }
 
     &.whatsnext {
       display: flex;
-      width: 476px;
+      width: 480px;
       margin: -0.2vw auto 0vw;
-    }
-
-    &.yourcontact {
-      margin: 4.9vw 0vw 0vw 0vw;
-      width: 632px;
     }
 
     &#my-form-status {
@@ -223,6 +212,10 @@ body.page {
       height: 44px;
       background: no-repeat center/100% url('./images/creamdzen.svg');
     }
+  }
+
+  .follow {
+    width: 640px;
   }
 
   .image {
@@ -323,7 +316,7 @@ input {
   background: none;
   border: 0px;
   border-bottom: 0.156vw solid white;
-  width: 632px;
+  width: 640px;
   color: var(---unhoverlink);
   font-family: 'Aeonik Pro';
   text-transform: lowercase;
@@ -335,21 +328,21 @@ form {
   display: flex;
   position: relative;
   flex-direction: column;
-  width: 632px;
+  width: 640px;
   margin: 2vw 0vw 0vw 0vw;
 }
 
 button {
   display: block;
   position: relative;
-  margin: 3.12vw 0vw 0vw -0.14vw;
+  margin: 3.12vw 0vw 0vw 0vw;
   width: 13.542vw;
   height: 3.021vw;
   border: none;
   border-radius: 2.083vw;
   background-color: var(--cream);
   color: var(--orange);
-  font-size: 1.823vw;
+  font-size: 35px;
   font-family: 'Aeonik Pro';
   text-transform: lowercase;
   transition: 0.4s;
@@ -360,58 +353,58 @@ button {
   }
 }
 
-@media only screen and (min-width: 1195px) and (max-device-width: 1536px){
+@media only screen and (min-width: 1195px) and (max-device-width: 1536px) {
   body.page {
     font-size: 29px;
+    line-height: 34px;
     .navigation {
       .logotype {margin: 0vw 34px 0vw 0vw; width: 35px; height: 35px;}
       .vk {width: 44px; height: 28px;}
       .telegram {margin: 0vw 0vw 0vw 27px; width: 31px; height: 29px;}
       .dzen {margin: 0vw 0vw 0vw 35px; width: 31px; height: 31px;}
     }
-    section {
-      &.manwiththings {height: 154.458vw;}
+    h1 {
+      font-size: 426px;
+      line-height: 490px;
+      letter-spacing: 4px;
+      margin: -34px 0px 0px 56px;
+    }
+    h3 {
+      width: 830px;
+      font-size: 53px;
+      line-height: 61px;
     }
     a{
       &.aboutpage {font-size: 29px;}
     }
     p {
-      line-height: 33px;
-      &.quote {
-        margin: 186px auto 0px;
-        width: 386px;
-        font-size: 58px;
-        line-height: 50px;
-      }
       &.whatsnext {
-        width: 386px;
-        margin: -3.1px auto 0px;
+        width: 390px;
       }
-      &.yourcontact {
-        margin: 4.9vw 0vw 0vw 0vw;
-        width: 520px;
+      &.quote {
+        width: 390px;
+        font-size: 58px;
       }
     }
-    h1 {
-      margin: -24px 0px 0px 58px;
-      font-size: 426px;
-      line-height: 490px;
-    }
-    h3 {
-      padding: 0px 280px;
-      font-size: 51px;
-      line-height: 52px;
-    }
-    form {
-      width: 520px;
-      margin: 31px 0px 0px 0px;
+    .follow {
+      width: 525px;
     }
     input {
-      width: 520px;
+      width: 525px;
       font-size: 29px;
     }
-    button {margin: 48px 0px 0px -8px;}
-    &#my-form-status {font-size: 16px;}
+    form {
+      width: 525px;
+    }
+    button {
+      font-size: 29px;
+    }
+    footer {
+      p {
+        font-size: 16px;
+        line-height: 21px;
+      }
+    }
     .image {
       &#anotherthings {
         top: 21.2vw;
@@ -457,67 +450,65 @@ button {
         height: 20.50vw;
       }
       &#shape1_man {
-        background-image: url('images/shape1_man.png');
         margin: 43.7vw 0vw 0vw 25.55vw;
         width: 28.71vw;
         height: 22.49vw;
       }
     }
-    footer {
-      p {
-        font-size: 16px;
-        line-height: 21px;
-      }
-    }
   }
 }
 
-@media only screen and (min-width: 1024px) and (max-device-width: 1194px) and (orientation: landscape){
+@media only screen and (min-width: 835px) and (max-device-width: 1194px) and (orientation: landscape) {
   body.page {
     font-size: 25px;
-    section {
-      &.manwiththings {height: 154.458vw;}
-    }
-    a{
-      &.aboutpage {font-size: 29px;}
-    }
-    p {
-      line-height: 33px;
-      &.quote {
-        margin: 186px auto 0px;
-        width: 342px;
-        font-size: 50px;
-        line-height: 20px;
-      }
-      &.whatsnext {
-        width: 342px;
-        margin: -3.1px auto 0px;
-      }
-      &.yourcontact {
-        margin: 4.9vw 0vw 0vw 0vw;
-        width: 520px;
-      }
+    line-height: 30px;
+    .navigation {
+      padding: 39px 40px 0vw 40px;
+      .logotype {margin: 0vw 29px 0vw 0vw; width: 31px; height: 31px;}
+      .vk {width: 38px; height: 25px;}
+      .telegram {margin: 0vw 0vw 0vw 23px; width: 36px; height: 34px;}
+      .dzen {margin: 0vw 0vw 0vw 30px; width: 36px; height: 36px;}
     }
     h1 {
-      margin: -24px 0px 0px 30px;
-      font-size: 350px;
-      line-height: 402px;
+    font-size: 350px;
+    line-height: 402px;
+    letter-spacing: 3px;
+    margin: -11px 0px 0px 25px;
     }
     h3 {
-      padding: 0px 230px;
+      width: 730px;
       font-size: 47px;
-      line-height: 46px;
+      line-height: 54px;
     }
-    form {
-      width: 520px;
-      margin: 31px 0px 0px 0px;
+    p {
+      &.whatsnext {
+        width: 345px;
+      }
+      &.quote {
+        width: 345px;
+        font-size: 51px;
+      }
+    }
+    .follow {
+      width: 460px;
     }
     input {
-      width: 520px;
-      font-size: 29px;
+      width: 460px;
+      font-size: 25px;
     }
-    button {margin: 48px 0px 0px -8px;}
-    &#my-form-status {font-size: 16px;}
+    form {
+      width: 460px;
+    }
+    button {
+      font-size: 25px;
+    }
+    footer {
+      padding: 0px 40px 0px 40px;
+      p {
+        font-size: 14px;
+        line-height: 18px;
+      }
+    }
     .image {
       &#anotherthings {
         top: 21.2vw;
@@ -561,24 +552,18 @@ button {
         height: 24.03vw;
       }
       &#shape1_man {
-        background-image: url('images/shape1_man.png');
         margin: 43.7vw 0vw 0vw 16.55vw;
         width: 32vw;
         height: 24.12vw;
       }
     }
-    footer {
-      p {
-        font-size: 16px;
-        line-height: 21px;
-      }
-    }
   }
 }
 
-@media only screen and (min-width: 769px) and (max-device-width: 1194px){
+@media only screen and (min-width: 835px) and (max-device-width: 1194px) and (orientation: portrait) {
   body.page {
     font-size: 25px;
+    line-height: 30px;
     .navigation {
       padding: 39px 40px 0vw 40px;
       .logotype {margin: 0vw 29px 0vw 0vw; width: 31px; height: 31px;}
@@ -586,79 +571,350 @@ button {
       .telegram {margin: 0vw 0vw 0vw 23px; width: 36px; height: 34px;}
       .dzen {margin: 0vw 0vw 0vw 30px; width: 36px; height: 36px;}
     }
-    a {
-      &.aboutpage {font-size: 25px;}
+    h1 {
+      font-size: 350px;
+      line-height: 402px;
+      letter-spacing: 3px;
+      margin: -11px 0px 0px 25px;
     }
-  }
-}
-
-@media only screen and (min-width: 429px) and (max-device-width: 768px){
-  body.page {
-    .navigation {
-      .logotype {margin: 0vw 40px 0vw 0vw; width: 60px; height: 60px;}
-      .vk {width: 67px; height: 50px;}
-      .telegram {margin: 0vw 0vw 0vw 53px; width: 56px; height: 55px;}
-      .dzen {margin: 0vw 0vw 0vw 44px; width: 60px; height: 60px;}
+    h3 {
+      width: 730px;
+      font-size: 47px;
+      line-height: 54px;
     }
-    a{
-      &.aboutpage {font-size: 42px; margin-top: -1vw;}
-    }
-    p {font-size: 42px;}
-  }
-}
-
-@media only screen and (min-width: 200px) and (max-device-width: 428px){
-  body.page {
-    .navigation {
-      padding: 131px 36px 0vw 36px;
-    }
-  }
-}
-
-@media only screen and (min-width: 360px) and (max-device-width: 768px) {
-  body.page {
-    background: no-repeat top/100% url('./images/fon-1.png');
-    font-size: 4vw;
-
-    h1 {font-size: 54vw; margin: 30vw 0vw 0vw 0.7vw;}
-    h3 {padding: 0vw 3vw; font-size: 6vw; line-height: 8vw; letter-spacing: 0.3vw;}
-
-    section {
-
-      &.manwiththings {height: 500vw;}
-      &.selfservie {margin-top: -50vw;}
-      &.mailcollector {height: 96vw;}
-    }
-
-    .image {
-
-      &#anotherthings {height: 100vw; width: 100vw; top: 110vw; margin: -23vw 0vw; background: no-repeat top/100% url('./images/another-1.png');}
-      &#battteryandhoover {opacity: 0;}
-      &#shape1_man {transform: scale(2); margin: 220vw 36vw;}
-    }
-
     p {
-      line-height: 5vw;
-      letter-spacing: 0.1vw;
-      &.quote {font-size: 5vw; margin: -181vw 24vw 0vw;}
-      &.whatsnext {width: 60vw; margin: 1vw 24vw 0vw;}
-      &.yourcontact {margin: 8.9vw 0vw 0vw 0vw; width: 75vw;}
-      &#my-form-status {margin: 3vw 0vw 0vw -17.8vw; letter-spacing: 0.1vw; font-size: 2.5vw;}
-    }
-
-    input {border-bottom: 0.4vw solid white; width: 73vw; font-size: 4vw; margin: 2vw -21vw 0vw;}
-    button {margin: 6vw 0vw 0vw -22vw; width: 25vw; height: 6vw; border-radius: 5vw; font-size: 3.5vw;}
-
-    footer {
-      height: 12vw;
-      .sashaportfolio, .ulyanaportfolio, .dimaportfolio {display: none;}
-      .biglogotype {transform: scale(1.5); margin: 1.5vw 0vw 0vw 8vw;}
-      .hselogo {transform: scale(1.5); margin: 1.5vw 0vw 0vw 35vw;}
-      p {font-size: 1.8vw; line-height: 1.7vw; letter-spacing: 0.01vw;
-        &.we {display: none;}
-        &.we-a {display: block;  margin: 1.1vw 0vw 0vw 5vw;}
+      &.whatsnext {
+        width: 345px;
+      }
+      &.quote {
+        width: 345px;
+        font-size: 51px;
       }
     }
+    .follow {
+      width: 460px;
+    }
+    input {
+      width: 460px;
+      font-size: 25px;
+    }
+    form {
+      width: 460px;
+    }
+    button {
+      font-size: 25px;
+    }
+    footer {
+      padding: 0px 40px 0px 40px;
+      p {
+        font-size: 14px;
+        line-height: 18px;
+      }
+    }
+    .image {
+      &#anotherthings {
+        top: 21.2vw;
+        width: 87.23vw;
+        height: 43.95vw;
+      }
+      &#holod {
+        display: none;
+      }
+      &#okno {
+        top: 11.4vw;
+        left: 12.3vw;
+        width: 25.2vw;
+        height: 28vw;
+      }
+      &#shkaf {
+        top: -32.2vw;
+        left: 54.4vw;
+        width: 31.82vw;
+        height: 44.36vw;
+      }
+      &#plita {
+        top: -46.8vw;
+        left: 59.6vw;
+        width: 21.21vw;
+        height: 21.63vw;
+      }
+      &#stirka {
+        display: none;
+      }
+      &#batareya {
+        top: 8.9vw;
+        left: 1.3vw;
+        width: 18.67vw;
+        height: 12.06vw;
+      }
+      &#pilesos {
+        top: -14.8vw;
+        left: 29vw;
+        width: 22.78vw;
+        height: 24.03vw;
+      }
+      &#shape1_man {
+        margin: 43.7vw 0vw 0vw 16.55vw;
+        width: 32vw;
+        height: 24.12vw;
+      }
+    }
+  }
+}
 
+@media only screen and (min-width: 429px) and (max-device-width: 834px) {
+  body.page {
+    background: no-repeat top/100% url('./images/fon-2.png');
+    font-size: 25px;
+    line-height: 30px;
+    .navigation {
+      padding: 39px 40px 0vw 40px;
+      .logotype {margin: 0vw 29px 0vw 0vw; width: 31px; height: 31px;}
+      .vk {width: 38px; height: 25px;}
+      .telegram {margin: 0vw 0vw 0vw 23px; width: 36px; height: 34px;}
+      .dzen {margin: 0vw 0vw 0vw 30px; width: 36px; height: 36px;}
+    }
+    section {
+      &.manwiththings {height: 369vw;}
+      &.mailcollector {height: 96vw;}
+    }
+    h1 {
+      font-size: 285px;
+      line-height: 328px;
+      letter-spacing: 3px;
+      margin: 0px 0px 0px 28px;
+    }
+    h3 {
+      width: 680px;
+      font-size: 47px;
+      line-height: 54px;
+    }
+    p {
+      &.whatsnext {
+        width: 345px;
+      }
+      &.quote {
+        width: 345px;
+        font-size: 51px;
+        margin: 20vw auto 0vw;
+      }
+    }
+    .follow {
+      width: 460px;
+    }
+    input {
+      width: 460px;
+      font-size: 25px;
+    }
+    form {
+      width: 460px;
+    }
+    button {
+      font-size: 25px;
+    }
+    footer {
+      padding: 0px 40px 0px 40px;
+      p {
+        font-size: 16px;
+        line-height: 17px;
+        &.we {
+          display: none;
+        }
+        &.we-a {
+          display: block;
+          margin: 0vw 0vw 0vw 2.8vw;
+        }
+      }
+      .sashaportfolio {
+        width: 6.420vw;
+        height: 6.420vw;
+      }
+      .ulyanaportfolio {
+        width: 6.420vw;
+        height: 6.420vw;
+      }
+      .dimaportfolio {
+        width: 6.420vw;
+        height: 6.420vw;
+      }
+      .hselogo {
+        margin: 0vw 0vw 0vw 3.333vw;
+        width: 14.321vw;
+        height: 5.802vw;
+      }
+      .biglogotype {
+        width: 9.877vw;
+        height: 4.321vw;
+      }
+    }
+    .image {
+      &#anotherthings {
+        top: 21.2vw;
+        width: 100vw;
+        height: 74.805vw;
+      }
+      &#holod {
+        display: none;
+      }
+      &#okno {
+        top: 49.2vw;
+        left: -8vw;
+        width: 42.48vw;
+        height: 47.266vw;
+      }
+      &#shkaf {
+        top: -25.2vw;
+        left: 43vw;
+        width: 53.771vw;
+        height: 74.902vw;
+      }
+      &#plita {
+        display: none;
+      }
+      &#stirka {
+        display: none;
+      }
+      &#batareya {
+        display: none;
+      }
+      &#pilesos {
+        top: 11.4vw;
+        left: 13vw;
+        width: 38.184vw;
+        height: 40.234vw;
+      }
+      &#shape1_man {
+        margin: 170vw 0vw 0vw -9.45vw;
+        width: 56.055vw;
+        height: 42.383vw;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-device-width: 428px) {
+  body.page {
+    background: no-repeat top/100% url('./images/fon-2.png');
+    font-size: 35px;
+    line-height: 40px;
+    .navigation {
+      padding: 62px 42px 0vw 42px;
+    }
+    section {
+      &.manwiththings {height: 369vw;}
+    }
+    h1 {
+      font-size: 436px;
+      line-height: 214px;
+      letter-spacing: 2px;
+      margin: 188px 0px 0px 19px;
+    }
+    h3 {
+      width: 900px;
+      font-size: 64px;
+      line-height: 63px;
+    }
+    p {
+      &.whatsnext {
+        width: 480px;
+      }
+      &.quote {
+        width: 480px;
+        font-size: 96px;
+      }
+    }
+    .follow {
+      width: 620px;
+    }
+    input {
+      width: 620px;
+      font-size: 35px;
+    }
+    form {
+      width: 620px;
+    }
+    button {
+      width: 21.542vw;
+      height: 4.6vw;
+      font-size: 35px;
+    }
+    footer {
+      padding: 0px 42px 0px 42px;
+      height: 13.271vw;
+      p {
+        font-size: 9px;
+        line-height: 9px;
+        &.we {
+          display: none;
+        }
+        &.we-a {
+          font-size: 20px;
+          line-height: 20px;
+          display: block;
+          margin: 0vw 0vw 0vw 2.8vw;
+        }
+      }
+      .sashaportfolio {
+        display: none;
+      }
+      .ulyanaportfolio {
+        display: none;
+      }
+      .dimaportfolio {
+        display: none;
+      }
+      .hselogo {
+        width: 14.486vw;
+        height: 5.607vw;
+        margin-left: auto;
+      }
+      .biglogotype {
+        width: 13.318vw;
+        height: 5.607vw;
+      }
+    }
+    .image {
+      &#anotherthings {
+        top: 21.2vw;
+        width: 100vw;
+        height: 74.805vw;
+      }
+      &#holod {
+        display: none;
+      }
+      &#okno {
+        top: 66.2vw;
+        left: -14vw;
+        width: 73.383vw;
+        height: 82.813vw;
+      }
+      &#shkaf {
+        top: -62vw;
+        left: 75vw;
+        width: 24.766vw;
+        height: 132.944vw;
+        background: no-repeat left/387% url('./images/shkaf.png');
+      }
+      &#plita {
+        display: none;
+      }
+      &#stirka {
+        display: none;
+      }
+      &#batareya {
+        display: none;
+      }
+      &#pilesos {
+        top: 37.8vw;
+        left: 19vw;
+        width: 71.028vw;
+        height: 81.963vw;
+      }
+      &#shape1_man {
+        margin: 140vw 0vw 0vw -33.45vw;
+        width: 96.262vw;
+        height: 72.897vw;
+      }
+    }
   }
 }
