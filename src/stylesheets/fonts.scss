@@ -29,3 +29,19 @@
   font-weight: 600;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'Vela Sans';
+  src: url('fonts/VelaSans-Regular.otf') format('opentype'),
+    url('fonts/VelaSans-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Vela Sans';
+  src: url('fonts/VelaSans-SemiBold.otf') format('opentype'),
+    url('fonts/VelaSans-SemiBold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}

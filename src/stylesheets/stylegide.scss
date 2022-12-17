@@ -1,0 +1,113 @@
+body.stylegide {
+  background-color: var(--cream);
+  color: var(--black);
+  font-size: 50px;
+  line-height: 59px;
+  height: 200vw;
+  font-family: 'Vela Sans', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+
+  h1 {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 600;
+    &#about {
+      margin: 257px 0px 0px 0px;
+    }
+  }
+
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+    height: 56.250vw;
+    background: no-repeat top/100% url('./images/headerbackground.svg');
+  }
+
+  .self {
+    width: 47.656vw;
+    height: 18.906vw;
+    background: no-repeat top/100% url('./images/self.svg');
+  }
+
+  .attention {
+    position: absolute;
+    top: 3.75vw;
+    left: 83.125vw;
+    width: 11.042vw;
+    height: 11.042vw;
+    background: no-repeat top/100% url('./images/attention.svg');
+    transform: rotate(-22deg);
+  }
+
+  .bigyellowsticker {
+    display: flex;
+    position: absolute;
+    top: 38vw;
+    left: 56.823vw;
+    width: 41.615vw;
+    height: 9.792vw;
+    background: no-repeat top/100% url('./images/bigyellowsticker.svg');
+    transform: rotate(-17deg);
+    align-items: center;
+    justify-content: center;
+
+    & p {
+      font-size: 104px;
+      font-weight: 600;
+      color: var(--orange);
+      text-transform: lowercase;
+    }
+  }
+
+  .navcenter {
+    display: flex;
+    position: absolute;
+    left: 0vw;
+    width: 20vw;
+    height: 56.25vw;
+    align-items: center;
+  }
+
+  nav {
+    display: flex;
+    position: fixed;
+    margin: 0px 0px 0px 88px;
+    height: 14.583vw;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  a {
+    color: var(--black);
+    font-size: 24px;
+    line-height: 28px;
+    text-decoration: none;
+    &:hover {
+      color: var(--orange);
+    }
+  }
+
+  p {
+    &#about {
+      margin: 59px 0px 0px 0px;
+    }
+  }
+
+  section {
+    &#about {
+      position: relative;
+      margin: 0px 0px 0px 512px;
+      width: 70.521vw;
+      height: 64.948vw;
+    }
+  }
+
+  .ourvalues {
+    background-color: var(--orange);
+    margin: 3.073vw 0vw 0vw 0vw;
+    width: 70.521vw;
+    height: 14.219vw;
+  }
+}
