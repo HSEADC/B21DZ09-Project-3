@@ -84,12 +84,21 @@ module.exports = {
       // chunks: ['index']
     }),
 
-    // Internal pages
+    // Internal page
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
       template: './src/pages/page.html',
       filename: './pages/page.html'
+      // chunks: ['page']
+    }),
+
+    // Stylegide page
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/pages/stylegide.html',
+      filename: './pages/stylegide.html'
       // chunks: ['page']
     }),
 
