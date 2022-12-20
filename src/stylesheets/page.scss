@@ -825,55 +825,57 @@ button {
 @media only screen and (min-width: 320px) and (max-device-width: 428px) {
   body.page {
     background: no-repeat top/100% url('./images/fon-2.png');
-    font-size: 35px;
-    line-height: 40px;
+    font-size: 18px;
+    line-height: 20px;
     .navigation {
-      padding: 62px 42px 0vw 42px;
-      .logotype {margin: 0vw 29px 0vw 0vw; width: 54px; height: 54px;}
-      .vk {width: 70px; height: 49px;}
-      .telegram {margin: 0vw 0vw 0vw 43px; width: 56px; height: 54px;}
-      .dzen {margin: 0vw 0vw 0vw 50px; width: 54px; height: 54px;}
+      padding: 62px 16px 0vw 16px;
+      .logotype {margin: 0vw 16px 0vw 0vw; width: 26px; height: 26px;}
+      .vk {width: 32px; height: 20px;}
+      .telegram {margin: 0vw 0vw 0vw 17px; width: 28px; height: 26px;}
+      .dzen {margin: 0vw 0vw 0vw 19px; width: 26px; height: 26px;}
     }
     section {
       &.manwiththings {height: 481vw;}
+      &.mailcollector {height: 103vw;}
     }
     a {
-      font-size: 35px;
+      font-size: 18px;
     }
     h1 {
-      font-size: 436px;
+      font-size: 186px;
       line-height: 214px;
       letter-spacing: 2px;
-      margin: 188px 0px 0px 19px;
+      margin: 22px 0px 0px 9px;
     }
     h3 {
-      width: 900px;
-      font-size: 64px;
-      line-height: 63px;
+      width: 328px;
+      font-size: 28px;
+      line-height: 32px;
     }
     p {
       &.whatsnext {
-        width: 480px;
+        width: 240px;
       }
       &.quote {
-        width: 480px;
-        font-size: 96px;
+        width: 240px;
+        font-size: 36px;
       }
     }
     .follow {
-      width: 620px;
+      width: 328px;
     }
     input {
-      width: 620px;
-      font-size: 35px;
+      width: 328px;
+      font-size: 18px;
     }
     form {
-      width: 620px;
+      width: 328px;
     }
     button {
-      width: 21.542vw;
-      height: 4.6vw;
-      font-size: 35px;
+      width: 24.542vw;
+      height: 5.6vw;
+      border-radius: 10vw;
+      font-size: 18px;
     }
     footer {
       padding: 0px 42px 0px 42px;
@@ -885,8 +887,8 @@ button {
           display: none;
         }
         &.we-a {
-          font-size: 20px;
-          line-height: 20px;
+          font-size: 9px;
+          line-height: 9px;
           display: block;
           margin: 0vw 0vw 0vw 2.8vw;
         }
@@ -914,23 +916,23 @@ button {
       &#anotherthings {
         top: 21.2vw;
         width: 100vw;
-        height: 159.805vw;
+        height: 129.805vw;
       }
       &#battteryandhoover {
-        top: 166vw;
-        height: 20.229vw;
+        top: 139vw;
+        height: 26.229vw;
       }
       &#holod {
         display: none;
       }
       &#okno {
-        top: 66.2vw;
+        top: 46.2vw;
         left: -14vw;
         width: 73.383vw;
         height: 82.813vw;
       }
       &#shkaf {
-        top: -62vw;
+        top: -82vw;
         left: 75vw;
         width: 24.766vw;
         height: 132.944vw;
@@ -946,13 +948,13 @@ button {
         display: none;
       }
       &#pilesos {
-        top: -49.2vw;
+        top: -40vw;
         left: 19vw;
-        width: 71.028vw;
-        height: 81.963vw;
+        width: 67.028vw;
+        height: 77.963vw;
       }
       &#shape1_man {
-        margin: 140vw 0vw 0vw -33.45vw;
+        margin: 140vw 0vw 24vw -33.45vw;
         width: 96.262vw;
         height: 72.897vw;
       }
