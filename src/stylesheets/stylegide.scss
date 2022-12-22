@@ -1,0 +1,129 @@
+body.stylegide {
+  background-color: var(--cream);
+  color: var(--black);
+  font-size: 2.604vw;
+  line-height: 59px;
+  height: 200vw;
+  font-family: 'Vela Sans', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+
+  .heading {
+    margin: 13.542vw 0vw 0vw 0vw;
+    display: flex;
+    flex-direction: row;
+    column-gap: 2.292vw;
+    align-items: center;
+  }
+
+  .number {
+    display: flex;
+    width: 3.906vw;
+    height: 3.906vw;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--orange);
+    color: var(--cream);
+    border-radius: 2.083vw;
+  }
+
+  h1 {
+    font-size: 1.250vw;
+    line-height: 1.458vw;
+    font-weight: 600;
+  }
+
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+    height: 100vh;
+    background: no-repeat top/cover url('./images/headerbackground.svg');
+  }
+
+  .self {
+    width: 47.656vw;
+    height: 18.906vw;
+    background: no-repeat top/100% url('./images/self.svg');
+  }
+
+  .attention {
+    position: absolute;
+    top: 3.75vw;
+    left: 83.125vw;
+    width: 11.042vw;
+    height: 11.042vw;
+    background: no-repeat top/100% url('./images/attention.svg');
+    transform: rotate(-22deg);
+  }
+
+  .bigyellowsticker {
+    display: flex;
+    position: absolute;
+    top: 38vw;
+    left: 56.823vw;
+    width: 41.615vw;
+    height: 9.792vw;
+    background: no-repeat top/100% url('./images/bigyellowsticker.svg');
+    transform: rotate(-17deg);
+    align-items: center;
+    justify-content: center;
+
+    & p {
+      font-size: 5.417vw;
+      font-weight: 600;
+      color: var(--orange);
+      text-transform: lowercase;
+    }
+  }
+
+  .navcenter {
+    display: flex;
+    position: absolute;
+    left: 0vw;
+    width: 20vw;
+    height: 56.25vw;
+    align-items: center;
+  }
+
+  nav {
+    display: flex;
+    position: fixed;
+    margin: 0vw 0vw 0vw 4.583vw;
+    height: 14.583vw;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  a {
+    color: var(--black);
+    font-size: 1.250vw;
+    line-height: 1.458vw;
+    text-decoration: none;
+    &:hover {
+      color: var(--orange);
+    }
+  }
+
+  p {
+    &#about {
+      margin: 3.073vw 0vw 0vw 0vw;
+    }
+  }
+
+  section {
+    &#about {
+      position: relative;
+      margin: 0vw 0vw 0vw 26.667vw;
+      width: 70.521vw;
+      height: 64.948vw;
+    }
+  }
+
+  .ourvalues {
+    background-color: var(--orange);
+    margin: 3.073vw 0vw 0vw 0vw;
+    width: 70.521vw;
+    height: 14.219vw;
+  }
+}

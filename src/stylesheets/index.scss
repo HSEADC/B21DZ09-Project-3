@@ -1,17 +1,8 @@
 body.index {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background: var(--orange);
-  color: var(--white);
-
-  & > div,
-  & > a {
-    margin: 10px 0;
-  }
+  background: var(--white);
+  color: var(--black);
 
   h1 {
-    font-size: 26.667vw;
+    padding: 2vw 0vw 0vw 2vw;
   }
 }
