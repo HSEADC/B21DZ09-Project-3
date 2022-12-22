@@ -4,3 +4,6 @@
 @import 'stylesheets/basics.scss';
 @import 'stylesheets/index.scss';
 @import 'stylesheets/about.scss';
+@import 'stylesheets/instructions.scss';
+@import 'stylesheets/articles.scss';
+@import 'stylesheets/questions.scss';

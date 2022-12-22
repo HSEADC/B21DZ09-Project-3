@@ -2,6 +2,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 const HtmlWebpackPartialsPlugin = require('html-webpack-partials-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const CssMinimizerPlugin = require('css-minimizer-webpack-plugin')
+const CopyPlugin = require('copy-webpack-plugin')
 
 const webpack = require('webpack')
 const path = require('path')
@@ -13,8 +14,8 @@ module.exports = {
   },
   output: {
     filename: '[name].js',
-    path: path.resolve(__dirname, 'docs'),
-    clean: true
+    path: path.resolve(__dirname, 'docs')
+    // clean: true
   },
   module: {
     rules: [
@@ -75,6 +76,10 @@ module.exports = {
       chunkFilename: '[id].css'
     }),
 
+    new CopyPlugin({
+      patterns: [{ from: 'src/share', to: 'share' }]
+    }),
+
     // Landing page
     new HtmlWebpackPlugin({
       hash: true,
@@ -84,12 +89,21 @@ module.exports = {
       // chunks: ['index']
     }),
 
-    // Internal pages
+    // Internal page
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
       template: './src/pages/page.html',
       filename: './pages/page.html'
+      // chunks: ['page']
+    }),
+
+    // Stylegide page
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/pages/stylegide.html',
+      filename: './pages/stylegide.html'
       // chunks: ['page']
     }),
 
