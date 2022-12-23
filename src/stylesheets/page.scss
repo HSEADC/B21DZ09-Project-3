@@ -305,51 +305,51 @@ body.page {
       z-index: 5;
     }
   }
-}
 
-input {
-  all: unset;
-  border: none;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  box-shadow: none;
-  background: none;
-  border: 0px;
-  border-bottom: 0.156vw solid white;
-  width: 640px;
-  color: var(---unhoverlink);
-  font-family: 'Aeonik Pro';
-  text-transform: lowercase;
-  font-size: 35px;
-  padding: 0vw 0vw 1vw 0.2vw;
-}
+  input {
+    all: unset;
+    border: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    background: none;
+    border: 0px;
+    border-bottom: 0.156vw solid white;
+    width: 640px;
+    color: var(---unhoverlink);
+    font-family: 'Aeonik Pro';
+    text-transform: lowercase;
+    font-size: 35px;
+    padding: 0vw 0vw 1vw 0.2vw;
+  }
 
-form {
-  display: flex;
-  position: relative;
-  flex-direction: column;
-  width: 640px;
-  margin: 2vw 0vw 0vw 0vw;
-}
+  form {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 640px;
+    margin: 2vw 0vw 0vw 0vw;
+  }
 
-button {
-  display: block;
-  position: relative;
-  margin: 3.12vw 0vw 0vw 0vw;
-  width: 13.542vw;
-  height: 3.021vw;
-  border: none;
-  border-radius: 2.083vw;
-  background-color: var(--cream);
-  color: var(--orange);
-  font-size: 35px;
-  font-family: 'Aeonik Pro';
-  text-transform: lowercase;
-  transition: 0.4s;
+  button {
+    display: block;
+    position: relative;
+    margin: 3.12vw 0vw 0vw 0vw;
+    width: 13.542vw;
+    height: 3.021vw;
+    border: none;
+    border-radius: 2.083vw;
+    background-color: var(--cream);
+    color: var(--orange);
+    font-size: 35px;
+    font-family: 'Aeonik Pro';
+    text-transform: lowercase;
+    transition: 0.4s;
 
-  &:hover {
-    background-color: var(--unhoverlink);
-    cursor: pointer;
+    &:hover {
+      background-color: var(--unhoverlink);
+      cursor: pointer;
+    }
   }
 }
 
