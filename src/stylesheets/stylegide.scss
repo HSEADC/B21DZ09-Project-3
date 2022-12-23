@@ -2,7 +2,7 @@ body.stylegide {
   background-color: var(--cream);
   color: var(--black);
   font-size: 2.604vw;
-  line-height: 59px;
+  line-height: 3.073vw;
   height: 200vw;
   font-family: 'Vela Sans', Helvetica, Arial, sans-serif;
   font-weight: 500;
@@ -29,41 +29,31 @@ body.stylegide {
   }
 
   footer {
-    margin-top: 9.625vw;
+    margin-top: 16.625vw;
     height: 20vh;
     background: no-repeat top/cover url('./images/footerbackground.svg');
   }
 
   .self {
-    width: 47.656vw;
-    height: 18.906vw;
+    width: 43.646vw;
+    height: 17.575vw;
     background: no-repeat top/100% url('./images/self.svg');
   }
 
-  .attention {
-    position: absolute;
-    top: 3.75vw;
-    left: 83.125vw;
-    width: 11.042vw;
-    height: 11.042vw;
-    background: no-repeat top/100% url('./images/attention.svg');
-    transform: rotate(-22deg);
-  }
-
-  .bigyellowsticker {
+  .bluelabel {
     display: flex;
     position: absolute;
-    top: 38vw;
-    left: 56.823vw;
-    width: 41.615vw;
-    height: 9.792vw;
-    background: no-repeat top/100% url('./images/bigyellowsticker.svg');
+    top: 35vw;
+    left: 54.823vw;
+    width: 21.875vw;
+    height: 5.833vw;
+    background: no-repeat top/100% url('./images/bluelabel.svg');
     transform: rotate(-17deg);
     align-items: center;
     justify-content: center;
 
     & p {
-      font-size: 5.417vw;
+      font-size: 2.708vw;
       font-weight: 600;
       color: var(--orange);
       text-transform: lowercase;
@@ -117,7 +107,7 @@ body.stylegide {
     }
 
     &#fortypost {
-      margin: -2.7vw 0vw -6vw 38vw;
+      margin: -2.7vw 0vw 0vw 38vw;
     }
   }
 
@@ -345,6 +335,20 @@ body.stylegide {
 
     &.photofull {
       width: 68.125vw;
+    }
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 1024px) {
+  body.stylegide {
+    section {
+      padding: 8.333vw 0vw 0vw 5vw;
+      &#about {
+        padding-top: 9.365vw;
+      }
+    }
+    .navcenter {
+      display: none;
     }
   }
 }
