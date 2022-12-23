@@ -6,6 +6,16 @@ body.landing {
   font-weight: 500;
   overflow-x: hidden;
 
+  a {
+    text-decoration: none;
+    color: var(--cream);
+    }
+
+  a:hover {
+    opacity: 0.8;
+    cursor: pointer;
+    }
+
   section#about {
     width: 100vw;
     height: 130vw;
@@ -410,10 +420,6 @@ body.landing {
         justify-content: space-between;
         font-size: 1.25vw;
 
-      a {
-        text-decoration: none;
-        color: var(--cream);
-        }
       }
     }
   }
