@@ -81,6 +81,7 @@ body.stylegide {
 
   a {
     color: var(--black);
+    mix-blend-mode: difference;
     font-size: 1.250vw;
     line-height: 1.458vw;
     text-decoration: none;
