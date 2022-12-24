@@ -8,6 +8,31 @@
     <meta name="title" content="Стайлгайд — Self">
     <meta name="description" content="Построение айдентики медиа-сервиса Self">
     <analytics></analytics>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+      $(function () {
+        $("#logotype").click(function(){
+		    $(".logotypeanimation").css("animation-play-state","running");
+	        });
+
+        $("#bannergrid").click(function(){
+  		  $(".bannergrid").css("animation-play-state","running");
+  	      });
+
+        $("#postgrid").click(function(){
+    		$(".postgrid").css("animation-play-state","running");
+    	    });
+
+        $("#graphicslabel").click(function(){
+      	$(".label").css("animation-play-state","running");
+      	  });
+
+        $("#graphicsboxes").click(function(){
+        $(".boxes").css("animation-play-state","running");
+        	});
+      });
+    </script>
   </head>
   <body class="stylegide">
     <header>
@@ -57,7 +82,7 @@
       <p>Логотип набран шрифтом Polite Type — простым по форме гротеском с яркими компенсаторами</p>
       <button id="logotype" type="button" name="button">Смотреть инструкцию <img id="arrow" src="../images/arrowmore.svg" alt=""></button>
       <div class="logotypeanimation">
-        <img id="logoanimation" src="../images/logoanimationcover.svg" alt="">
+        <!-- <img id="logoanimation" src="../images/logoanimationcover.svg" alt=""> -->
       </div>
       <p>Не допустимо сжатие и поворот логотипа</p>
       <img id="distortlogo" src="../images/distortlogotype.svg" alt="">
@@ -127,14 +152,16 @@
       </div>
       <p>Вытянутый формат: 16 колонок</p>
       <button id="bannergrid" type="button" name="button">Смотреть инструкцию <img id="arrow" src="../images/arrowmore.svg" alt=""></button>
-      <img id="bannergrid" src="../images/bannergrid.svg" alt="">
-      <p class="smalltext" id="fortybanner">40</p>
-      <p class="smalltext" id="twentyonebanner">21</p>
+      <div class="bannergrid"></div>
+      <!-- <img id="bannergrid" src="../images/bannergrid.svg" alt=""> -->
+      <!-- <p class="smalltext" id="fortybanner">40</p>
+      <p class="smalltext" id="twentyonebanner">21</p> -->
       <p>Квадратный формат: 8 колонок</p>
       <button id="postgrid" type="button" name="button">Смотреть инструкцию <img id="arrow" src="../images/arrowmore.svg" alt=""></button>
-      <img id="postgrid" src="../images/postgrid.svg" alt="">
-      <p class="smalltext" id="twentyonepost">21</p>
-      <p class="smalltext" id="fortypost">40</p>
+      <div class="postgrid"></div>
+      <!-- <img id="postgrid" src="../images/postgrid.svg" alt=""> -->
+      <!-- <p class="smalltext" id="twentyonepost">21</p>
+      <p class="smalltext" id="fortypost">40</p> -->
     </section>
     <section id="photos">
       <div class="heading">
@@ -163,10 +190,12 @@
       <img id="roundsticker" src="../images/roundsticker.svg" alt="">
       <p>Прямоугольные стикеры. Работают по отдельности и единой полосой</p>
       <button id="graphicslabel" type="button" name="button">Смотреть инструкцию <img id="arrow" src="../images/arrowmore.svg" alt=""></button>
-      <img id="label" src="../images/label.svg" alt="">
+      <div class="label"></div>
+      <!-- <img id="label" src="../images/label.svg" alt=""> -->
       <p>Типовые развёртки коробок</p>
       <button id="graphicsboxes" type="button" name="button">Смотреть инструкцию <img id="arrow" src="../images/arrowmore.svg" alt=""></button>
-      <img id="boxes" src="../images/boxes.svg" alt="">
+      <div class="boxes"></div>
+      <!-- <img id="boxes" src="../images/boxes.svg" alt=""> -->
       <p>Акцентные развёртки коробок</p>
       <img id="altboxes" src="../images/altboxes.svg" alt="">
     </section>
