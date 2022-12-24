@@ -1,8 +1,963 @@
 body.index {
-  background: var(--white);
-  color: var(--black);
+  background: no-repeat top/100% url('./images/fon.png');
+  background-color: var(--orange);
+  color: var(--cream);
+  font-size: 35px;
+  line-height: 40px;
 
   h1 {
-    padding: 2vw 0vw 0vw 2vw;
+    font-size: 512px;
+    line-height: 589px;
+    letter-spacing: 5px;
+    margin: -42px 0px 0px 56px;
+  }
+
+  h3 {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 840px;
+    font-size: 64px;
+    line-height: 63px;
+    text-align: center;
+  }
+
+  footer {
+    display: flex;
+    padding: 0px 75px 0px 75px;
+    position: block;
+    height: 9.271vw;
+    background-color: var(--cream);
+    color: var(--orange);
+    justify-content: space-between;
+    align-items: center;
+
+    p {
+      font-size: 20px;
+      line-height: 27px;
+      letter-spacing: 0.01vw;
+      text-transform: lowercase;
+
+      &.we {
+        margin: 0vw 0vw 0vw 2.8vw;
+      }
+      &.we-a {
+        display: none;
+      }
+    }
+
+    span {
+      &.and {
+        display: inline;
+        font-weight: 300;
+        margin: 0vw 1.23vw 0vw 1.23vw;
+      }
+    }
+
+    .biglogotype {
+      display: block;
+      position: relative;
+      margin: 0vw 0vw 0vw 0vw;
+      width: 8.323vw;
+      height: 3.551vw;
+      background: no-repeat center/100% url('./images/bigorangelogotype.svg');
+    }
+
+    .sashaportfolio {
+      display: block;
+      position: relative;
+      margin-left: auto;
+      width: 4.099vw;
+      height: 4.099vw;
+      background: no-repeat center/100% url('./images/sashaportfolioborder.svg');
+    }
+
+    .ulyanaportfolio {
+      display: block;
+      position: relative;
+      margin: 0vw 0vw 0vw -0.75vw;
+      width: 4.099vw;
+      height: 4.099vw;
+      background: no-repeat center/100%
+        url('./images/ulyanaportfolioborder.svg');
+    }
+
+    .dimaportfolio {
+      display: block;
+      position: relative;
+      margin: 0vw 0vw 0vw -0.75vw;
+      width: 4.099vw;
+      height: 4.099vw;
+      background: no-repeat center/100% url('./images/dimaportfolioborder.svg');
+    }
+
+    .hselogo {
+      display: block;
+      position: relative;
+      margin: 0vw 0vw 0vw 1.6vw;
+      width: 9.323vw;
+      height: 3.67vw;
+      background: no-repeat center/100% url('./images/hseorangelogo.svg');
+    }
+  }
+
+  section {
+    display: block;
+    position: relative;
+
+    &.manwiththings {
+      padding: 0vw 0vw 5vw 0vw;
+    }
+
+    &.selfservie {
+      display: flex;
+      position: relative;
+      align-items: center;
+      justify-content: center;
+      height: 36vw;
+    }
+
+    &.mailcollector {
+      display: flex;
+      position: relative;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 34vw;
+    }
+  }
+
+  p {
+    text-transform: lowercase;
+    &.quote {
+      display: flex;
+      width: 480px;
+      margin: 12.1vw auto 0vw;
+      font-size: 70px;
+    }
+
+    &.whatsnext {
+      display: flex;
+      width: 480px;
+      margin: -0.2vw auto 0vw;
+    }
+
+    &#my-form-status {
+      margin: 0.6vw 0vw 0vw 0vw;
+      color: var(--unhoverlink);
+      line-height: 0.07vw;
+      letter-spacing: 0.01vw;
+      font-size: 20px;
+    }
+  }
+
+  a {
+    text-transform: lowercase;
+    text-decoration: none;
+    letter-spacing: 0.018vw;
+    transition: 0.4s;
+    font-size: 35px;
+
+    &.aboutpage {
+      display: block;
+      position: relative;
+      margin-right: auto;
+      margin-top: -0.36vw;
+      color: var(--unhoverlink);
+
+      &:hover {
+        color: var(--cream);
+      }
+    }
+  }
+
+  .navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 39px 75px 0vw 75px;
+
+    .logotype {
+      display: block;
+      position: relative;
+      margin: 0vw 40px 0vw 0vw;
+      width: 42px;
+      height: 42px;
+      background: no-repeat center/100% url('./images/creamlogotype.svg');
+    }
+
+    .vk {
+      display: block;
+      position: relative;
+      width: 54px;
+      height: 35px;
+      background: no-repeat center/100% url('./images/creamvk.svg');
+    }
+
+    .telegram {
+      display: block;
+      position: relative;
+      margin: 0vw 0vw 0vw 33px;
+      width: 44px;
+      height: 41px;
+      background: no-repeat center/100% url('./images/creamtg.svg');
+    }
+
+    .dzen {
+      display: block;
+      position: relative;
+      margin: 0vw 0vw 0vw 43px;
+      width: 44px;
+      height: 44px;
+      background: no-repeat center/100% url('./images/creamdzen.svg');
+    }
+  }
+
+  .follow {
+    width: 640px;
+  }
+
+  .image {
+    display: block;
+    position: relative;
+
+    &#anotherthings {
+      position: sticky;
+      top: 10vw;
+      margin: -16.3vw auto 0vw;
+      width: 89.635vw;
+      height: 38.958vw;
+    }
+
+    &#holod {
+      top: 6.4vw;
+      width: 14.58vw;
+      height: 28.9vw;
+      background: no-repeat center/100% url('./images/holod.png');
+    }
+
+    &#okno {
+      top: -17vw;
+      left: 20.8vw;
+      width: 19.12vw;
+      height: 21.25vw;
+      background: no-repeat center/100% url('./images/okno.png');
+    }
+
+    &#shkaf {
+      top: -50.1vw;
+      left: 53vw;
+      width: 24.0625vw;
+      height: 33.54vw;
+      background: no-repeat center/100% url('./images/shkaf.png');
+    }
+
+    &#plita {
+      top: -61vw;
+      left: 56.8vw;
+      width: 16.04vw;
+      height: 16.35vw;
+      background: no-repeat center/100% url('./images/plita.png');
+    }
+
+    &#stirka {
+      top: -81.6vw;
+      left: 79.3vw;
+      width: 10.4vw;
+      height: 14.17vw;
+      background: no-repeat center/100% url('./images/stirka.png');
+    }
+
+    &#battteryandhoover {
+      position: sticky;
+      top: 30vw;
+      margin: -19.2vw auto -5vw;
+      width: 89.635vw;
+      height: 18.229vw;
+      z-index: 10;
+    }
+
+    &#batareya {
+      top: 9vw;
+      left: 11.4vw;
+      width: 14.11vw;
+      height: 9.17vw;
+      background: no-repeat center/100% url('./images/batareya.png');
+    }
+
+    &#pilesos {
+      top: -9vw;
+      left: 32.6vw;
+      width: 17.08vw;
+      height: 18.02vw;
+      background: no-repeat center/100% url('./images/pilesos.png');
+    }
+
+    &#shape1_man {
+      background-image: url('images/shape1_man.png');
+      margin: 43.7vw 0vw 0vw 25.55vw;
+      width: 24.323vw;
+      height: 18.438vw;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100% auto;
+      z-index: 5;
+    }
+  }
+
+  input {
+    all: unset;
+    border: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    background: none;
+    border: 0px;
+    border-bottom: 0.156vw solid white;
+    width: 640px;
+    color: var(---unhoverlink);
+    font-family: 'Aeonik Pro';
+    text-transform: lowercase;
+    font-size: 35px;
+    padding: 0vw 0vw 1vw 0.2vw;
+  }
+
+  form {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 640px;
+    margin: 2vw 0vw 0vw 0vw;
+  }
+
+  button {
+    display: block;
+    position: relative;
+    margin: 3.12vw 0vw 0vw 0vw;
+    width: 13.542vw;
+    height: 3.021vw;
+    border: none;
+    border-radius: 2.083vw;
+    background-color: var(--cream);
+    color: var(--orange);
+    font-size: 35px;
+    font-family: 'Aeonik Pro';
+    text-transform: lowercase;
+    transition: 0.4s;
+
+    &:hover {
+      background-color: var(--unhoverlink);
+      cursor: pointer;
+    }
+  }
+}
+
+@media only screen and (min-width: 1195px) and (max-width: 1536px) {
+  body.page {
+    font-size: 29px;
+    line-height: 34px;
+    .navigation {
+      .logotype {margin: 0vw 34px 0vw 0vw; width: 35px; height: 35px;}
+      .vk {width: 44px; height: 28px;}
+      .telegram {margin: 0vw 0vw 0vw 27px; width: 31px; height: 29px;}
+      .dzen {margin: 0vw 0vw 0vw 35px; width: 31px; height: 31px;}
+    }
+    a {
+      font-size: 29px;
+    }
+    h1 {
+      font-size: 426px;
+      line-height: 490px;
+      letter-spacing: 4px;
+      margin: -34px 0px 0px 56px;
+    }
+    h3 {
+      width: 830px;
+      font-size: 53px;
+      line-height: 61px;
+    }
+    a{
+      &.aboutpage {font-size: 29px;}
+    }
+    p {
+      &.whatsnext {
+        width: 390px;
+      }
+      &.quote {
+        width: 390px;
+        font-size: 58px;
+      }
+    }
+    .follow {
+      width: 525px;
+    }
+    input {
+      width: 525px;
+      font-size: 29px;
+    }
+    form {
+      width: 525px;
+    }
+    button {
+      font-size: 29px;
+    }
+    footer {
+      p {
+        font-size: 16px;
+        line-height: 21px;
+      }
+    }
+    .image {
+      &#battteryandhoover {
+        top: 43vw;
+        height: 21.229vw;
+      }
+      &#anotherthings {
+        top: 21.2vw;
+        width: 87.23vw;
+        height: 43.95vw;
+      }
+      &#holod {
+        top: 3.6vw;
+        width: 16.449vw;
+        height: 32.6vw;
+      }
+      &#okno {
+        top: -22.9vw;
+        left: 23.6vw;
+        width: 21.56vw;
+        height: 24vw;
+      }
+      &#shkaf {
+        top: -60.1vw;
+        left: 59.8vw;
+        width: 27.14vw;
+        height: 37.84vw;
+      }
+      &#plita {
+        top: -72.6vw;
+        left: 64.1vw;
+        width: 18.09vw;
+        height: 18.45vw;
+      }
+      &#stirka {
+        display: none;
+      }
+      &#batareya {
+        top: 7.9vw;
+        left: 14.2vw;
+        width: 15.95vw;
+        height: 10.35vw;
+      }
+      &#pilesos {
+        top: -12.4vw;
+        left: 38.1vw;
+        width: 19.53vw;
+        height: 20.50vw;
+      }
+      &#shape1_man {
+        margin: 43.7vw 0vw 0vw 25.55vw;
+        width: 28.71vw;
+        height: 22.49vw;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 835px) and (max-width: 1194px) and (orientation: landscape) {
+  body.page {
+    font-size: 25px;
+    line-height: 30px;
+    .navigation {
+      padding: 39px 40px 0vw 40px;
+      .logotype {margin: 0vw 29px 0vw 0vw; width: 31px; height: 31px;}
+      .vk {width: 38px; height: 25px;}
+      .telegram {margin: 0vw 0vw 0vw 23px; width: 36px; height: 34px;}
+      .dzen {margin: 0vw 0vw 0vw 30px; width: 36px; height: 36px;}
+    }
+    a {
+      font-size: 25px;
+    }
+    h1 {
+    font-size: 350px;
+    line-height: 402px;
+    letter-spacing: 3px;
+    margin: -11px 0px 0px 25px;
+    }
+    h3 {
+      width: 730px;
+      font-size: 47px;
+      line-height: 54px;
+    }
+    p {
+      &.whatsnext {
+        width: 345px;
+      }
+      &.quote {
+        width: 345px;
+        font-size: 51px;
+      }
+    }
+    .follow {
+      width: 460px;
+    }
+    input {
+      width: 460px;
+      font-size: 25px;
+    }
+    form {
+      width: 460px;
+    }
+    button {
+      font-size: 25px;
+    }
+    footer {
+      padding: 0px 40px 0px 40px;
+      p {
+        font-size: 14px;
+        line-height: 18px;
+      }
+    }
+    .image {
+      &#anotherthings {
+        top: 21.2vw;
+        width: 87.23vw;
+        height: 43.95vw;
+      }
+      &#battteryandhoover {
+        top: 46vw;
+        height: 21.229vw;
+      }
+      &#holod {
+        display: none;
+      }
+      &#okno {
+        top: 11.4vw;
+        left: 12.3vw;
+        width: 25.2vw;
+        height: 28vw;
+      }
+      &#shkaf {
+        top: -32.2vw;
+        left: 54.4vw;
+        width: 31.82vw;
+        height: 44.36vw;
+      }
+      &#plita {
+        top: -46.8vw;
+        left: 59.6vw;
+        width: 21.21vw;
+        height: 21.63vw;
+      }
+      &#stirka {
+        display: none;
+      }
+      &#batareya {
+        top: 8.9vw;
+        left: 1.3vw;
+        width: 18.67vw;
+        height: 12.06vw;
+      }
+      &#pilesos {
+        top: -14.8vw;
+        left: 29vw;
+        width: 22.78vw;
+        height: 24.03vw;
+      }
+      &#shape1_man {
+        margin: 43.7vw 0vw 0vw 16.55vw;
+        width: 32vw;
+        height: 24.12vw;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 835px) and (max-width: 1194px) and (orientation: portrait) {
+  body.page {
+    font-size: 25px;
+    line-height: 30px;
+    .navigation {
+      padding: 39px 40px 0vw 40px;
+      .logotype {margin: 0vw 29px 0vw 0vw; width: 31px; height: 31px;}
+      .vk {width: 38px; height: 25px;}
+      .telegram {margin: 0vw 0vw 0vw 23px; width: 36px; height: 34px;}
+      .dzen {margin: 0vw 0vw 0vw 30px; width: 36px; height: 36px;}
+    }
+    a {
+      font-size: 25px;
+    }
+    h1 {
+      font-size: 350px;
+      line-height: 402px;
+      letter-spacing: 3px;
+      margin: -11px 0px 0px 25px;
+    }
+    h3 {
+      width: 730px;
+      font-size: 47px;
+      line-height: 54px;
+    }
+    p {
+      &.whatsnext {
+        width: 345px;
+      }
+      &.quote {
+        width: 345px;
+        font-size: 51px;
+      }
+    }
+    .follow {
+      width: 460px;
+    }
+    input {
+      width: 460px;
+      font-size: 25px;
+    }
+    form {
+      width: 460px;
+    }
+    button {
+      font-size: 25px;
+    }
+    footer {
+      padding: 0px 40px 0px 40px;
+      p {
+        font-size: 14px;
+        line-height: 18px;
+      }
+    }
+    .image {
+      &#anotherthings {
+        top: 21.2vw;
+        width: 87.23vw;
+        height: 43.95vw;
+      }
+      &#battteryandhoover {
+        top: 45vw;
+        height: 22.229vw;
+      }
+      &#holod {
+        display: none;
+      }
+      &#okno {
+        top: 11.4vw;
+        left: 12.3vw;
+        width: 25.2vw;
+        height: 28vw;
+      }
+      &#shkaf {
+        top: -32.2vw;
+        left: 54.4vw;
+        width: 31.82vw;
+        height: 44.36vw;
+      }
+      &#plita {
+        top: -46.8vw;
+        left: 59.6vw;
+        width: 21.21vw;
+        height: 21.63vw;
+      }
+      &#stirka {
+        display: none;
+      }
+      &#batareya {
+        top: 8.9vw;
+        left: 1.3vw;
+        width: 18.67vw;
+        height: 12.06vw;
+      }
+      &#pilesos {
+        top: -14.8vw;
+        left: 29vw;
+        width: 22.78vw;
+        height: 24.03vw;
+      }
+      &#shape1_man {
+        margin: 43.7vw 0vw 0vw 16.55vw;
+        width: 32vw;
+        height: 24.12vw;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 429px) and (max-width: 834px) {
+  body.page {
+    background: no-repeat top/100% url('./images/fon-2.png');
+    font-size: 25px;
+    line-height: 30px;
+    .navigation {
+      padding: 39px 40px 0vw 40px;
+      .logotype {margin: 0vw 29px 0vw 0vw; width: 31px; height: 31px;}
+      .vk {width: 38px; height: 25px;}
+      .telegram {margin: 0vw 0vw 0vw 23px; width: 36px; height: 34px;}
+      .dzen {margin: 0vw 0vw 0vw 30px; width: 36px; height: 36px;}
+    }
+    section {
+      &.manwiththings {height: 390vw;}
+      &.mailcollector {height: 96vw;}
+    }
+    a {
+      font-size: 25px;
+    }
+    h1 {
+      font-size: 285px;
+      line-height: 328px;
+      letter-spacing: 3px;
+      margin: 0px 0px 0px 28px;
+    }
+    h3 {
+      width: 680px;
+      font-size: 47px;
+      line-height: 54px;
+    }
+    p {
+      &.whatsnext {
+        width: 345px;
+      }
+      &.quote {
+        width: 345px;
+        font-size: 51px;
+        margin: 20vw auto 0vw;
+      }
+    }
+    .follow {
+      width: 460px;
+    }
+    input {
+      width: 460px;
+      font-size: 25px;
+    }
+    form {
+      width: 460px;
+    }
+    button {
+      font-size: 25px;
+      width: 16.542vw;
+      height: 4.021vw;
+    }
+    footer {
+      padding: 0px 40px 0px 40px;
+      p {
+        font-size: 16px;
+        line-height: 17px;
+        &.we {
+          display: none;
+        }
+        &.we-a {
+          display: block;
+          margin: 0vw 0vw 0vw 2.8vw;
+        }
+      }
+      .sashaportfolio {
+        width: 6.420vw;
+        height: 6.420vw;
+      }
+      .ulyanaportfolio {
+        width: 6.420vw;
+        height: 6.420vw;
+      }
+      .dimaportfolio {
+        width: 6.420vw;
+        height: 6.420vw;
+      }
+      .hselogo {
+        margin: 0vw 0vw 0vw 3.333vw;
+        width: 14.321vw;
+        height: 5.802vw;
+      }
+      .biglogotype {
+        width: 9.877vw;
+        height: 4.321vw;
+      }
+    }
+    .image {
+      &#anotherthings {
+        top: 21.2vw;
+        width: 100vw;
+        height: 101.805vw;
+      }
+      &#battteryandhoover {
+        top: 104vw;
+        height: 23.229vw;
+      }
+      &#holod {
+        display: none;
+      }
+      &#okno {
+        top: 49.2vw;
+        left: -8vw;
+        width: 42.48vw;
+        height: 47.266vw;
+      }
+      &#shkaf {
+        top: -25.2vw;
+        left: 43vw;
+        width: 53.771vw;
+        height: 74.902vw;
+      }
+      &#plita {
+        display: none;
+      }
+      &#stirka {
+        display: none;
+      }
+      &#batareya {
+        display: none;
+      }
+      &#pilesos {
+        top: -13.6vw;
+        left: 13vw;
+        width: 38.184vw;
+        height: 40.234vw;
+      }
+      &#shape1_man {
+        margin: 170vw 0vw 0vw -9.45vw;
+        width: 56.055vw;
+        height: 42.383vw;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 428px) {
+  body.page {
+    background: no-repeat top/100% url('./images/fon-2.png');
+    font-size: 18px;
+    line-height: 20px;
+    .navigation {
+      padding: 22px 16px 0vw 16px;
+      .logotype {margin: 0vw 16px 0vw 0vw; width: 26px; height: 26px;}
+      .vk {width: 32px; height: 20px;}
+      .telegram {margin: 0vw 0vw 0vw 17px; width: 28px; height: 26px;}
+      .dzen {margin: 0vw 0vw 0vw 19px; width: 26px; height: 26px;}
+    }
+    section {
+      &.manwiththings {height: 481vw;}
+      &.mailcollector {height: 103vw;}
+    }
+    a {
+      font-size: 18px;
+    }
+    h1 {
+      font-size: 186px;
+      line-height: 214px;
+      letter-spacing: 2px;
+      margin: 22px 0px 0px 9px;
+    }
+    h3 {
+      width: 328px;
+      font-size: 28px;
+      line-height: 32px;
+    }
+    p {
+      &.whatsnext {
+        width: 240px;
+      }
+      &.quote {
+        width: 240px;
+        font-size: 36px;
+      }
+    }
+    .follow {
+      width: 328px;
+    }
+    input {
+      width: 328px;
+      font-size: 18px;
+    }
+    form {
+      width: 328px;
+    }
+    button {
+      width: 24.542vw;
+      height: 5.6vw;
+      border-radius: 10vw;
+      font-size: 18px;
+    }
+    footer {
+      padding: 0px 42px 0px 42px;
+      height: 13.271vw;
+      p {
+        font-size: 9px;
+        line-height: 9px;
+        &.we {
+          display: none;
+        }
+        &.we-a {
+          font-size: 9px;
+          line-height: 9px;
+          display: block;
+          margin: 0vw 0vw 0vw 2.8vw;
+        }
+      }
+      .sashaportfolio {
+        display: none;
+      }
+      .ulyanaportfolio {
+        display: none;
+      }
+      .dimaportfolio {
+        display: none;
+      }
+      .hselogo {
+        width: 14.486vw;
+        height: 5.607vw;
+        margin-left: auto;
+      }
+      .biglogotype {
+        width: 13.318vw;
+        height: 5.607vw;
+      }
+    }
+    .image {
+      &#anotherthings {
+        top: 21.2vw;
+        width: 100vw;
+        height: 129.805vw;
+      }
+      &#battteryandhoover {
+        top: 139vw;
+        height: 26.229vw;
+      }
+      &#holod {
+        display: none;
+      }
+      &#okno {
+        top: 46.2vw;
+        left: -14vw;
+        width: 73.383vw;
+        height: 82.813vw;
+      }
+      &#shkaf {
+        top: -82vw;
+        left: 75vw;
+        width: 24.766vw;
+        height: 132.944vw;
+        background: no-repeat left/387% url('./images/shkaf.png');
+      }
+      &#plita {
+        display: none;
+      }
+      &#stirka {
+        display: none;
+      }
+      &#batareya {
+        display: none;
+      }
+      &#pilesos {
+        top: -40vw;
+        left: 19vw;
+        width: 67.028vw;
+        height: 77.963vw;
+      }
+      &#shape1_man {
+        margin: 140vw 0vw 24vw -33.45vw;
+        width: 96.262vw;
+        height: 72.897vw;
+      }
+    }
   }
 }
