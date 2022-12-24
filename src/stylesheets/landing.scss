@@ -20,6 +20,7 @@ body.landing {
     width: 100vw;
     height: 130vw;
     position: relative;
+    overflow-x: hidden;
 
     .block-about {
       width: 100vw;
@@ -62,6 +63,7 @@ body.landing {
         left: 0vw;
         background: no-repeat top/100% url('./images/landing/running-text.png');
         animation: animat 12s linear infinite;
+        overflow-x: hidden;
       }
       @keyframes animat {0% {left: 0;} 100% {left: -180vw;}}
 
@@ -99,11 +101,18 @@ body.landing {
       left: 33.2vw;
     }
 
+    p.podskaz {
+      font-size: 1.250vw;
+      position: relative;
+      top: -21vw;
+      left: 43vw;
+    }
+
     .kartochki {
       width: 100vw;
       height: 37vw;
       position: relative;
-      top: 16.9vw;
+      top: 20.9vw;
       left: -0.5vw;
       display: flex;
       flex-direction: row;
@@ -392,6 +401,11 @@ body.landing {
       font-size: 1.250vw;
       font-weight: 500;
       background-color: var(--orange);
+
+      #arrow {
+        width: 1.7vw;
+        height: 1.7vw;
+      }
     }
 
     // меню
