@@ -107,6 +107,15 @@ module.exports = {
       // chunks: ['page']
     }),
 
+    // Landing page
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/pages/landing.html',
+      filename: './pages/landing.html'
+      // chunks: ['page']
+    }),
+
     // About page
     new HtmlWebpackPlugin({
       hash: true,
