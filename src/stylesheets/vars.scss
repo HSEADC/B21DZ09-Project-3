@@ -10,7 +10,6 @@
 }
 
 body.page,
-.index,
 .art1,
 .instr1,
 .quest1,
@@ -76,6 +75,14 @@ body.page,
     }
   }
 
+  .instructionspage {
+    margin-right: 2.5vw;
+  }
+
+  .articlespage {
+    margin-right: 2.5vw;
+  }
+
   input {
     width: 28.125vw;
     height: 2.604vw;
@@ -89,6 +96,7 @@ body.page,
   a {
     text-decoration: none;
     &.logotype {
+      margin: 0 auto;
       display: block;
       width: 5.208vw;
       height: 2.083vw;
@@ -193,6 +201,24 @@ body.page,
     border-radius: 2.083vw;
   }
 
+  blockquote {
+    margin: 3.125vw 0vw 3.125vw 0vw;
+    padding: 1.563vw 5.521vw 1.563vw 5.521vw;
+    font-size: 2.5vw;
+    line-height: 3.375vw;
+    width: 63.438vw;
+    box-sizing: border-box;
+
+    &.yellow {
+      background-color: var(--yellow);
+      margin-bottom: 0vw;
+    }
+
+    &.blue {
+      background-color: var(--blue);
+    }
+  }
+
   img {
     &.twoimgarticle {
       display: flex;
@@ -211,6 +237,10 @@ body.page,
       margin: 3.125vw 0vw 3.125vw 0vw;
     }
 
+    &.imgfirst {
+      margin: 2.083vw 0vw 0vw 0vw;
+    }
+
     &.imgbetweenhandp {
       margin: 2.083vw 0vw 3.125vw 0vw;
     }
@@ -218,7 +248,6 @@ body.page,
     &.smallarticleimg {
       width: 31.094vw;
       height: 22.292vw;
-      background-color: var(--black);
       border-radius: 1.563vw;
     }
 
@@ -300,13 +329,7 @@ body.page,
     margin: 1.042vw 0vw 0vw 0vw;
     flex-direction: row;
     column-gap: 2.5vw;
-  }
-
-  footer {
-    display: block;
-    width: 100vw;
-    height: 14.583vw;
-    background-color: var(--blue);
+    align-items: center;
   }
 
   // // Оформление текстовых ссылок для всех страниц сайта
@@ -330,9 +353,6 @@ body.page,
   //     // column-gap: 2.5vw;
   //     // align-items: center;
   //
-  //     .instructionspage {
-  //       margin: 0vw 0vw 0vw 0.8vw;
-  //     }
   //
   //     .questionspage {
   //       margin: 0vw auto 0vw 0vw;
