@@ -107,12 +107,12 @@ module.exports = {
       // chunks: ['page']
     }),
 
-    // Landing page
+    // Promo page
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
-      template: './src/pages/landing.html',
-      filename: './pages/landing.html'
+      template: './src/pages/promo.html',
+      filename: './pages/promo.html'
       // chunks: ['page']
     }),
 
