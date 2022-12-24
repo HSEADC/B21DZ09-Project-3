@@ -9,179 +9,279 @@
   --unhoverlink: #ffa87a;
 }
 
-body.index,
+body.page,
+.index,
 .art1,
 .instr1,
 .quest1,
 .instructions,
 .articles,
 .questions {
-  font-family: 'Inter', serif;
-  font-weight: 400;
-  color: black;
-  padding: 0vw 1.927vw;
-  font-size: 1.823vw;
-  line-height: 2.5vw;
+  display: flex;
+  flex-direction: column;
+  margin: 0vw 2.083vw 0vw 2.083vw;
+  font-family: 'Vela Sans', serif;
+  font-weight: 500;
+  color: var(--black);
+  font-size: 1.458vw;
+  line-height: 2.115vw;
+  background-color: var(--cream);
 
   // Заголовок первого уровня для всех страниц сайта
   h1 {
-    font-size: 3.333vw;
-    line-height: 4.01vw;
-    width: 52.865vw;
+    font-size: 2.604vw;
+    line-height: 3.542vw;
   }
 
   // Заголовок второго уровня для всех страниц сайта
   h2 {
     display: block;
     position: relative;
-    font-size: 2.083vw;
-    line-height: 2.5vw;
+    font-size: 2.344vw;
+    line-height: 2.695vw;
+  }
 
-    &.h2insidebox {
-      margin: 1.563vw 0vw 0vw 1.979vw;
-    }
+  nav {
+    display: flex;
+    margin: 2.083vw 0vw 2.083vw 0vw;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--orange);
+    font-size: 1.250vw;
 
-    &.h2category {
-      margin: 0vw 0vw 0vw 0vw;
+    & a {
+      color: var(--orange);
+      font-weight: 600;
     }
   }
 
-  // Оформление текстовых ссылок для всех страниц сайта
+  input {
+    width: 28.125vw;
+    height: 2.604vw;
+    border: 0.104vw solid var(--orange);
+    border-radius: 2.083vw;
+    font-size: 1.250vw;
+    padding: 0.781vw;
+    background-color: var(--cream);
+  }
+
   a {
-    color: black;
     text-decoration: none;
-  }
-
-  // Оформление шапки для всех страниц сайта
-  header {
-    padding: 1.563vw 0vw 0vw 0vw;
-
-    // Оформление навигации для всех страниц сайта
-    .navigation {
-      display: flex;
-      position: relative;
-      font-size: 0.833vw;
-      line-height: 0.99vw;
-      column-gap: 2.5vw;
-      align-items: center;
-
-      .blacklogotype {
-        display: block;
-        position: relative;
-        width: 2.135vw;
-        height: 2.135vw;
-        background: no-repeat top/100% url('./images/blacklogotype.svg');
-      }
-
-      .instructionspage {
-        margin: 0vw 0vw 0vw 0.8vw;
-      }
-
-      .questionspage {
-        margin: 0vw auto 0vw 0vw;
-      }
-
-      input {
-        &.search {
-          display: block;
-          position: relative;
-          width: 23.594vw;
-          height: 2.135vw;
-          border-radius: 1.563vw;
-          border: 1px solid var(--black);
-          font-family: 'Inter';
-          text-transform: none;
-          font-size: 0.833vw;
-          padding: 0vw 0vw 0vw 0vw;
-        }
-      }
-    }
-
-    // Оформление части баннера для всех страниц сайта
-    .bannerhead {
+    &.logotype {
       display: block;
-      position: relative;
-      margin: 1.6vw 0vw 0vw 0vw;
-      width: 96.042vw;
-      height: 22.292vw;
-      border-radius: 1.563vw;
-      border: 1px solid var(--black);
+      width: 5.208vw;
+      height: 2.083vw;
+      background: no-repeat top/100% url('./images/logoanimationcover.svg');
     }
   }
 
-  section {
-    &.blocklinks {
-      display: flex;
-      position: relative;
-      flex-direction: row;
-      column-gap: 1.302vw;
-      margin: 1.354vw 0vw 0vw 0vw;
-    }
+  .bannerhead {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  width: 95.833vw;
+  height: 22.292vw;
+  background: no-repeat top/100% url('images/A_bannerhead.svg');
+}
 
-    &.categories {
-      display: flex;
-      flex-direction: row;
-      column-gap: 0.833vw;
-      margin: 1.354vw 0vw 0vw 0vw;
-    }
+.posthead {
+  display: flex;
+  box-sizing: border-box;
+  padding: 1.042vw;
+  width: 95.833vw;
+  height: 22.292vw;
+  background: no-repeat top/100% url(images/A_bannerhead.svg);
+  align-items: flex-end;
+}
+
+.categories {
+  margin: 2.083vw 0vw 2.083vw 0vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 0.521vw;
+  font-size: 0.938vw;
+}
+
+.a_smallhashtag {
+  display: flex;
+  padding: 0.521vw 1.25vw;
+  width: fit-content;
+  background-color: var(--cream);
+  border: 0.104vw solid var(--orange);
+  color: var(--orange);
+  border-radius: 1.563vw;
+  font-size: 0.833vw;
+  line-height: 0.99vw;
+}
+
+#fill {
+  background-color: var(--orange);
+  color: var(--cream);
+}
+
+img {
+  &#soon {
+    width: 13.958vw;
   }
+}
 
-  .morecard {
-    display: block;
-    position: relative;
-    width: 31.094vw;
-    height: 22.292vw;
-    border-radius: 1.563vw;
-    background-color: var(--white);
-    border: 1px solid var(--black);
+.a_categoriescard {
+  display: block;
+  padding: 1.042vw;
+  width: 31.094vw;
+  height: 23.438vw;
+  background-color: var(--cream);
+  border: 0.104vw solid var(--orange);
+  border-radius: 1.563vw;
+}
 
-    .crossarrow {
-      position: absolute;
-      width: 2.031vw;
-      height: 2.031vw;
-      top: 19.115vw;
-      left: 27.917vw;
-      background: no-repeat top/100% url('./images/crossarrow.svg');
-    }
-  }
+.a_cardnamelabel {
+  padding: 1.3vw 1.563vw 1.7vw;
+  width: fit-content;
+  background-color: var(--orange);
+  border: none;
+  outline-offset: -0.26vw;
+  outline: 0.521vw dotted var(--cream);
+  color: var(--cream);
+  font-size: 2.083vw;
+  font-weight: 400;
+  font-family: "Vela Sans";
+  line-height: 1vw;
+  text-transform: lowercase;
+}
 
-  .smallcard {
-    display: block;
-    position: relative;
-    width: 20.26vw;
-    height: 22.292vw;
-    border-radius: 1.563vw;
-    background-color: var(--white);
-    border: 1px solid var(--black);
-
-    .hashtagoncard {
-      position: absolute;
-      top: 19.115vw;
-      left: 1.146vw;
-    }
-  }
-
-  .whitesmallborderhashtag {
-    display: flex;
-    padding: 0.521vw 1.25vw;
-    width: fit-content;
-    background-color: var(--white);
-    border: 1px solid var(--black);
-    color: var(--black);
-    border-radius: 1.563vw;
-    font-size: 0.833vw;
-    line-height: 0.99vw;
-  }
-
-  .blacksmallborderhashtag {
-    display: flex;
-    padding: 0.521vw 1.25vw;
-    width: fit-content;
-    background-color: var(--black);
-    border: 1px solid var(--black);
-    color: var(--white);
-    border-radius: 1.563vw;
-    font-size: 0.833vw;
-    line-height: 0.99vw;
-  }
+  // // Оформление текстовых ссылок для всех страниц сайта
+  // a {
+  //   color: black;
+  //
+  // }
+  //
+  // // Оформление шапки для всех страниц сайта
+  // header {
+  //   padding: 1.563vw 0vw 0vw 0vw;
+  //
+  //   // Оформление навигации для всех страниц сайта
+  //
+  //
+  //   .navigation {
+  //     // display: flex;
+  //     // position: relative;
+  //     // font-size: 0.833vw;
+  //     // line-height: 0.99vw;
+  //     // column-gap: 2.5vw;
+  //     // align-items: center;
+  //
+  //     .instructionspage {
+  //       margin: 0vw 0vw 0vw 0.8vw;
+  //     }
+  //
+  //     .questionspage {
+  //       margin: 0vw auto 0vw 0vw;
+  //     }
+  //
+  //     input {
+  //       &.search {
+  //         display: block;
+  //         position: relative;
+  //         width: 23.594vw;
+  //         height: 2.135vw;
+  //         border-radius: 1.563vw;
+  //         border: 1px solid var(--black);
+  //         font-family: 'Inter';
+  //         text-transform: none;
+  //         font-size: 0.833vw;
+  //         padding: 0vw 0vw 0vw 0vw;
+  //       }
+  //     }
+  //   }
+  //
+  //   // Оформление части баннера для всех страниц сайта
+  //   .bannerhead {
+  //     display: block;
+  //     position: relative;
+  //     margin: 1.6vw 0vw 0vw 0vw;
+  //     width: 96.042vw;
+  //     height: 22.292vw;
+  //     border-radius: 1.563vw;
+  //     border: 1px solid var(--black);
+  //   }
+  // }
+  //
+  // section {
+  //   &.blocklinks {
+  //     display: flex;
+  //     position: relative;
+  //     flex-direction: row;
+  //     column-gap: 1.302vw;
+  //     margin: 1.354vw 0vw 0vw 0vw;
+  //   }
+  //
+  //   &.categories {
+  //     display: flex;
+  //     flex-direction: row;
+  //     column-gap: 0.833vw;
+  //     margin: 1.354vw 0vw 0vw 0vw;
+  //   }
+  // }
+  //
+  // .morecard {
+  //   display: block;
+  //   position: relative;
+  //   width: 31.094vw;
+  //   height: 22.292vw;
+  //   border-radius: 1.563vw;
+  //   background-color: var(--white);
+  //   border: 1px solid var(--black);
+  //
+  //   .crossarrow {
+  //     position: absolute;
+  //     width: 2.031vw;
+  //     height: 2.031vw;
+  //     top: 19.115vw;
+  //     left: 27.917vw;
+  //     background: no-repeat top/100% url('./images/crossarrow.svg');
+  //   }
+  // }
+  //
+  // .smallcard {
+  //   display: block;
+  //   position: relative;
+  //   width: 20.26vw;
+  //   height: 22.292vw;
+  //   border-radius: 1.563vw;
+  //   background-color: var(--white);
+  //   border: 1px solid var(--black);
+  //
+  //   .hashtagoncard {
+  //     position: absolute;
+  //     top: 19.115vw;
+  //     left: 1.146vw;
+  //   }
+  // }
+  //
+  // .whitesmallborderhashtag {
+  //   display: flex;
+  //   padding: 0.521vw 1.25vw;
+  //   width: fit-content;
+  //   background-color: var(--white);
+  //   border: 1px solid var(--black);
+  //   color: var(--black);
+  //   border-radius: 1.563vw;
+  //   font-size: 0.833vw;
+  //   line-height: 0.99vw;
+  // }
+  //
+  // .blacksmallborderhashtag {
+  //   display: flex;
+  //   padding: 0.521vw 1.25vw;
+  //   width: fit-content;
+  //   background-color: var(--black);
+  //   border: 1px solid var(--black);
+  //   color: var(--white);
+  //   border-radius: 1.563vw;
+  //   font-size: 0.833vw;
+  //   line-height: 0.99vw;
+  // }
 }
