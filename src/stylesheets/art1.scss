@@ -16,78 +16,10 @@ body.art1 {
     border-radius: 1.563vw;
   }
 
-  section {
-    &.articleblock {
-      display: flex;
-      position: relative;
-      flex-direction: column;
-      align-items: flex-start;
-      padding: 3.1vw 16.4vw 0vw;
-    }
-    &.blocklinks {
-      margin: 5.052vw 0vw 5.052vw 0vw;
-    }
-  }
-
-  h2 {
-    &.h2article {
-      margin: 3.125vw 0vw 0vw 5.3vw;
-    }
-  }
-
-  p {
-    font-size: 1.51vw;
-    line-height: 2.039vw;
-    padding: 1.354vw 0vw 0vw;
-
-    &.articletext {
-      padding: 1.354vw 5.3vw 0vw;
-    }
-
-    &.afterphoto {
-      padding: 3.125vw 5.3vw 0vw;
-    }
-
-    &.whitesmallhashtag {
-      display: flex;
-      position: relative;
-      padding: 0.521vw 1.25vw;
-      width: fit-content;
-      background-color: white;
-      color: black;
-      border-radius: 1.563vw;
-      font-size: 0.833vw;
-      line-height: 0.99vw;
-    }
-  }
-
   img {
-    &.bigarticleimg {
-      width: 63.438vw;
-      height: 22.292vw;
-      margin: 3.125vw 0vw 0vw;
-      background-color: var(--black);
-      border-radius: 1.563vw;
-    }
-
-    &.smallarticleimg {
-      width: 31.094vw;
-      height: 22.292vw;
-      background-color: var(--black);
-      border-radius: 1.563vw;
-    }
-
     &#firstimg {
       margin: 1.354vw 0vw 0vw 0vw;
     }
-  }
-
-  .twoimgarticle {
-    display: flex;
-    position: relative;
-    flex-direction: row;
-    column-gap: 1.302vw;
-    margin: 3.125vw 0vw 0vw 0vw;
   }
 
   .articlehead {
