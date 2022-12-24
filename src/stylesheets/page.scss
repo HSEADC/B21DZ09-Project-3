@@ -1,8 +1,6 @@
-body.index {
-  background: var(--white);
-  color: var(--black);
-
-  h1 {
-    padding: 2vw 0vw 0vw 2vw;
+body.page {
+  .instructionsblock {
+    display: flex;
+    column-gap: 1.302vw;
   }
 }
