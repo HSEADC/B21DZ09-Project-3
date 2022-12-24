@@ -6,6 +6,7 @@ body.stylegide {
   height: 200vw;
   font-family: 'Vela Sans', Helvetica, Arial, sans-serif;
   font-weight: 500;
+  overflow-x: hidden;
 
   h1 {
     font-size: 1.250vw;
@@ -119,6 +120,79 @@ body.stylegide {
       position: relative;
       padding-top: 13.542vw;
     }
+
+    &#graphics {
+      .label {
+        margin-top: 1vw;
+        margin-bottom: -7vw;
+        width: 45vw;
+        height: 20vw;
+        margin-left: -2.2vw;
+        animation: label 6s linear infinite paused;
+        background: no-repeat top/100% url('./images/animations/nakleiki-1.png');
+      }
+
+      @keyframes label {
+        0%, 11.5% {background: no-repeat top/100% url('./images/animations/nakleiki-1.png');}
+        12.5%, 24% {background: no-repeat top/100% url('./images/animations/nakleiki-2.png');}
+        25%, 36.5% {background: no-repeat top/100% url('./images/animations/nakleiki-3.png');}
+        37.5%, 49% {background: no-repeat top/100% url('./images/animations/nakleiki-4.png');}
+        50%, 61.5% {background: no-repeat top/100% url('./images/animations/nakleiki-5.png');}
+        62.5%, 74% {background: no-repeat top/100% url('./images/animations/nakleiki-6.png');}
+        75%, 86.5% {background: no-repeat top/100% url('./images/animations/nakleiki-7.png');}
+        87%, 100% {background: no-repeat top/100% url('./images/animations/nakleiki-8.png');}
+      }
+
+      .boxes {
+        margin-top: 2.5vw;
+        margin-bottom: -2vw;
+        width: 70vw;
+        height: 70vw;
+        margin-left: -0.6vw;
+        animation: boxes 3s linear infinite paused;
+        background: no-repeat top/100% url('./images/animations/razvert-1.png');
+      }
+
+      @keyframes boxes {
+        0%, 32% {background: no-repeat top/100% url('./images/animations/razvert-1.png');}
+        33%, 65% {background: no-repeat top/100% url('./images/animations/razvert-2.png');}
+        66%, 100% {background: no-repeat top/100% url('./images/animations/razvert-3.png');}
+      }
+    }
+
+    &#grid {
+        .bannergrid {
+          margin-top: 3vw;
+          margin-bottom: 2vw;
+          width: 68vw;
+          height: 40.1vw;
+          margin-left: -3.7vw;
+          animation: bunnergrid 4s linear infinite paused;
+          background: no-repeat top/100% url('./images/animations/grid-1.png');
+        }
+        @keyframes bunnergrid {
+          0%, 24% {background: no-repeat top/100% url('./images/animations/grid-1.png');}
+          25%, 49% {background: no-repeat top/100% url('./images/animations/grid-2.png');}
+          50%, 74% {background: no-repeat top/100% url('./images/animations/grid-3.png');}
+          75%, 100% {background: no-repeat top/100% url('./images/animations/grid-4.png');}
+        }
+
+        .postgrid {
+          margin-top: 3vw;
+          margin-bottom: 2vw;
+          width: 40vw;
+          height: 40vw;
+          margin-left: -0.4vw;
+          animation: postgrid 4s linear infinite paused;
+          background: no-repeat top/100% url('./images/animations/grid-2-1.png');
+        }
+        @keyframes postgrid {
+          0%, 24% {background: no-repeat top/100% url('./images/animations/grid-2-1.png');}
+          25%, 49% {background: no-repeat top/100% url('./images/animations/grid-2-2.png');}
+          50%, 74% {background: no-repeat top/100% url('./images/animations/grid-2-3.png');}
+          75%, 100% {background: no-repeat top/100% url('./images/animations/grid-2-4.png');}
+        }
+    }
   }
 
   .fontsbackgorund {
@@ -137,6 +211,11 @@ body.stylegide {
     font-size: 1.250vw;
     font-weight: 500;
     background-color: var(--cream);
+  }
+
+  button:hover {
+    opacity: 0.8;
+    cursor: pointer;
   }
 
   .heading {
@@ -163,9 +242,27 @@ body.stylegide {
     position: relative;
     align-items: center;
     justify-content: center;
-    width: 68.125vw;
-    height: 40.990vw;
+    // width: 68vw;
+    // height: 40.990vw;
+    margin-top: 5vw;
+    margin-bottom: -5vw;
+    width: 50vw;
+    height: 30vw;
+    padding: 20vw;
+    animation: animat-1 4s linear infinite paused;
+    background: no-repeat top/100% url('./images/animations/logo-1.png');
   }
+  @keyframes animat-1 {
+    0%, 10% {background: no-repeat top/100% url('./images/animations/logo-1.png');}
+    11%, 16% {background: no-repeat top/100% url('./images/animations/logo-2.png');}
+    17%, 22% {background: no-repeat top/100% url('./images/animations/logo-3.png');}
+    23%, 28% {background: no-repeat top/100% url('./images/animations/logo-4.png');}
+    29%, 34% {background: no-repeat top/100% url('./images/animations/logo-5.png');}
+    35%, 60% {background: no-repeat top/100% url('./images/animations/logo-6.png');}
+    61%, 79% {background: no-repeat top/100% url('./images/animations/logo-7.png');}
+    80%, 100% {background: no-repeat top/100% url('./images/animations/logo-8.png');}
+  }
+
 
   .colorcolumns {
     position: relative;
@@ -250,6 +347,7 @@ body.stylegide {
   .polite {
     font-family: 'Polite Type';
   }
+
 
   img {
     &#ourvalues {
