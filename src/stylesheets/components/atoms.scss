@@ -23,7 +23,38 @@
   background-size: 100%;
 }
 .A_LookMore {
+  text-decoration: none;
+  font-size: 0.94vw;
+  color: var(--black);
+}
+.A_LookMore_ScrollRight {
+  width: 1.2vw;
+  height: 1.2vw;
+  border-radius: 0.99vw;
+  margin-left: 0.8vw;
+  display: block;
+  background-image: url('../src/images/Q_ScrollRightCream.svg');
+  background-repeat: no-repeat;
+  background-position: left 0.25vw top 0.2vw;
+  background-size: 60%;
+  background-color: var(--orange);
+}
+.A_Avatar {
+}
+.A_SmallHashtag {
   display: flex;
-  flex-direction: row;
-  align-items: center;
+  padding: 0.521vw 1.25vw;
+  width: fit-content;
+  background-color: var(--cream);
+  border: 0.104vw solid var(--orange);
+  color: var(--orange);
+  border-radius: 1.563vw;
+  font-size: 0.833vw;
+  line-height: 0.99vw;
+}
+.A_Dot {
+  width: 0.78vw;
+  height: 0.78vw;
+  border-radius: 0.42vw;
+  border: 0.1vw var(--cream) solid;
 }
