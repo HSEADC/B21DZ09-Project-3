@@ -1,49 +1,56 @@
 .Q_ScrollRight {
-  width: 22px;
-  height: 22px;
+  width: 1.15vw;
+  height: 1.15vw;
   background-image: url('../src/images/Q_ScrollRight.svg');
   background-position: center;
   background-repeat: no-repeat;
 }
 .Q_ScrollLeft {
-  width: 22px;
-  height: 22px;
+  width: 1.15vw;
+  height: 1.15vw;
   background-image: url('../src/images/Q_ScrollLeft.svg');
   background-position: center;
   background-repeat: no-repeat;
 }
 .Q_ScrollUp {
-  width: 22px;
-  height: 22px;
+  width: 1.15vw;
+  height: 1.15vw;
   background-image: url('../src/images/Q_ScrollUp.svg');
   background-position: center;
   background-repeat: no-repeat;
 }
 .Q_ScrollDown {
-  width: 22px;
-  height: 22px;
+  width: 1.15vw;
+  height: 1.15vw;
   background-image: url('../src/images/Q_ScrollDown.svg');
   background-position: center;
   background-repeat: no-repeat;
 }
 .Q_Open {
-  width: 22px;
-  height: 22px;
+  width: 1.15vw;
+  height: 1.15vw;
   background-image: url('../src/images/Q_Open.svg');
   background-position: center;
   background-repeat: no-repeat;
 }
 .Q_Download {
-  width: 22px;
-  height: 22px;
+  width: 1.15vw;
+  height: 1.15vw;
   background-image: url('../src/images/Q_Download.svg');
   background-position: center;
   background-repeat: no-repeat;
 }
 .Q_Search {
-  width: 25px;
-  height: 26px;
+  width: 1.3vw;
+  height: 1.35vw;
   background-image: url('../src/images/Q_Search.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.Q_TriangleDown {
+  width: 0.68vw;
+  height: 0.73vw;
+  background-image: url('../src/images/Q_TriangleDown.svg');
   background-position: center;
   background-repeat: no-repeat;
 }
