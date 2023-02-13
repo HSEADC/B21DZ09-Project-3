@@ -1,9 +1,10 @@
 .A_MenuSearch {
-  width: 540px;
-  height: 50px;
-  border-radius: 40px;
-  border: 2px var(--orange) solid;
-  background-image: url('../../images/Q_Search.svg');
-  background-repeat: no-repeat;
+  width: 28.125vw;
+  height: 2.604vw;
+  border: 0.104vw solid var(--orange);
+  border-radius: 2.083vw;
+  font-size: 1.25vw;
+  padding: 0.781vw;
+  background-image: url('../src/images/Q_Search.svg');
   background-color: var(--cream);
 }
