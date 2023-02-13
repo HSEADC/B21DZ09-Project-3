@@ -54,3 +54,20 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+.Q_LookMore {
+  text-decoration: none;
+  font-size: 0.94vw;
+  color: var(--black);
+}
+.Q_LookMore_ScrollRight {
+  width: 1.2vw;
+  height: 1.2vw;
+  border-radius: 0.99vw;
+  margin-left: 0.8vw;
+  display: block;
+  background-image: url('../src/images/Q_ScrollRightCream.svg');
+  background-repeat: no-repeat;
+  background-position: left 0.25vw top 0.2vw;
+  background-size: 60%;
+  background-color: var(--orange);
+}
