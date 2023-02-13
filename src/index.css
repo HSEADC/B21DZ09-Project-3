@@ -10,5 +10,6 @@
 @import 'stylesheets/components/quarks.scss';
 @import 'stylesheets/components/atoms.scss';
 @import 'stylesheets/components/molecules.scss';
+@import 'stylesheets/components/collections.scss';
 @import 'stylesheets/components/organisms.scss';
 @import 'stylesheets/components/superorganisms.scss';
