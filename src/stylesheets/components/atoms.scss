@@ -1,4 +1,4 @@
-.A_MenuSearch {
+.A_Menu_Search {
   width: 18.7vw;
   height: 2.34vw;
   border: 0.104vw solid var(--orange);
@@ -11,4 +11,19 @@
   background-position: left 1.25vw top 0.77vw, left 16.6vw top 0.77vw;
   background-size: 0.78vw 0.83vw;
   background-color: var(--cream);
+}
+.A_Menu_Logo {
+  width: 5.208vw;
+  height: 2.083vw;
+  margin: 0 auto;
+  display: block;
+  background-image: url('../src/images/A_Menu_Logo.svg');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100%;
+}
+.A_LookMore {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
