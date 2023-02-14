@@ -81,6 +81,10 @@
   border-radius: 0.39vw;
   border: 0.1vw var(--cream) solid;
 }
+.A_h5 {
+  margin-bottom: 0.73vw;
+  color: var(--orange);
+}
 .A_BlockAuthorsArticles_Card_Photo_Property1 {
   width: 20.21vw;
   height: 20.21vw;
@@ -112,6 +116,7 @@
   width: 3.8vw;
   height: 1.51vw;
   display: block;
+  margin-bottom: 1.15vw;
   background-image: url('../src/images/A_Footer_Logo.svg');
   background-repeat: no-repeat;
   background-position: top;
