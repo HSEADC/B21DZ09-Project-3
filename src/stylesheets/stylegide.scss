@@ -9,15 +9,15 @@ body.stylegide {
   overflow-x: hidden;
 
   h1 {
-    font-size: 1.250vw;
+    font-size: 1.25vw;
     line-height: 1.458vw;
     font-weight: 600;
   }
 
-  h2 {
-    font-size: 6.250vw;
+  h3 {
+    font-size: 6.25vw;
     line-height: 7.344vw;
-    margin: 6.250vw 0vw 3.125vw 0vw;
+    margin: 6.25vw 0vw 3.125vw 0vw;
   }
 
   header {
@@ -82,7 +82,7 @@ body.stylegide {
   a {
     color: var(--black);
     mix-blend-mode: difference;
-    font-size: 1.250vw;
+    font-size: 1.25vw;
     line-height: 1.458vw;
     text-decoration: none;
     &:hover {
@@ -93,7 +93,7 @@ body.stylegide {
   p {
     &.smalltext {
       display: block;
-      font-size: 1.250vw;
+      font-size: 1.25vw;
     }
 
     &#fortybanner {
@@ -134,14 +134,46 @@ body.stylegide {
       }
 
       @keyframes label {
-        0%, 11.5% {background: no-repeat top/100% url('./images/animations/nakleiki-1.png');}
-        12.5%, 24% {background: no-repeat top/100% url('./images/animations/nakleiki-2.png');}
-        25%, 36.5% {background: no-repeat top/100% url('./images/animations/nakleiki-3.png');}
-        37.5%, 49% {background: no-repeat top/100% url('./images/animations/nakleiki-4.png');}
-        50%, 61.5% {background: no-repeat top/100% url('./images/animations/nakleiki-5.png');}
-        62.5%, 74% {background: no-repeat top/100% url('./images/animations/nakleiki-6.png');}
-        75%, 86.5% {background: no-repeat top/100% url('./images/animations/nakleiki-7.png');}
-        87%, 100% {background: no-repeat top/100% url('./images/animations/nakleiki-8.png');}
+        0%,
+        11.5% {
+          background: no-repeat top/100%
+            url('./images/animations/nakleiki-1.png');
+        }
+        12.5%,
+        24% {
+          background: no-repeat top/100%
+            url('./images/animations/nakleiki-2.png');
+        }
+        25%,
+        36.5% {
+          background: no-repeat top/100%
+            url('./images/animations/nakleiki-3.png');
+        }
+        37.5%,
+        49% {
+          background: no-repeat top/100%
+            url('./images/animations/nakleiki-4.png');
+        }
+        50%,
+        61.5% {
+          background: no-repeat top/100%
+            url('./images/animations/nakleiki-5.png');
+        }
+        62.5%,
+        74% {
+          background: no-repeat top/100%
+            url('./images/animations/nakleiki-6.png');
+        }
+        75%,
+        86.5% {
+          background: no-repeat top/100%
+            url('./images/animations/nakleiki-7.png');
+        }
+        87%,
+        100% {
+          background: no-repeat top/100%
+            url('./images/animations/nakleiki-8.png');
+        }
       }
 
       .boxes {
@@ -155,44 +187,80 @@ body.stylegide {
       }
 
       @keyframes boxes {
-        0%, 32% {background: no-repeat top/100% url('./images/animations/razvert-1.png');}
-        33%, 65% {background: no-repeat top/100% url('./images/animations/razvert-2.png');}
-        66%, 100% {background: no-repeat top/100% url('./images/animations/razvert-3.png');}
+        0%,
+        32% {
+          background: no-repeat top/100%
+            url('./images/animations/razvert-1.png');
+        }
+        33%,
+        65% {
+          background: no-repeat top/100%
+            url('./images/animations/razvert-2.png');
+        }
+        66%,
+        100% {
+          background: no-repeat top/100%
+            url('./images/animations/razvert-3.png');
+        }
       }
     }
 
     &#grid {
-        .bannergrid {
-          margin-top: 3vw;
-          margin-bottom: 2vw;
-          width: 68vw;
-          height: 40.1vw;
-          margin-left: -3.7vw;
-          animation: bunnergrid 4s linear infinite paused;
+      .bannergrid {
+        margin-top: 3vw;
+        margin-bottom: 2vw;
+        width: 68vw;
+        height: 40.1vw;
+        margin-left: -3.7vw;
+        animation: bunnergrid 4s linear infinite paused;
+        background: no-repeat top/100% url('./images/animations/grid-1.png');
+      }
+      @keyframes bunnergrid {
+        0%,
+        24% {
           background: no-repeat top/100% url('./images/animations/grid-1.png');
         }
-        @keyframes bunnergrid {
-          0%, 24% {background: no-repeat top/100% url('./images/animations/grid-1.png');}
-          25%, 49% {background: no-repeat top/100% url('./images/animations/grid-2.png');}
-          50%, 74% {background: no-repeat top/100% url('./images/animations/grid-3.png');}
-          75%, 100% {background: no-repeat top/100% url('./images/animations/grid-4.png');}
+        25%,
+        49% {
+          background: no-repeat top/100% url('./images/animations/grid-2.png');
         }
+        50%,
+        74% {
+          background: no-repeat top/100% url('./images/animations/grid-3.png');
+        }
+        75%,
+        100% {
+          background: no-repeat top/100% url('./images/animations/grid-4.png');
+        }
+      }
 
-        .postgrid {
-          margin-top: 3vw;
-          margin-bottom: 2vw;
-          width: 40vw;
-          height: 40vw;
-          margin-left: -0.4vw;
-          animation: postgrid 4s linear infinite paused;
+      .postgrid {
+        margin-top: 3vw;
+        margin-bottom: 2vw;
+        width: 40vw;
+        height: 40vw;
+        margin-left: -0.4vw;
+        animation: postgrid 4s linear infinite paused;
+        background: no-repeat top/100% url('./images/animations/grid-2-1.png');
+      }
+      @keyframes postgrid {
+        0%,
+        24% {
           background: no-repeat top/100% url('./images/animations/grid-2-1.png');
         }
-        @keyframes postgrid {
-          0%, 24% {background: no-repeat top/100% url('./images/animations/grid-2-1.png');}
-          25%, 49% {background: no-repeat top/100% url('./images/animations/grid-2-2.png');}
-          50%, 74% {background: no-repeat top/100% url('./images/animations/grid-2-3.png');}
-          75%, 100% {background: no-repeat top/100% url('./images/animations/grid-2-4.png');}
+        25%,
+        49% {
+          background: no-repeat top/100% url('./images/animations/grid-2-2.png');
         }
+        50%,
+        74% {
+          background: no-repeat top/100% url('./images/animations/grid-2-3.png');
+        }
+        75%,
+        100% {
+          background: no-repeat top/100% url('./images/animations/grid-2-4.png');
+        }
+      }
     }
   }
 
@@ -209,7 +277,7 @@ body.stylegide {
     column-gap: 1.25vw;
     color: var(--orange);
     border: none;
-    font-size: 1.250vw;
+    font-size: 1.25vw;
     font-weight: 500;
     background-color: var(--cream);
   }
@@ -254,16 +322,39 @@ body.stylegide {
     background: no-repeat top/100% url('./images/animations/logo-1.png');
   }
   @keyframes animat-1 {
-    0%, 10% {background: no-repeat top/100% url('./images/animations/logo-1.png');}
-    11%, 16% {background: no-repeat top/100% url('./images/animations/logo-2.png');}
-    17%, 22% {background: no-repeat top/100% url('./images/animations/logo-3.png');}
-    23%, 28% {background: no-repeat top/100% url('./images/animations/logo-4.png');}
-    29%, 34% {background: no-repeat top/100% url('./images/animations/logo-5.png');}
-    35%, 60% {background: no-repeat top/100% url('./images/animations/logo-6.png');}
-    61%, 79% {background: no-repeat top/100% url('./images/animations/logo-7.png');}
-    80%, 100% {background: no-repeat top/100% url('./images/animations/logo-8.png');}
+    0%,
+    10% {
+      background: no-repeat top/100% url('./images/animations/logo-1.png');
+    }
+    11%,
+    16% {
+      background: no-repeat top/100% url('./images/animations/logo-2.png');
+    }
+    17%,
+    22% {
+      background: no-repeat top/100% url('./images/animations/logo-3.png');
+    }
+    23%,
+    28% {
+      background: no-repeat top/100% url('./images/animations/logo-4.png');
+    }
+    29%,
+    34% {
+      background: no-repeat top/100% url('./images/animations/logo-5.png');
+    }
+    35%,
+    60% {
+      background: no-repeat top/100% url('./images/animations/logo-6.png');
+    }
+    61%,
+    79% {
+      background: no-repeat top/100% url('./images/animations/logo-7.png');
+    }
+    80%,
+    100% {
+      background: no-repeat top/100% url('./images/animations/logo-8.png');
+    }
   }
-
 
   .colorcolumns {
     position: relative;
@@ -349,10 +440,9 @@ body.stylegide {
     font-family: 'Polite Type';
   }
 
-
   img {
     &#ourvalues {
-        width: 68.229vw;
+      width: 68.229vw;
     }
 
     &#arrow {

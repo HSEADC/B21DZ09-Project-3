@@ -35,12 +35,19 @@ body.page,
 
   // Заголовок второго уровня для всех страниц сайта
   h2 {
+    font-size: 3.13vw;
+    line-height: 4vw;
+    font-weight: 500;
+  }
+
+  // Заголовок второго уровня для всех страниц сайта
+  h3 {
     display: block;
     position: relative;
     font-size: 2.344vw;
     line-height: 2.695vw;
 
-    &.h2post {
+    &.h3post {
       margin: 3.125vw 0vw 1.042vw 0vw;
       line-height: 3.542vw;
     }
@@ -73,6 +80,8 @@ body.page,
       color: var(--orange);
       font-weight: 600;
     }
+  }
+  footer {
   }
 
   .instructionspage {

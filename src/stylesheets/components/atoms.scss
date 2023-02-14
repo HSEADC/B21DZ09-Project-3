@@ -39,22 +39,33 @@
   background-size: 60%;
   background-color: var(--orange);
 }
-.A_Avatar {
+.A_ThemeAuthorAvatar {
+  width: 2.031vw;
+  height: 2.031vw;
+  display: block;
+  position: relative;
+  margin-left: 0.52vw;
+  border-radius: 1.563vw;
+  background-color: var(--white);
 }
 .A_SmallHashtag {
+  width: fit-content;
   display: flex;
   padding: 0.521vw 1.25vw;
-  width: fit-content;
-  background-color: var(--cream);
-  border: 0.104vw solid var(--orange);
-  color: var(--orange);
+  margin-left: 0.52vw;
   border-radius: 1.563vw;
+  border: 0.104vw solid var(--orange);
   font-size: 0.833vw;
   line-height: 0.99vw;
+  color: var(--orange);
+  background-color: var(--cream);
+}
+.A_BannerHeading {
+  color: var(--cream);
 }
 .A_Dot {
   width: 0.78vw;
   height: 0.78vw;
-  border-radius: 0.42vw;
+  border-radius: 0.39vw;
   border: 0.1vw var(--cream) solid;
 }
