@@ -1,19 +1,22 @@
+.M_SectionHead {
+  margin-bottom: 2.5vw;
+}
 .M_LookMore {
   display: flex;
   flex-direction: row;
   align-items: center;
+}
+.M__BlockAuthorsArticles_Card_Information {
+  display: flex;
+  flex-direction: column;
 }
 .M_SectionHead,
 .M_BlockAuthorsArticles_Card_Information {
   display: flex;
   justify-content: space-between;
 }
-.M_SectionHead {
-  margin-bottom: 2.5vw;
-}
-.M__BlockAuthorsArticles_Card_Information {
-  display: flex;
-  flex-direction: column;
+.M_BlockVideos_Card_Information {
+  margin-top: -1.1vw;
 }
 .M_Footer_Links_Chapters,
 .M_Footer_Links_Subscription {
