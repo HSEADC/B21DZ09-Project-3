@@ -3,7 +3,8 @@
   flex-direction: row;
   align-items: center;
 }
-.M_SectionHead {
+.M_SectionHead,
+.M_Card_Information {
   display: flex;
   justify-content: space-between;
 }
