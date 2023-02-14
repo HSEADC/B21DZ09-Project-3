@@ -1,0 +1,139 @@
+.A_Menu_Search {
+  width: 18.7vw;
+  height: 2.34vw;
+  border: 0.104vw solid var(--orange);
+  border-radius: 2.083vw;
+  font-size: 1.25vw;
+  padding: 0.781vw;
+  background-image: url('../src/images/Q_Search.svg'),
+    url('../src/images/Q_TriangleDown.svg');
+  background-repeat: no-repeat;
+  background-position: left 1.25vw top 0.77vw, left 16.6vw top 0.77vw;
+  background-size: 0.78vw 0.83vw;
+  background-color: var(--cream);
+}
+.A_Menu_Logo {
+  width: 5.208vw;
+  height: 2.083vw;
+  margin: 0 auto;
+  display: block;
+  background-image: url('../src/images/A_Menu_Logo.svg');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100%;
+}
+.A_HeadBunner_Heading {
+  margin: 0;
+  padding-top: 15.1vw;
+  text-align: center;
+  color: var(--cream);
+}
+.A_LookMore_CircleIcon_ScrollRight {
+  width: 1.2vw;
+  height: 1.2vw;
+  border-radius: 0.99vw;
+  margin-left: 0.8vw;
+  display: block;
+  background-image: url('../src/images/Q_ScrollRightCream.svg');
+  background-repeat: no-repeat;
+  background-position: left 0.25vw top 0.2vw;
+  background-size: 60%;
+  background-color: var(--orange);
+}
+.A_CircleIcon_Open {
+  width: 2.08vw;
+  height: 2.08vw;
+  border-radius: 1.04vw;
+  display: block;
+  background-image: url('../src/images/Q_OpenCream.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 45%;
+  background-color: var(--orange);
+}
+.A_ThemeAuthorAvatar {
+  width: 2.031vw;
+  height: 2.031vw;
+  display: block;
+  position: relative;
+  margin-left: 0.52vw;
+  border-radius: 1.563vw;
+  background-color: var(--white);
+}
+.A_SmallHashtag {
+  width: fit-content;
+  display: flex;
+  padding: 0.521vw 1.25vw;
+  margin-left: 0.52vw;
+  border-radius: 1.563vw;
+  border: 0.104vw solid var(--orange);
+  font-size: 0.833vw;
+  line-height: 0.99vw;
+  color: var(--orange);
+  background-color: var(--cream);
+}
+.A_BannerHeading {
+  color: var(--cream);
+}
+.A_Dot {
+  width: 0.78vw;
+  height: 0.78vw;
+  border-radius: 0.39vw;
+  border: 0.1vw var(--cream) solid;
+}
+.A_h5 {
+  margin-bottom: 0.73vw;
+  color: var(--orange);
+}
+.A_h6 {
+  margin-bottom: 0.5vw;
+  color: var(--orange);
+}
+.A_VideoText {
+  color: var(--orange);
+}
+.O__BlockVideos_Card {
+  .A_CircleIcon_Open {
+    margin-left: 22.6vw;
+    margin-top: -1.04vw;
+  }
+}
+.A_BlockAuthorsArticles_Card_Photo_Property1 {
+  width: 20.21vw;
+  height: 20.21vw;
+  border-radius: 1.04vw;
+  background-image: url('../src/images/A_BlockAuthorsArticles_Card_Photo_Property1.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 175%;
+}
+.A_BlockAuthorsArticles_Card_Photo_Property2 {
+  width: 20.21vw;
+  height: 20.21vw;
+  border-radius: 1.04vw;
+  background-image: url('../src/images/A_BlockAuthorsArticles_Card_Photo_Property2.png');
+  background-repeat: no-repeat;
+  background-position: left -3vw top -3vw;
+  background-size: 210%;
+}
+.A_BlockVideos_Card_Photo_Property1 {
+  width: 27.29vw;
+  height: 12.86vw;
+  border-radius: 1.04vw;
+  background-image: url('../src/images/A_BlockVideos_Card_Photo_Property1.png');
+  background-repeat: no-repeat;
+  background-position: left -3vw top -3vw;
+  background-size: 210%;
+}
+.A_Footer_Logo {
+  width: 3.8vw;
+  height: 1.51vw;
+  display: block;
+  margin-bottom: 1.15vw;
+  background-image: url('../src/images/A_Footer_Logo.svg');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100%;
+}
+.A_VK {
+}
