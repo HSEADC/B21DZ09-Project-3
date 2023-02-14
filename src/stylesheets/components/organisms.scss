@@ -1,2 +1,8 @@
 .O_HeadBunner {
 }
+.O_Footer_Links,
+.O_Footer_Contacts {
+  display: flex;
+  flex-direction: row;
+  margin: 0vw 6.5vw 0vw 6.5vw;
+}
