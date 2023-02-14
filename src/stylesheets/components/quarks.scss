@@ -72,9 +72,6 @@
   margin-left: -6.5vw;
   border-radius: 1.56vw;
   background-color: var(--blue);
-  > div {
-    padding-top: 3.9vw;
-  }
 }
 .Q_BlockVideos_Card_Information_Background {
   width: 27.29vw;
@@ -84,10 +81,26 @@
   background-position: center;
   background-size: 100%;
 }
+.Q_BlockAuthorsArticles_CardBackground {
+  width: 41.72vw;
+  height: 22.29vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 1.56vw;
+  background: linear-gradient(105.93deg, #fff9ef 19.91%, #ffffff 100%);
+  box-shadow: 0px 4px 29px 0px #fb62171a;
+}
 .Q_FooterBackground {
   width: 100vw;
   height: 39.48vw;
   margin-left: -6.5vw;
   border-radius: 1.56vw 1.56vw 0 0;
   background-color: var(--yellow);
+}
+.Q_SectionBackground,
+.Q_FooterBackground {
+  > div {
+    padding-top: 3.9vw;
+  }
 }

@@ -54,9 +54,16 @@ body.page,
   }
 
   h4 {
-    font-size: 2.19vw;
-    line-height: 4vw;
+    font-size: 2.34vw;
+    line-height: 2.8vw;
     font-weight: 500;
+  }
+
+  h5 {
+    font-size: 1.9vw;
+    line-height: 2.4vw;
+    width: 18.33vw;
+    height: 17.03vw;
   }
 
   p {
@@ -71,6 +78,12 @@ body.page,
 
     &.instructiontext {
       width: 56.927vw;
+    }
+
+    &.footertext {
+      font-size: 0.938vw;
+      line-height: 1.146vw;
+      width: 21.77vw;
     }
   }
 
