@@ -8,3 +8,8 @@
   display: flex;
   justify-content: space-between;
 }
+.M_SectionHead {
+  > div {
+    margin-top: 2.5vw;
+  }
+}
