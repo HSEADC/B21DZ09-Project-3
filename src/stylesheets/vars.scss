@@ -102,8 +102,12 @@ body.page,
     background-color: var(--cream);
   }
 
+  // Тут потом возможно удаление трёх последних свойств a
   a {
     text-decoration: none;
+    display: block;
+    font-size: 0.94vw;
+    color: var(--black);
     &.logotype {
       margin: 0 auto;
       display: block;

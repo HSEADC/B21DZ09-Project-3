@@ -22,11 +22,6 @@
   background-position: top;
   background-size: 100%;
 }
-.A_LookMore {
-  text-decoration: none;
-  font-size: 0.94vw;
-  color: var(--black);
-}
 .A_LookMore_ScrollRight {
   width: 1.2vw;
   height: 1.2vw;
@@ -68,4 +63,15 @@
   height: 0.78vw;
   border-radius: 0.39vw;
   border: 0.1vw var(--cream) solid;
+}
+.A_Footer_Logo {
+  width: 3.8vw;
+  height: 1.51vw;
+  display: block;
+  background-image: url('../src/images/A_Footer_Logo.svg');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100%;
+}
+.A_VK {
 }

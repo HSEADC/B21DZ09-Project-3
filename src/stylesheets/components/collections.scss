@@ -1,11 +1,9 @@
-.C_CategoryTags {
+.C_CategoryTags,
+.C_Cards,
+.C_SocialMedia {
   display: flex;
   flex-direction: row;
   align-items: center;
-}
-.C_Cards {
-  display: flex;
-  flex-direction: row;
 }
 .C_Dots {
   width: 9.9vw;

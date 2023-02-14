@@ -66,10 +66,17 @@
 .Q_DotSolid {
   background-color: var(--cream);
 }
-.Q_Block {
+.Q_Section_Block {
   width: 100vw;
   height: 39.48vw;
   margin-left: -6.5vw;
   border-radius: 1.56vw;
   background-color: var(--blue);
+}
+.Q_Footer_Block {
+  width: 100vw;
+  height: 39.48vw;
+  margin-left: -6.5vw;
+  border-radius: 1.56vw 1.56vw 0 0;
+  background-color: var(--yellow);
 }
