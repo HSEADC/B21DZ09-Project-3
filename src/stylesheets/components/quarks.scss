@@ -66,14 +66,22 @@
 .Q_DotSolid {
   background-color: var(--cream);
 }
-.Q_Section_Block {
+.Q_SectionBackground {
   width: 100vw;
   height: 39.48vw;
   margin-left: -6.5vw;
   border-radius: 1.56vw;
   background-color: var(--blue);
 }
-.Q_Footer_Block {
+.Q_BlockVideos_Card_Information_Background {
+  width: 27.29vw;
+  height: 12.29vw;
+  background-image: url('../src/images/Q_BlockVideos_Card_Information_Background.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+.Q_FooterBackground {
   width: 100vw;
   height: 39.48vw;
   margin-left: -6.5vw;
