@@ -1,0 +1,28 @@
+.C_BlockAuthorsArticles_Cards,
+.C__BlockVideos_Cards,
+.C_BlockCheckLists_Cards,
+.C_SocialMedia {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.C_CategoryTags {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  z-index: 100;
+  &.center {
+    padding-left: 12.39vw;
+    padding-top: 1.56vw;
+  }
+}
+.C_Dots {
+  width: 9.9vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 11.46vw;
+  margin-top: 2.1vw;
+  justify-content: space-between;
+}
