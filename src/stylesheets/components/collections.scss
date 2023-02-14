@@ -1,4 +1,3 @@
-.C_CategoryTags,
 .C_BlockAuthorsArticles_Cards,
 .C__BlockVideos_Cards,
 .C_BlockCheckLists_Cards,
@@ -6,8 +5,12 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-between;
 }
 .C_CategoryTags {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   &.center {
     padding-left: 12.39vw;
     padding-top: 1.56vw;
