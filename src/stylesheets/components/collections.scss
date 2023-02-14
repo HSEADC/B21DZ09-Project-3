@@ -7,10 +7,18 @@
   flex-direction: row;
   align-items: center;
 }
+.C_CategoryTags {
+  &.center {
+    padding-left: 12.39vw;
+    padding-top: 1.56vw;
+  }
+}
 .C_Dots {
   width: 9.9vw;
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin-left: 11.46vw;
+  margin-top: 2.1vw;
   justify-content: space-between;
 }
