@@ -1,12 +1,38 @@
 :root {
   --white: white;
   --black: black;
-  --orange: #fb6217;
+  --orange: #ed6d2f;
   --cream: #fff9ef;
-  --blue: #b6cafa;
-  --yellow: #f6d81f;
+  --beige: #faf0e3;
+  --blue: #87aaff;
+  --yellow: #f5cb33;
   --grey: #c4c4c4;
   --unhoverlink: #ffa87a;
+}
+
+.OrangeCombination {
+  background-color: var(--orange);
+  color: var(--cream);
+}
+
+.CreamCombination{
+  background-color: var(--cream);
+  color: var(--orange);
+}
+
+.BeigeCombination{
+  background-color: var(--beige);
+  color: var(--orange);
+}
+
+.BlueCombination{
+  background-color: var(--blue);
+  color: var(--cream);
+}
+
+.YellowCombination{
+  background-color: var(--yellow);
+  color: var(--orange);
 }
 
 body.page,
