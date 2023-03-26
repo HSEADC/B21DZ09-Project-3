@@ -2,18 +2,31 @@
 /******/ 	"use strict";
 var __webpack_exports__ = {};
 
+var runningLineOne = document.querySelector('.M_RunningLine');
+var mediaphone = window.matchMedia('(min-width: 768px) and (max-width: 3000px)');
 
-function removeFifthCard() {
-  var element = document.getElementsByClassName("Five");
-  element.remove();
+function runningLinesInit() {
+  if (mediaphone.matches) {
+    runningLineOne.innerHTML = runningLineOne.innerHTML + runningLineOne.innerHTML;
+    runningLineTwo.innerHTML = runningLineTwo.innerHTML + runningLineTwo.innerHTML;
+  }
 }
 
-removeFifthCard(); //
+document.addEventListener('DOMContentLoaded', function () {
+  runningLinesInit(), toggleSwitchInit();
+}); // function removeFifthCard() {
+//   const element = document.getElementsByClassName("Five");
+//   element.remove();
+// }
+//
+// removeFifthCard()
+//
 // function removeFifthCard() {
 //   const element = document.getElementById('Five')
 //   element.ClassList.remove('Five')
 //   document.body.appendChild(element)
 // }
+//
 //
 
 var cardAnswers = [{
@@ -31,23 +44,26 @@ var cardAnswers = [{
 }, {
   question: "Номера экстренных служб",
   answer: "Тут будет ответ"
-}];
-
-function showCardAnswer(cardAnswers) {
-  var element = document.createElement('div');
-  element.innerText = cardAnswers;
-  document.body.appendChild(element);
-} // setTimeout(() => {
+}]; //
+// function showCardAnswer(cardAnswers) {
+//   const element = document.createElement('div')
+//   element.innerText = cardAnswers
+//   document.body.appendChild(element)
+// }
+//
+// setTimeout(() => {
 //   showCardAnswer(cardAnswers[0])
 //   }, 2000)
+//
 // setTimeout(
 //   () => { console.log(cardAnswers[0]) },
 //   2000)
-
-
-document.addEventListener('DOMContentLoaded'), function () {
-  showCardAnswer(cardAnswers[0]);
-}; // setTimeout(() => {
+//
+// document.addEventListener('DOMContentLoaded'), () => {
+//   showCardAnswer(cardAnswers[0])
+// }
+//
+// setTimeout(() => {
 //   showCardAnswer(cardAnswers[0])
 // }, 2000)
 /******/ })()
