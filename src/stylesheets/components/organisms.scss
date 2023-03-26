@@ -7,7 +7,10 @@
 
 .O_Comments {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  background: var(--beige);
+  border-radius: 30px;
+  padding: 60px 0px;
 }
 
 // .O_HeadBunner {
