@@ -1,17 +1,36 @@
 import './index.css'
 
-function removeFifthCard() {
-  const element = document.getElementsByClassName("Five");
-  element.remove();
+const runningLineOne = document.querySelector('.M_RunningLine')
+const mediaphone = window.matchMedia(
+  '(min-width: 768px) and (max-width: 3000px)'
+)
+
+function runningLinesInit() {
+  if (mediaphone.matches) {
+    runningLineOne.innerHTML =
+      runningLineOne.innerHTML + runningLineOne.innerHTML
+    runningLineTwo.innerHTML =
+      runningLineTwo.innerHTML + runningLineTwo.innerHTML
+  }
 }
 
-removeFifthCard()
+document.addEventListener('DOMContentLoaded', () => {
+  runningLinesInit(), toggleSwitchInit()
+})
+
+// function removeFifthCard() {
+//   const element = document.getElementsByClassName("Five");
+//   element.remove();
+// }
+//
+// removeFifthCard()
 //
 // function removeFifthCard() {
 //   const element = document.getElementById('Five')
 //   element.ClassList.remove('Five')
 //   document.body.appendChild(element)
 // }
+//
 //
 const cardAnswers = [
   {
@@ -35,25 +54,25 @@ const cardAnswers = [
     answer: "Тут будет ответ"
   }
 ]
-
-function showCardAnswer(cardAnswers) {
-  const element = document.createElement('div')
-  element.innerText = cardAnswers
-  document.body.appendChild(element)
-}
-
+//
+// function showCardAnswer(cardAnswers) {
+//   const element = document.createElement('div')
+//   element.innerText = cardAnswers
+//   document.body.appendChild(element)
+// }
+//
 // setTimeout(() => {
 //   showCardAnswer(cardAnswers[0])
 //   }, 2000)
-
+//
 // setTimeout(
 //   () => { console.log(cardAnswers[0]) },
 //   2000)
-
-document.addEventListener('DOMContentLoaded'), () => {
-  showCardAnswer(cardAnswers[0])
-}
-
+//
+// document.addEventListener('DOMContentLoaded'), () => {
+//   showCardAnswer(cardAnswers[0])
+// }
+//
 // setTimeout(() => {
 //   showCardAnswer(cardAnswers[0])
 // }, 2000)
