@@ -1,20 +1,21 @@
-// .S_Articles {
-//   display: flex;
-//   margin: 80px 0px 0px 0px;
-//   flex-direction: column;
-//   row-gap: 48px;
-// }
+section {
 
-.S_main {
-  margin-top: 4.17vw;
-  > section {
-    margin-bottom: 2.8vw;
+  &.S_ArticleText {
+    margin: 140px 0px 140px 0px;
+    row-gap: 60px;
+
+    .W_Paragraph {
+    display: flex;
+    column-gap: 20px;
+
+      h1 {
+        width: 33.542vw;
+      }
+    }
   }
-}
-.S_BlockAuthorsArticles {
-}
-.S_BlockVideos {
-  margin: 0vw 6.5vw 0vw 6.5vw;
-}
-.S_BlockCheckLists {
+
+  &.S_CommentsAndAddition {
+    margin: 0px 0px 140px 0px;
+    row-gap: 60px;
+  }
 }

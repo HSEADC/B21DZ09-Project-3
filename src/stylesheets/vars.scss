@@ -2,9 +2,10 @@
   --white: white;
   --black: black;
   --orange: #ed6d2f;
-  --hoverorange: #f5996c;
+  --orangehover: #f99b6d;
   --cream: #fff9ef;
   --beige: #faf0e3;
+  --beigehover: #f3e6d5;
   --camel: #d7c0a2;
   --blue: #87aaff;
   --yellow: #f5cb33;
@@ -41,13 +42,17 @@
   color: var(--orange);
 }
 
-body.instructions, .articles {
+html {
+  scroll-behavior: smooth;
+}
+
+body.instructions, .articles, .art1 {
   display: block;
   flex-direction: column;
   margin: 0px 7.292vw;
   font-family: 'Golos Text', sans-serif;
-  font-weight: 500;
-  font-size: 26px;
+  font-weight: 400;
+  font-size: 28px;
   color: var(--orange);
   line-height: 145%;
   background-color: var(--cream);
@@ -68,7 +73,7 @@ body.instructions, .articles {
   h1 {
     font-family: 'Golos Text', sans-serif;
     font-weight: 400;
-    font-size: 44px;
+    font-size: 50px;
     line-height: 120%;
   }
 
@@ -80,8 +85,14 @@ body.instructions, .articles {
   }
 
   a {
+    display: inline-block;
     color: var(--orange);
     cursor: pointer;
+    transition: .3s;
+
+    &.textlink:hover {
+      color: var(--orangehover);
+    }
   }
 
   nav {
