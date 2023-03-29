@@ -41,3 +41,15 @@
     display: none;
   }
 }
+
+.O_InstructionsHome {
+  display: flex;
+  flex-direction: column;
+  row-gap: 60px;
+}
+
+.O_MaterialsHome {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
