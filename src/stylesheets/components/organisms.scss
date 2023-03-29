@@ -15,10 +15,14 @@
 }
 
 .O_ColorSection {
+  display: flex;
   margin: 0px 0px 0px -7.292vw;
+  padding: 70px 7.292vw 70px 7.292vw;
   width: 117.06%;
-  height: 1116px;
   border-radius: 0px 0px 30px 30px;
+  row-gap: 60px;
+  flex-direction: column;
+  align-items: center;
 }
 
 .O_ParagraphText {
@@ -34,8 +38,10 @@
 }
 
 .O_ScrollBlock {
-  width: auto;
-  overflow-x: scroll;
+  width: 85.208vw;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-snap-stop: always;
 
   &::-webkit-scrollbar {
     display: none;
@@ -52,4 +58,20 @@
   display: flex;
   flex-direction: column;
   row-gap: 30px;
+}
+
+.O_AdditionalCardBlock {
+  display: flex;
+  margin: 40px 0px 80px -7.292vw;
+  width: 117%;
+  column-gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 1024px) {
+  .O_ScrollBlock {
+    overflow-x: scroll;
+    scroll-snap-stop: always;
+  }
 }
