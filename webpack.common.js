@@ -80,12 +80,21 @@ module.exports = {
       patterns: [{ from: 'src/share', to: 'share' }]
     }),
 
-    // Landing page
+    // Home page
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
       template: './src/index.html',
       filename: './index.html'
+      // chunks: ['index']
+    }),
+
+    // Landing page
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/landing.html',
+      filename: './landing.html'
       // chunks: ['index']
     }),
 
@@ -158,6 +167,33 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/articles/art1.html',
       filename: './articles/art1.html'
+      // chunks: ['page']
+    }),
+
+    // Single mini video page
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/articles/vid1.html',
+      filename: './articles/vid1.html'
+      // chunks: ['page']
+    }),
+
+    // Single big video page
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/articles/vid2.html',
+      filename: './articles/vid2.html'
+      // chunks: ['page']
+    }),
+
+    // Single checklist page
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/articles/check1.html',
+      filename: './articles/check1.html'
       // chunks: ['page']
     }),
 
