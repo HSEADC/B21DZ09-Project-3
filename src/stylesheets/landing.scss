@@ -437,3 +437,507 @@ body.landing {
     }
   }
 }
+
+// body.landing {
+//   background-color: var(--cream);
+//   width: 100vw;
+//   font-family: 'Vela Sans', Helvetica, Arial, sans-serif;
+//   font-weight: 500;
+//   overflow-x: hidden;
+//
+//   a {
+//     text-decoration: none;
+//     color: var(--cream);
+//   }
+//
+//   a:hover {
+//     opacity: 0.8;
+//     cursor: pointer;
+//   }
+//
+//   section#about {
+//     width: 100vw;
+//     height: 130vw;
+//     position: relative;
+//     overflow-x: hidden;
+//
+//     .block-about {
+//       width: 100vw;
+//       height: 83vw;
+//       position: relative;
+//       top: 8vw;
+//       overflow-x: hidden;
+//
+//       .blue-raz {
+//         width: 67.2vw;
+//         height: 83vw;
+//         position: relative;
+//         top: 0;
+//         left: 15vw;
+//         background: no-repeat top/100% url('./images/landing/about.png');
+//       }
+//
+//       p.text-about {
+//         font-size: 2.6vw;
+//         line-height: 115%;
+//         position: absolute;
+//         top: 6.2vw;
+//         left: 26vw;
+//       }
+//
+//       .mobilka-1 {
+//         width: 40vw;
+//         height: 50vw;
+//         position: absolute;
+//         top: 19.5vw;
+//         left: 40.5vw;
+//         background: no-repeat top/100% url('./images/landing/mobilka-1.png');
+//       }
+//
+//       .running-text {
+//         width: 286vw;
+//         height: 11.3vw;
+//         position: absolute;
+//         top: 49.5vw;
+//         left: 0vw;
+//         background: no-repeat top/100% url('./images/landing/running-text.png');
+//         animation: animat 12s linear infinite;
+//         overflow-x: hidden;
+//       }
+//       @keyframes animat {
+//         0% {
+//           left: 0;
+//         }
+//         100% {
+//           left: -180vw;
+//         }
+//       }
+//
+//       .mobilka-2 {
+//         width: 27vw;
+//         height: 50.5vw;
+//         position: absolute;
+//         top: 22.5vw;
+//         left: 32vw;
+//         background: no-repeat top/100% url('./images/landing/mobilka-2.png');
+//       }
+//     }
+//
+//     p.mission {
+//       font-size: 3.85vw;
+//       line-height: 115%;
+//       position: absolute;
+//       top: 104.5vw;
+//       left: 16.6vw;
+//     }
+//   }
+//
+//   section#opport {
+//     width: 100vw;
+//     height: 77.5vw;
+//     position: relative;
+//     background: no-repeat top/100% url('./images/landing/kartochki-fon.png');
+//
+//     p.opport-text {
+//       font-size: 2.6vw;
+//       line-height: 115%;
+//       position: relative;
+//       top: 14.9vw;
+//       left: 33.2vw;
+//     }
+//
+//     p.podskaz {
+//       font-size: 1.25vw;
+//       position: relative;
+//       top: -21vw;
+//       left: 43vw;
+//     }
+//
+//     .kartochki {
+//       width: 100vw;
+//       height: 37vw;
+//       position: relative;
+//       top: 20.9vw;
+//       left: -0.5vw;
+//       display: flex;
+//       flex-direction: row;
+//       align-items: center;
+//       justify-content: space-around;
+//
+//       .k-1 {
+//         width: 30vw;
+//         height: 37vw;
+//         background: no-repeat top/100% url('./images/landing/anim-1-1.png');
+//         animation: k1 3s linear infinite paused;
+//       }
+//       @keyframes k1 {
+//         0%,
+//         13% {
+//           background: no-repeat top/100% url('./images/landing/anim-1-1.png');
+//         }
+//         14%,
+//         27% {
+//           background: no-repeat top/100% url('./images/landing/anim-1-2.png');
+//         }
+//         28%,
+//         41% {
+//           background: no-repeat top/100% url('./images/landing/anim-1-3.png');
+//         }
+//         42%,
+//         55% {
+//           background: no-repeat top/100% url('./images/landing/anim-1-4.png');
+//         }
+//         56%,
+//         70% {
+//           background: no-repeat top/100% url('./images/landing/anim-1-5.png');
+//         }
+//         71%,
+//         100% {
+//           background: no-repeat top/100% url('./images/landing/anim-1-6.png');
+//         }
+//       }
+//
+//       .k-2 {
+//         width: 30vw;
+//         height: 37vw;
+//         margin-left: -2vw;
+//         background: no-repeat top/100% url('./images/landing/anim-3-1.png');
+//         animation: k2 3s linear infinite paused;
+//       }
+//       @keyframes k2 {
+//         0%,
+//         13% {
+//           background: no-repeat top/100% url('./images/landing/anim-3-1.png');
+//         }
+//         14%,
+//         27% {
+//           background: no-repeat top/100% url('./images/landing/anim-3-2.png');
+//         }
+//         28%,
+//         41% {
+//           background: no-repeat top/100% url('./images/landing/anim-3-3.png');
+//         }
+//         42%,
+//         55% {
+//           background: no-repeat top/100% url('./images/landing/anim-3-4.png');
+//         }
+//         56%,
+//         70% {
+//           background: no-repeat top/100% url('./images/landing/anim-3-5.png');
+//         }
+//         71%,
+//         100% {
+//           background: no-repeat top/100% url('./images/landing/anim-3-6.png');
+//         }
+//       }
+//
+//       .k-3 {
+//         width: 30vw;
+//         height: 37vw;
+//         margin-left: -2vw;
+//         background: no-repeat top/100% url('./images/landing/anim-2-1.png');
+//         animation: k3 3s linear infinite paused;
+//       }
+//       @keyframes k3 {
+//         0%,
+//         13% {
+//           background: no-repeat top/100% url('./images/landing/anim-2-1.png');
+//         }
+//         14%,
+//         27% {
+//           background: no-repeat top/100% url('./images/landing/anim-2-2.png');
+//         }
+//         28%,
+//         41% {
+//           background: no-repeat top/100% url('./images/landing/anim-2-3.png');
+//         }
+//         42%,
+//         55% {
+//           background: no-repeat top/100% url('./images/landing/anim-2-4.png');
+//         }
+//         56%,
+//         70% {
+//           background: no-repeat top/100% url('./images/landing/anim-2-5.png');
+//         }
+//         71%,
+//         100% {
+//           background: no-repeat top/100% url('./images/landing/anim-2-6.png');
+//         }
+//       }
+//
+//       .k-1:hover,
+//       .k-2:hover,
+//       .k-3:hover {
+//         animation-play-state: running;
+//       }
+//     }
+//   }
+//
+//   section#content {
+//     width: 100vw;
+//     height: 109.5vw;
+//     position: relative;
+//
+//     p.tone {
+//       font-size: 3.85vw;
+//       line-height: 115%;
+//       position: relative;
+//       top: 13.3vw;
+//       left: 12.6vw;
+//     }
+//
+//     .nakleiki {
+//       width: 95vw;
+//       height: 20.35vw;
+//       position: relative;
+//       top: 27.3vw;
+//       left: 2vw;
+//       background: no-repeat top/100% url('./images/landing/nakleiki.png');
+//     }
+//
+//     p.cont-text {
+//       font-size: 2.6vw;
+//       line-height: 115%;
+//       position: relative;
+//       top: 34.5vw;
+//       left: 31.6vw;
+//     }
+//
+//     .cont-kart {
+//       width: 96vw;
+//       height: 22.3vw;
+//       position: relative;
+//       top: 38.9vw;
+//       left: 1.5vw;
+//       display: flex;
+//       flex-direction: row;
+//       align-items: center;
+//       justify-content: space-around;
+//
+//       .cont-cart-1 {
+//         width: 30.6vw;
+//         height: 22.3vw;
+//         background: no-repeat top/100% url('./images/landing/kartochka-1.png');
+//
+//         .but {
+//           width: 2vw;
+//           height: 2vw;
+//           position: relative;
+//           top: 18.7vw;
+//           left: 26.6vw;
+//           background: no-repeat top/100% url('./images/landing/buttons.png');
+//         }
+//       }
+//
+//       .cont-cart-2 {
+//         width: 30.6vw;
+//         height: 22.3vw;
+//         background: no-repeat top/100% url('./images/landing/kartochka-2.png');
+//
+//         .but {
+//           width: 2vw;
+//           height: 2vw;
+//           position: relative;
+//           top: 18.7vw;
+//           left: 26.6vw;
+//           background: no-repeat top/100% url('./images/landing/buttons.png');
+//         }
+//       }
+//
+//       .cont-cart-3 {
+//         width: 30.6vw;
+//         height: 22.3vw;
+//         background: no-repeat top/100% url('./images/landing/kartochka-3.png');
+//
+//         .but {
+//           width: 2vw;
+//           height: 2vw;
+//           position: relative;
+//           top: 18.7vw;
+//           left: 26.6vw;
+//           background: no-repeat top/100% url('./images/landing/buttons.png');
+//         }
+//       }
+//     }
+//   }
+//
+//   section#footer {
+//     width: 100vw;
+//     height: 38.2vw;
+//     background: no-repeat top/100% url('./images/landing/footer.png');
+//     position: relative;
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     justify-content: space-between;
+//
+//     p.zag-fut {
+//       font-size: 5vw;
+//       color: var(--cream);
+//       margin-top: 12vw;
+//     }
+//
+//     p.podpic {
+//       font-size: 1.25vw;
+//       color: var(--cream);
+//       margin-top: -6.5vw;
+//     }
+//
+//     input {
+//       all: unset;
+//       border: none;
+//       -webkit-box-shadow: none;
+//       -moz-box-shadow: none;
+//       box-shadow: none;
+//       background: none;
+//       border: 0;
+//       border-bottom: 0.156vw solid var(--cream);
+//       width: 27.2vw;
+//       color: var(--cream);
+//       font-size: 1.25vw;
+//       margin-left: 0.5vw;
+//     }
+//
+//     form {
+//       display: flex;
+//       position: relative;
+//       flex-direction: row;
+//       justify-content: space-between;
+//       width: 41.6vw;
+//       margin: -4.5vw 0vw 0vw 0vw;
+//     }
+//
+//     button {
+//       display: block;
+//       position: relative;
+//       margin: 0 -3.5vw 0vw 0vw;
+//       width: 10vw;
+//       height: 3.021vw;
+//       border: none;
+//       border-radius: 2.083vw;
+//       background-color: var(--cream);
+//       color: var(--orange);
+//       font-size: 1.25vw;
+//       transition: 0.4s;
+//
+//       &:hover {
+//         background-color: var(--unhoverlink);
+//         cursor: pointer;
+//       }
+//     }
+//
+//     .social-net {
+//       width: 11.7vw;
+//       height: 2vw;
+//       position: absolute;
+//       bottom: 3vw;
+//       left: 41vw;
+//       display: flex;
+//       position: relative;
+//       flex-direction: row;
+//       justify-content: space-between;
+//
+//       .vk {
+//         width: 2.4vw;
+//         height: 1.6vw;
+//         background: no-repeat top/100% url('./images/landing/vk.svg');
+//       }
+//
+//       .tg {
+//         width: 1.97vw;
+//         height: 1.84vw;
+//         background: no-repeat top/100% url('./images/landing/tg.svg');
+//       }
+//
+//       .dzen {
+//         width: 1.97vw;
+//         height: 1.97vw;
+//         background: no-repeat top/100% url('./images/landing/dzen.svg');
+//       }
+//     }
+//   }
+//
+//   section.main-page {
+//     width: 100vw;
+//     height: 52.6vw;
+//     background: no-repeat top/100% url('./images/landing/main.png');
+//     position: relative;
+//
+//     * {
+//       position: relative;
+//     }
+//
+//     // заголовок
+//     p.zag {
+//       color: var(--cream);
+//       font-size: 7.3vw;
+//       line-height: 95%;
+//       top: 11.9vw;
+//       left: 17.3vw;
+//     }
+//
+//     // наклейки
+//     .round-stick {
+//       width: 10.2vw;
+//       height: 10.2vw;
+//       background: no-repeat top/100% url('./images/landing/round-n.svg');
+//       top: -17vw;
+//       left: 4.3vw;
+//     }
+//
+//     .rec-stick {
+//       width: 29vw;
+//       height: 14.2vw;
+//       background: no-repeat top/100% url('./images/landing/rec-n.png');
+//       top: -3vw;
+//       left: 62.3vw;
+//     }
+//
+//     #graphicsboxes {
+//       display: flex;
+//       top: 14vw;
+//       left: 17.5vw;
+//       align-items: center;
+//       column-gap: 1.25vw;
+//       color: var(--cream);
+//       border: none;
+//       font-size: 1.25vw;
+//       font-weight: 500;
+//       background-color: var(--orange);
+//
+//       #arrow {
+//         width: 1.7vw;
+//         height: 1.7vw;
+//       }
+//     }
+//
+//     // меню
+//     .header {
+//       width: 79vw;
+//       height: 2.3vw;
+//       top: 2.3vw;
+//       left: 2.3vw;
+//       display: flex;
+//       flex-direction: row;
+//       align-items: center;
+//       justify-content: space-between;
+//
+//       .logo {
+//         width: 5.7vw;
+//         height: 2.3vw;
+//         background: no-repeat top/100% url('./images/landing/logo.svg');
+//       }
+//
+//       .nav {
+//         width: 40vw;
+//         height: 1.7vw;
+//         display: flex;
+//         flex-direction: row;
+//         align-items: center;
+//         justify-content: space-between;
+//         font-size: 1.25vw;
+//       }
+//     }
+//   }
+// }
+//
