@@ -74,7 +74,14 @@ body.instructions, .articles, .art1 {
     font-family: 'Golos Text', sans-serif;
     font-weight: 400;
     font-size: 50px;
-    line-height: 120%;
+    line-height: 115%;
+  }
+
+  h2 {
+    font-family: 'Golos Text', sans-serif;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 115%;
   }
 
   h3 {
@@ -92,6 +99,14 @@ body.instructions, .articles, .art1 {
 
     &.textlink:hover {
       color: var(--orangehover);
+    }
+
+    &.A_MoreButton {
+      display: flex;
+    }
+
+    &.A_Label {
+      color: var(--cream);
     }
   }
 

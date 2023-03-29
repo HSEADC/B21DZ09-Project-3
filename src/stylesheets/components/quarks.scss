@@ -5,54 +5,106 @@
 
   &.Right {
     background: no-repeat top/100% url('../src/images/Q_IconsRight.svg');
+
+    &.CreamCombination {
+      background: no-repeat top/100% url('../src/images/Q_IconsRightCream.svg');
+    }
   }
 
   &.Left {
     background: no-repeat top/100% url('../src/images/Q_IconsLeft.svg');
+
+    &.CreamCombination {
+      background: no-repeat top/100% url('../src/images/Q_IconsLeftCream.svg');
+    }
   }
 
   &.Open {
     background: no-repeat top/100% url('../src/images/Q_IconsOpen.svg');
+
+    &.CreamCombination {
+      background: no-repeat top/100% url('../src/images/Q_IconsOpenCream.svg');
+    }
   }
 
   &.Download {
     background: no-repeat top/100% url('../src/images/Q_IconsDownload.svg');
+
+    &.CreamCombination {
+      background: no-repeat top/100% url('../src/images/Q_IconsDownloadCream.svg');
+    }
   }
 
   &.Search {
     background: no-repeat top/100% url('../src/images/Q_IconsSearch.svg');
+
+    &.CreamCombination {
+      background: no-repeat top/100% url('../src/images/Q_IconsSearchCream.svg');
+    }
   }
 
   &.Play {
     background: no-repeat top/100% url('../src/images/Q_IconsPlay.svg');
+
+    &.CreamCombination {
+      background: no-repeat top/100% url('../src/images/Q_IconsPlayCream.svg');
+    }
   }
 
   &.Share {
     background: no-repeat top/100% url('../src/images/Q_IconsShare.svg');
+
+    &.CreamCombination {
+      background: no-repeat top/100% url('../src/images/Q_IconsShareCream.svg');
+    }
   }
 
   &.Eye {
     background: no-repeat top/100% url('../src/images/Q_IconsEye.svg');
+
+    &.CreamCombination {
+      background: no-repeat top/100% url('../src/images/Q_IconsEyeCream.svg');
+    }
   }
 
   &.Check {
     background: no-repeat top/100% url('../src/images/Q_IconsCheck.svg');
+
+    &.CreamCombination {
+      background: no-repeat top/100% url('../src/images/Q_IconsCheckCream.svg');
+    }
   }
 
   &.Live {
     background: no-repeat top/100% url('../src/images/Q_IconsLive.svg');
+
+    &.CreamCombination {
+      background: no-repeat top/100% url('../src/images/Q_IconsLiveCream.svg');
+    }
   }
 
   &.Turn {
     background: no-repeat top/100% url('../src/images/Q_IconsTurn.svg');
+
+    &.CreamCombination {
+      background: no-repeat top/100% url('../src/images/Q_IconsTurnCream.svg');
+    }
   }
 
   &.Up {
     background: no-repeat top/100% url('../src/images/Q_IconsUp.svg');
+
+    &.CreamCombination {
+      background: no-repeat top/100% url('../src/images/Q_IconsUpCream.svg');
+    }
   }
 
   &.Down {
     background: no-repeat top/100% url('../src/images/Q_IconsDown.svg');
+
+    &.CreamCombination {
+      background: no-repeat top/100% url('../src/images/Q_IconsDownCream.svg');
+    }
   }
 }
 
@@ -68,119 +120,25 @@
 }
 
 .Q_CardBackground {
-  width: 397px;
-  height: 200px;
   border-radius: 30px;
 
-  &#checklist1 {
-    background: linear-gradient(0deg, rgba(224, 136, 92, 0.1) 23.23%, rgba(255, 255, 255, 0) 100%), no-repeat center/cover url('../src/images/Q_CardBackground2.png');
+  &.Checklist {
+    width: 397px;
+    height: 200px;
+
+    &#checklist1 {
+      background: linear-gradient(0deg, rgba(224, 136, 92, 0.1) 23.23%, rgba(255, 255, 255, 0) 100%), no-repeat center/cover url('../src/images/Q_CardBackground2.png');
+    }
+  }
+
+  &.Article {
+    margin: 0px 0px 14px -30px;
+    width: 27.760vw;
+    height: 255px;
+
+    &#article1 {
+      background: linear-gradient(0deg, rgba(224, 136, 92, 0.1) 23.23%, rgba(255, 255, 255, 0) 100%),
+        no-repeat center/cover url('../src/images/A_BlockAuthorsArticles_Card_Photo_Property1.png');
+    }
   }
 }
-
-// .Q_ScrollRight {
-//   width: 1.15vw;
-//   height: 1.15vw;
-//   background-image: url('../src/images/Q_ScrollRight.svg');
-//   background-position: center;
-//   background-repeat: no-repeat;
-// }
-// .Q_ScrollLeft {
-//   width: 1.15vw;
-//   height: 1.15vw;
-//   background-image: url('../src/images/Q_ScrollLeft.svg');
-//   background-position: center;
-//   background-repeat: no-repeat;
-// }
-// .Q_ScrollUp {
-//   width: 1.15vw;
-//   height: 1.15vw;
-//   background-image: url('../src/images/Q_ScrollUp.svg');
-//   background-position: center;
-//   background-repeat: no-repeat;
-// }
-// .Q_ScrollDown {
-//   width: 1.15vw;
-//   height: 1.15vw;
-//   background-image: url('../src/images/Q_ScrollDown.svg');
-//   background-position: center;
-//   background-repeat: no-repeat;
-// }
-// .Q_Open {
-//   width: 1.15vw;
-//   height: 1.15vw;
-//   background-image: url('../src/images/Q_Open.svg');
-//   background-position: center;
-//   background-repeat: no-repeat;
-// }
-// .Q_Download {
-//   width: 1.15vw;
-//   height: 1.15vw;
-//   background-image: url('../src/images/Q_Download.svg');
-//   background-position: center;
-//   background-repeat: no-repeat;
-// }
-// .Q_Search {
-//   width: 1.3vw;
-//   height: 1.35vw;
-//   background-image: url('../src/images/Q_Search.svg');
-//   background-position: center;
-//   background-repeat: no-repeat;
-// }
-// .Q_TriangleDown {
-//   width: 0.68vw;
-//   height: 0.73vw;
-//   background-image: url('../src/images/Q_TriangleDown.svg');
-//   background-position: center;
-//   background-repeat: no-repeat;
-// }
-// .Q_HeadBunner_Photo {
-//   width: 100%;
-//   height: 31.25vw;
-//   border-radius: 1.56vw;
-//   background-image: url('../src/images/Q_HeadBunner_Photo.png');
-//   background-repeat: no-repeat;
-//   background-position: center;
-//   background-size: 100%;
-// }
-// .Q_DotSolid {
-//   background-color: var(--cream);
-// }
-// .Q_SectionBackground {
-//   width: 100vw;
-//   height: 39.48vw;
-//   margin-left: -6.5vw;
-//   border-radius: 1.56vw;
-//   background-color: var(--blue);
-// }
-// .Q_BlockAuthorsArticles_CardBackground {
-//   width: 41.72vw;
-//   height: 22.29vw;
-//   display: flex;
-//   flex-direction: row;
-//   justify-content: space-between;
-//   border-radius: 1.56vw;
-//   background: linear-gradient(105.93deg, #fff9ef 19.91%, #ffffff 100%);
-//   box-shadow: 0px 4px 29px 0px #fb62171a;
-// }
-// .Q_BlockVideos_Card_Information_Background {
-//   width: 27.29vw;
-//   height: 12.29vw;
-//   margin-top: -1.1vw;
-//   background-image: url('../src/images/Q_BlockVideos_Card_Information_Background.svg');
-//   background-repeat: no-repeat;
-//   background-position: center;
-//   background-size: 100%;
-// }
-// .Q_FooterBackground {
-//   width: 100vw;
-//   height: 39.48vw;
-//   margin-left: -6.5vw;
-//   border-radius: 1.56vw 1.56vw 0 0;
-//   background-color: var(--yellow);
-// }
-// .Q_SectionBackground,
-// .Q_FooterBackground {
-//   > div {
-//     padding-top: 3.9vw;
-//   }
-// }
