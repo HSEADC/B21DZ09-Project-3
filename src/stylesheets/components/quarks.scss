@@ -42,6 +42,39 @@
   &.Live {
     background: no-repeat top/100% url('../src/images/Q_IconsLive.svg');
   }
+
+  &.Turn {
+    background: no-repeat top/100% url('../src/images/Q_IconsTurn.svg');
+  }
+
+  &.Up {
+    background: no-repeat top/100% url('../src/images/Q_IconsUp.svg');
+  }
+
+  &.Down {
+    background: no-repeat top/100% url('../src/images/Q_IconsDown.svg');
+  }
+}
+
+.Q_ArticleImage {
+
+  &.Article3to5Column {
+    width: 50.833vw;
+  }
+
+  &.Article4to8Column {
+    width: 42.188vw;
+  }
+}
+
+.Q_CardBackground {
+  width: 397px;
+  height: 200px;
+  border-radius: 30px;
+
+  &#checklist1 {
+    background: linear-gradient(0deg, rgba(224, 136, 92, 0.1) 23.23%, rgba(255, 255, 255, 0) 100%), no-repeat center/cover url('../src/images/Q_CardBackground2.png');
+  }
 }
 
 // .Q_ScrollRight {

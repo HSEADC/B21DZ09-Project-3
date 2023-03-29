@@ -1,28 +1,45 @@
-.C_BlockAuthorsArticles_Cards,
-.C__BlockVideos_Cards,
-.C_BlockCheckLists_Cards,
-.C_SocialMedia {
+.C_VerticalScrollingButtons {
+  position: fixed;
+  margin: 45vw 0vw 0vw 87vw;
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
+  flex-direction: column;
+  row-gap: 10px;
 }
-.C_CategoryTags {
+
+.C_SocialNetworksButtons {
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  z-index: 100;
-  &.center {
-    padding-left: 12.39vw;
-    padding-top: 1.56vw;
-  }
+  width: fit-content;
+  column-gap: 17px;
 }
-.C_Dots {
-  width: 9.9vw;
+
+// Card Tags
+.C_CardTags {
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin-left: 11.46vw;
-  margin-top: 2.1vw;
-  justify-content: space-between;
+  column-gap: 10px;
+}
+
+.C_CategoriesButtons {
+  display: flex;
+  column-gap: 10px;
+}
+
+.C_5Cards {
+  display: flex;
+  column-gap: 20px
+}
+
+.C_3Cards {
+  display: flex;
+  column-gap: 20px
+}
+
+.C_AdditionalCardsBlock {
+  display: flex;
+  width: fit-content;
+  column-gap: 20px;
+}
+
+.C_TwoArticlePhotos {
+  display: flex;
+  column-gap: 20px;
 }
