@@ -3,9 +3,10 @@
   height: 130px;
   align-items: center;
   justify-content: space-between;
+  background: var(--cream);
 }
 
-.O_CommentsPlace {
+.O_CommentsBlock {
   display: flex;
   justify-content: space-around;
   background: var(--beige);
@@ -13,35 +14,30 @@
   padding: 60px 0px;
 }
 
-// .O_HeadBunner {
-//   margin: 1.56vw 25.94vw 1.56vw 25.94vw;
-// }
-// .O_BlockAuthorsArticles_Card {
-//   width: 41.72vw;
-//   height: 22.29vw;
-//   display: flex;
-//   flex-direction: row;
-//   justify-content: space-between;
-//   margin: 1.04vw 1.04vw 1.04vw 1.04vw;
-// }
-// .O__BlockVideos_Card {
-//   > .C_CategoryTags {
-//     margin-top: -1vw;
-//   }
-// }
-// .O_BlockCheckLists_Card {
-//   width: 20.26vw;
-//   height: 23.44vw;
-//   display: flex;
-//   flex-direction: row;
-//   justify-content: space-between;
-//   border-radius: 1.56vw;
-//   background: linear-gradient(105.93deg, #fff9ef 19.91%, #ffffff 100%);
-//   box-shadow: 0px 4px 29px 0px #fb62171a;
-// }
-// .O_Footer_Links,
-// .O_Footer_Contacts {
-//   display: flex;
-//   flex-direction: row;
-//   margin: 0vw 6.5vw 0vw 6.5vw;
-// }
+.O_ColorSection {
+  margin: 0px 0px 0px -7.292vw;
+  width: 117.06%;
+  height: 1116px;
+  border-radius: 0px 0px 30px 30px;
+}
+
+.O_ParagraphText {
+  width: 50.833vw;
+
+  p {
+    margin: 0px 0px 40px 0px;
+
+    &:last-child {
+      margin: 0px;
+    }
+  }
+}
+
+.O_ScrollBlock {
+  width: auto;
+  overflow-x: scroll;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}

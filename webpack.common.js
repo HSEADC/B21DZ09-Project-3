@@ -179,6 +179,15 @@ module.exports = {
       // chunks: ['page']
     }),
 
+    // Tepmlates page
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/templates.html',
+      filename: './templates.html'
+      // chunks: ['page']
+    }),
+
     // Partials
     new HtmlWebpackPartialsPlugin([
       {
