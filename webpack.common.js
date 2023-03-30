@@ -143,12 +143,66 @@ module.exports = {
       // chunks: ['page']
     }),
 
-    // Single instruction page
+    // Instruction1 page
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
       template: './src/instructions/instr1.html',
       filename: './instructions/instr1.html'
+      // chunks: ['page']
+    }),
+
+    // Instruction2 page
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/instructions/instr2.html',
+      filename: './instructions/instr2.html'
+      // chunks: ['page']
+    }),
+
+    // Instruction3 page
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/instructions/instr3.html',
+      filename: './instructions/instr3.html'
+      // chunks: ['page']
+    }),
+
+    // Instruction4 page
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/instructions/instr4.html',
+      filename: './instructions/instr4.html'
+      // chunks: ['page']
+    }),
+
+    // Instruction5 page
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/instructions/instr5.html',
+      filename: './instructions/instr5.html'
+      // chunks: ['page']
+    }),
+
+    // Instruction6 page
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/instructions/instr6.html',
+      filename: './instructions/instr6.html'
+      // chunks: ['page']
+    }),
+
+    // Instruction7 page
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/instructions/instr7.html',
+      filename: './instructions/instr7.html'
       // chunks: ['page']
     }),
 

@@ -4,106 +4,158 @@
   height: 26px;
 
   &.Right {
-    background: no-repeat top/100% url('../src/images/Q_IconsRight.svg');
+    background: no-repeat top/100% url('../src/images/icons/Q_IconsRight.svg');
 
     &.CreamCombination {
-      background: no-repeat top/100% url('../src/images/Q_IconsRightCream.svg');
+      background: no-repeat top/100% url('../src/images/icons/Q_IconsRightCream.svg');
+    }
+
+    &.BlueCombination {
+      background: no-repeat top/100% url('../src/images/icons/Q_IconsRightBlue.svg');
     }
   }
 
   &.Left {
-    background: no-repeat top/100% url('../src/images/Q_IconsLeft.svg');
+    background: no-repeat top/100% url('../src/images/icons/Q_IconsLeft.svg');
 
     &.CreamCombination {
-      background: no-repeat top/100% url('../src/images/Q_IconsLeftCream.svg');
+      background: no-repeat top/100% url('../src/images/icons/Q_IconsLeftCream.svg');
+    }
+
+    &.BlueCombination {
+      background: no-repeat top/100% url('../src/images/icons/Q_IconsLeftBlue.svg');
     }
   }
 
   &.Open {
-    background: no-repeat top/100% url('../src/images/Q_IconsOpen.svg');
+    background: no-repeat top/100% url('../src/images/icons/Q_IconsOpen.svg');
 
     &.CreamCombination {
-      background: no-repeat top/100% url('../src/images/Q_IconsOpenCream.svg');
+      background: no-repeat top/100% url('../src/images/icons/Q_IconsOpenCream.svg');
+    }
+
+    &.BlueCombination {
+      background: no-repeat top/100% url('../src/images/icons/Q_IconsOpenBlue.svg');
     }
   }
 
   &.Download {
-    background: no-repeat top/100% url('../src/images/Q_IconsDownload.svg');
+    background: no-repeat top/100% url('../src/images/icons/Q_IconsDownload.svg');
 
     &.CreamCombination {
-      background: no-repeat top/100% url('../src/images/Q_IconsDownloadCream.svg');
+      background: no-repeat top/100% url('../src/images/icons/Q_IconsDownloadCream.svg');
+    }
+
+    &.BlueCombination {
+      background: no-repeat top/100% url('../src/images/icons/Q_IconsDownloadBlue.svg');
     }
   }
 
   &.Search {
-    background: no-repeat top/100% url('../src/images/Q_IconsSearch.svg');
+    background: no-repeat top/100% url('../src/images/icons/Q_IconsSearch.svg');
 
     &.CreamCombination {
-      background: no-repeat top/100% url('../src/images/Q_IconsSearchCream.svg');
+      background: no-repeat top/100% url('../src/images/icons/Q_IconsSearchCream.svg');
+    }
+
+    &.BlueCombination {
+      background: no-repeat top/100% url('../src/images/icons/Q_IconsSearchBlue.svg');
     }
   }
 
   &.Play {
-    background: no-repeat top/100% url('../src/images/Q_IconsPlay.svg');
+    background: no-repeat top/100% url('../src/images/icons/Q_IconsPlay.svg');
 
     &.CreamCombination {
-      background: no-repeat top/100% url('../src/images/Q_IconsPlayCream.svg');
+      background: no-repeat top/100% url('../src/images/icons/Q_IconsPlayCream.svg');
+    }
+
+    &.BlueCombination {
+      background: no-repeat top/100% url('../src/images/icons/Q_IconsPlayBlue.svg');
     }
   }
 
   &.Share {
-    background: no-repeat top/100% url('../src/images/Q_IconsShare.svg');
+    background: no-repeat top/100% url('../src/images/icons/Q_IconsShare.svg');
 
     &.CreamCombination {
-      background: no-repeat top/100% url('../src/images/Q_IconsShareCream.svg');
+      background: no-repeat top/100% url('../src/images/icons/Q_IconsShareCream.svg');
+    }
+
+    &.BlueCombination {
+      background: no-repeat top/100% url('../src/images/icons/Q_IconsShareBlue.svg');
     }
   }
 
   &.Eye {
-    background: no-repeat top/100% url('../src/images/Q_IconsEye.svg');
+    background: no-repeat top/100% url('../src/images/icons/Q_IconsEye.svg');
 
     &.CreamCombination {
-      background: no-repeat top/100% url('../src/images/Q_IconsEyeCream.svg');
+      background: no-repeat top/100% url('../src/images/icons/Q_IconsEyeCream.svg');
+    }
+
+    &.BlueCombination {
+      background: no-repeat top/100% url('../src/images/icons/Q_IconsEyeBlue.svg');
     }
   }
 
   &.Check {
-    background: no-repeat top/100% url('../src/images/Q_IconsCheck.svg');
+    background: no-repeat top/100% url('../src/images/icons/Q_IconsCheck.svg');
 
     &.CreamCombination {
-      background: no-repeat top/100% url('../src/images/Q_IconsCheckCream.svg');
+      background: no-repeat top/100% url('../src/images/icons/Q_IconsCheckCream.svg');
+    }
+
+    &.BlueCombination {
+      background: no-repeat top/100% url('../src/images/icons/Q_IconsCheckBlue.svg');
     }
   }
 
   &.Live {
-    background: no-repeat top/100% url('../src/images/Q_IconsLive.svg');
+    background: no-repeat top/100% url('../src/images/icons/Q_IconsLive.svg');
 
     &.CreamCombination {
-      background: no-repeat top/100% url('../src/images/Q_IconsLiveCream.svg');
+      background: no-repeat top/100% url('../src/images/icons/Q_IconsLiveCream.svg');
+    }
+
+    &.BlueCombination {
+      background: no-repeat top/100% url('../src/images/icons/Q_IconsLiveBlue.svg');
     }
   }
 
   &.Turn {
-    background: no-repeat top/100% url('../src/images/Q_IconsTurn.svg');
+    background: no-repeat top/100% url('../src/images/icons/Q_IconsTurn.svg');
 
     &.CreamCombination {
-      background: no-repeat top/100% url('../src/images/Q_IconsTurnCream.svg');
+      background: no-repeat top/100% url('../src/images/icons/Q_IconsTurnCream.svg');
+    }
+
+    &.BlueCombination {
+      background: no-repeat top/100% url('../src/images/icons/Q_IconsTurnBlue.svg');
     }
   }
 
   &.Up {
-    background: no-repeat top/100% url('../src/images/Q_IconsUp.svg');
+    background: no-repeat top/100% url('../src/images/icons/Q_IconsUp.svg');
 
     &.CreamCombination {
-      background: no-repeat top/100% url('../src/images/Q_IconsUpCream.svg');
+      background: no-repeat top/100% url('../src/images/icons/Q_IconsUpCream.svg');
+    }
+
+    &.BlueCombination {
+      background: no-repeat top/100% url('../src/images/icons/Q_IconsUpBlue.svg');
     }
   }
 
   &.Down {
-    background: no-repeat top/100% url('../src/images/Q_IconsDown.svg');
+    background: no-repeat top/100% url('../src/images/icons/Q_IconsDown.svg');
 
     &.CreamCombination {
-      background: no-repeat top/100% url('../src/images/Q_IconsDownCream.svg');
+      background: no-repeat top/100% url('../src/images/icons/Q_IconsDownCream.svg');
+    }
+
+    &.BlueCombination {
+      background: no-repeat top/100% url('../src/images/icons/Q_IconsDownBlue.svg');
     }
   }
 }
@@ -116,6 +168,23 @@
 
   &.Article4to8Column {
     width: 42.188vw;
+  }
+}
+
+.Q_ArticleVideo {
+  border-radius: 30px;
+  background-color: black;
+  object-fit: cover;
+
+  &.Article3to9Column {
+    width: 27.760vw;
+    height: 42.396vw;
+  }
+
+  &.Article5to5Column {
+    margin: -20px;
+    width: 85.417vw;
+    height: 647px;
   }
 }
 

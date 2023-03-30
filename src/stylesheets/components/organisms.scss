@@ -23,6 +23,10 @@
   row-gap: 60px;
   flex-direction: column;
   align-items: center;
+
+  &.NoRadius {
+    border-radius: 0px;
+  }
 }
 
 .O_ParagraphText {
