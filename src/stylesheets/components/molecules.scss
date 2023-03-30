@@ -79,8 +79,8 @@
 
     &.CreamCombination {
 
-      &#instruction1 {
-        background: no-repeat center/cover url('../src/images/Q_CardBackground1.png'), var(--cream);
+      &#instruction3 {
+        background: no-repeat center/cover url('../src/images/cards/Card4to8Column/internet.png'), var(--cream);
       }
     }
 
@@ -164,7 +164,27 @@
     &.CreamCombination {
 
       &#instruction1 {
-        background: no-repeat center/cover url('../src/images/Q_CardBackground1.png'), var(--cream);
+        background: no-repeat center/cover url('../src/images/cards/Card2to8Column/utilities.png'), var(--cream);
+      }
+      //
+      &#instruction2 {
+        background: no-repeat center/cover url('../src/images/cards/Card2to8Column/zaplatka.png'), var(--cream);
+      }
+
+      &#instruction4 {
+        background: no-repeat center/cover url('../src/images/cards/Card2to8Column/stul.png'), var(--cream);
+      }
+
+      &#instruction5 {
+        background: no-repeat center/cover url('../src/images/cards/Card2to8Column/eggs.png'), var(--cream);
+      }
+
+      &#instruction6 {
+        background: no-repeat center/cover url('../src/images/cards/Card2to8Column/pochta.png'), var(--cream);
+      }
+
+      &#instruction7 {
+        background: no-repeat center/cover url('../src/images/cards/Card2to8Column/notebook.png'), var(--cream);
       }
     }
 
@@ -266,9 +286,9 @@
     align-items: center;
     row-gap: 20px;
 
-    &#video1 {
+    &#video2 {
       background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(208, 109, 59, 0.5) 78.42%),
-        no-repeat center/cover url('../src/images/A_BlockAuthorsArticles_Card_Photo_Property1.png');
+        no-repeat center/cover url('../src/videos/PumpkinDinnerPreview.png');
     }
   }
 

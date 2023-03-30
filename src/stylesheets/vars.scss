@@ -57,7 +57,7 @@ body.home {
   }
 }
 
-body.instructions, .home, .articles, .art1, .art2, .art3, .art4, .art5, .art6, .vid1, .vid2, .check1, .instr1, .instr2, .instr3, .instr4, .instr5, .instr6, .instr7 {
+body.instructions, .questions, .home, .articles, .art1, .art2, .art3, .art4, .art5, .art6, .vid1, .vid2, .check1, .instr1, .instr2, .instr3, .instr4, .instr5, .instr6, .instr7 {
   display: block;
   flex-direction: column;
   margin: 0px 7.292vw;
@@ -89,6 +89,32 @@ body.instructions, .home, .articles, .art1, .art2, .art3, .art4, .art5, .art6, .
     margin: 80px 0px 0px 0px;
     flex-direction: column;
     row-gap: 40px;
+
+    &.error {
+      justify-content: center;
+      align-items: center;
+      margin: 60px 0px 0px 0px;
+
+      .W_ErrorMore {
+        display: flex;
+        column-gap: 84px;
+        align-items: flex-end
+      }
+
+      .A_Button:hover {
+        color: var(--cream);
+        background-color: var(--orangehover);
+      }
+
+      h1 {
+        font-size: 460px;
+        color: var(--beigehover);
+      }
+
+      h3 {
+        width: 43.594vw;
+      }
+    }
   }
 
   h1 {
