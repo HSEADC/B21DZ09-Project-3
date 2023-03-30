@@ -207,7 +207,17 @@
 
     &#article1 {
       background: linear-gradient(0deg, rgba(224, 136, 92, 0.1) 23.23%, rgba(255, 255, 255, 0) 100%),
-        no-repeat center/cover url('../src/images/A_BlockAuthorsArticles_Card_Photo_Property1.png');
+        no-repeat center/cover url('../src/images/postbanner/article1.png');
+    }
+
+    &#article2 {
+      background: linear-gradient(0deg, rgba(224, 136, 92, 0.1) 23.23%, rgba(255, 255, 255, 0) 100%),
+        no-repeat center/cover url('../src/images/postbanner/article2.png');
+    }
+
+    &#article3 {
+      background: linear-gradient(0deg, rgba(224, 136, 92, 0.1) 23.23%, rgba(255, 255, 255, 0) 100%),
+        no-repeat center/cover url('../src/images/postbanner/article3.png');
     }
   }
 }

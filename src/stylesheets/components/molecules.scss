@@ -16,6 +16,7 @@
 
 .M_ButtonTags {
   display: flex;
+  margin: 40px 0px 60px 0px;
   column-gap: 60px;
   justify-content: center;
 }
@@ -71,8 +72,8 @@
 
     &.BeigeCombination {
 
-      &#instruction1 {
-        background: no-repeat center/cover url('../src/images/Q_CardBackground1.png'), var(--beige);
+      &#instruction3 {
+        background: no-repeat center/cover url('../src/images/cards/Card4to8Column/internet.png'), var(--beige);
       }
     }
 
@@ -122,7 +123,7 @@
 }
 
 .M_Card2to8Column {
-  width: 395px;
+  width: 20.57vw;
   border-radius: 30px;
 
   &.Instruction {
@@ -136,7 +137,27 @@
     &.BeigeCombination {
 
       &#instruction1 {
-        background: no-repeat center/cover url('../src/images/Q_CardBackground1.png'), var(--beige);
+        background: no-repeat center/cover url('../src/images/cards/Card2to8Column/utilities.png'), var(--beige);
+      }
+      //
+      &#instruction2 {
+        background: no-repeat center/cover url('../src/images/cards/Card2to8Column/zaplatka.png'), var(--beige);
+      }
+
+      &#instruction4 {
+        background: no-repeat center/cover url('../src/images/cards/Card2to8Column/stul.png'), var(--beige);
+      }
+
+      &#instruction5 {
+        background: no-repeat center/cover url('../src/images/cards/Card2to8Column/eggs.png'), var(--beige);
+      }
+
+      &#instruction6 {
+        background: no-repeat center/cover url('../src/images/cards/Card2to8Column/pochta.png'), var(--beige);
+      }
+
+      &#instruction7 {
+        background: no-repeat center/cover url('../src/images/cards/Card2to8Column/notebook.png'), var(--beige);
       }
     }
 
@@ -204,7 +225,12 @@
 
     &#video1 {
       background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(208, 109, 59, 0.5) 78.42%),
-        no-repeat center/cover url('../src/images/A_BlockAuthorsArticles_Card_Photo_Property1.png');
+        no-repeat center/cover url('../src/images/postbanner/video1.png');
+    }
+
+    &#video2 {
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(208, 109, 59, 0.5) 78.42%),
+        no-repeat center/cover url('../src/videos/PumpkinDinnerPreview.png');
     }
   }
 
@@ -257,13 +283,13 @@
 
     &.OrangeGradient {
 
-      &#banner1 {
+      &#article1 {
         background: linear-gradient(180deg, rgba(255, 255, 255, 0) 15.93%, rgba(237, 109, 47, 0.7) 78.42%),
-          no-repeat center/cover url('../src/images/A_BlockAuthorsArticles_Card_Photo_Property1.png');
+          no-repeat center/cover url('../src/images/postbanner/article1.png');
       }
     }
 
-    &.BlueGradient {
+    &.YellowGradient {
 
       &#banner1 {
         background: linear-gradient(180deg, rgba(255, 255, 255, 0) 15.93%, rgba(240, 191, 13, 0.7) 78.42%),
@@ -271,11 +297,11 @@
       }
     }
 
-    &.YellowGradient {
+    &.BlueGradient {
 
-      &#banner1 {
+      &#instruction1 {
         background: linear-gradient(180deg, rgba(255, 255, 255, 0) 15.93%, rgba(135, 170, 255, 0.7) 78.42%),
-          no-repeat center/cover url('../src/images/A_BlockAuthorsArticles_Card_Photo_Property1.png');
+          no-repeat center/cover url('../src/images/postbanner/instruction1.png');
       }
     }
   }
@@ -361,6 +387,30 @@
 
   &#instruction7 {
     background: linear-gradient(0deg, rgba(224, 136, 92, 0.1) 23.23%, rgba(255, 255, 255, 0) 100%), no-repeat center/cover url('../src/images/postbanner/instruction7.png');
+  }
+
+  &#article1 {
+    background: linear-gradient(0deg, rgba(224, 136, 92, 0.1) 23.23%, rgba(255, 255, 255, 0) 100%), no-repeat center/cover url('../src/images/postbanner/article1.png');
+  }
+
+  &#article2 {
+    background: linear-gradient(0deg, rgba(224, 136, 92, 0.1) 23.23%, rgba(255, 255, 255, 0) 100%), no-repeat center/cover url('../src/images/postbanner/article2.png');
+  }
+
+  &#article3 {
+    background: linear-gradient(0deg, rgba(224, 136, 92, 0.1) 23.23%, rgba(255, 255, 255, 0) 100%), no-repeat center/cover url('../src/images/postbanner/article3.png');
+  }
+
+  &#article4 {
+    background: linear-gradient(0deg, rgba(224, 136, 92, 0.1) 23.23%, rgba(255, 255, 255, 0) 100%), no-repeat center/cover url('../src/images/postbanner/article4.png');
+  }
+
+  &#article5 {
+    background: linear-gradient(0deg, rgba(224, 136, 92, 0.1) 23.23%, rgba(255, 255, 255, 0) 100%), no-repeat center/cover url('../src/images/postbanner/article5.png');
+  }
+
+  &#article6 {
+    background: linear-gradient(0deg, rgba(224, 136, 92, 0.1) 23.23%, rgba(255, 255, 255, 0) 100%), no-repeat center/cover url('../src/images/postbanner/article6.png');
   }
 
   &#checklist1 {
