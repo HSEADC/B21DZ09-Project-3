@@ -215,12 +215,57 @@ module.exports = {
       // chunks: ['page']
     }),
 
-    // Single article page
+    // Article1 page
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
       template: './src/articles/art1.html',
       filename: './articles/art1.html'
+      // chunks: ['page']
+    }),
+
+    // Article2 page
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/articles/art2.html',
+      filename: './articles/art2.html'
+      // chunks: ['page']
+    }),
+
+    // Article3 page
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/articles/art3.html',
+      filename: './articles/art3.html'
+      // chunks: ['page']
+    }),
+
+    // Article4 page
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/articles/art4.html',
+      filename: './articles/art4.html'
+      // chunks: ['page']
+    }),
+
+    // Article5 page
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/articles/art5.html',
+      filename: './articles/art5.html'
+      // chunks: ['page']
+    }),
+
+    // Article6 page
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/articles/art6.html',
+      filename: './articles/art6.html'
       // chunks: ['page']
     }),
 

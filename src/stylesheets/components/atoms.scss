@@ -140,7 +140,11 @@
   border-radius: 40px;
 
   &#AvatarMan{
-    background: no-repeat top/100% url('../src/images/A_AvatarMan.png');
+    background: no-repeat top/100% url('../src/images/avatars/A_AvatarMan.png');
+  }
+
+  &#AvatarIvan {
+    background: no-repeat top/100% url('../src/images/avatars/A_AvatarIvan.png');
   }
 }
 
