@@ -327,7 +327,7 @@
   }
 }
 
-// Post banner1
+// Post banner
 
 .M_PostBanner {
   width: 85.417vw;
@@ -335,12 +335,53 @@
   border-radius: 30px;
   padding: 20px;
 
+  &#instruction1 {
+    background: linear-gradient(0deg, rgba(224, 136, 92, 0.1) 23.23%, rgba(255, 255, 255, 0) 100%), no-repeat center/cover url('../src/images/postbanner/instruction1.png');
+  }
+
+  &#instruction2 {
+    background: linear-gradient(0deg, rgba(224, 136, 92, 0.1) 23.23%, rgba(255, 255, 255, 0) 100%), no-repeat center/cover url('../src/images/postbanner/instruction2.png');
+  }
+
+  &#instruction3 {
+    background: linear-gradient(0deg, rgba(224, 136, 92, 0.1) 23.23%, rgba(255, 255, 255, 0) 100%), no-repeat center/cover url('../src/images/postbanner/instruction3.png');
+  }
+
+  &#instruction4 {
+    background: linear-gradient(0deg, rgba(224, 136, 92, 0.1) 23.23%, rgba(255, 255, 255, 0) 100%), no-repeat center/cover url('../src/images/postbanner/instruction4.png');
+  }
+
+  &#instruction5 {
+    background: linear-gradient(0deg, rgba(224, 136, 92, 0.1) 23.23%, rgba(255, 255, 255, 0) 100%), no-repeat center/cover url('../src/images/postbanner/instruction5.png');
+  }
+
+  &#instruction6 {
+    background: linear-gradient(0deg, rgba(224, 136, 92, 0.1) 23.23%, rgba(255, 255, 255, 0) 100%), no-repeat center/cover url('../src/images/postbanner/instruction6.png');
+  }
+
+  &#instruction7 {
+    background: linear-gradient(0deg, rgba(224, 136, 92, 0.1) 23.23%, rgba(255, 255, 255, 0) 100%), no-repeat center/cover url('../src/images/postbanner/instruction7.png');
+  }
+
   &#checklist1 {
     background: linear-gradient(0deg, rgba(224, 136, 92, 0.1) 23.23%, rgba(255, 255, 255, 0) 100%), no-repeat center/cover url('../src/images/Q_CardBackground2.png');
   }
 
   &#video1 {
-    background: linear-gradient(0deg, rgba(224, 136, 92, 0.1) 23.23%, rgba(255, 255, 255, 0) 100%), no-repeat center/cover url('../src/images/Q_CardBackground2.png');
+    background: linear-gradient(0deg, rgba(224, 136, 92, 0.1) 23.23%, rgba(255, 255, 255, 0) 100%), no-repeat center/cover url('../src/images/postbanner/video1.png');
+  }
+}
+
+// Video banner
+
+.M_VideoBanner {
+  width: 85.417vw;
+  height: 647px;
+  border-radius: 30px;
+  padding: 20px;
+
+  > .C_Categories {
+    position: absolute;
   }
 }
 
