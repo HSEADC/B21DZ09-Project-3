@@ -25,6 +25,10 @@
 .CreamCombination{
   background-color: var(--cream);
   color: var(--orange);
+
+  &.BlueText {
+    color: var(--blue);
+  }
 }
 
 .BeigeCombination{
@@ -46,7 +50,7 @@ html {
   scroll-behavior: smooth;
 }
 
-body.instructions, .home, .articles, .art1, .vid1, .vid2, .check1, .instr1 {
+body.instructions, .home, .articles, .art1, .vid1, .vid2, .check1, .instr1, .instr2, .instr3, .instr4, .instr5, .instr6, .instr7 {
   display: block;
   flex-direction: column;
   margin: 0px 7.292vw;
@@ -56,6 +60,22 @@ body.instructions, .home, .articles, .art1, .vid1, .vid2, .check1, .instr1 {
   color: var(--orange);
   line-height: 145%;
   background-color: var(--cream);
+
+  ol, ul {
+    list-style: auto;
+
+    :last-child {
+      margin: 0px 0px 0px 0px;
+    }
+
+    & + figure {
+      margin: 40px 0px 40px 0px;
+    }
+  }
+
+  li {
+    margin: 0px 0px 16px 0px;
+  }
 
   header {
     .M_ButtonTags {
@@ -118,6 +138,14 @@ body.instructions, .home, .articles, .art1, .vid1, .vid2, .check1, .instr1 {
     &.A_Label {
       color: var(--cream);
     }
+
+    &.OrangeCombination, &.BlueCombination {
+      color: var(--cream);
+
+      &:hover {
+        color: var(--beigehover);
+      }
+    }
   }
 
   nav {
@@ -146,5 +174,9 @@ body.instructions, .home, .articles, .art1, .vid1, .vid2, .check1, .instr1 {
     border-style: hidden;
     font-family: 'Golos Text', sans-serif;
     cursor: pointer;
+  }
+
+  video::-webkit-media-controls-panel {
+   background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(224, 136, 92, 0.1) 78.42%) !important;
   }
 }
