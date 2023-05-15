@@ -1,38 +1,26 @@
 let currentSlide = 0
 
 function initModal() {
-  const postTeasers = document.getElementsByClassName('postTeaser')
-  const sliderButtonLeft = document.querySelector('.sliderButton.left')
-  const sliderButtonRight = document.querySelector('.sliderButton.right')
+  const firstCircle = document.querySelector('.A_Circles.first')
+  const secondCircle = document.querySelector('.A_Circles.second')
+  const firstCircle = document.querySelector('.A_Circles.first')
+  const thirdCircle = document.querySelector('.A_Circles.third')
+  const fourthCircle = document.querySelector('.A_Circles.fourth')
 
-  for (var i = 0; i < postTeasers.length; i++) {
-    postTeasers[i].addEventListener('click', toggleModal)
-  }
-
-
-  sliderButtonLeft.addEventListener('click', () => {
+  firstCircle.addEventListener('click', () => {
     slide('prev')
   })
 
-  sliderButtonRight.addEventListener('click', () => {
+  secondCircle.addEventListener('click', () => {
     slide('next')
   })
 }
 
-function toggleModal() {
-  const body = document.body
-
-  if (body.classList.contains('modal')) {
-    slide('reset')
-  }
-
-  body.classList.toggle('modal')
-}
-
-
 function slide(direction) {
-  const sliderButtonLeft = document.querySelector('.sliderButton.left')
-  const sliderButtonRight = document.querySelector('.sliderButton.right')
+  const firstCircle = document.querySelector('.A_Circles.first')
+  const secondCircle = document.querySelector('.A_Circles.second')
+  const thirdCircle = document.querySelector('.A_Circles.third')
+  const fourthCircle = document.querySelector('.A_Circles.fourth')
   const rail = document.querySelector('.rail')
   const railLength = rail.children.length
 
@@ -45,14 +33,14 @@ function slide(direction) {
   }
 
   if (currentSlide === 0) {
-    sliderButtonLeft.classList.add('hidden')
-    sliderButtonRight.classList.remove('hidden')
+    firstCircle.classList.add('hidden')
+    secondCircle.classList.remove('hidden')
   } else if (currentSlide + 1 === railLength) {
-    sliderButtonLeft.classList.remove('hidden')
-    sliderButtonRight.classList.add('hidden')
+    firstCircle.classList.remove('hidden')
+    secondCircle.classList.add('hidden')
   } else {
-    sliderButtonLeft.classList.remove('hidden')
-    sliderButtonRight.classList.remove('hidden')
+    firstCircle.classList.remove('hidden')
+    secondCircle.classList.remove('hidden')
   }
 
   rail.style.transform = 'translateX(-' + 664 * currentSlide + 'px)'
@@ -60,3 +48,4 @@ function slide(direction) {
 
 document.addEventListener('DOMContentLoaded', () => {
   initModal()
+})
