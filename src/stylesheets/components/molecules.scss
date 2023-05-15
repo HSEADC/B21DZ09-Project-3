@@ -2,7 +2,7 @@
 
 .M_MenuNavigation {
   display: flex;
-  gap: 60px;
+  gap: 3.13vw;
 }
 
 // Navigation logotype with label
@@ -10,6 +10,7 @@
 .M_NavigationLogotype {
   display: flex;
   column-gap: 10px;
+  width: 17.29vw;
 }
 
 // Categories button with arrows
@@ -71,16 +72,18 @@
     row-gap: 20px;
 
     &.BeigeCombination {
-
       &#instruction3 {
-        background: no-repeat center/cover url('../src/images/cards/Card4to8Column/internet.png'), var(--beige);
+        background: no-repeat center/cover
+            url('../src/images/cards/Card4to8Column/internet.png'),
+          var(--beige);
       }
     }
 
     &.CreamCombination {
-
       &#instruction3 {
-        background: no-repeat center/cover url('../src/images/cards/Card4to8Column/internet.png'), var(--cream);
+        background: no-repeat center/cover
+            url('../src/images/cards/Card4to8Column/internet.png'),
+          var(--cream);
       }
     }
 
@@ -113,10 +116,15 @@
     row-gap: 20px;
 
     &#question1 {
-      background: linear-gradient(0deg, rgba(224, 136, 92, 0.1) 23.23%, rgba(255, 255, 255, 0) 100%), no-repeat center/cover url('../src/images/Q_CardBackground2.png');
+      background: linear-gradient(
+          0deg,
+          rgba(224, 136, 92, 0.1) 23.23%,
+          rgba(255, 255, 255, 0) 100%
+        ),
+        no-repeat center/cover url('../src/images/Q_CardBackground2.png');
     }
 
-    >.A_Button:hover {
+    > .A_Button:hover {
       background: var(--orangehover);
     }
   }
@@ -135,56 +143,78 @@
     row-gap: 20px;
 
     &.BeigeCombination {
-
       &#instruction1 {
-        background: no-repeat center/cover url('../src/images/cards/Card2to8Column/utilities.png'), var(--beige);
+        background: no-repeat center/cover
+            url('../src/images/cards/Card2to8Column/utilities.png'),
+          var(--beige);
       }
       //
       &#instruction2 {
-        background: no-repeat center/cover url('../src/images/cards/Card2to8Column/zaplatka.png'), var(--beige);
+        background: no-repeat center/cover
+            url('../src/images/cards/Card2to8Column/zaplatka.png'),
+          var(--beige);
       }
 
       &#instruction4 {
-        background: no-repeat center/cover url('../src/images/cards/Card2to8Column/stul.png'), var(--beige);
+        background: no-repeat center/cover
+            url('../src/images/cards/Card2to8Column/stul.png'),
+          var(--beige);
       }
 
       &#instruction5 {
-        background: no-repeat center/cover url('../src/images/cards/Card2to8Column/eggs.png'), var(--beige);
+        background: no-repeat center/cover
+            url('../src/images/cards/Card2to8Column/eggs.png'),
+          var(--beige);
       }
 
       &#instruction6 {
-        background: no-repeat center/cover url('../src/images/cards/Card2to8Column/pochta.png'), var(--beige);
+        background: no-repeat center/cover
+            url('../src/images/cards/Card2to8Column/pochta.png'),
+          var(--beige);
       }
 
       &#instruction7 {
-        background: no-repeat center/cover url('../src/images/cards/Card2to8Column/notebook.png'), var(--beige);
+        background: no-repeat center/cover
+            url('../src/images/cards/Card2to8Column/notebook.png'),
+          var(--beige);
       }
     }
 
     &.CreamCombination {
-
       &#instruction1 {
-        background: no-repeat center/cover url('../src/images/cards/Card2to8Column/utilities.png'), var(--cream);
+        background: no-repeat center/cover
+            url('../src/images/cards/Card2to8Column/utilities.png'),
+          var(--cream);
       }
       //
       &#instruction2 {
-        background: no-repeat center/cover url('../src/images/cards/Card2to8Column/zaplatka.png'), var(--cream);
+        background: no-repeat center/cover
+            url('../src/images/cards/Card2to8Column/zaplatka.png'),
+          var(--cream);
       }
 
       &#instruction4 {
-        background: no-repeat center/cover url('../src/images/cards/Card2to8Column/stul.png'), var(--cream);
+        background: no-repeat center/cover
+            url('../src/images/cards/Card2to8Column/stul.png'),
+          var(--cream);
       }
 
       &#instruction5 {
-        background: no-repeat center/cover url('../src/images/cards/Card2to8Column/eggs.png'), var(--cream);
+        background: no-repeat center/cover
+            url('../src/images/cards/Card2to8Column/eggs.png'),
+          var(--cream);
       }
 
       &#instruction6 {
-        background: no-repeat center/cover url('../src/images/cards/Card2to8Column/pochta.png'), var(--cream);
+        background: no-repeat center/cover
+            url('../src/images/cards/Card2to8Column/pochta.png'),
+          var(--cream);
       }
 
       &#instruction7 {
-        background: no-repeat center/cover url('../src/images/cards/Card2to8Column/notebook.png'), var(--cream);
+        background: no-repeat center/cover
+            url('../src/images/cards/Card2to8Column/notebook.png'),
+          var(--cream);
       }
     }
 
@@ -207,8 +237,13 @@
     row-gap: 14px;
 
     &#video1 {
-      background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(208, 109, 59, 0.5) 78.42%),
-        no-repeat center/cover url('../src/images/A_BlockAuthorsArticles_Card_Photo_Property1.png');
+      background: linear-gradient(
+          180deg,
+          rgba(255, 255, 255, 0) 0%,
+          rgba(208, 109, 59, 0.5) 78.42%
+        ),
+        no-repeat center/cover
+          url('../src/images/A_BlockAuthorsArticles_Card_Photo_Property1.png');
     }
   }
 
@@ -244,27 +279,47 @@
     row-gap: 14px;
 
     &#video1 {
-      background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(208, 109, 59, 0.5) 78.42%),
+      background: linear-gradient(
+          180deg,
+          rgba(255, 255, 255, 0) 0%,
+          rgba(208, 109, 59, 0.5) 78.42%
+        ),
         no-repeat center/cover url('../src/images/postbanner/video1.png');
     }
 
     &#video2 {
-      background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(208, 109, 59, 0.5) 78.42%),
+      background: linear-gradient(
+          180deg,
+          rgba(255, 255, 255, 0) 0%,
+          rgba(208, 109, 59, 0.5) 78.42%
+        ),
         no-repeat center/cover url('../src/videos/PumpkinDinnerPreview.png');
     }
 
     &#video3 {
-      background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(208, 109, 59, 0.5) 78.42%),
+      background: linear-gradient(
+          180deg,
+          rgba(255, 255, 255, 0) 0%,
+          rgba(208, 109, 59, 0.5) 78.42%
+        ),
         no-repeat center/cover url('../src/videos/Video3Preview.png');
     }
 
     &#video4 {
-      background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(208, 109, 59, 0.5) 78.42%),
+      background: linear-gradient(
+          180deg,
+          rgba(255, 255, 255, 0) 0%,
+          rgba(208, 109, 59, 0.5) 78.42%
+        ),
         no-repeat center/cover url('../src/videos/Video4Preview.png');
     }
 
     &#video5 {
-      background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(208, 109, 59, 0.5) 78.42%),
+      background: linear-gradient(
+          180deg,
+          rgba(255, 255, 255, 0) 0%,
+          rgba(208, 109, 59, 0.5) 78.42%
+        ),
         no-repeat center/cover url('../src/videos/Video5Preview.png');
     }
   }
@@ -302,7 +357,11 @@
     row-gap: 20px;
 
     &#video2 {
-      background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(208, 109, 59, 0.5) 78.42%),
+      background: linear-gradient(
+          180deg,
+          rgba(255, 255, 255, 0) 0%,
+          rgba(208, 109, 59, 0.5) 78.42%
+        ),
         no-repeat center/cover url('../src/videos/PumpkinDinnerPreview.png');
     }
   }
@@ -317,26 +376,37 @@
     row-gap: 20px;
 
     &.OrangeGradient {
-
       &#article1 {
-        background: linear-gradient(180deg, rgba(255, 255, 255, 0) 15.93%, rgba(237, 109, 47, 0.7) 78.42%),
+        background: linear-gradient(
+            180deg,
+            rgba(255, 255, 255, 0) 15.93%,
+            rgba(237, 109, 47, 0.7) 78.42%
+          ),
           no-repeat center/cover url('../src/images/postbanner/article1.png');
       }
     }
 
     &.YellowGradient {
-
       &#banner1 {
-        background: linear-gradient(180deg, rgba(255, 255, 255, 0) 15.93%, rgba(240, 191, 13, 0.7) 78.42%),
-          no-repeat center/cover url('../src/images/A_BlockAuthorsArticles_Card_Photo_Property1.png');
+        background: linear-gradient(
+            180deg,
+            rgba(255, 255, 255, 0) 15.93%,
+            rgba(240, 191, 13, 0.7) 78.42%
+          ),
+          no-repeat center/cover
+            url('../src/images/A_BlockAuthorsArticles_Card_Photo_Property1.png');
       }
     }
 
     &.BlueGradient {
-
       &#instruction1 {
-        background: linear-gradient(180deg, rgba(255, 255, 255, 0) 15.93%, rgba(135, 170, 255, 0.7) 78.42%),
-          no-repeat center/cover url('../src/images/postbanner/instruction1.png');
+        background: linear-gradient(
+            180deg,
+            rgba(255, 255, 255, 0) 15.93%,
+            rgba(135, 170, 255, 0.7) 78.42%
+          ),
+          no-repeat center/cover
+            url('../src/images/postbanner/instruction1.png');
       }
     }
   }
@@ -351,7 +421,7 @@
 }
 
 .M_Card3to9Column {
-  width: 27.760vw;
+  width: 27.76vw;
   border-radius: 30px;
 
   &.Article {
@@ -380,7 +450,7 @@
   }
 
   &.Card3to9Column {
-    width: 27.760vw;
+    width: 27.76vw;
 
     h4 {
       width: 25.625vw;
@@ -397,63 +467,138 @@
   padding: 20px;
 
   &#instruction1 {
-    background: linear-gradient(0deg, rgba(224, 136, 92, 0.1) 23.23%, rgba(255, 255, 255, 0) 100%), no-repeat center/cover url('../src/images/postbanner/instruction1.png');
+    background: linear-gradient(
+        0deg,
+        rgba(224, 136, 92, 0.1) 23.23%,
+        rgba(255, 255, 255, 0) 100%
+      ),
+      no-repeat center/cover url('../src/images/postbanner/instruction1.png');
   }
 
   &#instruction2 {
-    background: linear-gradient(0deg, rgba(224, 136, 92, 0.1) 23.23%, rgba(255, 255, 255, 0) 100%), no-repeat center/cover url('../src/images/postbanner/instruction2.png');
+    background: linear-gradient(
+        0deg,
+        rgba(224, 136, 92, 0.1) 23.23%,
+        rgba(255, 255, 255, 0) 100%
+      ),
+      no-repeat center/cover url('../src/images/postbanner/instruction2.png');
   }
 
   &#instruction3 {
-    background: linear-gradient(0deg, rgba(224, 136, 92, 0.1) 23.23%, rgba(255, 255, 255, 0) 100%), no-repeat center/cover url('../src/images/postbanner/instruction3.png');
+    background: linear-gradient(
+        0deg,
+        rgba(224, 136, 92, 0.1) 23.23%,
+        rgba(255, 255, 255, 0) 100%
+      ),
+      no-repeat center/cover url('../src/images/postbanner/instruction3.png');
   }
 
   &#instruction4 {
-    background: linear-gradient(0deg, rgba(224, 136, 92, 0.1) 23.23%, rgba(255, 255, 255, 0) 100%), no-repeat center/cover url('../src/images/postbanner/instruction4.png');
+    background: linear-gradient(
+        0deg,
+        rgba(224, 136, 92, 0.1) 23.23%,
+        rgba(255, 255, 255, 0) 100%
+      ),
+      no-repeat center/cover url('../src/images/postbanner/instruction4.png');
   }
 
   &#instruction5 {
-    background: linear-gradient(0deg, rgba(224, 136, 92, 0.1) 23.23%, rgba(255, 255, 255, 0) 100%), no-repeat center/cover url('../src/images/postbanner/instruction5.png');
+    background: linear-gradient(
+        0deg,
+        rgba(224, 136, 92, 0.1) 23.23%,
+        rgba(255, 255, 255, 0) 100%
+      ),
+      no-repeat center/cover url('../src/images/postbanner/instruction5.png');
   }
 
   &#instruction6 {
-    background: linear-gradient(0deg, rgba(224, 136, 92, 0.1) 23.23%, rgba(255, 255, 255, 0) 100%), no-repeat center/cover url('../src/images/postbanner/instruction6.png');
+    background: linear-gradient(
+        0deg,
+        rgba(224, 136, 92, 0.1) 23.23%,
+        rgba(255, 255, 255, 0) 100%
+      ),
+      no-repeat center/cover url('../src/images/postbanner/instruction6.png');
   }
 
   &#instruction7 {
-    background: linear-gradient(0deg, rgba(224, 136, 92, 0.1) 23.23%, rgba(255, 255, 255, 0) 100%), no-repeat center/cover url('../src/images/postbanner/instruction7.png');
+    background: linear-gradient(
+        0deg,
+        rgba(224, 136, 92, 0.1) 23.23%,
+        rgba(255, 255, 255, 0) 100%
+      ),
+      no-repeat center/cover url('../src/images/postbanner/instruction7.png');
   }
 
   &#article1 {
-    background: linear-gradient(0deg, rgba(224, 136, 92, 0.1) 23.23%, rgba(255, 255, 255, 0) 100%), no-repeat center/cover url('../src/images/postbanner/article1.png');
+    background: linear-gradient(
+        0deg,
+        rgba(224, 136, 92, 0.1) 23.23%,
+        rgba(255, 255, 255, 0) 100%
+      ),
+      no-repeat center/cover url('../src/images/postbanner/article1.png');
   }
 
   &#article2 {
-    background: linear-gradient(0deg, rgba(224, 136, 92, 0.1) 23.23%, rgba(255, 255, 255, 0) 100%), no-repeat center/cover url('../src/images/postbanner/article2.png');
+    background: linear-gradient(
+        0deg,
+        rgba(224, 136, 92, 0.1) 23.23%,
+        rgba(255, 255, 255, 0) 100%
+      ),
+      no-repeat center/cover url('../src/images/postbanner/article2.png');
   }
 
   &#article3 {
-    background: linear-gradient(0deg, rgba(224, 136, 92, 0.1) 23.23%, rgba(255, 255, 255, 0) 100%), no-repeat center/cover url('../src/images/postbanner/article3.png');
+    background: linear-gradient(
+        0deg,
+        rgba(224, 136, 92, 0.1) 23.23%,
+        rgba(255, 255, 255, 0) 100%
+      ),
+      no-repeat center/cover url('../src/images/postbanner/article3.png');
   }
 
   &#article4 {
-    background: linear-gradient(0deg, rgba(224, 136, 92, 0.1) 23.23%, rgba(255, 255, 255, 0) 100%), no-repeat center/cover url('../src/images/postbanner/article4.png');
+    background: linear-gradient(
+        0deg,
+        rgba(224, 136, 92, 0.1) 23.23%,
+        rgba(255, 255, 255, 0) 100%
+      ),
+      no-repeat center/cover url('../src/images/postbanner/article4.png');
   }
 
   &#article5 {
-    background: linear-gradient(0deg, rgba(224, 136, 92, 0.1) 23.23%, rgba(255, 255, 255, 0) 100%), no-repeat center/cover url('../src/images/postbanner/article5.png');
+    background: linear-gradient(
+        0deg,
+        rgba(224, 136, 92, 0.1) 23.23%,
+        rgba(255, 255, 255, 0) 100%
+      ),
+      no-repeat center/cover url('../src/images/postbanner/article5.png');
   }
 
   &#article6 {
-    background: linear-gradient(0deg, rgba(224, 136, 92, 0.1) 23.23%, rgba(255, 255, 255, 0) 100%), no-repeat center/cover url('../src/images/postbanner/article6.png');
+    background: linear-gradient(
+        0deg,
+        rgba(224, 136, 92, 0.1) 23.23%,
+        rgba(255, 255, 255, 0) 100%
+      ),
+      no-repeat center/cover url('../src/images/postbanner/article6.png');
   }
 
   &#checklist1 {
-    background: linear-gradient(0deg, rgba(224, 136, 92, 0.1) 23.23%, rgba(255, 255, 255, 0) 100%), no-repeat center/cover url('../src/images/Q_CardBackground2.png');
+    background: linear-gradient(
+        0deg,
+        rgba(224, 136, 92, 0.1) 23.23%,
+        rgba(255, 255, 255, 0) 100%
+      ),
+      no-repeat center/cover url('../src/images/Q_CardBackground2.png');
   }
 
   &#video1 {
-    background: linear-gradient(0deg, rgba(224, 136, 92, 0.1) 23.23%, rgba(255, 255, 255, 0) 100%), no-repeat center/cover url('../src/images/postbanner/video1.png');
+    background: linear-gradient(
+        0deg,
+        rgba(224, 136, 92, 0.1) 23.23%,
+        rgba(255, 255, 255, 0) 100%
+      ),
+      no-repeat center/cover url('../src/images/postbanner/video1.png');
   }
 }
 
@@ -474,7 +619,7 @@
 
 .M_MailBlock {
   display: flex;
-  padding: 60px 24.010vw;
+  padding: 60px 24.01vw;
   width: 100%;
   border-radius: 30px;
   flex-direction: column;
@@ -486,7 +631,8 @@
     row-gap: 16px;
   }
 
-  h2, p {
+  h2,
+  p {
     width: 37.396vw;
   }
 
@@ -518,7 +664,7 @@
   column-gap: 30px;
   border-radius: 30px;
 
-  >.A_CircleButtons:hover {
+  > .A_CircleButtons:hover {
     background-color: var(--beige);
   }
 }
@@ -538,7 +684,7 @@
   column-gap: 20px;
   align-items: center;
 
-  >.A_Avatar {
+  > .A_Avatar {
     width: 66px;
     height: 66px;
   }
