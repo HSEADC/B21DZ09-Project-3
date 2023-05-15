@@ -161,6 +161,23 @@ module.exports = {
       // chunks: ['page']
     }),
 
+    // Single article page
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/articles/art5-aromatizatory-dly-doma-chto-vybrat.html',
+      filename: './articles/art5-aromatizatory-dly-doma-chto-vybrat.html'
+      // chunks: ['page']
+    }),
+    // Single article page
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/articles/art6-kak-syehat-ot-roditeley-moy-opyt.html',
+      filename: './articles/art6-kak-syehat-ot-roditeley-moy-opyt.html'
+      // chunks: ['page']
+    }),
+
     // Questions page
     new HtmlWebpackPlugin({
       hash: true,
