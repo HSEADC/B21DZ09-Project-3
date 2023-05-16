@@ -77,7 +77,6 @@ const cardAnswers = [
 // setTimeout(() => {
 //   showCardAnswer(cardAnswers[0])
 // }, 2000)
-import './index.css'
 
 let currentSlide = 0
 
@@ -92,6 +91,14 @@ function initModal() {
   })
 
   secondCircle.addEventListener('click', () => {
+    slide('next')
+  })
+
+  thirdCircle.addEventListener('click', () => {
+    slide('next')
+  })
+
+  fourthCircle.addEventListener('click', () => {
     slide('next')
   })
 }
@@ -113,6 +120,7 @@ function slide(direction) {
   }
 
   rail.style.transform = 'translateX(-' + 85.36 * currentSlide + 'vw)'
+  rail.style.transition = '0.5s'
 }
 
 document.addEventListener('DOMContentLoaded', () => {
