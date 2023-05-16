@@ -46,6 +46,7 @@
 // Meatballs
 .C_SliderMeatballs {
   display: flex;
+  position: relative;
   column-gap: 10px;
   margin-left: calc(50% - 43px);
   margin-top: -34px;

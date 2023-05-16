@@ -10,8 +10,7 @@ const path = require('path')
 module.exports = {
   entry: {
     index: './src/index.js',
-    page: './src/page.jsx',
-    slider: './src/slider.js'
+    page: './src/page.jsx'
   },
   output: {
     filename: '[name].js',
