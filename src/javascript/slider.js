@@ -1,3 +1,5 @@
+import './index.css'
+
 let currentSlide = 0
 
 function initModal() {
@@ -32,18 +34,7 @@ function slide(direction) {
     currentSlide = 0
   }
 
-  if (currentSlide === 0) {
-    firstCircle.classList.add('hidden')
-    secondCircle.classList.remove('hidden')
-  } else if (currentSlide + 1 === railLength) {
-    firstCircle.classList.remove('hidden')
-    secondCircle.classList.add('hidden')
-  } else {
-    firstCircle.classList.remove('hidden')
-    secondCircle.classList.remove('hidden')
-  }
-
-  rail.style.transform = 'translateX(-' + 664 * currentSlide + 'px)'
+  rail.style.transform = 'translateX(-' + 85.36 * currentSlide + 'vw)'
 }
 
 document.addEventListener('DOMContentLoaded', () => {

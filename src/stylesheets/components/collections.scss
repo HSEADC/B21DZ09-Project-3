@@ -45,7 +45,6 @@
 
 // Meatballs
 .C_SliderMeatballs {
-  position: relative;
   display: flex;
   column-gap: 10px;
   margin-left: calc(50% - 43px);
@@ -132,7 +131,7 @@
 }
 .C_Card5To5Column {
   display: flex;
-  width: 341.46vw;
+  width: 6640px;
   &.rail {
     transition: all var(--transitionTiming) ease;
   }
