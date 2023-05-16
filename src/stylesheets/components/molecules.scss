@@ -654,6 +654,13 @@
   border-radius: 30px;
   border: none;
   padding: 0px 30px;
+
+  &:focus {
+    border: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline: none;
+  }
 }
 
 // Search form
@@ -676,6 +683,13 @@
   border-radius: 30px;
   border: none;
   padding: 0px 30px;
+
+  &:focus {
+    border: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline: none;
+  }
 }
 
 .M_PostAuthor {
@@ -729,8 +743,9 @@
 .M_Slides {
   border-radius: 30px;
   width: 85.36vw;
-  height: 31.25vw;
+  height: 600px;
   overflow-x: scroll;
   overflow-y: hidden;
   position: relative;
+  z-index: -1;
 }
