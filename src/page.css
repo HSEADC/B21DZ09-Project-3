@@ -7,6 +7,8 @@
 @import 'stylesheets/promo.scss';
 @import 'stylesheets/art1.scss';
 @import 'stylesheets/vid1.scss';
+@import 'stylesheets/old-landing.scss';
+@import 'stylesheets/landing.scss';
 @import 'stylesheets/components/quarks.scss';
 @import 'stylesheets/components/atoms.scss';
 @import 'stylesheets/components/molecules.scss';

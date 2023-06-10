@@ -93,6 +93,15 @@ module.exports = {
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
+      template: './src/old-landing.html',
+      filename: './old-landing.html'
+      // chunks: ['index']
+    }),
+
+    // Landing page
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
       template: './src/landing.html',
       filename: './landing.html'
       // chunks: ['index']
