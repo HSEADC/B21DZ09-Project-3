@@ -67,7 +67,6 @@ var cardAnswers = [{
 //   showCardAnswer(cardAnswers[0])
 // }, 2000)
 
-
 var currentSlide = 0;
 
 function initModal() {
@@ -79,6 +78,12 @@ function initModal() {
     slide('prev');
   });
   secondCircle.addEventListener('click', function () {
+    slide('next');
+  });
+  thirdCircle.addEventListener('click', function () {
+    slide('next');
+  });
+  fourthCircle.addEventListener('click', function () {
     slide('next');
   });
 }
@@ -100,6 +105,7 @@ function slide(direction) {
   }
 
   rail.style.transform = 'translateX(-' + 85.36 * currentSlide + 'vw)';
+  rail.style.transition = '0.5s';
 }
 
 document.addEventListener('DOMContentLoaded', function () {
