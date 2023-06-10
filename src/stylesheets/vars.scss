@@ -7,6 +7,7 @@
   --beige: #faf0e3;
   --beigehover: #f3e6d5;
   --camel: #d7c0a2;
+  --tree: #B17A52;
   --blue: #87aaff;
   --yellow: #f5cb33;
   --grey: #c4c4c4;
@@ -33,7 +34,7 @@
 
 .BeigeCombination{
   background-color: var(--beige);
-  color: var(--orange);
+  color: var(--tree);
 }
 
 .BlueCombination{
@@ -117,11 +118,8 @@ body.instructions, .questions, .home, .articles, .art1, .art2, .art3, .art4, .ar
     }
   }
 
-  h1 {
-    font-family: 'Golos Text', sans-serif;
-    font-weight: 400;
-    font-size: 50px;
-    line-height: 115%;
+  h1, h2, h3, h4 {
+    color: tree;
   }
 
   h2 {
@@ -130,13 +128,6 @@ body.instructions, .questions, .home, .articles, .art1, .art2, .art3, .art4, .ar
     font-size: 44px;
     line-height: 115%;
     margin: 0px;
-  }
-
-  h3 {
-    font-family: 'Golos Text', sans-serif;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 115%;
   }
 
   h4 {
@@ -155,7 +146,7 @@ body.instructions, .questions, .home, .articles, .art1, .art2, .art3, .art4, .ar
 
   a {
     display: flex;
-    color: var(--orange);
+    color: var(--tree);
     cursor: pointer;
     transition: .3s;
     text-decoration: none;
