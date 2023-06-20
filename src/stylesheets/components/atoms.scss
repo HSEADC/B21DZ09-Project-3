@@ -1,271 +1,271 @@
-// Теги категорий в карточках
-
-.A_CategoryTag {
-  display: flex;
-  width: fit-content;
-  height: 35px;
-  border-radius: 60px;
-  font-size: 16px;
-  line-height: 120%;
-  font-weight: 500;
-  align-items: center;
-
-  &.Categories {
-    padding: 0px 20px;
-  }
-
-  &.Name {
-    padding: 0px 20px 0px 0px;
-    column-gap: 10px;
-  }
-
-  &.WithIcons {
-    padding: 0px 20px;
-    column-gap: 4px;
-  }
-
-  // Теги категорий в дополнительных карточках
-
-  &.AdditionalTag {
-    font-size: 12px;
-    height: 28px;
-
-    > .A_Avatar {
-      width: 28px;
-      height: 28px;
-    }
-
-    &.Categories {
-      padding: 0px 14px;
-    }
-
-    &.Name {
-      padding: 0px 14px 0px 0px;
-      column-gap: 6px;
-    }
-
-    &.WithIcons {
-      padding: 0px 14px;
-      column-gap: 2px;
-    }
-  }
-}
-
-// Кнопки категорий
-
-.A_Button {
-  display: flex;
-  width: fit-content;
-  padding: 12px 28px;
-  border-radius: 60px;
-  font-size: 18px;
-  font-weight: 500;
-  align-items: center;
-  transition: 0.3s;
-
-  &:hover {
-    background-color: var(--beigehover);
-  }
-
-  &.Active {
-    background-color: var(--orange);
-    color: var(--cream);
-
-    &:hover {
-      background-color: var(--orangehover);
-    }
-  }
-
-  &.WithIcons {
-    padding: 3px 21px;
-    column-gap: 6px;
-  }
-}
-
-// Шейдер
-
-.A_Shader {
-  margin: 0px 0px 0px -140px;
-  width: 130px;
-  height: 46px;
-  background: linear-gradient(to left, var(--cream), transparent);
-}
-
-// Кнопки соцсетей
-.A_NetworksButtons {
-  display: block;
-  width: 30px;
-  height: 26px;
-
-  &.VK {
-    background: no-repeat top/100% url('../src/images/Q_NetworksIconsVK.svg');
-  }
-
-  &.Telegram {
-    background: no-repeat top/100%
-      url('../src/images/Q_NetworksIconsTelegram.svg');
-  }
-
-  &.Dzen {
-    background: no-repeat top/100% url('../src/images/Q_NetworksIconsDzen.svg');
-  }
-}
-
-// Лейбы
-
-.A_Label {
-  display: flex;
-  width: fit-content;
-  padding: 8px 34px;
-  outline: var(--cream) 8px dotted;
-  outline-offset: -4px;
-  font-size: 18px;
-  text-transform: lowercase;
-  line-height: 135%;
-  align-items: center;
-}
-
-// Логотип
-
-.A_Logotype {
-  width: 98px;
-  height: 40px;
-  background: no-repeat top/100% url('../src/images/Logotype.svg');
-}
-
-// Аватар
-
-.A_Avatar {
-  width: 35px;
-  height: 35px;
-  border-radius: 40px;
-
-  &#AvatarMan {
-    background: no-repeat top/100% url('../src/images/avatars/A_AvatarMan.png');
-  }
-
-  &#AvatarIvan {
-    background: no-repeat top/100% url('../src/images/avatars/A_AvatarIvan.png');
-  }
-
-  &#AvatarSasha {
-    background: no-repeat top/100%
-      url('../src/images/avatars/A_AvatarSasha.png');
-  }
-
-  &#AvatarIrina {
-    background: no-repeat top/100%
-      url('../src/images/avatars/A_AvatarIrina.png');
-  }
-
-  &#AvatarNoname {
-    background: no-repeat top/100%
-      url('../src/images/avatars/A_AvatarNoname.png');
-  }
-}
-
-.A_CircleButtons {
-  display: flex;
-  width: 46px;
-  height: 46px;
-  border-radius: 40px;
-  align-items: center;
-  justify-content: center;
-  transition: 0.3s;
-
-  &:hover {
-    background-color: var(--beigehover);
-  }
-}
-
-.A_RoundNumbers {
-  display: flex;
-  width: 55px;
-  height: 55px;
-  border-radius: 40px;
-  align-items: center;
-  justify-content: center;
-  font-size: 32px;
-  font-weight: 500;
-  line-height: 120%;
-}
-
-.A_RoundSteps {
-  display: flex;
-  width: 172px;
-  height: 55px;
-  border-radius: 40px;
-  align-items: center;
-  justify-content: center;
-  font-size: 32px;
-  font-weight: 500;
-  line-height: 120%;
-}
-
-.A_ArticleContentCaption {
-  margin: 0px 0px 40px 0px;
-  font-size: 18px;
-
-  figcaption {
-    padding: 0px 0px 0px 15px;
-  }
-}
-
-.A_PostTime {
-  font-family: 'Golos Text', sans-serif;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 120%;
-  text-transform: lowercase;
-}
-
-.A_Circles {
-  position: relative;
-  z-index: 1000;
-  width: 14px;
-  height: 14px;
-  border-radius: 30px;
-  background-color: var(--cream);
-
-  &.Active {
-    background-color: var(--cream);
-  }
-
-  &.Inactive {
-    background-color: var(--cream);
-    opacity: 60%;
-  }
-}
-
-.A_MoreButton {
-  width: 188px;
-  height: 42px;
-  column-gap: 10px;
-  align-items: center;
-
-  > .A_CircleButtons {
-    width: 22px;
-    height: 22px;
-
-    &:hover {
-      background-color: var(--orange);
-    }
-
-    > .Q_Icons {
-      width: 13px;
-      height: 13px;
-    }
-  }
-
-  p {
-    font-size: 18px;
-    line-height: 135%;
-  }
-}
-
-@media only screen and (min-width: 320px) and (max-width: 1024px) {
-  .A_CategoryTag {
-    padding: 0px 14px;
-    font-size: 12px;
-  }
-}
+// // Теги категорий в карточках
+//
+// .A_CategoryTag {
+//   display: flex;
+//   width: fit-content;
+//   height: 35px;
+//   border-radius: 60px;
+//   font-size: 16px;
+//   line-height: 120%;
+//   font-weight: 500;
+//   align-items: center;
+//
+//   &.Categories {
+//     padding: 0px 20px;
+//   }
+//
+//   &.Name {
+//     padding: 0px 20px 0px 0px;
+//     column-gap: 10px;
+//   }
+//
+//   &.WithIcons {
+//     padding: 0px 20px;
+//     column-gap: 4px;
+//   }
+//
+//   // Теги категорий в дополнительных карточках
+//
+//   &.AdditionalTag {
+//     font-size: 12px;
+//     height: 28px;
+//
+//     > .A_Avatar {
+//       width: 28px;
+//       height: 28px;
+//     }
+//
+//     &.Categories {
+//       padding: 0px 14px;
+//     }
+//
+//     &.Name {
+//       padding: 0px 14px 0px 0px;
+//       column-gap: 6px;
+//     }
+//
+//     &.WithIcons {
+//       padding: 0px 14px;
+//       column-gap: 2px;
+//     }
+//   }
+// }
+//
+// // Кнопки категорий
+//
+// .A_Button {
+//   display: flex;
+//   width: fit-content;
+//   padding: 12px 28px;
+//   border-radius: 60px;
+//   font-size: 18px;
+//   font-weight: 500;
+//   align-items: center;
+//   transition: 0.3s;
+//
+//   &:hover {
+//     background-color: var(--beigehover);
+//   }
+//
+//   &.Active {
+//     background-color: var(--orange);
+//     color: var(--cream);
+//
+//     &:hover {
+//       background-color: var(--orangehover);
+//     }
+//   }
+//
+//   &.WithIcons {
+//     padding: 3px 21px;
+//     column-gap: 6px;
+//   }
+// }
+//
+// // Шейдер
+//
+// .A_Shader {
+//   margin: 0px 0px 0px -140px;
+//   width: 130px;
+//   height: 46px;
+//   background: linear-gradient(to left, var(--cream), transparent);
+// }
+//
+// // Кнопки соцсетей
+// .A_NetworksButtons {
+//   display: block;
+//   width: 30px;
+//   height: 26px;
+//
+//   &.VK {
+//     background: no-repeat top/100% url('../src/images/Q_NetworksIconsVK.svg');
+//   }
+//
+//   &.Telegram {
+//     background: no-repeat top/100%
+//       url('../src/images/Q_NetworksIconsTelegram.svg');
+//   }
+//
+//   &.Dzen {
+//     background: no-repeat top/100% url('../src/images/Q_NetworksIconsDzen.svg');
+//   }
+// }
+//
+// // Лейбы
+//
+// .A_Label {
+//   display: flex;
+//   width: fit-content;
+//   padding: 8px 34px;
+//   outline: var(--cream) 8px dotted;
+//   outline-offset: -4px;
+//   font-size: 18px;
+//   text-transform: lowercase;
+//   line-height: 135%;
+//   align-items: center;
+// }
+//
+// // Логотип
+//
+// .A_Logotype {
+//   width: 98px;
+//   height: 40px;
+//   background: no-repeat top/100% url('../src/images/Logotype.svg');
+// }
+//
+// // Аватар
+//
+// .A_Avatar {
+//   width: 35px;
+//   height: 35px;
+//   border-radius: 40px;
+//
+//   &#AvatarMan {
+//     background: no-repeat top/100% url('../src/images/avatars/A_AvatarMan.png');
+//   }
+//
+//   &#AvatarIvan {
+//     background: no-repeat top/100% url('../src/images/avatars/A_AvatarIvan.png');
+//   }
+//
+//   &#AvatarSasha {
+//     background: no-repeat top/100%
+//       url('../src/images/avatars/A_AvatarSasha.png');
+//   }
+//
+//   &#AvatarIrina {
+//     background: no-repeat top/100%
+//       url('../src/images/avatars/A_AvatarIrina.png');
+//   }
+//
+//   &#AvatarNoname {
+//     background: no-repeat top/100%
+//       url('../src/images/avatars/A_AvatarNoname.png');
+//   }
+// }
+//
+// .A_CircleButtons {
+//   display: flex;
+//   width: 46px;
+//   height: 46px;
+//   border-radius: 40px;
+//   align-items: center;
+//   justify-content: center;
+//   transition: 0.3s;
+//
+//   &:hover {
+//     background-color: var(--beigehover);
+//   }
+// }
+//
+// .A_RoundNumbers {
+//   display: flex;
+//   width: 55px;
+//   height: 55px;
+//   border-radius: 40px;
+//   align-items: center;
+//   justify-content: center;
+//   font-size: 32px;
+//   font-weight: 500;
+//   line-height: 120%;
+// }
+//
+// .A_RoundSteps {
+//   display: flex;
+//   width: 172px;
+//   height: 55px;
+//   border-radius: 40px;
+//   align-items: center;
+//   justify-content: center;
+//   font-size: 32px;
+//   font-weight: 500;
+//   line-height: 120%;
+// }
+//
+// .A_ArticleContentCaption {
+//   margin: 0px 0px 40px 0px;
+//   font-size: 18px;
+//
+//   figcaption {
+//     padding: 0px 0px 0px 15px;
+//   }
+// }
+//
+// .A_PostTime {
+//   font-family: 'Golos Text', sans-serif;
+//   font-weight: 500;
+//   font-size: 12px;
+//   line-height: 120%;
+//   text-transform: lowercase;
+// }
+//
+// .A_Circles {
+//   position: relative;
+//   z-index: 1000;
+//   width: 14px;
+//   height: 14px;
+//   border-radius: 30px;
+//   background-color: var(--cream);
+//
+//   &.Active {
+//     background-color: var(--cream);
+//   }
+//
+//   &.Inactive {
+//     background-color: var(--cream);
+//     opacity: 60%;
+//   }
+// }
+//
+// .A_MoreButton {
+//   width: 188px;
+//   height: 42px;
+//   column-gap: 10px;
+//   align-items: center;
+//
+//   > .A_CircleButtons {
+//     width: 22px;
+//     height: 22px;
+//
+//     &:hover {
+//       background-color: var(--orange);
+//     }
+//
+//     > .Q_Icons {
+//       width: 13px;
+//       height: 13px;
+//     }
+//   }
+//
+//   p {
+//     font-size: 18px;
+//     line-height: 135%;
+//   }
+// }
+//
+// @media only screen and (min-width: 320px) and (max-width: 1024px) {
+//   .A_CategoryTag {
+//     padding: 0px 14px;
+//     font-size: 12px;
+//   }
+// }

@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8" />
     <link rel="icon" type="images/png" href="images/favicon.png" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <!-- Primary Meta Tags -->
     <title>Инструкции — Self</title>
     <meta name="title" content="Инструкции — Self" />
@@ -40,7 +42,7 @@
     <analytics></analytics>
   </head>
   <body class="instructions">
-    <header>
+    <!-- <header>
       <div class="O_MenuBar">
         <div class="M_NavigationLogotype">
           <a class="A_Logotype" href="./index.html"></a>
@@ -260,6 +262,253 @@
           <a href="#">Вопрос-ответ</a>
         </div>
       </div>
-    </footer>
+    </footer> -->
+
+    <!-- Menu -->
+    <div class="O_Menu">
+      <div class="Menufirst">
+        <div class="A_LogoHeader">
+          <a class="A_Logotype Header" href="index.html"></a>
+          <div class="A_Label BlueCombination CreamBorder">
+            <p>Инструкции</p>
+          </div>
+        </div>
+      </div>
+      <div class="Menusecond">
+        <nav>
+          <a class="Active" href="instructions.html">Инструкции</a>
+          <a class="Inactive" href="articles.html">Материалы</a>
+          <a class="Inactive" href="questions.html">Вопрос-ответ</a>
+        </nav>
+      </div>
+      <div class="Menuthird">
+        <form class="M_Form Search BeigeCombination" action="index.html" method="post">
+          <input class="A_Input Search BeigeCombination" type="text" name="" value="Поиск...">
+          <button class="A_CircleButton Beige">
+            <div class="Q_Icons Tree Search"></div>
+          </button>
+        </form>
+      </div>
+    </div>
+    <!-- Banner slider -->
+    <div class="swiper swiperBanner">
+      <!-- Wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Banner cards -->
+        <a class="swiper-slide M_Card Banner" id="flower" href="#">
+          <img src="./images/masks/bannermask.svg" alt="">
+          <div class="HeadTagBlock">
+            <h1>Как я переезжала из Норильска в Москву</h1>
+            <!-- Categories -->
+            <div class="C_Tags">
+              <div class="A_CategoryTag" data-set="">
+                <p>Техника</p>
+              </div>
+              <div class="A_CategoryTag WithLeftIcon">
+                <div class="Q_Icons Tree Check"></div>
+                <p>2 шага</p>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a class="swiper-slide M_Card Banner" id="movie" href="#">
+          <img src="./images/masks/bannermask.svg" alt="">
+          <div class="HeadTagBlock">
+            <h1>Как я переезжала из Норильска в Москву</h1>
+            <!-- Categories -->
+            <div class="C_Tags">
+              <div class="A_CategoryTag" data-set="">
+                <p>Техника</p>
+              </div>
+              <div class="A_CategoryTag WithLeftIcon">
+                <div class="Q_Icons Tree Check"></div>
+                <p>2 шага</p>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a class="swiper-slide M_Card Banner" id="flower" href="#">
+          <img src="./images/masks/bannermask.svg" alt="">
+          <div class="HeadTagBlock">
+            <h1>Как я переезжала из Норильска в Москву</h1>
+            <!-- Categories -->
+            <div class="C_Tags">
+              <div class="A_CategoryTag" data-set="">
+                <p>Техника</p>
+              </div>
+              <div class="A_CategoryTag WithLeftIcon">
+                <div class="Q_Icons Tree Check"></div>
+                <p>2 шага</p>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+    <!-- Filter tags -->
+    <div class="M_CategoriesButtonsScroll">
+      <button class="A_CircleButton Beige" type="button" name="button">
+        <div class="Q_Icons Tree LeftArrow"></div>
+      </button>
+      <div class="C_CategoriesButtons">
+        <button class="Active" type="button" name="button"><p>Все</p></button>
+        <button class="Inactive" type="button" name="button"><p>Техника</p></button>
+        <button class="Inactive" type="button" name="button"><p>Документы</p></button>
+        <button class="Inactive" type="button" name="button"><p>Готовка</p></button>
+      </div>
+      <button class="A_CircleButton Beige" type="button" name="button">
+        <div class="Q_Icons Tree RightArrow"></div>
+      </button>
+    </div>
+    <!-- Grid Instructions block -->
+    <div class="W_Grid Instruction">
+      <!-- 1st card -->
+      <a class="M_Card Beige Instruction Large" id="internet">
+        <div class="HeadTagBlock">
+          <h3>Подключение интернета: все тонкости и секреты</h3>
+          <!-- Categories -->
+          <div class="C_Tags">
+            <div class="A_CategoryTag" data-set="">
+              <p>Техника</p>
+            </div>
+            <div class="A_CategoryTag WithLeftIcon">
+              <p>2 шага</p>
+              <div class="Q_Icons Tree Check"></div>
+            </div>
+          </div>
+        </div>
+      </a>
+      <!-- 2nd card -->
+      <a class="M_Card Beige Instruction" id="internet">
+        <div class="HeadTagBlock">
+          <h3>Подключение интернета: все тонкости и секреты</h3>
+          <!-- Categories -->
+          <div class="C_Tags">
+            <div class="A_CategoryTag" data-set="">
+              <p>Техника</p>
+            </div>
+            <div class="A_CategoryTag WithLeftIcon">
+              <p>2 шага</p>
+              <div class="Q_Icons Tree Check"></div>
+            </div>
+          </div>
+        </div>
+      </a>
+      <!-- 3rd card -->
+      <a class="M_Card Beige Instruction" id="internet">
+        <div class="HeadTagBlock">
+          <h3>Подключение интернета: все тонкости и секреты</h3>
+          <!-- Categories -->
+          <div class="C_Tags">
+            <div class="A_CategoryTag" data-set="">
+              <p>Техника</p>
+            </div>
+            <div class="A_CategoryTag WithLeftIcon">
+              <p>2 шага</p>
+              <div class="Q_Icons Tree Check"></div>
+            </div>
+          </div>
+        </div>
+      </a>
+      <!-- 4th card -->
+      <a class="M_Card Beige Instruction" id="internet">
+        <div class="HeadTagBlock">
+          <h3>Подключение интернета: все тонкости и секреты</h3>
+          <!-- Categories -->
+          <div class="C_Tags">
+            <div class="A_CategoryTag" data-set="">
+              <p>Техника</p>
+            </div>
+            <div class="A_CategoryTag WithLeftIcon">
+              <p>2 шага</p>
+              <div class="Q_Icons Tree Check"></div>
+            </div>
+          </div>
+        </div>
+      </a>
+      <!-- 5th card -->
+      <a class="M_Card Beige Instruction" id="internet">
+        <div class="HeadTagBlock">
+          <h3>Подключение интернета: все тонкости и секреты</h3>
+          <!-- Categories -->
+          <div class="C_Tags">
+            <div class="A_CategoryTag" data-set="">
+              <p>Техника</p>
+            </div>
+            <div class="A_CategoryTag WithLeftIcon">
+              <p>2 шага</p>
+              <div class="Q_Icons Tree Check"></div>
+            </div>
+          </div>
+        </div>
+      </a>
+      <!-- 6th card -->
+      <a class="M_Card Beige Instruction" id="internet">
+        <div class="HeadTagBlock">
+          <h3>Подключение интернета: все тонкости и секреты</h3>
+          <!-- Categories -->
+          <div class="C_Tags">
+            <div class="A_CategoryTag" data-set="">
+              <p>Техника</p>
+            </div>
+            <div class="A_CategoryTag WithLeftIcon">
+              <p>2 шага</p>
+              <div class="Q_Icons Tree Check"></div>
+            </div>
+          </div>
+        </div>
+      </a>
+      <!-- 7th card -->
+      <a class="M_Card Beige Instruction" id="internet">
+        <div class="HeadTagBlock">
+          <h3>Подключение интернета: все тонкости и секреты</h3>
+          <!-- Categories -->
+          <div class="C_Tags">
+            <div class="A_CategoryTag" data-set="">
+              <p>Техника</p>
+            </div>
+            <div class="A_CategoryTag WithLeftIcon">
+              <p>2 шага</p>
+              <div class="Q_Icons Tree Check"></div>
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Footer -->
+    <div class="O_Footer">
+      <div class="W_FooterDescription">
+        <div class="A_Logotype Footer"></div>
+        <p>Self — это энциклопедия взрослой жизни, помогающая молодёжи справиться с бытовыми трудностями</p>
+        <div class="A_NetworksButtons">
+          <button class="A_NetworkButton" id="vk"></button>
+          <button class="A_NetworkButton" id="telegram"></button>
+          <button class="A_NetworkButton" id="instagram"></button>
+        </div>
+      </div>
+      <div class="С_FooterLinksSection">
+        <div class="M_FooterLinksBlock">
+          <p>Инструкции</p>
+          <div class="C_FooterLinks">
+            <a href="#">Инструкции</a>
+          </div>
+        </div>
+        <div class="M_FooterLinksBlock">
+          <p>Материалы</p>
+          <div class="C_FooterLinks">
+            <a href="#">Авторские статьи</a>
+            <a href="#">Видео</a>
+            <a href="#">Чек-листы</a>
+          </div>
+        </div>
+        <div class="M_FooterLinksBlock">
+          <p>Вопрос-ответ</p>
+          <div class="C_FooterLinks">
+            <a href="#">Вопрос-ответ</a>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

@@ -1,103 +1,103 @@
-.O_MenuBar {
-  display: flex;
-  height: 130px;
-  align-items: center;
-  justify-content: space-between;
-  background: var(--cream);
-}
-
-.O_CommentsBlock {
-  display: flex;
-  justify-content: space-around;
-  background: var(--beige);
-  border-radius: 30px;
-  padding: 60px 0px;
-}
-
-.O_ColorSection {
-  display: flex;
-  margin: 0px 0px 0px -7.292vw;
-  padding: 70px 7.292vw 70px 7.292vw;
-  width: 117.06%;
-  border-radius: 0px 0px 30px 30px;
-  row-gap: 60px;
-  flex-direction: column;
-  align-items: center;
-
-  &.NoRadius {
-    border-radius: 0px;
-  }
-}
-
-.O_ParagraphText {
-  width: 50.833vw;
-
-  p {
-    margin: 0px 0px 40px 0px;
-
-    &:last-child {
-      margin: 0px;
-    }
-  }
-}
-
-.O_ScrollBlock {
-  width: 85.208vw;
-  overflow-x: hidden;
-  scroll-behavior: smooth;
-  scroll-snap-stop: always;
-
-  &::-webkit-scrollbar {
-    display: none;
-  }
-}
-
-.O_InstructionsHome {
-  display: flex;
-  flex-direction: column;
-  row-gap: 60px;
-}
-
-.O_MaterialsHome {
-  display: flex;
-  flex-direction: column;
-  row-gap: 30px;
-}
-
-.O_AdditionalCardBlock {
-  display: flex;
-  margin: 40px 0px 80px -7.292vw;
-  width: 117%;
-  column-gap: 30px;
-  align-items: center;
-  justify-content: center;
-}
-
-.O_Footer {
-  display: flex;
-  margin: 140px 0px 0px -7.292vw;
-  padding: 70px 7.292vw 70px 7.292vw;
-  width: 117.06%;
-  border-radius: 30px 30px 0px 0px;
-  row-gap: 60px;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: space-between;
-
-  &.NoRadius {
-    border-radius: 0px;
-  }
-}
-
-.O_AdditionBlock {
-  h1 {
-    margin: 40px 0px 60px 0px;
-  }
-}
-
-@media only screen and (min-width: 320px) and (max-width: 1024px) {
-  .O_ScrollBlock {
-    overflow-x: scroll;
-    scroll-snap-stop: always;
-  }
-}
+// .O_MenuBar {
+//   display: flex;
+//   height: 130px;
+//   align-items: center;
+//   justify-content: space-between;
+//   background: var(--cream);
+// }
+//
+// .O_CommentsBlock {
+//   display: flex;
+//   justify-content: space-around;
+//   background: var(--beige);
+//   border-radius: 30px;
+//   padding: 60px 0px;
+// }
+//
+// .O_ColorSection {
+//   display: flex;
+//   margin: 0px 0px 0px -7.292vw;
+//   padding: 70px 7.292vw 70px 7.292vw;
+//   width: 117.06%;
+//   border-radius: 0px 0px 30px 30px;
+//   row-gap: 60px;
+//   flex-direction: column;
+//   align-items: center;
+//
+//   &.NoRadius {
+//     border-radius: 0px;
+//   }
+// }
+//
+// .O_ParagraphText {
+//   width: 50.833vw;
+//
+//   p {
+//     margin: 0px 0px 40px 0px;
+//
+//     &:last-child {
+//       margin: 0px;
+//     }
+//   }
+// }
+//
+// .O_ScrollBlock {
+//   width: 85.208vw;
+//   overflow-x: hidden;
+//   scroll-behavior: smooth;
+//   scroll-snap-stop: always;
+//
+//   &::-webkit-scrollbar {
+//     display: none;
+//   }
+// }
+//
+// .O_InstructionsHome {
+//   display: flex;
+//   flex-direction: column;
+//   row-gap: 60px;
+// }
+//
+// .O_MaterialsHome {
+//   display: flex;
+//   flex-direction: column;
+//   row-gap: 30px;
+// }
+//
+// .O_AdditionalCardBlock {
+//   display: flex;
+//   margin: 40px 0px 80px -7.292vw;
+//   width: 117%;
+//   column-gap: 30px;
+//   align-items: center;
+//   justify-content: center;
+// }
+//
+// .O_Footer {
+//   display: flex;
+//   margin: 140px 0px 0px -7.292vw;
+//   padding: 70px 7.292vw 70px 7.292vw;
+//   width: 117.06%;
+//   border-radius: 30px 30px 0px 0px;
+//   row-gap: 60px;
+//   flex-direction: row;
+//   align-items: flex-start;
+//   justify-content: space-between;
+//
+//   &.NoRadius {
+//     border-radius: 0px;
+//   }
+// }
+//
+// .O_AdditionBlock {
+//   h1 {
+//     margin: 40px 0px 60px 0px;
+//   }
+// }
+//
+// @media only screen and (min-width: 320px) and (max-width: 1024px) {
+//   .O_ScrollBlock {
+//     overflow-x: scroll;
+//     scroll-snap-stop: always;
+//   }
+// }

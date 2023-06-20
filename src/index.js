@@ -1,128 +1,76 @@
 import './index.css'
+import './page.css'
 
-const runningLineOne = document.querySelector('.M_RunningLine')
-const mediaphone = window.matchMedia(
-  '(min-width: 768px) and (max-width: 3000px)'
-)
+const width = window.innerWidth;
 
-function runningLinesInit() {
-  if (mediaphone.matches) {
-    runningLineOne.innerHTML =
-      runningLineOne.innerHTML + runningLineOne.innerHTML
-    runningLineTwo.innerHTML =
-      runningLineTwo.innerHTML + runningLineTwo.innerHTML
+function bannerAnimation() {
+  if (width > 1241) {
+    fadeBanner();
+  } else {
+    swipeBanner();
   }
+};
+
+function fadeBanner() {
+  new Swiper('.swiperBanner', {
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    speed: 1000,
+    effect: 'fade',
+    spaceBetween: 20,
+    autoplay: {
+      delay: 1400,
+      disableOnInteraction: false
+    },
+  });
 }
 
-document.addEventListener('DOMContentLoaded', () => {
-  runningLinesInit(), toggleSwitchInit()
-})
-
-// function removeFifthCard() {
-//   const element = document.getElementsByClassName("Five");
-//   element.remove();
-// }
-//
-// removeFifthCard()
-//
-// function removeFifthCard() {
-//   const element = document.getElementById('Five')
-//   element.ClassList.remove('Five')
-//   document.body.appendChild(element)
-// }
-//
-//
-const cardAnswers = [
-  {
-    question: 'Куда засыпать порошок  в стиральной машине?',
-    answer:
-      'В правый отсек — для предварительной стирки, в левый — для основной стирки, а в средний — кондиционер'
-  },
-  {
-    question: 'Как перекрыть воду?',
-    answer: 'Тут будет ответ'
-  },
-  {
-    question: 'Как зажечь газовую плиту?',
-    answer: 'Тут будет ответ'
-  },
-  {
-    question: 'Как отпереть сломанный замок?',
-    answer: 'Тут будет ответ'
-  },
-  {
-    question: 'Номера экстренных служб',
-    answer: 'Тут будет ответ'
-  }
-]
-//
-// function showCardAnswer(cardAnswers) {
-//   const element = document.createElement('div')
-//   element.innerText = cardAnswers
-//   document.body.appendChild(element)
-// }
-//
-// setTimeout(() => {
-//   showCardAnswer(cardAnswers[0])
-//   }, 2000)
-//
-// setTimeout(
-//   () => { console.log(cardAnswers[0]) },
-//   2000)
-//
-// document.addEventListener('DOMContentLoaded'), () => {
-//   showCardAnswer(cardAnswers[0])
-// }
-//
-// setTimeout(() => {
-//   showCardAnswer(cardAnswers[0])
-// }, 2000)
-
-let currentSlide = 0
-
-function initModal() {
-  const firstCircle = document.querySelector('.A_Circles.first')
-  const secondCircle = document.querySelector('.A_Circles.second')
-  const thirdCircle = document.querySelector('.A_Circles.third')
-  const fourthCircle = document.querySelector('.A_Circles.fourth')
-
-  firstCircle.addEventListener('click', () => {
-    slide('prev')
-  })
-
-  secondCircle.addEventListener('click', () => {
-    slide('next')
-  })
-
-  thirdCircle.addEventListener('click', () => {
-    slide('next')
-  })
-
-  fourthCircle.addEventListener('click', () => {
-    slide('next')
-  })
+function swipeBanner() {
+  new Swiper('.swiper', {
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    speed: 500,
+    effect: 'slide',
+    spaceBetween: 20
+  });
 }
 
-function slide(direction) {
-  const firstCircle = document.querySelector('.A_Circles.first')
-  const secondCircle = document.querySelector('.A_Circles.second')
-  const thirdCircle = document.querySelector('.A_Circles.third')
-  const fourthCircle = document.querySelector('.A_Circles.fourth')
-  const rail = document.querySelector('.rail')
-  const railLength = rail.children.length
+function swiperAdditional() {
+  new Swiper('.swiperAdditional', {
+    watchOverflow: true,
+    slidesPerView: 1,
+    breakpoints: {
+      200: {
+        slidesPerView: 1.5,
+        spaceBetween: 14,
+      },
+      981: {
+        slidesPerView: 2.5,
+        spaceBetween: 18,
+      },
+      1241: {
+        slidesPerView: 3,
+        spaceBetween: 20,
+      },
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev'
+    },
+    speed: 1000
+  });
+};
 
-  if (direction === 'next' && currentSlide + 1 < railLength) {
-    currentSlide++
-  } else if (direction === 'prev' && currentSlide > 0) {
-    currentSlide--
-  } else if (direction === 'reset') {
-    currentSlide = 0
-  }
+window.addEventListener('resize', (event) => {
+  bannerAnimation(),
+  swiperAdditional();
+});
 
-  rail.style.transform = 'translateX(-' + 85.36 * currentSlide + 'vw)'
-  rail.style.transition = '0.5s'
-}
-
-document.addEventListener('DOMContentLoaded', () => {
-  initModal()
-})
+window.addEventListener('DOMContentLoaded', (event) => {
+  bannerAnimation(),
+  swiperAdditional();
+});
