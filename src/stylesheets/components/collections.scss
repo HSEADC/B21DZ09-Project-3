@@ -1,139 +1,139 @@
-.C_VerticalScrollingButtons {
-  position: fixed;
-  margin: 45vw 0vw 0vw 87vw;
-  display: flex;
-  flex-direction: column;
-  row-gap: 10px;
-}
-
-.C_SocialNetworksButtons {
-  display: flex;
-  width: fit-content;
-  column-gap: 17px;
-}
-
-// Categories tags and buttons
-.C_Categories {
-  display: flex;
-  column-gap: 10px;
-}
-
-// Cards collections
-.C_Cards {
-  display: flex;
-  column-gap: 20px;
-
-  &.Wrap {
-    flex-wrap: wrap;
-    row-gap: 20px;
-  }
-}
-
-// Additional cards collections
-
-.C_AdditionalCardsBlock {
-  display: flex;
-  width: fit-content;
-  column-gap: 20px;
-}
-
-// Photos and videos in articles
-.C_ArticleContent {
-  display: flex;
-  column-gap: 20px;
-}
-
-// Meatballs
-.C_SliderMeatballs {
-  display: flex;
-  position: relative;
-  column-gap: 10px;
-  margin-left: calc(50% - 43px);
-  margin-top: -34px;
-  z-index: 1000;
-}
-
-.W_PageHeading {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.W_TagsAndTime {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.C_ShareDownloadButtons {
-  display: flex;
-  column-gap: 12px;
-
-  .A_CircleButtons {
-    width: 36px;
-    height: 36px;
-
-    .Q_Icons {
-      width: 21px;
-      height: 21px;
-    }
-  }
-}
-
-.W_PostHeaderText {
-  display: flex;
-  width: 52.708vw;
-  flex-direction: column;
-  row-gap: 40px;
-}
-
-.W_PostNameAndCaption {
-  display: flex;
-  width: 10.417vw;
-  flex-direction: column;
-  row-gap: 8px;
-
-  p {
-    line-height: 115%;
-
-    &.name {
-      font-size: 16px;
-      font-weight: 500;
-    }
-
-    &.job {
-      font-size: 12px;
-      font-weight: 500;
-    }
-  }
-}
-
-.W_PostHeader {
-  display: flex;
-  width: 100%;
-  align-items: flex-start;
-  justify-content: space-between;
-}
-
-.W_NumberHeading {
-  display: flex;
-  column-gap: 40px;
-}
-
-.С_FooterLinksSection {
-  display: flex;
-  column-gap: 140px;
-}
-
-.C_FooterLinks {
-  display: flex;
-  flex-direction: column;
-  row-gap: 6px;
-}
-.C_Card5To5Column {
-  display: flex;
-  width: 6640px;
-  &.rail {
-    transition: all var(--transitionTiming) ease;
-  }
-}
+// .C_VerticalScrollingButtons {
+//   position: fixed;
+//   margin: 45vw 0vw 0vw 87vw;
+//   display: flex;
+//   flex-direction: column;
+//   row-gap: 10px;
+// }
+//
+// .C_SocialNetworksButtons {
+//   display: flex;
+//   width: fit-content;
+//   column-gap: 17px;
+// }
+//
+// // Categories tags and buttons
+// .C_Categories {
+//   display: flex;
+//   column-gap: 10px;
+// }
+//
+// // Cards collections
+// .C_Cards {
+//   display: flex;
+//   column-gap: 20px;
+//
+//   &.Wrap {
+//     flex-wrap: wrap;
+//     row-gap: 20px;
+//   }
+// }
+//
+// // Additional cards collections
+//
+// .C_AdditionalCardsBlock {
+//   display: flex;
+//   width: fit-content;
+//   column-gap: 20px;
+// }
+//
+// // Photos and videos in articles
+// .C_ArticleContent {
+//   display: flex;
+//   column-gap: 20px;
+// }
+//
+// // Meatballs
+// .C_SliderMeatballs {
+//   display: flex;
+//   position: relative;
+//   column-gap: 10px;
+//   margin-left: calc(50% - 43px);
+//   margin-top: -34px;
+//   z-index: 1000;
+// }
+//
+// .W_PageHeading {
+//   display: flex;
+//   justify-content: space-between;
+//   align-items: center;
+// }
+//
+// .W_TagsAndTime {
+//   display: flex;
+//   align-items: center;
+//   justify-content: space-between;
+// }
+//
+// .C_ShareDownloadButtons {
+//   display: flex;
+//   column-gap: 12px;
+//
+//   .A_CircleButtons {
+//     width: 36px;
+//     height: 36px;
+//
+//     .Q_Icons {
+//       width: 21px;
+//       height: 21px;
+//     }
+//   }
+// }
+//
+// .W_PostHeaderText {
+//   display: flex;
+//   width: 52.708vw;
+//   flex-direction: column;
+//   row-gap: 40px;
+// }
+//
+// .W_PostNameAndCaption {
+//   display: flex;
+//   width: 10.417vw;
+//   flex-direction: column;
+//   row-gap: 8px;
+//
+//   p {
+//     line-height: 115%;
+//
+//     &.name {
+//       font-size: 16px;
+//       font-weight: 500;
+//     }
+//
+//     &.job {
+//       font-size: 12px;
+//       font-weight: 500;
+//     }
+//   }
+// }
+//
+// .W_PostHeader {
+//   display: flex;
+//   width: 100%;
+//   align-items: flex-start;
+//   justify-content: space-between;
+// }
+//
+// .W_NumberHeading {
+//   display: flex;
+//   column-gap: 40px;
+// }
+//
+// .С_FooterLinksSection {
+//   display: flex;
+//   column-gap: 140px;
+// }
+//
+// .C_FooterLinks {
+//   display: flex;
+//   flex-direction: column;
+//   row-gap: 6px;
+// }
+// .C_Card5To5Column {
+//   display: flex;
+//   width: 6640px;
+//   &.rail {
+//     transition: all var(--transitionTiming) ease;
+//   }
+// }

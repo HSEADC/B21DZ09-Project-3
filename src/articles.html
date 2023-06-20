@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8" />
     <link rel="icon" type="images/png" href="images/favicon.png" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <!-- Primary Meta Tags -->
     <title>Статьи — Self</title>
     <meta name="title" content="Статьи — Self" />
@@ -36,8 +38,8 @@
 
     <analytics></analytics>
   </head>
-  <body class="articles">
-    <header>
+  <body class="materials">
+    <!-- <header>
       <div class="O_MenuBar">
         <div class="M_NavigationLogotype">
           <a class="A_Logotype" href="./index.html"></a>
@@ -301,6 +303,315 @@
           <a href="#">Вопрос-ответ</a>
         </div>
       </div>
-    </footer>
+    </footer> -->
+    <!-- Menu -->
+    <div class="O_Menu">
+      <div class="Menufirst">
+        <div class="A_LogoHeader">
+          <a class="A_Logotype Header" href="index.html"></a>
+          <div class="A_Label OrangeCombination CreamBorder">
+            <p>Материалы</p>
+          </div>
+        </div>
+      </div>
+      <div class="Menusecond">
+        <nav>
+          <a class="Inactive" href="instructions.html">Инструкции</a>
+          <a class="Active" href="articles.html">Материалы</a>
+          <a class="Inactive" href="questions.html">Вопрос-ответ</a>
+        </nav>
+      </div>
+      <div class="Menuthird">
+        <form class="M_Form Search BeigeCombination" action="index.html" method="post">
+          <input class="A_Input Search BeigeCombination" type="text" name="" value="Поиск...">
+          <button class="A_CircleButton Beige">
+            <div class="Q_Icons Tree Search"></div>
+          </button>
+        </form>
+      </div>
+    </div>
+    <!-- Banner slider -->
+    <div class="swiper swiperBanner">
+      <!-- Wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Banner cards -->
+        <a class="swiper-slide M_Card Banner" id="flower" href="#">
+          <img src="./images/masks/bannermask.svg" alt="">
+          <div class="HeadTagBlock">
+            <h1>Как я переезжала из Норильска в Москву</h1>
+            <!-- Categories -->
+            <div class="C_Tags">
+              <div class="A_CategoryTag" data-set="">
+                <p>Техника</p>
+              </div>
+              <div class="A_CategoryTag WithLeftIcon">
+                <div class="Q_Icons Tree Check"></div>
+                <p>2 шага</p>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a class="swiper-slide M_Card Banner" id="movie" href="#">
+          <img src="./images/masks/bannermask.svg" alt="">
+          <div class="HeadTagBlock">
+            <h1>Как я переезжала из Норильска в Москву</h1>
+            <!-- Categories -->
+            <div class="C_Tags">
+              <div class="A_CategoryTag" data-set="">
+                <p>Техника</p>
+              </div>
+              <div class="A_CategoryTag WithLeftIcon">
+                <div class="Q_Icons Tree Check"></div>
+                <p>2 шага</p>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a class="swiper-slide M_Card Banner" id="flower" href="#">
+          <img src="./images/masks/bannermask.svg" alt="">
+          <div class="HeadTagBlock">
+            <h1>Как я переезжала из Норильска в Москву</h1>
+            <!-- Categories -->
+            <div class="C_Tags">
+              <div class="A_CategoryTag" data-set="">
+                <p>Техника</p>
+              </div>
+              <div class="A_CategoryTag WithLeftIcon">
+                <div class="Q_Icons Tree Check"></div>
+                <p>2 шага</p>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+    <!-- Filter tags -->
+    <div class="M_CategoriesButtonsScroll">
+      <button class="A_CircleButton Beige" type="button" name="button">
+        <div class="Q_Icons Tree LeftArrow"></div>
+      </button>
+      <div class="C_CategoriesButtons">
+        <button class="Active" type="button" name="button"><p>Все</p></button>
+        <button class="Inactive" type="button" name="button"><p>Техника</p></button>
+        <button class="Inactive" type="button" name="button"><p>Документы</p></button>
+        <button class="Inactive" type="button" name="button"><p>Готовка</p></button>
+      </div>
+      <button class="A_CircleButton Beige" type="button" name="button">
+        <div class="Q_Icons Tree RightArrow"></div>
+      </button>
+    </div>
+    <!-- Materials -->
+    <div class="O_HeaderAndContent">
+      <!-- Header block -->
+      <div class="A_Header">
+        <h1>Материалы</h1>
+        <button class="A_MoreButton" type="button" name="button">
+          <p>Смотреть больше</p>
+          <div class="A_CircleButton" type="button" name="button">
+            <div class="Q_Icons Cream RightArrow"></div>
+          </div>
+        </button>
+      </div>
+      <!-- Subheader Articles block -->
+      <div class="O_SubheaderAndContent">
+        <!-- Subheader label -->
+        <a class="A_Label OrangeCombination BeigeBorder">
+          <p>Авторские статьи</p>
+        </a>
+        <!-- Grid Article block -->
+        <div class="W_Grid Article">
+          <a class="M_Card Beige Article" href="#">
+            <div class="Q_CardContent Article"></div>
+            <div class="HeadTagBlock">
+              <h3>Адаптация в университете: советы первокурснику</h3>
+              <div class="C_Tags">
+                <div class="A_CategoryTag WithAuthor">
+                  <div class="A_Avatar CategoryTag" id="default"></div>
+                  <p>Анна Блинова</p>
+                </div>
+                <div class="A_CategoryTag">
+                  <p>Авторская статья</p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a class="M_Card Beige Article" href="#">
+            <div class="Q_CardContent Article"></div>
+            <div class="HeadTagBlock">
+              <h3>Адаптация в университете: советы первокурснику</h3>
+              <div class="C_Tags">
+                <div class="A_CategoryTag WithAuthor">
+                  <div class="A_Avatar CategoryTag" id="default"></div>
+                  <p>Анна Блинова</p>
+                </div>
+                <div class="A_CategoryTag">
+                  <p>Авторская статья</p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a class="M_Card Beige Article" href="#">
+            <div class="Q_CardContent Article"></div>
+            <div class="HeadTagBlock">
+              <h3>Адаптация в университете: советы первокурснику</h3>
+              <div class="C_Tags">
+                <div class="A_CategoryTag WithAuthor">
+                  <div class="A_Avatar CategoryTag" id="default"></div>
+                  <p>Анна Блинова</p>
+                </div>
+                <div class="A_CategoryTag">
+                  <p>Авторская статья</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <!-- Subheader Video block -->
+      <div class="O_SubheaderAndContent">
+        <!-- Subheader label -->
+        <a class="A_Label OrangeCombination BeigeBorder">
+          <p>Видео</p>
+        </a>
+        <!-- Grid Video block -->
+        <div class="W_Grid Video">
+          <!-- 1st card -->
+          <a class="M_Card Cream Video Large" id="flower">
+            <div class="HeadTagBlock">
+              <h3>Как ухаживать за цветами</h3>
+              <div class="C_Tags">
+                <div class="A_CategoryTag">
+                  <p>Растения</p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- 2nd card -->
+          <a class="M_Card Cream Video" id="flower">
+            <div class="HeadTagBlock">
+              <h3>Как ухаживать за цветами</h3>
+              <div class="C_Tags">
+                <div class="A_CategoryTag">
+                  <p>Растения</p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- 3rd card -->
+          <a class="M_Card Cream Video" id="flower">
+            <div class="HeadTagBlock">
+              <h3>Как ухаживать за цветами</h3>
+              <div class="C_Tags">
+                <div class="A_CategoryTag">
+                  <p>Растения</p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- 4th card -->
+          <a class="M_Card Cream Video" id="flower">
+            <div class="HeadTagBlock">
+              <h3>Как ухаживать за цветами</h3>
+              <div class="C_Tags">
+                <div class="A_CategoryTag">
+                  <p>Растения</p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- 5th card -->
+          <a class="M_Card Cream Video" id="flower">
+            <div class="HeadTagBlock">
+              <h3>Как ухаживать за цветами</h3>
+              <div class="C_Tags">
+                <div class="A_CategoryTag">
+                  <p>Растения</p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- 6th card -->
+          <a class="M_Card Cream Video" id="flower">
+            <div class="HeadTagBlock">
+              <h3>Как ухаживать за цветами</h3>
+              <div class="C_Tags">
+                <div class="A_CategoryTag">
+                  <p>Растения</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <!-- Subheader Check block -->
+      <div class="O_SubheaderAndContent">
+        <!-- Subheader label -->
+        <a class="A_Label OrangeCombination BeigeBorder">
+          <p>Чек-листы</p>
+        </a>
+        <!-- Grid Check block -->
+        <div class="W_Grid Check">
+          <!-- 1st card -->
+          <a class="M_Card Beige Check">
+            <div class="Q_CardContent Check"></div>
+            <div class="HeadTagBlock">
+              <h3>Как ухаживать за цветами</h3>
+              <div class="C_Tags">
+                <div class="A_CategoryTag">
+                  <p>Растения</p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- 2nd card -->
+          <a class="M_Card Beige Check">
+            <div class="Q_CardContent Check"></div>
+            <div class="HeadTagBlock">
+              <h3>Как ухаживать за цветами</h3>
+              <div class="C_Tags">
+                <div class="A_CategoryTag">
+                  <p>Растения</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <div class="O_Footer">
+      <div class="W_FooterDescription">
+        <div class="A_Logotype Footer"></div>
+        <p>Self — это энциклопедия взрослой жизни, помогающая молодёжи справиться с бытовыми трудностями</p>
+        <div class="A_NetworksButtons">
+          <button class="A_NetworkButton" id="vk"></button>
+          <button class="A_NetworkButton" id="telegram"></button>
+          <button class="A_NetworkButton" id="instagram"></button>
+        </div>
+      </div>
+      <div class="С_FooterLinksSection">
+        <div class="M_FooterLinksBlock">
+          <p>Инструкции</p>
+          <div class="C_FooterLinks">
+            <a href="#">Инструкции</a>
+          </div>
+        </div>
+        <div class="M_FooterLinksBlock">
+          <p>Материалы</p>
+          <div class="C_FooterLinks">
+            <a href="#">Авторские статьи</a>
+            <a href="#">Видео</a>
+            <a href="#">Чек-листы</a>
+          </div>
+        </div>
+        <div class="M_FooterLinksBlock">
+          <p>Вопрос-ответ</p>
+          <div class="C_FooterLinks">
+            <a href="#">Вопрос-ответ</a>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

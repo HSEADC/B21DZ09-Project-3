@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8" />
     <link rel="icon" type="images/png" href="images/favicon.png" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <!-- Primary Meta Tags -->
     <title>Self</title>
     <meta name="title" content="Self" />
@@ -37,639 +39,488 @@
     <analytics></analytics>
   </head>
   <body class="home">
-    <!-- Шапка, баннер и новые материалы -->
-    <header>
-      <div class="O_MenuBar">
-        <div class="M_NavigationLogotype">
-          <a class="A_Logotype" href="./index.html"></a>
-        </div>
-        <nav class="M_MenuNavigation">
-          <a href="./instructions.html">Инструкции</a>
-          <a href="./articles.html">Материалы</a>
-          <a href="./questions.html">Вопрос-ответ</a>
+    <!-- Menu -->
+    <div class="O_Menu">
+      <div class="Menufirst">
+        <a class="A_LogoHeader" href="#">
+          <div class="A_Logotype Header"></div>
+        </a>
+      </div>
+      <div class="Menusecond">
+        <nav>
+          <a class="Inactive" href="instructions.html">Инструкции</a>
+          <a class="Inactive" href="articles.html">Материалы</a>
+          <a class="Inactive" href="questions.html">Вопрос-ответ</a>
         </nav>
-        <form
-          class="M_SearchForm BeigeCombination"
-          action="index.html"
-          method="post"
-        >
-          <input class="A_SearchInput" type="text" name="" value="Поиск..." />
-          <button class="A_CircleButtons BeigeCombination">
-            <div class="Q_Icons Search"></div>
+      </div>
+      <div class="Menuthird">
+        <form class="M_Form Search BeigeCombination" action="index.html" method="post">
+          <input class="A_Input Search BeigeCombination" type="text" name="" value="Поиск...">
+          <button class="A_CircleButton Beige">
+            <div class="Q_Icons Tree Search"></div>
           </button>
         </form>
       </div>
-      <div class="O_Banner">
-        <div class="M_Slides">
-          <div class="C_Card5To5Column rail">
-            <a
-              class="M_Card5To5Column Banner OrangeGradient"
-              id="article1"
-              href="./articles/art1.html"
-            >
-              <h1>Как я переезжала из Норильска в Москву</h1>
-              <div class="C_Categories">
-                <div class="A_CategoryTag Name CreamCombination">
-                  <div class="A_Avatar" id="AvatarSasha"></div>
-                  <p>Александра Шушина</p>
-                </div>
-                <div class="A_CategoryTag Categories CreamCombination">
-                  <p>Переезд</p>
-                </div>
-                <div class="A_CategoryTag Categories CreamCombination">
-                  <p>Общежитие</p>
-                </div>
+    </div>
+    <!-- Banner slider -->
+    <div class="swiper swiperBanner">
+      <!-- Wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Banner cards -->
+        <a class="swiper-slide M_Card Banner" id="flower" href="./articles/art1.html">
+          <img src="./images/masks/bannermask.svg" alt="">
+          <div class="HeadTagBlock">
+            <h1>«Как я переезжала  из Норильска в Москву»</h1>
+            <!-- Categories -->
+            <div class="C_Tags">
+              <div class="A_CategoryTag WithAuthor">
+                <div class="A_Avatar CategoryTag" id="default"></div>
+                <p>Александра Шушина</p>
               </div>
-            </a>
-            <a
-              class="M_Card5To5Column Banner OrangeGradient"
-              id="article1"
-              href="./articles/art1.html"
-            >
-              <h1>Как наладить общение с соседями</h1>
-              <div class="C_Categories">
-                <div class="A_CategoryTag Name CreamCombination">
-                  <div class="A_Avatar" id="AvatarSasha"></div>
-                  <p>Николай Картонов</p>
-                </div>
-                <div class="A_CategoryTag Categories CreamCombination">
-                  <p>Авторская статья</p>
-                </div>
-                <div class="A_CategoryTag Categories CreamCombination">
-                  <p>Общежитие</p>
-                </div>
+              <div class="A_CategoryTag" data-set="">
+                <p>Авторская статья</p>
               </div>
-            </a>
-            <a
-              class="M_Card5To5Column Banner OrangeGradient"
-              id="article1"
-              href="./articles/art1.html"
-            >
-              <h1>Ленивый субботник</h1>
-              <div class="C_Categories">
-                <div class="A_CategoryTag Name CreamCombination">
-                  <div class="A_Avatar" id="AvatarSasha"></div>
-                  <p>Александра Шушина</p>
-                </div>
-                <div class="A_CategoryTag Categories CreamCombination">
-                  <p>Переезд</p>
-                </div>
-                <div class="A_CategoryTag Categories CreamCombination">
-                  <p>Уборка</p>
-                </div>
+              <div class="A_CategoryTag" data-set="">
+                <p>Переезд</p>
               </div>
-            </a>
-            <a
-              class="M_Card5To5Column Banner OrangeGradient"
-              id="article1"
-              href="./articles/art1.html"
-            >
-              <h1>Пять советов начинающему садовнику</h1>
-              <div class="C_Categories">
-                <div class="A_CategoryTag Name CreamCombination">
-                  <div class="A_Avatar" id="AvatarSasha"></div>
-                  <p>Милана Алёшина</p>
-                </div>
-                <div class="A_CategoryTag Categories CreamCombination">
-                  <p>Авторская статья</p>
-                </div>
-                <div class="A_CategoryTag Categories CreamCombination">
-                  <p>Растения</p>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="C_SliderMeatballs">
-          <div class="A_Circles first"></div>
-          <div class="A_Circles second"></div>
-          <div class="A_Circles third"></div>
-          <div class="A_Circles fourth"></div>
-        </div>
-      </div>
-      <div class="O_AdditionalCardBlock">
-        <a class="A_CircleButtons BeigeCombination" href="#firstadditional">
-          <div class="Q_Icons Left"></div>
-        </a>
-        <div class="O_ScrollBlock">
-          <div class="C_Cards">
-            <a
-              class="M_AdditionalCard Card3to9Column BeigeCombination"
-              id="firstadditional"
-              href="./articles/art2.html"
-            >
-              <h4>Правила заполнения грамотного резюме</h4>
-              <div class="W_TagsAndTime">
-                <div class="C_Categories">
-                  <div
-                    class="A_CategoryTag Name AdditionalTag CreamCombination"
-                  >
-                    <div class="A_Avatar" id="AvatarIvan"></div>
-                    <p>Колобков Иван</p>
-                  </div>
-                  <div
-                    class="A_CategoryTag Categories AdditionalTag CreamCombination"
-                  >
-                    <p>Работа</p>
-                  </div>
-                </div>
-                <p class="A_PostTime">Cегодня в 10:54</p>
-              </div>
-            </a>
-            <a
-              class="M_AdditionalCard Card3to9Column BeigeCombination"
-              href="./questions.html"
-            >
-              <h4>Адаптация в университете: советы первокурснику</h4>
-              <div class="W_TagsAndTime">
-                <div class="C_Categories">
-                  <div
-                    class="A_CategoryTag Name AdditionalTag CreamCombination"
-                  >
-                    <div class="A_Avatar" id="A_AvatarIrina"></div>
-                    <p>Агеева Ирина</p>
-                  </div>
-                  <div
-                    class="A_CategoryTag Categories AdditionalTag CreamCombination"
-                  >
-                    <p>Учеба</p>
-                  </div>
-                </div>
-                <p class="A_PostTime">Cегодня в 12:23</p>
-              </div>
-            </a>
-            <a
-              class="M_AdditionalCard Card3to9Column BeigeCombination"
-              href="./questions.html"
-            >
-              <h4>Пылесос vs робот-пылесос: что выбрать</h4>
-              <div class="W_TagsAndTime">
-                <div class="C_Categories">
-                  <div
-                    class="A_CategoryTag Name AdditionalTag CreamCombination"
-                  >
-                    <div class="A_Avatar" id="AvatarNoname"></div>
-                    <p>Анна Василькова</p>
-                  </div>
-                  <div
-                    class="A_CategoryTag Categories AdditionalTag CreamCombination"
-                  >
-                    <p>Уборка</p>
-                  </div>
-                </div>
-                <p class="A_PostTime">Cегодня в 10:42</p>
-              </div>
-            </a>
-            <a
-              class="M_AdditionalCard Card3to9Column BeigeCombination"
-              href="#"
-            >
-              <h4>Как я переезжала из Норильска в Москву</h4>
-              <div class="W_TagsAndTime">
-                <div class="C_Categories">
-                  <div
-                    class="A_CategoryTag Name AdditionalTag CreamCombination"
-                  >
-                    <div class="A_Avatar" id="AvatarMan"></div>
-                    <p>Алла Гончар</p>
-                  </div>
-                  <div
-                    class="A_CategoryTag Categories AdditionalTag CreamCombination"
-                  >
-                    <p>Переезд</p>
-                  </div>
-                </div>
-                <p class="A_PostTime">Cегодня в 10:42</p>
-              </div>
-            </a>
-            <a
-              class="M_AdditionalCard Card3to9Column BeigeCombination"
-              href="#"
-            >
-              <h4>Как я переезжала из Норильска в Москву</h4>
-              <div class="W_TagsAndTime">
-                <div class="C_Categories">
-                  <div
-                    class="A_CategoryTag Name AdditionalTag CreamCombination"
-                  >
-                    <div class="A_Avatar" id="AvatarMan"></div>
-                    <p>Алла Гончар</p>
-                  </div>
-                  <div
-                    class="A_CategoryTag Categories AdditionalTag CreamCombination"
-                  >
-                    <p>Переезд</p>
-                  </div>
-                </div>
-                <p class="A_PostTime">Cегодня в 10:42</p>
-              </div>
-            </a>
-            <a
-              class="M_AdditionalCard Card3to9Column BeigeCombination"
-              id="lastadditional"
-              href="#"
-            >
-              <h4>Я не видела дневного света из-за учебы</h4>
-              <div class="W_TagsAndTime">
-                <div class="C_Categories">
-                  <div
-                    class="A_CategoryTag Name AdditionalTag CreamCombination"
-                  >
-                    <div class="A_Avatar" id="AvatarMan"></div>
-                    <p>Алла Гончар</p>
-                  </div>
-                  <div
-                    class="A_CategoryTag Categories AdditionalTag CreamCombination"
-                  >
-                    <p>Переезд</p>
-                  </div>
-                </div>
-                <p class="A_PostTime">Cегодня в 10:42</p>
-              </div>
-            </a>
-          </div>
-        </div>
-        <a class="A_CircleButtons BeigeCombination" href="#lastadditional">
-          <div class="Q_Icons Right"></div>
-        </a>
-      </div>
-    </header>
-    <!-- Секция всех материалов на главной -->
-    <section class="S_HomeSection BeigeCombination">
-      <div class="O_InstructionsHome">
-        <div class="W_PageHeading">
-          <h1>Инструкции</h1>
-          <a class="A_MoreButton" href="./articles.html">
-            <p>Смотреть больше</p>
-            <div class="A_CircleButtons OrangeCombination">
-              <div class="Q_Icons Right CreamCombination"></div>
             </div>
-          </a>
-        </div>
-        <div class="C_Cards">
-          <a
-            class="M_Card4to8Column Instruction CreamCombination"
-            id="instruction3"
-            href="./instructions/instr3.html"
-          >
-            <h3>Подключение интернета: все тонкости и секреты</h3>
-            <div class="C_Categories">
-              <div class="A_CategoryTag Categories BeigeCombination">
-                <p>Инструкция</p>
+          </div>
+        </a>
+        <a class="swiper-slide M_Card Banner" id="movie" href="#">
+          <img src="./images/masks/bannermask.svg" alt="">
+          <div class="HeadTagBlock">
+            <h1>Как я переезжала из Норильска в Москву</h1>
+            <!-- Categories -->
+            <div class="C_Tags">
+              <div class="A_CategoryTag" data-set="">
+                <p>Техника</p>
               </div>
-              <div class="A_CategoryTag WithIcons BeigeCombination">
-                <div class="Q_Icons Check"></div>
+              <div class="A_CategoryTag WithLeftIcon">
+                <div class="Q_Icons Tree Check"></div>
                 <p>2 шага</p>
               </div>
             </div>
-          </a>
-          <a
-            class="M_Card2to8Column Instruction CreamCombination"
-            id="instruction5"
-            href="./instructions/instr5.html"
-          >
-            <h3>Варим яйцо всмятку</h3>
-            <div class="C_Categories">
-              <div class="A_CategoryTag Categories BeigeCombination">
-                <p>Инструкция</p>
+          </div>
+        </a>
+        <a class="swiper-slide M_Card Banner" id="flower" href="#">
+          <img src="./images/masks/bannermask.svg" alt="">
+          <div class="HeadTagBlock">
+            <h1>Как я переезжала из Норильска в Москву</h1>
+            <!-- Categories -->
+            <div class="C_Tags">
+              <div class="A_CategoryTag" data-set="">
+                <p>Техника</p>
               </div>
-              <div class="A_CategoryTag WithIcons BeigeCombination">
-                <div class="Q_Icons Check"></div>
-                <p>3 шага</p>
+              <div class="A_CategoryTag WithLeftIcon">
+                <div class="Q_Icons Tree Check"></div>
+                <p>2 шага</p>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+    <!-- Additional slider -->
+    <div class="C_AdditionalCards">
+      <!-- Slider -->
+      <div class="swiper swiperAdditional">
+        <!-- Wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Banner cards -->
+          <a class="swiper-slide M_Card Beige Additional" id="flower" href="#">
+            <div class="HeadTagBlock">
+              <h3>Как я переезжала из Норильска в Москву</h3>
+              <!-- Categories -->
+              <div class="C_Tags">
+                <div class="A_CategoryTag" data-set="">
+                  <p>Техника</p>
+                </div>
+                <div class="A_CategoryTag WithLeftIcon">
+                  <p>2 шага</p>
+                  <div class="Q_Icons Tree Check"></div>
+                </div>
               </div>
             </div>
           </a>
-          <a
-            class="M_Card2to8Column Instruction CreamCombination"
-            id="instruction6"
-            href="./instructions/instr6.html"
-          >
-            <h3>Как отправить посылку</h3>
-            <div class="C_Categories">
-              <div class="A_CategoryTag Categories BeigeCombination">
-                <p>Инструкция</p>
+          <a class="swiper-slide M_Card Beige Additional" id="flower" href="#">
+            <div class="HeadTagBlock">
+              <h3>Как я переезжала из Норильска в Москву</h3>
+              <!-- Categories -->
+              <div class="C_Tags">
+                <div class="A_CategoryTag" data-set="">
+                  <p>Техника</p>
+                </div>
+                <div class="A_CategoryTag WithLeftIcon">
+                  <p>2 шага</p>
+                  <div class="Q_Icons Tree Check"></div>
+                </div>
               </div>
-              <div class="A_CategoryTag WithIcons BeigeCombination">
-                <div class="Q_Icons Check"></div>
-                <p>3 шага</p>
+            </div>
+          </a>
+          <a class="swiper-slide M_Card Beige Additional" id="flower" href="#">
+            <div class="HeadTagBlock">
+              <h3>Как я переезжала из Норильска в Москву</h3>
+              <!-- Categories -->
+              <div class="C_Tags">
+                <div class="A_CategoryTag" data-set="">
+                  <p>Техника</p>
+                </div>
+                <div class="A_CategoryTag WithLeftIcon">
+                  <p>2 шага</p>
+                  <div class="Q_Icons Tree Check"></div>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a class="swiper-slide M_Card Beige Additional" id="flower" href="#">
+            <div class="HeadTagBlock">
+              <h3>Как я переезжала из Норильска в Москву</h3>
+              <!-- Categories -->
+              <div class="C_Tags">
+                <div class="A_CategoryTag" data-set="">
+                  <p>Техника</p>
+                </div>
+                <div class="A_CategoryTag WithLeftIcon">
+                  <p>2 шага</p>
+                  <div class="Q_Icons Tree Check"></div>
+                </div>
               </div>
             </div>
           </a>
         </div>
       </div>
-      <div class="S_MaterialsHomeBlock">
-        <div class="W_PageHeading">
-          <h1>Материалы</h1>
-          <a class="A_MoreButton" href="./articles.html">
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+    <!-- Pages block -->
+    <div class="S_MainPageBackground">
+      <!-- Instructions -->
+      <div class="O_HeaderAndContent">
+        <!-- Header block -->
+        <div class="A_Header">
+          <h1>Инструкции</h1>
+          <button class="A_MoreButton" type="button" name="button">
             <p>Смотреть больше</p>
-            <div class="A_CircleButtons OrangeCombination">
-              <div class="Q_Icons Right CreamCombination"></div>
+            <div class="A_CircleButton" type="button" name="button">
+              <div class="Q_Icons Cream RightArrow"></div>
+            </div>
+          </button>
+        </div>
+        <!-- Grid Instructions block -->
+        <div class="W_Grid Instruction">
+          <!-- 1st card -->
+          <a class="M_Card Cream Instruction Large" id="internet">
+            <div class="HeadTagBlock">
+              <h3>Подключение интернета: все тонкости и секреты</h3>
+              <!-- Categories -->
+              <div class="C_Tags">
+                <div class="A_CategoryTag" data-set="">
+                  <p>Техника</p>
+                </div>
+                <div class="A_CategoryTag WithLeftIcon">
+                  <p>2 шага</p>
+                  <div class="Q_Icons Tree Check"></div>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- 2nd card -->
+          <a class="M_Card Cream Instruction" id="internet">
+            <div class="HeadTagBlock">
+              <h3>Подключение интернета: все тонкости и секреты</h3>
+              <!-- Categories -->
+              <div class="C_Tags">
+                <div class="A_CategoryTag" data-set="">
+                  <p>Техника</p>
+                </div>
+                <div class="A_CategoryTag WithLeftIcon">
+                  <p>2 шага</p>
+                  <div class="Q_Icons Tree Check"></div>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- 3rd card -->
+          <a class="M_Card Cream Instruction" id="internet">
+            <div class="HeadTagBlock">
+              <h3>Подключение интернета: все тонкости и секреты</h3>
+              <!-- Categories -->
+              <div class="C_Tags">
+                <div class="A_CategoryTag" data-set="">
+                  <p>Техника</p>
+                </div>
+                <div class="A_CategoryTag WithLeftIcon">
+                  <p>2 шага</p>
+                  <div class="Q_Icons Tree Check"></div>
+                </div>
+              </div>
             </div>
           </a>
         </div>
-        <div class="O_MaterialsHome">
-          <a
-            class="A_Label OrangeCombination BeigeBorder"
-            href="./questions.html"
-          >
+      </div>
+      <!-- Materials -->
+      <div class="O_HeaderAndContent">
+        <!-- Header block -->
+        <div class="A_Header">
+          <h1>Материалы</h1>
+          <button class="A_MoreButton" type="button" name="button">
+            <p>Смотреть больше</p>
+            <div class="A_CircleButton" type="button" name="button">
+              <div class="Q_Icons Cream RightArrow"></div>
+            </div>
+          </button>
+        </div>
+        <!-- Subheader Articles block -->
+        <div class="O_SubheaderAndContent">
+          <!-- Subheader label -->
+          <a class="A_Label OrangeCombination BeigeBorder">
             <p>Авторские статьи</p>
           </a>
-          <div class="C_Cards">
-            <a
-              class="M_Card3to9Column Article CreamCombination"
-              href="./articles/art1.html"
-            >
-              <div class="Q_CardBackground Article" id="article1"></div>
-              <h3>Как я переезжала из Норильска в Москву</h3>
-              <div class="W_TagsAndTime">
-                <div class="C_Categories">
-                  <div class="A_CategoryTag Name BeigeCombination">
-                    <div class="A_Avatar" id="AvatarSasha"></div>
-                    <p>Александра Шушина</p>
+          <!-- Grid Article block -->
+          <div class="W_Grid Article">
+            <a class="M_Card Cream Article" href="#">
+              <div class="Q_CardContent Article"></div>
+              <div class="HeadTagBlock">
+                <h3>Адаптация в университете: советы первокурснику</h3>
+                <div class="C_Tags">
+                  <div class="A_CategoryTag WithAuthor">
+                    <div class="A_Avatar CategoryTag" id="default"></div>
+                    <p>Анна Блинова</p>
                   </div>
-                  <div class="A_CategoryTag Categories BeigeCombination">
-                    <p>Переезд</p>
+                  <div class="A_CategoryTag">
+                    <p>Авторская статья</p>
                   </div>
                 </div>
-                <p class="A_PostTime">Cегодня в 10:42</p>
               </div>
             </a>
-            <a
-              class="M_Card3to9Column Article CreamCombination"
-              href="./articles/art2.html"
-            >
-              <div class="Q_CardBackground Article" id="article2"></div>
-              <h3>Правила заполнения грамотного резюме</h3>
-              <div class="W_TagsAndTime">
-                <div class="C_Categories">
-                  <div class="A_CategoryTag Name BeigeCombination">
-                    <div class="A_Avatar" id="AvatarIvan"></div>
-                    <p>Колобков Иван</p>
+            <a class="M_Card Cream Article" href="#">
+              <div class="Q_CardContent Article"></div>
+              <div class="HeadTagBlock">
+                <h3>Адаптация в университете: советы первокурснику</h3>
+                <div class="C_Tags">
+                  <div class="A_CategoryTag WithAuthor">
+                    <div class="A_Avatar CategoryTag" id="default"></div>
+                    <p>Анна Блинова</p>
                   </div>
-                  <div class="A_CategoryTag Categories BeigeCombination">
-                    <p>Работа</p>
+                  <div class="A_CategoryTag">
+                    <p>Авторская статья</p>
                   </div>
                 </div>
-                <p class="A_PostTime">Cегодня в 10:54</p>
               </div>
             </a>
-            <a
-              class="M_Card3to9Column Article CreamCombination"
-              href="./articles/art3.html"
-            >
-              <div class="Q_CardBackground Article" id="article3"></div>
-              <h3>Адаптация в университете: советы первокурснику</h3>
-              <div class="W_TagsAndTime">
-                <div class="C_Categories">
-                  <div class="A_CategoryTag Name BeigeCombination">
-                    <div class="A_Avatar" id="AvatarMan"></div>
-                    <p>Агеева Ирина</p>
+            <a class="M_Card Cream Article" href="#">
+              <div class="Q_CardContent Article"></div>
+              <div class="HeadTagBlock">
+                <h3>Адаптация в университете: советы первокурснику</h3>
+                <div class="C_Tags">
+                  <div class="A_CategoryTag WithAuthor">
+                    <div class="A_Avatar CategoryTag" id="default"></div>
+                    <p>Анна Блинова</p>
                   </div>
-                  <div class="A_CategoryTag Categories BeigeCombination">
-                    <p>Переезд</p>
+                  <div class="A_CategoryTag">
+                    <p>Авторская статья</p>
                   </div>
                 </div>
-                <p class="A_PostTime">Cегодня в 12:23</p>
               </div>
             </a>
           </div>
         </div>
-        <div class="O_MaterialsHome">
-          <a
-            class="A_Label OrangeCombination BeigeBorder"
-            href="./questions.html"
-          >
+        <!-- Subheader Video block -->
+        <div class="O_SubheaderAndContent">
+          <!-- Subheader label -->
+          <a class="A_Label OrangeCombination BeigeBorder">
             <p>Видео</p>
           </a>
-          <div class="C_Cards Wrap">
-            <a
-              class="M_Card5To5Column Video"
-              id="video2"
-              href="./articles/vid2.html"
-            >
-              <h2>10 быстрых блюд из тыквы</h2>
-              <div class="C_Categories">
-                <div class="A_CategoryTag Categories BeigeCombination">
-                  <p>Видео</p>
-                </div>
-                <div class="A_CategoryTag Categories BeigeCombination">
-                  <p>Готовка</p>
+          <!-- Grid Video block -->
+          <div class="W_Grid Video">
+            <!-- 1st card -->
+            <a class="M_Card Cream Video Large" id="flower">
+              <div class="HeadTagBlock">
+                <h3>Как ухаживать за цветами</h3>
+                <div class="C_Tags">
+                  <div class="A_CategoryTag">
+                    <p>Растения</p>
+                  </div>
                 </div>
               </div>
             </a>
-            <a
-              class="M_Card2To10Column Video"
-              id="video1"
-              href="./articles/vid1.html"
-            >
-              <h3>Уход за большими растениями</h3>
-              <div class="A_CategoryTag Categories BeigeCombination">
-                <p>Растения</p>
-              </div>
-              <div class="W_VideoTime">
-                <p>6</p>
-                <div class="Q_Icons Play CreamCombination"></div>
+            <!-- 2nd card -->
+            <a class="M_Card Cream Video" id="flower">
+              <div class="HeadTagBlock">
+                <h3>Как ухаживать за цветами</h3>
+                <div class="C_Tags">
+                  <div class="A_CategoryTag">
+                    <p>Растения</p>
+                  </div>
+                </div>
               </div>
             </a>
-            <a
-              class="M_Card2To10Column Video"
-              id="video2"
-              href="./articles/vid2.html"
-            >
-              <h3>Готовим ужин из тыквы</h3>
-              <div class="A_CategoryTag Categories BeigeCombination">
-                <p>Готовка</p>
-              </div>
-              <div class="W_VideoTime">
-                <p>7:05</p>
-                <div class="Q_Icons Play CreamCombination"></div>
+            <!-- 3rd card -->
+            <a class="M_Card Cream Video" id="flower">
+              <div class="HeadTagBlock">
+                <h3>Как ухаживать за цветами</h3>
+                <div class="C_Tags">
+                  <div class="A_CategoryTag">
+                    <p>Растения</p>
+                  </div>
+                </div>
               </div>
             </a>
-            <a
-              class="M_Card2To10Column Video"
-              id="video3"
-              href="./questions.html"
-            >
-              <h3>Эстетика уборки в доме</h3>
-              <div class="A_CategoryTag Categories BeigeCombination">
-                <p>Уборка</p>
-              </div>
-              <div class="W_VideoTime">
-                <p>12:48</p>
-                <div class="Q_Icons Play CreamCombination"></div>
+            <!-- 4th card -->
+            <a class="M_Card Cream Video" id="flower">
+              <div class="HeadTagBlock">
+                <h3>Как ухаживать за цветами</h3>
+                <div class="C_Tags">
+                  <div class="A_CategoryTag">
+                    <p>Растения</p>
+                  </div>
+                </div>
               </div>
             </a>
-            <a
-              class="M_Card2To10Column Video"
-              id="video4"
-              href="./questions.html"
-            >
-              <h3>Ищем цветы на праздники</h3>
-              <div class="A_CategoryTag Categories BeigeCombination">
-                <p>Растения</p>
-              </div>
-              <div class="W_VideoTime">
-                <p>7:23</p>
-                <div class="Q_Icons Play CreamCombination"></div>
+            <!-- 5th card -->
+            <a class="M_Card Cream Video" id="flower">
+              <div class="HeadTagBlock">
+                <h3>Как ухаживать за цветами</h3>
+                <div class="C_Tags">
+                  <div class="A_CategoryTag">
+                    <p>Растения</p>
+                  </div>
+                </div>
               </div>
             </a>
-            <a
-              class="M_Card2To10Column Video"
-              id="video5"
-              href="./questions.html"
-            >
-              <h3>Едем в отпуск</h3>
-              <div class="A_CategoryTag Categories BeigeCombination">
-                <p>Отдых</p>
-              </div>
-              <div class="W_VideoTime">
-                <p>30:21</p>
-                <div class="Q_Icons Play CreamCombination"></div>
+            <!-- 6th card -->
+            <a class="M_Card Cream Video" id="flower">
+              <div class="HeadTagBlock">
+                <h3>Как ухаживать за цветами</h3>
+                <div class="C_Tags">
+                  <div class="A_CategoryTag">
+                    <p>Растения</p>
+                  </div>
+                </div>
               </div>
             </a>
           </div>
         </div>
-        <!-- <div class="O_MaterialsHome">
+        <!-- Subheader Check block -->
+        <div class="O_SubheaderAndContent">
+          <!-- Subheader label -->
           <a class="A_Label OrangeCombination BeigeBorder">
             <p>Чек-листы</p>
           </a>
-          <div class="C_Cards">
-            <a class="M_Card4to8Column Checklist CreamCombination">
-              <div class="Q_CardBackground Checklist" id="checklist1"></div>
-              <h3>Генеральная уборка в квартире</h3>
-              <div class="A_CategoryTag Categories BeigeCombination">
-                <p>Техника</p>
+          <!-- Grid Check block -->
+          <div class="W_Grid Check">
+            <!-- 1st card -->
+            <a class="M_Card Cream Check">
+              <div class="Q_CardContent Check"></div>
+              <div class="HeadTagBlock">
+                <h3>Как ухаживать за цветами</h3>
+                <div class="C_Tags">
+                  <div class="A_CategoryTag">
+                    <p>Растения</p>
+                  </div>
+                </div>
               </div>
             </a>
-            <a class="M_Card4to8Column Checklist CreamCombination">
-              <div class="Q_CardBackground Checklist" id="checklist1"></div>
-              <h3>Генеральная уборка в квартире</h3>
-              <div class="A_CategoryTag Categories BeigeCombination">
-                <p>Техника</p>
+            <!-- 2nd card -->
+            <a class="M_Card Cream Check">
+              <div class="Q_CardContent Check"></div>
+              <div class="HeadTagBlock">
+                <h3>Как ухаживать за цветами</h3>
+                <div class="C_Tags">
+                  <div class="A_CategoryTag">
+                    <p>Растения</p>
+                  </div>
+                </div>
               </div>
             </a>
           </div>
-        </div> -->
+        </div>
       </div>
-      <!-- <div class="O_InstructionsHome">
-        <div class="W_PageHeading">
+      <!-- Questions -->
+      <div class="O_HeaderAndContent">
+        <!-- Header block -->
+        <div class="A_Header">
           <h1>Вопрос-ответ</h1>
-          <a class="A_MoreButton">
+          <button class="A_MoreButton" type="button" name="button">
             <p>Смотреть больше</p>
-            <div class="A_CircleButtons OrangeCombination">
-              <div class="Q_Icons Right CreamCombination"></div>
+            <div class="A_CircleButton" type="button" name="button">
+              <div class="Q_Icons Cream RightArrow"></div>
             </div>
-          </a>
-        </div>
-        <div class="C_Cards">
-          <a class="M_Card4to8Column Question" id="question1">
-            <div class="M_TextAndTag CreamCombination">
-              <h3>Подключение интернета: все тонкости и секреты</h3>
-                <div class="A_CategoryTag Categories BeigeCombination">
-                  <p>Техника</p>
-                </div>
-            </div>
-            <div class="A_Button WithIcons OrangeCombination">
-              <p>Повернуть</p>
-              <div class="Q_Icons Turn CreamCombination"></div>
-            </div>
-          </a>
-          <a class="M_Card4to8Column Question" id="question1">
-            <div class="M_TextAndTag CreamCombination">
-              <h3>Подключение интернета: все тонкости и секреты</h3>
-                <div class="A_CategoryTag Categories BeigeCombination">
-                  <p>Техника</p>
-                </div>
-            </div>
-            <div class="A_Button WithIcons OrangeCombination">
-              <p>Повернуть</p>
-              <div class="Q_Icons Turn CreamCombination"></div>
-            </div>
-          </a>
-        </div>
-      </div> -->
-      <div class="M_MailBlock CreamCombination">
-        <div class="W_MailFormText">
-          <h2>Подпишитесь на свежие новости</h2>
-          <p>
-            Получайте подборку самых свежих статей на любимые темы. Вы можете
-            отменить подписку в любое время.
-          </p>
-        </div>
-        <!-- Form -->
-        <form
-          class="M_MailForm"
-          id="my-form"
-          action="https://formspree.io/f/myyvnlpr"
-          method="POST"
-        >
-          <!-- Input -->
-          <input class="A_MailInput" type="email" name="email" value="Email" />
-          <!-- Button -->
-          <button class="A_Button Active OrangeCombination" id="my-form-button">
-            Отправить
           </button>
-          <!-- <p id="my-form-status"></p> -->
-        </form>
-        <!-- Place this script at the end of the body tag -->
-        <script>
-          var form = document.getElementById('my-form')
-
-          async function handleSubmit(event) {
-            event.preventDefault()
-            var status = document.getElementById('my-form-status')
-            var data = new FormData(event.target)
-            fetch(event.target.action, {
-              method: form.method,
-              body: data,
-              headers: {
-                Accept: 'application/json'
-              }
-            })
-              .then((response) => {
-                if (response.ok) {
-                  status.innerHTML = 'Отправлено'
-                  form.reset()
-                } else {
-                  response.json().then((data) => {
-                    if (Object.hasOwn(data, 'errors')) {
-                      status.innerHTML = data['errors']
-                        .map((error) => error['message'])
-                        .join(', ')
-                    } else {
-                      status.innerHTML = 'Упс! Какая-то проблема'
-                    }
-                  })
-                }
-              })
-              .catch((error) => {
-                status.innerHTML = 'Упс! Возникла какая-то проблема'
-              })
-          }
-          form.addEventListener('submit', handleSubmit)
-        </script>
+        </div>
+        <!-- Grid Instructions block -->
+        <div class="W_Grid Question">
+          <!-- 1st card -->
+          <a class="M_Card Cream Question" id="flower">
+            <div class="M_Subcard">
+              <div class="HeadTagBlock">
+                <h3>Подключение интернета: все тонкости и секреты</h3>
+                <!-- Categories -->
+                <div class="C_Tags">
+                  <div class="A_CategoryTag" data-set="">
+                    <p>Техника</p>
+                  </div>
+                  <div class="A_CategoryTag WithLeftIcon">
+                    <p>2 шага</p>
+                    <div class="Q_Icons Tree Check"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- 2nd card -->
+          <a class="M_Card Cream Question" id="flower">
+            <div class="M_Subcard">
+              <div class="HeadTagBlock">
+                <h3>Подключение интернета: все тонкости и секреты</h3>
+                <!-- Categories -->
+                <div class="C_Tags">
+                  <div class="A_CategoryTag" data-set="">
+                    <p>Техника</p>
+                  </div>
+                  <div class="A_CategoryTag WithLeftIcon">
+                    <p>2 шага</p>
+                    <div class="Q_Icons Tree Check"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
       </div>
-    </section>
-    <footer class="O_Footer OrangeCombination">
-      <div class="M_FooterDescription">
-        <div class="A_Logotype"></div>
-        <p>
-          Self — это энциклопедия взрослой жизни, помогающая молодёжи справиться
-          с бытовыми трудностями
-        </p>
-        <div class="C_SocialNetworksButtons">
-          <div class="A_NetworksButtons VK"></div>
-          <div class="A_NetworksButtons Telegram"></div>
-          <div class="A_NetworksButtons Dzen"></div>
+      <!-- Mail block -->
+      <div class="M_MailBlock">
+        <h2>Подпишитесь на свежие новости</h2>
+        <p>Получайте подборку самых свежих статей на любимые темы. Вы можете отменить подписку в любое время.</p>
+        <form class="M_Form Mail" action="index.html" method="post">
+          <input class="A_Input Mail BeigeCombination" type="text" name="" value="Поиск...">
+          <button class="Send">
+            <p>Подписаться</p>
+          </button>
+        </form>
+      </div>
+    </div>
+    <!-- Footer block -->
+    <div class="O_Footer">
+      <div class="W_FooterDescription">
+        <div class="A_Logotype Footer"></div>
+        <p>Self — это энциклопедия взрослой жизни, помогающая молодёжи справиться с бытовыми трудностями</p>
+        <div class="A_NetworksButtons">
+          <button class="A_NetworkButton" id="vk"></button>
+          <button class="A_NetworkButton" id="telegram"></button>
+          <button class="A_NetworkButton" id="instagram"></button>
         </div>
       </div>
       <div class="С_FooterLinksSection">
         <div class="M_FooterLinksBlock">
-          <h5>Инструкции</h5>
-          <a href="#">Инструкции</a>
+          <p>Инструкции</p>
+          <div class="C_FooterLinks">
+            <a href="#">Инструкции</a>
+          </div>
         </div>
         <div class="M_FooterLinksBlock">
-          <h5>Материалы</h5>
+          <p>Материалы</p>
           <div class="C_FooterLinks">
             <a href="#">Авторские статьи</a>
             <a href="#">Видео</a>
@@ -677,10 +528,29 @@
           </div>
         </div>
         <div class="M_FooterLinksBlock">
-          <h5>Вопрос-ответ</h5>
-          <a href="#">Вопрос-ответ</a>
+          <p>Вопрос-ответ</p>
+          <div class="C_FooterLinks">
+            <a href="#">Вопрос-ответ</a>
+          </div>
         </div>
       </div>
-    </footer>
+    </div>
+    <!-- <form class="M_MailForm" id="my-form" action="https://formspree.io/f/myyvnlpr" method="POST">
+      <input class="A_MailInput" type="email" name="email" value="Email">
+      <button class="A_Button Active OrangeCombination" id="my-form-button">Отправить</button>
+    </form>
+    <script>
+      var form=document.getElementById("my-form");
+      async function handleSubmit(e){e.preventDefault();
+        var t=document.getElementById("my-form-status"),
+        n=new FormData(e.target);
+        fetch(e.target.action,{
+          method:form.method,
+          body:n,
+          headers:{
+            Accept:"application/json"
+          }
+        }).then((e=>{e.ok?(t.innerHTML="Отправлено",form.reset()):e.json().then((e=>{Object.hasOwn(e,"errors")?t.innerHTML=e.errors.map((e=>e.message)).join(", "):t.innerHTML="Упс! Какая-то проблема"}))})).catch((e=>{t.innerHTML="Упс! Возникла какая-то проблема"}))}form.addEventListener("submit",handleSubmit)
+    </script> -->
   </body>
 </html>

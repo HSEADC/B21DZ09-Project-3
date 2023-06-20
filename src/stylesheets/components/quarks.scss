@@ -1,223 +1,223 @@
-.Q_Icons {
-  display: block;
-  width: 26px;
-  height: 26px;
-
-  &.Right {
-    background: no-repeat top/100% url('../src/images/icons/Q_IconsRight.svg');
-
-    &.CreamCombination {
-      background: no-repeat top/100% url('../src/images/icons/Q_IconsRightCream.svg');
-    }
-
-    &.BlueCombination {
-      background: no-repeat top/100% url('../src/images/icons/Q_IconsRightBlue.svg');
-    }
-  }
-
-  &.Left {
-    background: no-repeat top/100% url('../src/images/icons/Q_IconsLeft.svg');
-
-    &.CreamCombination {
-      background: no-repeat top/100% url('../src/images/icons/Q_IconsLeftCream.svg');
-    }
-
-    &.BlueCombination {
-      background: no-repeat top/100% url('../src/images/icons/Q_IconsLeftBlue.svg');
-    }
-  }
-
-  &.Open {
-    background: no-repeat top/100% url('../src/images/icons/Q_IconsOpen.svg');
-
-    &.CreamCombination {
-      background: no-repeat top/100% url('../src/images/icons/Q_IconsOpenCream.svg');
-    }
-
-    &.BlueCombination {
-      background: no-repeat top/100% url('../src/images/icons/Q_IconsOpenBlue.svg');
-    }
-  }
-
-  &.Download {
-    background: no-repeat top/100% url('../src/images/icons/Q_IconsDownload.svg');
-
-    &.CreamCombination {
-      background: no-repeat top/100% url('../src/images/icons/Q_IconsDownloadCream.svg');
-    }
-
-    &.BlueCombination {
-      background: no-repeat top/100% url('../src/images/icons/Q_IconsDownloadBlue.svg');
-    }
-  }
-
-  &.Search {
-    background: no-repeat top/100% url('../src/images/icons/Q_IconsSearch.svg');
-
-    &.CreamCombination {
-      background: no-repeat top/100% url('../src/images/icons/Q_IconsSearchCream.svg');
-    }
-
-    &.BlueCombination {
-      background: no-repeat top/100% url('../src/images/icons/Q_IconsSearchBlue.svg');
-    }
-  }
-
-  &.Play {
-    background: no-repeat top/100% url('../src/images/icons/Q_IconsPlay.svg');
-
-    &.CreamCombination {
-      background: no-repeat top/100% url('../src/images/icons/Q_IconsPlayCream.svg');
-    }
-
-    &.BlueCombination {
-      background: no-repeat top/100% url('../src/images/icons/Q_IconsPlayBlue.svg');
-    }
-  }
-
-  &.Share {
-    background: no-repeat top/100% url('../src/images/icons/Q_IconsShare.svg');
-
-    &.CreamCombination {
-      background: no-repeat top/100% url('../src/images/icons/Q_IconsShareCream.svg');
-    }
-
-    &.BlueCombination {
-      background: no-repeat top/100% url('../src/images/icons/Q_IconsShareBlue.svg');
-    }
-  }
-
-  &.Eye {
-    background: no-repeat top/100% url('../src/images/icons/Q_IconsEye.svg');
-
-    &.CreamCombination {
-      background: no-repeat top/100% url('../src/images/icons/Q_IconsEyeCream.svg');
-    }
-
-    &.BlueCombination {
-      background: no-repeat top/100% url('../src/images/icons/Q_IconsEyeBlue.svg');
-    }
-  }
-
-  &.Check {
-    background: no-repeat top/100% url('../src/images/icons/Q_IconsCheck.svg');
-
-    &.CreamCombination {
-      background: no-repeat top/100% url('../src/images/icons/Q_IconsCheckCream.svg');
-    }
-
-    &.BlueCombination {
-      background: no-repeat top/100% url('../src/images/icons/Q_IconsCheckBlue.svg');
-    }
-  }
-
-  &.Live {
-    background: no-repeat top/100% url('../src/images/icons/Q_IconsLive.svg');
-
-    &.CreamCombination {
-      background: no-repeat top/100% url('../src/images/icons/Q_IconsLiveCream.svg');
-    }
-
-    &.BlueCombination {
-      background: no-repeat top/100% url('../src/images/icons/Q_IconsLiveBlue.svg');
-    }
-  }
-
-  &.Turn {
-    background: no-repeat top/100% url('../src/images/icons/Q_IconsTurn.svg');
-
-    &.CreamCombination {
-      background: no-repeat top/100% url('../src/images/icons/Q_IconsTurnCream.svg');
-    }
-
-    &.BlueCombination {
-      background: no-repeat top/100% url('../src/images/icons/Q_IconsTurnBlue.svg');
-    }
-  }
-
-  &.Up {
-    background: no-repeat top/100% url('../src/images/icons/Q_IconsUp.svg');
-
-    &.CreamCombination {
-      background: no-repeat top/100% url('../src/images/icons/Q_IconsUpCream.svg');
-    }
-
-    &.BlueCombination {
-      background: no-repeat top/100% url('../src/images/icons/Q_IconsUpBlue.svg');
-    }
-  }
-
-  &.Down {
-    background: no-repeat top/100% url('../src/images/icons/Q_IconsDown.svg');
-
-    &.CreamCombination {
-      background: no-repeat top/100% url('../src/images/icons/Q_IconsDownCream.svg');
-    }
-
-    &.BlueCombination {
-      background: no-repeat top/100% url('../src/images/icons/Q_IconsDownBlue.svg');
-    }
-  }
-}
-
-.Q_ArticleImage {
-
-  &.Article3to5Column {
-    width: 50.833vw;
-  }
-
-  &.Article4to8Column {
-    width: 42.188vw;
-  }
-}
-
-.Q_ArticleVideo {
-  border-radius: 30px;
-  background-color: black;
-  object-fit: cover;
-
-  &.Article3to9Column {
-    width: 27.760vw;
-    height: 42.396vw;
-  }
-
-  &.Article5to5Column {
-    margin: -20px;
-    width: 85.417vw;
-    height: 647px;
-  }
-}
-
-.Q_CardBackground {
-  border-radius: 30px;
-
-  &.Checklist {
-    width: 397px;
-    height: 200px;
-
-    &#checklist1 {
-      background: linear-gradient(0deg, rgba(224, 136, 92, 0.1) 23.23%, rgba(255, 255, 255, 0) 100%), no-repeat center/cover url('../src/images/Q_CardBackground2.png');
-    }
-  }
-
-  &.Article {
-    margin: 0px 0px 14px -30px;
-    width: 27.760vw;
-    height: 255px;
-
-    &#article1 {
-      background: linear-gradient(0deg, rgba(224, 136, 92, 0.1) 23.23%, rgba(255, 255, 255, 0) 100%),
-        no-repeat center/cover url('../src/images/postbanner/article1.png');
-    }
-
-    &#article2 {
-      background: linear-gradient(0deg, rgba(224, 136, 92, 0.1) 23.23%, rgba(255, 255, 255, 0) 100%),
-        no-repeat center/cover url('../src/images/postbanner/article2.png');
-    }
-
-    &#article3 {
-      background: linear-gradient(0deg, rgba(224, 136, 92, 0.1) 23.23%, rgba(255, 255, 255, 0) 100%),
-        no-repeat center/cover url('../src/images/postbanner/article3.png');
-    }
-  }
-}
+// .Q_Icons {
+//   display: block;
+//   width: 26px;
+//   height: 26px;
+//
+//   &.Right {
+//     background: no-repeat top/100% url('../src/images/icons/Q_IconsRight.svg');
+//
+//     &.CreamCombination {
+//       background: no-repeat top/100% url('../src/images/icons/Q_IconsRightCream.svg');
+//     }
+//
+//     &.BlueCombination {
+//       background: no-repeat top/100% url('../src/images/icons/Q_IconsRightBlue.svg');
+//     }
+//   }
+//
+//   &.Left {
+//     background: no-repeat top/100% url('../src/images/icons/Q_IconsLeft.svg');
+//
+//     &.CreamCombination {
+//       background: no-repeat top/100% url('../src/images/icons/Q_IconsLeftCream.svg');
+//     }
+//
+//     &.BlueCombination {
+//       background: no-repeat top/100% url('../src/images/icons/Q_IconsLeftBlue.svg');
+//     }
+//   }
+//
+//   &.Open {
+//     background: no-repeat top/100% url('../src/images/icons/Q_IconsOpen.svg');
+//
+//     &.CreamCombination {
+//       background: no-repeat top/100% url('../src/images/icons/Q_IconsOpenCream.svg');
+//     }
+//
+//     &.BlueCombination {
+//       background: no-repeat top/100% url('../src/images/icons/Q_IconsOpenBlue.svg');
+//     }
+//   }
+//
+//   &.Download {
+//     background: no-repeat top/100% url('../src/images/icons/Q_IconsDownload.svg');
+//
+//     &.CreamCombination {
+//       background: no-repeat top/100% url('../src/images/icons/Q_IconsDownloadCream.svg');
+//     }
+//
+//     &.BlueCombination {
+//       background: no-repeat top/100% url('../src/images/icons/Q_IconsDownloadBlue.svg');
+//     }
+//   }
+//
+//   &.Search {
+//     background: no-repeat top/100% url('../src/images/icons/Q_IconsSearch.svg');
+//
+//     &.CreamCombination {
+//       background: no-repeat top/100% url('../src/images/icons/Q_IconsSearchCream.svg');
+//     }
+//
+//     &.BlueCombination {
+//       background: no-repeat top/100% url('../src/images/icons/Q_IconsSearchBlue.svg');
+//     }
+//   }
+//
+//   &.Play {
+//     background: no-repeat top/100% url('../src/images/icons/Q_IconsPlay.svg');
+//
+//     &.CreamCombination {
+//       background: no-repeat top/100% url('../src/images/icons/Q_IconsPlayCream.svg');
+//     }
+//
+//     &.BlueCombination {
+//       background: no-repeat top/100% url('../src/images/icons/Q_IconsPlayBlue.svg');
+//     }
+//   }
+//
+//   &.Share {
+//     background: no-repeat top/100% url('../src/images/icons/Q_IconsShare.svg');
+//
+//     &.CreamCombination {
+//       background: no-repeat top/100% url('../src/images/icons/Q_IconsShareCream.svg');
+//     }
+//
+//     &.BlueCombination {
+//       background: no-repeat top/100% url('../src/images/icons/Q_IconsShareBlue.svg');
+//     }
+//   }
+//
+//   &.Eye {
+//     background: no-repeat top/100% url('../src/images/icons/Q_IconsEye.svg');
+//
+//     &.CreamCombination {
+//       background: no-repeat top/100% url('../src/images/icons/Q_IconsEyeCream.svg');
+//     }
+//
+//     &.BlueCombination {
+//       background: no-repeat top/100% url('../src/images/icons/Q_IconsEyeBlue.svg');
+//     }
+//   }
+//
+//   &.Check {
+//     background: no-repeat top/100% url('../src/images/icons/Q_IconsCheck.svg');
+//
+//     &.CreamCombination {
+//       background: no-repeat top/100% url('../src/images/icons/Q_IconsCheckCream.svg');
+//     }
+//
+//     &.BlueCombination {
+//       background: no-repeat top/100% url('../src/images/icons/Q_IconsCheckBlue.svg');
+//     }
+//   }
+//
+//   &.Live {
+//     background: no-repeat top/100% url('../src/images/icons/Q_IconsLive.svg');
+//
+//     &.CreamCombination {
+//       background: no-repeat top/100% url('../src/images/icons/Q_IconsLiveCream.svg');
+//     }
+//
+//     &.BlueCombination {
+//       background: no-repeat top/100% url('../src/images/icons/Q_IconsLiveBlue.svg');
+//     }
+//   }
+//
+//   &.Turn {
+//     background: no-repeat top/100% url('../src/images/icons/Q_IconsTurn.svg');
+//
+//     &.CreamCombination {
+//       background: no-repeat top/100% url('../src/images/icons/Q_IconsTurnCream.svg');
+//     }
+//
+//     &.BlueCombination {
+//       background: no-repeat top/100% url('../src/images/icons/Q_IconsTurnBlue.svg');
+//     }
+//   }
+//
+//   &.Up {
+//     background: no-repeat top/100% url('../src/images/icons/Q_IconsUp.svg');
+//
+//     &.CreamCombination {
+//       background: no-repeat top/100% url('../src/images/icons/Q_IconsUpCream.svg');
+//     }
+//
+//     &.BlueCombination {
+//       background: no-repeat top/100% url('../src/images/icons/Q_IconsUpBlue.svg');
+//     }
+//   }
+//
+//   &.Down {
+//     background: no-repeat top/100% url('../src/images/icons/Q_IconsDown.svg');
+//
+//     &.CreamCombination {
+//       background: no-repeat top/100% url('../src/images/icons/Q_IconsDownCream.svg');
+//     }
+//
+//     &.BlueCombination {
+//       background: no-repeat top/100% url('../src/images/icons/Q_IconsDownBlue.svg');
+//     }
+//   }
+// }
+//
+// .Q_ArticleImage {
+//
+//   &.Article3to5Column {
+//     width: 50.833vw;
+//   }
+//
+//   &.Article4to8Column {
+//     width: 42.188vw;
+//   }
+// }
+//
+// .Q_ArticleVideo {
+//   border-radius: 30px;
+//   background-color: black;
+//   object-fit: cover;
+//
+//   &.Article3to9Column {
+//     width: 27.760vw;
+//     height: 42.396vw;
+//   }
+//
+//   &.Article5to5Column {
+//     margin: -20px;
+//     width: 85.417vw;
+//     height: 647px;
+//   }
+// }
+//
+// .Q_CardBackground {
+//   border-radius: 30px;
+//
+//   &.Checklist {
+//     width: 397px;
+//     height: 200px;
+//
+//     &#checklist1 {
+//       background: linear-gradient(0deg, rgba(224, 136, 92, 0.1) 23.23%, rgba(255, 255, 255, 0) 100%), no-repeat center/cover url('../src/images/Q_CardBackground2.png');
+//     }
+//   }
+//
+//   &.Article {
+//     margin: 0px 0px 14px -30px;
+//     width: 27.760vw;
+//     height: 255px;
+//
+//     &#article1 {
+//       background: linear-gradient(0deg, rgba(224, 136, 92, 0.1) 23.23%, rgba(255, 255, 255, 0) 100%),
+//         no-repeat center/cover url('../src/images/postbanner/article1.png');
+//     }
+//
+//     &#article2 {
+//       background: linear-gradient(0deg, rgba(224, 136, 92, 0.1) 23.23%, rgba(255, 255, 255, 0) 100%),
+//         no-repeat center/cover url('../src/images/postbanner/article2.png');
+//     }
+//
+//     &#article3 {
+//       background: linear-gradient(0deg, rgba(224, 136, 92, 0.1) 23.23%, rgba(255, 255, 255, 0) 100%),
+//         no-repeat center/cover url('../src/images/postbanner/article3.png');
+//     }
+//   }
+// }
