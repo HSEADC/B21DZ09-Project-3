@@ -237,8 +237,8 @@ module.exports = {
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
-      template: './src/articles/checklist/Chem-nakryt-stol-na-prazdnik.html',
-      filename: './articles/checklist/Chem-nakryt-stol-na-prazdnik.html'
+      template: './src/articles/checklists/Chem-nakryt-stol-na-prazdnik.html',
+      filename: './articles/checklists/Chem-nakryt-stol-na-prazdnik.html'
       // chunks: ['index']
     }),
 
@@ -246,8 +246,8 @@ module.exports = {
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
-      template: './src/articles/checklist/Chto-polojit-v-aptechku.html',
-      filename: './articles/checklist/Chto-polojit-v-aptechku.html'
+      template: './src/articles/checklists/Chto-polojit-v-aptechku.html',
+      filename: './articles/checklists/Chto-polojit-v-aptechku.html'
       // chunks: ['index']
     }),
 
@@ -255,8 +255,8 @@ module.exports = {
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
-      template: './src/articles/checklist/Dokumenty-dlya-postupleniya.html',
-      filename: './articles/checklist/Dokumenty-dlya-postupleniya.html'
+      template: './src/articles/checklists/Dokumenty-dlya-postupleniya.html',
+      filename: './articles/checklists/Dokumenty-dlya-postupleniya.html'
       // chunks: ['index']
     }),
 
@@ -264,8 +264,8 @@ module.exports = {
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
-      template: './src/articles/checklist/Dokumenty-dlya-raboty.html',
-      filename: './articles/checklist/Dokumenty-dlya-raboty.html'
+      template: './src/articles/checklists/Dokumenty-dlya-raboty.html',
+      filename: './articles/checklists/Dokumenty-dlya-raboty.html'
       // chunks: ['index']
     }),
 
@@ -273,8 +273,8 @@ module.exports = {
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
-      template: './src/articles/checklist/Generalnaya-uborka-v-kvartire.html',
-      filename: './articles/checklist/Generalnaya-uborka-v-kvartire.html'
+      template: './src/articles/checklists/Generalnaya-uborka-v-kvartire.html',
+      filename: './articles/checklists/Generalnaya-uborka-v-kvartire.html'
       // chunks: ['index']
     }),
 
@@ -282,8 +282,8 @@ module.exports = {
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
-      template: './src/articles/checklist/Kak-vybrat-produkty.html',
-      filename: './articles/checklist/Kak-vybrat-produkty.html'
+      template: './src/articles/checklists/Kak-vybrat-produkty.html',
+      filename: './articles/checklists/Kak-vybrat-produkty.html'
       // chunks: ['index']
     }),
 
@@ -291,8 +291,8 @@ module.exports = {
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
-      template: './src/articles/checklist/Veschi-dlya-bystrogo-pereezda.html',
-      filename: './articles/checklist/Veschi-dlya-bystrogo-pereezda.html'
+      template: './src/articles/checklists/Veschi-dlya-bystrogo-pereezda.html',
+      filename: './articles/checklists/Veschi-dlya-bystrogo-pereezda.html'
       // chunks: ['index']
     }),
 
@@ -300,8 +300,8 @@ module.exports = {
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
-      template: './src/articles/checklist/Veschi-dlya-letnego-otpuska.html',
-      filename: './articles/checklist/Veschi-dlya-letnego-otpuska.html'
+      template: './src/articles/checklists/Veschi-dlya-letnego-otpuska.html',
+      filename: './articles/checklists/Veschi-dlya-letnego-otpuska.html'
       // chunks: ['index']
     }),
 
