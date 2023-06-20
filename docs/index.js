@@ -32,7 +32,7 @@ function fadeBanner() {
 }
 
 function swipeBanner() {
-  new Swiper('.swiper', {
+  new Swiper('.swiperBanner', {
     pagination: {
       el: '.swiper-pagination',
       clickable: true
@@ -71,10 +71,12 @@ function swiperAdditional() {
 
 ;
 window.addEventListener('resize', function (event) {
-  bannerAnimation(), swiperAdditional();
+  bannerAnimation();
+  swiperAdditional();
 });
 window.addEventListener('DOMContentLoaded', function (event) {
-  bannerAnimation(), swiperAdditional();
+  bannerAnimation();
+  swiperAdditional();
 });
 /******/ })()
 ;
