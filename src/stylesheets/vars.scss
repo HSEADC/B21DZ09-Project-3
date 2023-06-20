@@ -272,7 +272,7 @@ body.art1, .home, .instructions, .materials, .questions, .instr1 {
     }
   }
 
-  &.instructions, &.materials, &.questions, &.instr1 {
+  &.instructions, &.materials, &.questions, &.instr1, &.art1 {
 
     >.O_Footer {
       margin-top: 140px;
@@ -306,6 +306,10 @@ body.art1, .home, .instructions, .materials, .questions, .instr1 {
 
     a {
       font-size: 26px;
+
+      &.adaptive1678 {
+        display: none;
+      }
     }
 
     blockquote {
@@ -332,7 +336,7 @@ body.art1, .home, .instructions, .materials, .questions, .instr1 {
       }
     }
 
-    &.instructions, &.materials, &.questions, &.instr1 {
+    &.instructions, &.materials, &.questions, &.instr1, &.art1 {
 
       >.O_Footer {
         margin-top: 70px;
@@ -367,6 +371,14 @@ body.art1, .home, .instructions, .materials, .questions, .instr1 {
 
     a {
       font-size: 24px;
+
+      &.adaptive1678 {
+        display: none;
+      }
+
+      &.adaptive1240 {
+        display: none;
+      }
     }
 
     blockquote {
@@ -394,7 +406,7 @@ body.art1, .home, .instructions, .materials, .questions, .instr1 {
       }
     }
 
-    &.instructions, &.materials, &.questions, &.instr1 {
+    &.instructions, &.materials, &.questions, &.instr1, &.art1 {
 
       >.O_Footer {
         margin-top: 60px;
@@ -431,6 +443,10 @@ body.art1, .home, .instructions, .materials, .questions, .instr1 {
 
     a {
       font-size: 3.738vw;
+
+      &.adaptive1678 {
+        display: none;
+      }
     }
 
     nav {
@@ -487,7 +503,7 @@ body.art1, .home, .instructions, .materials, .questions, .instr1 {
       }
     }
 
-    &.instructions, &.materials, &.questions, &.instr1 {
+    &.instructions, &.materials, &.questions, &.instr1, &.art1 {
 
       >.O_Footer {
         margin-top: 9.346vw;
