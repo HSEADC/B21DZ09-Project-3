@@ -25,7 +25,7 @@ function fadeBanner() {
     effect: 'fade',
     spaceBetween: 20,
     autoplay: {
-      delay: 1400,
+      delay: 1600,
       disableOnInteraction: false
     }
   });
