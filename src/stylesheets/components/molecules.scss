@@ -195,6 +195,30 @@
   &#default {
     background: no-repeat top/100% url('./images/avatars/defaulavatar.png');
   }
+
+  &#AlexandraShushina {
+    background: no-repeat top/100% url('./images/avatars/AlexandraShushina.jpg');
+  }
+
+  &#IvanKolobkov {
+    background: no-repeat top/100% url('./images/avatars/IvanKolobkov.jpg');
+  }
+
+  &#IrinaAgeeva {
+    background: no-repeat top/100% url('./images/avatars/IrinaAgeeva.jpg');
+  }
+
+  &#GalinaGladysheva {
+    background: no-repeat top/100% url('./images/avatars/GalinaGladysheva.jpg');
+  }
+
+  &#AlinaVasilkova {
+    background: no-repeat top/100% url('./images/avatars/none.jpg');
+  }
+
+  &#ElenaSaveleva {
+    background: no-repeat top/100% url('./images/avatars/none.jpg');
+  }
 }
 
 // Post author
@@ -597,6 +621,7 @@
     align-items: center;
 
     > img {
+      z-index: 1;
       display: block;
       position: absolute;
       width: 100%;
@@ -787,26 +812,13 @@
     height: 100%;
   }
 
-  &.Video {
+  &.Video, &.Banner {
     position: absolute;
     width: 100%;
     height: 100%;
 
     &:after {
       background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.21) 12.66%, rgba(237, 109, 47, 0.7) 78.42%);
-    }
-  }
-
-  .Banner {
-    
-    &.Video {
-      position: absolute;
-      width: 100%;
-      height: 100%;
-
-      &:after {
-        background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.21) 12.66%, rgba(237, 109, 47, 0.7) 78.42%);
-      }
     }
   }
 
