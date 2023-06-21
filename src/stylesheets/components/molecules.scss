@@ -614,14 +614,6 @@
         text-align: center;
       }
     }
-
-    &#flower {
-      background: linear-gradient(180deg, rgba(255, 255, 255, 0.21) 12.66%, rgba(237, 109, 47, 0.7) 78.42%), no-repeat center/cover url('./images/covers/articles/sample.png'), var(--cream);
-    }
-
-    &#movie {
-      background: linear-gradient(180deg, rgba(255, 255, 255, 0.21) 12.66%, rgba(237, 109, 47, 0.7) 78.42%), no-repeat center/cover url('./images/covers/articles/movie.png'), var(--cream);
-    }
   }
 
   &.Instruction {
@@ -676,10 +668,6 @@
         align-items: center;
         row-gap: 20px;
       }
-    }
-
-    &#flower {
-      background: linear-gradient(180deg, rgba(255, 255, 255, 0.15) 0%, rgba(208, 109, 59, 0.5) 78.42%), no-repeat center/cover url('./images/covers/articles/sample.png'), var(--cream);
     }
   }
 
@@ -772,6 +760,7 @@
 // Text contetnt block
 
 .HeadTagBlock {
+  z-index: 1;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -790,14 +779,55 @@
     top: 30px;
     width: 100%;
     height: 61%;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(224, 136, 92, 0.1) 78.42%), no-repeat center/cover url('./images/covers/articles/sample.png'), var(--cream);
   }
 
   &.Check {
     position: relative;
     width: 100%;
     height: 100%;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(224, 136, 92, 0.1) 78.42%), no-repeat center/cover url('./images/covers/articles/sample.png'), var(--cream);
+  }
+
+  &.Video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    &:after {
+      background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.21) 12.66%, rgba(237, 109, 47, 0.7) 78.42%);
+    }
+  }
+
+  .Banner {
+    
+    &.Video {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+
+      &:after {
+        background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.21) 12.66%, rgba(237, 109, 47, 0.7) 78.42%);
+      }
+    }
+  }
+
+  &:after {
+    content: '';
+    display: block;
+    position: absolute;
+    border-radius: 30px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.6;
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(224, 136, 92, 0.2) 78.42%);
+  }
+
+  > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    object-fit: cover;
   }
 }
 
@@ -1750,6 +1780,14 @@
       margin: -26px 0px 0px 0px;
       top: 26px;
     }
+
+    &:after {
+      border-radius: 26px;
+    }
+
+    > img {
+      border-radius: 26px;
+    }
   }
 
   // Swiper
@@ -2352,6 +2390,14 @@
       margin: -4.673vw 0px 0px 0px;
       top: 4.673vw;
       height: 59%;
+    }
+
+    &:after {
+      border-radius: 4.673vw;
+    }
+
+    > img {
+      border-radius: 4.673vw;
     }
   }
 
