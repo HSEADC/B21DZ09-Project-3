@@ -447,6 +447,16 @@
   }
 }
 
+// Tag and time wrapper
+
+.W_TagsAndTime {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  column-gap: 1%;
+  justify-content: space-between;
+}
+
 // Network buttons collection
 
 .A_NetworksButtons {
@@ -614,6 +624,7 @@
 // Cards
 
 .M_Card {
+  position: relative;
   border-radius: 30px;
 
   &.Banner {
@@ -638,6 +649,11 @@
         color: var(--cream);
         text-align: center;
       }
+
+      > .W_TagsAndTime {
+        justify-content: center;
+        color: var(--cream);
+      }
     }
   }
 
@@ -659,7 +675,6 @@
   }
 
   &.Article {
-    position: relative;
     flex-direction: column;
     justify-content: flex-end;
     padding: 0px;
@@ -672,7 +687,6 @@
   }
 
   &.Video {
-    position: relative;
     flex-direction: column;
     justify-content: flex-end;
 
@@ -681,6 +695,10 @@
       row-gap: 10px;
 
       > h3 {
+        color: var(--cream);
+      }
+
+      > .W_TagsAndTime {
         color: var(--cream);
       }
     }
@@ -692,6 +710,10 @@
       >.HeadTagBlock {
         align-items: center;
         row-gap: 20px;
+
+        > .W_TagsAndTime {
+          justify-content: center;
+        }
       }
     }
   }
@@ -738,6 +760,16 @@
 
         >.A_CategoryTag {
           background: var(--beige);
+        }
+      }
+
+      >.W_TagsAndTime {
+
+        >.C_Tags {
+
+          >.A_CategoryTag {
+            background: var(--beige);
+          }
         }
       }
     }
@@ -804,12 +836,14 @@
     top: 30px;
     width: 100%;
     height: 61%;
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(224, 136, 92, 0.2) 78.42%);
   }
 
   &.Check {
     position: relative;
     width: 100%;
     height: 100%;
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(224, 136, 92, 0.2) 78.42%);
   }
 
   &.Video, &.Banner {
@@ -820,6 +854,26 @@
     &:after {
       background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.21) 12.66%, rgba(237, 109, 47, 0.7) 78.42%);
     }
+
+    &.Instruction {
+
+      &:after {
+        background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.21) 12.66%, rgba(135, 170, 255, 0.7) 78.42%);
+      }
+    }
+  }
+
+  &.Instruction {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+
+  &.Question {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(224, 136, 92, 0.2) 78.42%);
   }
 
   &:after {
@@ -832,7 +886,6 @@
     bottom: 0;
     left: 0;
     opacity: 0.6;
-    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(224, 136, 92, 0.2) 78.42%);
   }
 
   > img {
@@ -1231,6 +1284,12 @@
     }
   }
 
+  // Tag and time wrapper
+
+  .W_TagsAndTime {
+    column-gap: 2%;
+  }
+
   // Main page background
 
   .S_MainPageBackground {
@@ -1582,6 +1641,12 @@
     > p {
       font-size: 14px;
     }
+  }
+
+  // Tag and time wrapper
+
+  .W_TagsAndTime {
+    column-gap: 2%;
   }
 
   // Main page background
@@ -2192,6 +2257,12 @@
     > p {
       font-size: 2.804vw;
     }
+  }
+
+  // Tag and time wrapper
+
+  .W_TagsAndTime {
+    column-gap: 2%;
   }
 
   // Footer description

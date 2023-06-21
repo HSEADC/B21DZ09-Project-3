@@ -89,12 +89,21 @@ module.exports = {
       // chunks: ['index']
     }),
 
+    // Materials page
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/materials.html',
+      filename: './materials.html'
+      // chunks: ['page']
+    }),
+
     // Articles
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
-      template: './src/articles/articles.html',
-      filename: './articles/articles.html'
+      template: './src/materials/articles.html',
+      filename: './materials/articles.html'
       // chunks: ['index']
     }),
 
@@ -102,8 +111,8 @@ module.exports = {
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
-      template: './src/articles/article/Kak-ya-pereezjala-iz-Norilska-v-Moskvu.html',
-      filename: './articles/article/Kak-ya-pereezjala-iz-Norilska-v-Moskvu.html'
+      template: './src/materials/articles/Kak-ya-pereezjala-iz-Norilska-v-Moskvu.html',
+      filename: './materials/articles/Kak-ya-pereezjala-iz-Norilska-v-Moskvu.html'
       // chunks: ['index']
     }),
 
@@ -111,8 +120,8 @@ module.exports = {
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
-      template: './src/articles/article/Pravila-zapolneniya-gramotnogo-rezyume.html',
-      filename: './articles/article/Pravila-zapolneniya-gramotnogo-rezyume.html'
+      template: './src/materials/articles/Pravila-zapolneniya-gramotnogo-rezyume.html',
+      filename: './materials/articles/Pravila-zapolneniya-gramotnogo-rezyume.html'
       // chunks: ['index']
     }),
 
@@ -120,8 +129,8 @@ module.exports = {
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
-      template: './src/articles/article/Adaptatsiya-v-universitete-sovety-pervokursniku.html',
-      filename: './articles/article/Adaptatsiya-v-universitete-sovety-pervokursniku.html'
+      template: './src/materials/articles/Adaptatsiya-v-universitete-sovety-pervokursniku.html',
+      filename: './materials/articles/Adaptatsiya-v-universitete-sovety-pervokursniku.html'
       // chunks: ['index']
     }),
 
@@ -129,8 +138,8 @@ module.exports = {
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
-      template: './src/articles/article/Aromatizatory-dlya-doma-chto-vybrat.html',
-      filename: './articles/article/Aromatizatory-dlya-doma-chto-vybrat.html'
+      template: './src/materials/articles/Aromatizatory-dlya-doma-chto-vybrat.html',
+      filename: './materials/articles/Aromatizatory-dlya-doma-chto-vybrat.html'
       // chunks: ['index']
     }),
 
@@ -138,8 +147,8 @@ module.exports = {
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
-      template: './src/articles/article/Pylesos-vs robot-pylesos-chto-vybrat.html',
-      filename: './articles/article/Pylesos-vs robot-pylesos-chto-vybrat.html'
+      template: './src/materials/articles/Pylesos-vs robot-pylesos-chto-vybrat.html',
+      filename: './materials/articles/Pylesos-vs robot-pylesos-chto-vybrat.html'
       // chunks: ['index']
     }),
 
@@ -147,8 +156,8 @@ module.exports = {
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
-      template: './src/articles/article/Kak-sehat-ot-roditelej-moj-opyt.html',
-      filename: './articles/article/Kak-sehat-ot-roditelej-moj-opyt.html'
+      template: './src/materials/articles/Kak-sehat-ot-roditelej-moj-opyt.html',
+      filename: './materials/articles/Kak-sehat-ot-roditelej-moj-opyt.html'
       // chunks: ['index']
     }),
 
@@ -156,8 +165,8 @@ module.exports = {
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
-      template: './src/articles/videos.html',
-      filename: './articles/videos.html'
+      template: './src/materials/videos.html',
+      filename: './materials/videos.html'
       // chunks: ['index']
     }),
 
@@ -165,8 +174,8 @@ module.exports = {
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
-      template: './src/articles/videos/10-bystryh-blyud-iz-tykvy.html',
-      filename: './articles/videos/10-bystryh-blyud-iz-tykvy.html'
+      template: './src/materials/videos/10-bystryh-blyud-iz-tykvy.html',
+      filename: './materials/videos/10-bystryh-blyud-iz-tykvy.html'
       // chunks: ['index']
     }),
 
@@ -174,8 +183,8 @@ module.exports = {
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
-      template: './src/articles/videos/Generalnaya-uborka.html',
-      filename: './articles/videos/Generalnaya-uborka.html'
+      template: './src/materials/videos/Generalnaya-uborka.html',
+      filename: './materials/videos/Generalnaya-uborka.html'
       // chunks: ['index']
     }),
 
@@ -183,8 +192,8 @@ module.exports = {
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
-      template: './src/articles/videos/Kak-vybirat-frukty.html',
-      filename: './articles/videos/Kak-vybirat-frukty.html'
+      template: './src/materials/videos/Kak-vybirat-frukty.html',
+      filename: './materials/videos/Kak-vybirat-frukty.html'
       // chunks: ['index']
     }),
 
@@ -192,8 +201,8 @@ module.exports = {
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
-      template: './src/articles/videos/Poklejka-oboev.html',
-      filename: './articles/videos/Poklejka-oboev.html'
+      template: './src/materials/videos/Poklejka-oboev.html',
+      filename: './materials/videos/Poklejka-oboev.html'
       // chunks: ['index']
     }),
 
@@ -201,8 +210,8 @@ module.exports = {
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
-      template: './src/articles/videos/Sobiraem-chemodan.html',
-      filename: './articles/videos/Sobiraem-chemodan.html'
+      template: './src/materials/videos/Sobiraem-chemodan.html',
+      filename: './materials/videos/Sobiraem-chemodan.html'
       // chunks: ['index']
     }),
 
@@ -210,8 +219,8 @@ module.exports = {
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
-      template: './src/articles/videos/Uhod-za-bolshimi-rasteniyami.html',
-      filename: './articles/videos/Uhod-za-bolshimi-rasteniyami.html'
+      template: './src/materials/videos/Uhod-za-bolshimi-rasteniyami.html',
+      filename: './materials/videos/Uhod-za-bolshimi-rasteniyami.html'
       // chunks: ['index']
     }),
 
@@ -219,8 +228,8 @@ module.exports = {
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
-      template: './src/articles/videos/Vybiraem-tsvety-na-prazdnik.html',
-      filename: './articles/videos/Vybiraem-tsvety-na-prazdnik.html'
+      template: './src/materials/videos/Vybiraem-tsvety-na-prazdnik.html',
+      filename: './materials/videos/Vybiraem-tsvety-na-prazdnik.html'
       // chunks: ['index']
     }),
 
@@ -228,8 +237,8 @@ module.exports = {
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
-      template: './src/articles/checklists.html',
-      filename: './articles/checklists.html'
+      template: './src/materials/checklists.html',
+      filename: './materials/checklists.html'
       // chunks: ['index']
     }),
 
@@ -237,8 +246,8 @@ module.exports = {
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
-      template: './src/articles/checklists/Chem-nakryt-stol-na-prazdnik.html',
-      filename: './articles/checklists/Chem-nakryt-stol-na-prazdnik.html'
+      template: './src/materials/checklists/Chem-nakryt-stol-na-prazdnik.html',
+      filename: './materials/checklists/Chem-nakryt-stol-na-prazdnik.html'
       // chunks: ['index']
     }),
 
@@ -246,8 +255,8 @@ module.exports = {
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
-      template: './src/articles/checklists/Chto-polojit-v-aptechku.html',
-      filename: './articles/checklists/Chto-polojit-v-aptechku.html'
+      template: './src/materials/checklists/Chto-polojit-v-aptechku.html',
+      filename: './materials/checklists/Chto-polojit-v-aptechku.html'
       // chunks: ['index']
     }),
 
@@ -255,8 +264,8 @@ module.exports = {
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
-      template: './src/articles/checklists/Dokumenty-dlya-postupleniya.html',
-      filename: './articles/checklists/Dokumenty-dlya-postupleniya.html'
+      template: './src/materials/checklists/Dokumenty-dlya-postupleniya.html',
+      filename: './materials/checklists/Dokumenty-dlya-postupleniya.html'
       // chunks: ['index']
     }),
 
@@ -264,8 +273,8 @@ module.exports = {
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
-      template: './src/articles/checklists/Dokumenty-dlya-raboty.html',
-      filename: './articles/checklists/Dokumenty-dlya-raboty.html'
+      template: './src/materials/checklists/Dokumenty-dlya-raboty.html',
+      filename: './materials/checklists/Dokumenty-dlya-raboty.html'
       // chunks: ['index']
     }),
 
@@ -273,8 +282,8 @@ module.exports = {
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
-      template: './src/articles/checklists/Generalnaya-uborka-v-kvartire.html',
-      filename: './articles/checklists/Generalnaya-uborka-v-kvartire.html'
+      template: './src/materials/checklists/Generalnaya-uborka-v-kvartire.html',
+      filename: './materials/checklists/Generalnaya-uborka-v-kvartire.html'
       // chunks: ['index']
     }),
 
@@ -282,8 +291,8 @@ module.exports = {
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
-      template: './src/articles/checklists/Kak-vybrat-produkty.html',
-      filename: './articles/checklists/Kak-vybrat-produkty.html'
+      template: './src/materials/checklists/Kak-vybrat-produkty.html',
+      filename: './materials/checklists/Kak-vybrat-produkty.html'
       // chunks: ['index']
     }),
 
@@ -291,8 +300,8 @@ module.exports = {
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
-      template: './src/articles/checklists/Veschi-dlya-bystrogo-pereezda.html',
-      filename: './articles/checklists/Veschi-dlya-bystrogo-pereezda.html'
+      template: './src/materials/checklists/Veschi-dlya-bystrogo-pereezda.html',
+      filename: './materials/checklists/Veschi-dlya-bystrogo-pereezda.html'
       // chunks: ['index']
     }),
 
@@ -300,8 +309,8 @@ module.exports = {
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
-      template: './src/articles/checklists/Veschi-dlya-letnego-otpuska.html',
-      filename: './articles/checklists/Veschi-dlya-letnego-otpuska.html'
+      template: './src/materials/checklists/Veschi-dlya-letnego-otpuska.html',
+      filename: './materials/checklists/Veschi-dlya-letnego-otpuska.html'
       // chunks: ['index']
     }),
 
@@ -491,15 +500,6 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/instructions/instr7.html',
       filename: './instructions/instr7.html'
-      // chunks: ['page']
-    }),
-
-    // Articles page
-    new HtmlWebpackPlugin({
-      hash: true,
-      scriptLoading: 'blocking',
-      template: './src/articles.html',
-      filename: './articles.html'
       // chunks: ['page']
     }),
 
