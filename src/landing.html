@@ -31,16 +31,31 @@
 
   <!-- хедр -->
   <header>
-    <div class="O_MenuBar">
-      <div class="M_NavigationLogotype">
-        <a class="A_Logotype" href="./index.html"></a>
+    <!-- Меню -->
+    <div class="O_Menu">
+      <div class="Menufirst">
+        <div class="A_LogoHeader">
+          <a class="A_Logotype Header" href="index.html"></a>
+          <div class="A_Label BlueCombination CreamBorder">
+            <p>Инструкции</p>
+          </div>
+        </div>
       </div>
-      <nav class="M_MenuNavigation">
-        <a href="#about">О проекте</a>
-        <a href="#mission">Возможности</a>
-        <a href="#articles">Материалы</a>
-        <a href="footer">Подписаться</a>
-      </nav>
+      <div class="Menusecond">
+        <nav>
+          <a class="Active" href="instructions.html">Инструкции</a>
+          <a class="Inactive" href="materials.html">Материалы</a>
+          <a class="Inactive" href="questions.html">Вопрос-ответ</a>
+        </nav>
+      </div>
+      <div class="Menuthird">
+        <form class="M_Form Search BeigeCombination" action="index.html" method="post">
+          <input class="A_Input Search BeigeCombination" type="text" name="" value="Поиск...">
+          <button class="A_CircleButton Beige">
+            <div class="Q_Icons Tree Search"></div>
+          </button>
+        </form>
+      </div>
     </div>
   </header>
 
