@@ -10,7 +10,9 @@ const path = require('path')
 module.exports = {
   entry: {
     index: './src/index.js',
-    page: './src/page.jsx'
+    page: './src/page.jsx',
+    swipe: './src/javascript/swipe.js',
+    search: './src/javascript/search.js'
   },
   output: {
     filename: '[name].js',
@@ -85,8 +87,17 @@ module.exports = {
       hash: true,
       scriptLoading: 'blocking',
       template: './src/index.html',
-      filename: './index.html'
-      // chunks: ['index']
+      filename: './index.html',
+      chunks: ['index', 'search']
+    }),
+
+    // Search page
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/search.html',
+      filename: './search.html',
+      chunks: ['index', 'swipe', 'search']
     }),
 
     // 404 Error page
@@ -103,8 +114,8 @@ module.exports = {
       hash: true,
       scriptLoading: 'blocking',
       template: './src/materials.html',
-      filename: './materials.html'
-      // chunks: ['page']
+      filename: './materials.html',
+      chunks: ['index', 'swipe', 'search']
     }),
 
     // Articles
@@ -112,8 +123,8 @@ module.exports = {
       hash: true,
       scriptLoading: 'blocking',
       template: './src/materials/articles.html',
-      filename: './materials/articles.html'
-      // chunks: ['index']
+      filename: './materials/articles.html',
+      chunks: ['index', 'swipe', 'search']
     }),
 
     // Article — Kak-ya-pereezjala-iz-Norilska-v-Moskvu
@@ -175,8 +186,8 @@ module.exports = {
       hash: true,
       scriptLoading: 'blocking',
       template: './src/materials/videos.html',
-      filename: './materials/videos.html'
-      // chunks: ['index']
+      filename: './materials/videos.html',
+      chunks: ['index', 'swipe']
     }),
 
     // Video — 10-bystryh-blyud-iz-tykvy
@@ -247,8 +258,8 @@ module.exports = {
       hash: true,
       scriptLoading: 'blocking',
       template: './src/materials/checklists.html',
-      filename: './materials/checklists.html'
-      // chunks: ['index']
+      filename: './materials/checklists.html',
+      chunks: ['index', 'swipe']
     }),
 
     // Checklist — Chem-nakryt-stol-na-prazdnik
