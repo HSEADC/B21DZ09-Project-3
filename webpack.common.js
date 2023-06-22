@@ -89,6 +89,15 @@ module.exports = {
       // chunks: ['index']
     }),
 
+    // 404 Error page
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/404.html',
+      filename: './404.html'
+      // chunks: ['index']
+    }),
+
     // Materials page
     new HtmlWebpackPlugin({
       hash: true,

@@ -9,6 +9,7 @@
 @import 'stylesheets/instructions.scss';
 @import 'stylesheets/articles.scss';
 @import 'stylesheets/questions.scss';
+@import 'stylesheets/404.scss';
 @import 'stylesheets/components/quarks.scss';
 @import 'stylesheets/components/atoms.scss';
 @import 'stylesheets/components/molecules.scss';
