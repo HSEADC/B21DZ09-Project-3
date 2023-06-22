@@ -1,17 +1,26 @@
 body.stylegide {
   background-color: var(--cream);
-  color: var(--black);
+  color: var(--tree);
   font-size: 2.604vw;
   line-height: 3.073vw;
   height: 200vw;
-  font-family: 'Vela Sans', Helvetica, Arial, sans-serif;
-  font-weight: 500;
+  font-family: 'Golos Text', 'Vela Sans', Helvetica, Arial, sans-serif;
+  font-weight: 400;
   overflow-x: hidden;
 
   h1 {
     font-size: 1.25vw;
     line-height: 1.458vw;
-    font-weight: 600;
+    font-weight: 500;
+  }
+
+  h2 {
+    font-size: 5.25vw;
+    line-height: 7.458vw;
+    font-weight: 400;
+    color: var(--cream);
+    margin-top: 8vw;
+    margin-bottom: 0;
   }
 
   h3 {
@@ -26,16 +35,18 @@ body.stylegide {
     justify-content: space-around;
     width: 100vw;
     height: 100vh;
-    background: no-repeat top/cover url('./images/headerbackground.svg');
+    background: no-repeat top/100% url('./images/headerbackground.svg');
   }
 
   footer {
     margin-top: 16.625vw;
-    height: 20vh;
+    height: 30vh;
     background: no-repeat top/cover url('./images/footerbackground.svg');
   }
 
   .self {
+    position: absolute;
+    top: 14vw;
     width: 43.646vw;
     height: 17.575vw;
     background: no-repeat top/100% url('./images/self.svg');
@@ -44,22 +55,24 @@ body.stylegide {
   .bluelabel {
     display: flex;
     position: absolute;
-    top: 35vw;
-    left: 54.823vw;
+    top: 33vw;
+    left: 58.823vw;
     width: 21.875vw;
-    height: 5.833vw;
-    background: no-repeat top/100% url('./images/bluelabel.svg');
-    transform: rotate(-17deg);
+    height: 10.833vw;
+    background: no-repeat top/100% url('./images/bluelabel.png');
     align-items: center;
     justify-content: center;
 
     & p {
-      font-size: 2.708vw;
-      font-weight: 600;
-      color: var(--orange);
+      font-size: 2vw;
+      color: var(--cream);
+      margin-top: -1vw;
+      margin-left: 3vw;
       text-transform: lowercase;
+      transform: rotate(-20.8deg);
     }
   }
+
 
   .navcenter {
     display: flex;
@@ -80,13 +93,48 @@ body.stylegide {
   }
 
   a {
-    color: var(--black);
+    color: var(--orange);
     mix-blend-mode: difference;
     font-size: 1.25vw;
     line-height: 1.458vw;
     text-decoration: none;
+
     &:hover {
-      color: var(--orange);
+      color: var(--tree);
+    }
+  }
+
+  .polite,
+  .vela {
+    p {
+      color: var(--cream);
+    }
+
+    .first {
+      font-size: 1.3vw;
+      margin-top: -1vw;
+    }
+  }
+
+  .polite {
+
+    p,
+    h2 {
+      font-weight: 400;
+    }
+  }
+
+  .vela {
+
+    p,
+    h2 {
+      font-weight: 500;
+    }
+  }
+
+  #fonts {
+    h1 {
+      color: var(--cream);
     }
   }
 
@@ -134,45 +182,45 @@ body.stylegide {
       }
 
       @keyframes label {
+
         0%,
         11.5% {
-          background: no-repeat top/100%
-            url('./images/animations/nakleiki-1.png');
+          background: no-repeat top/100% url('./images/animations/nakleiki-1.png');
         }
+
         12.5%,
         24% {
-          background: no-repeat top/100%
-            url('./images/animations/nakleiki-2.png');
+          background: no-repeat top/100% url('./images/animations/nakleiki-2.png');
         }
+
         25%,
         36.5% {
-          background: no-repeat top/100%
-            url('./images/animations/nakleiki-3.png');
+          background: no-repeat top/100% url('./images/animations/nakleiki-3.png');
         }
+
         37.5%,
         49% {
-          background: no-repeat top/100%
-            url('./images/animations/nakleiki-4.png');
+          background: no-repeat top/100% url('./images/animations/nakleiki-4.png');
         }
+
         50%,
         61.5% {
-          background: no-repeat top/100%
-            url('./images/animations/nakleiki-5.png');
+          background: no-repeat top/100% url('./images/animations/nakleiki-5.png');
         }
+
         62.5%,
         74% {
-          background: no-repeat top/100%
-            url('./images/animations/nakleiki-6.png');
+          background: no-repeat top/100% url('./images/animations/nakleiki-6.png');
         }
+
         75%,
         86.5% {
-          background: no-repeat top/100%
-            url('./images/animations/nakleiki-7.png');
+          background: no-repeat top/100% url('./images/animations/nakleiki-7.png');
         }
+
         87%,
         100% {
-          background: no-repeat top/100%
-            url('./images/animations/nakleiki-8.png');
+          background: no-repeat top/100% url('./images/animations/nakleiki-8.png');
         }
       }
 
@@ -187,20 +235,20 @@ body.stylegide {
       }
 
       @keyframes boxes {
+
         0%,
         32% {
-          background: no-repeat top/100%
-            url('./images/animations/razvert-1.png');
+          background: no-repeat top/100% url('./images/animations/razvert-1.png');
         }
+
         33%,
         65% {
-          background: no-repeat top/100%
-            url('./images/animations/razvert-2.png');
+          background: no-repeat top/100% url('./images/animations/razvert-2.png');
         }
+
         66%,
         100% {
-          background: no-repeat top/100%
-            url('./images/animations/razvert-3.png');
+          background: no-repeat top/100% url('./images/animations/razvert-3.png');
         }
       }
     }
@@ -215,19 +263,24 @@ body.stylegide {
         animation: bunnergrid 4s linear infinite paused;
         background: no-repeat top/100% url('./images/animations/grid-1.png');
       }
+
       @keyframes bunnergrid {
+
         0%,
         24% {
           background: no-repeat top/100% url('./images/animations/grid-1.png');
         }
+
         25%,
         49% {
           background: no-repeat top/100% url('./images/animations/grid-2.png');
         }
+
         50%,
         74% {
           background: no-repeat top/100% url('./images/animations/grid-3.png');
         }
+
         75%,
         100% {
           background: no-repeat top/100% url('./images/animations/grid-4.png');
@@ -243,19 +296,24 @@ body.stylegide {
         animation: postgrid 4s linear infinite paused;
         background: no-repeat top/100% url('./images/animations/grid-2-1.png');
       }
+
       @keyframes postgrid {
+
         0%,
         24% {
           background: no-repeat top/100% url('./images/animations/grid-2-1.png');
         }
+
         25%,
         49% {
           background: no-repeat top/100% url('./images/animations/grid-2-2.png');
         }
+
         50%,
         74% {
           background: no-repeat top/100% url('./images/animations/grid-2-3.png');
         }
+
         75%,
         100% {
           background: no-repeat top/100% url('./images/animations/grid-2-4.png');
@@ -321,35 +379,44 @@ body.stylegide {
     animation: animat-1 4s linear infinite paused;
     background: no-repeat top/100% url('./images/animations/logo-1.png');
   }
+
   @keyframes animat-1 {
+
     0%,
     10% {
       background: no-repeat top/100% url('./images/animations/logo-1.png');
     }
+
     11%,
     16% {
       background: no-repeat top/100% url('./images/animations/logo-2.png');
     }
+
     17%,
     22% {
       background: no-repeat top/100% url('./images/animations/logo-3.png');
     }
+
     23%,
     28% {
       background: no-repeat top/100% url('./images/animations/logo-4.png');
     }
+
     29%,
     34% {
       background: no-repeat top/100% url('./images/animations/logo-5.png');
     }
+
     35%,
     60% {
       background: no-repeat top/100% url('./images/animations/logo-6.png');
     }
+
     61%,
     79% {
       background: no-repeat top/100% url('./images/animations/logo-7.png');
     }
+
     80%,
     100% {
       background: no-repeat top/100% url('./images/animations/logo-8.png');
@@ -399,7 +466,7 @@ body.stylegide {
     width: 8.958vw;
     height: 8.958vw;
     background-color: var(--cream);
-    border: solid 0.156vw var(--grey);
+    border: 1px solid var(--tree);
     border-radius: 5.208vw;
   }
 
@@ -437,7 +504,7 @@ body.stylegide {
   }
 
   .polite {
-    font-family: 'Polite Type';
+    font-family: 'Golos Text';
   }
 
   img {
@@ -530,12 +597,28 @@ body.stylegide {
 
 @media only screen and (min-width: 320px) and (max-width: 1024px) {
   body.stylegide {
+
+    header {
+      background: no-repeat top/100% url('./images/headerbackground-vert.svg');
+      height: 90vw;
+    }
+
+    .self {
+      top: 35vw;
+    }
+
+    .bluelabel {
+      top: 55vw;
+    }
+
     section {
       padding: 8.333vw 0vw 0vw 5vw;
+
       &#about {
         padding-top: 9.365vw;
       }
     }
+
     .navcenter {
       display: none;
     }
