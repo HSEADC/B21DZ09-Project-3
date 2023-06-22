@@ -2,10 +2,11 @@ body.new_landing {
   background-color: var(--cream);
   // background: no-repeat top/100% url('./images/new-landing/new-landing.png');
   width: 100vw;
-  height: 505vw;
+  // height: 505vw;
   font-family: 'Golos Text', Helvetica, Arial, sans-serif;
   font-weight: 400;
   overflow-x: hidden;
+  margin: 0;
 
   a {
     text-decoration: none;
@@ -18,7 +19,12 @@ body.new_landing {
   }
 
   header {
-    padding: 0px 7.292vw;
+    margin: 0 7.5vw;
+    height: 4vw;
+
+    a {
+      margin-left: 2vw;
+    }
   }
 
   .O_MenuBar {
@@ -27,34 +33,40 @@ body.new_landing {
   }
 
   .M_NavigationLogotype {
-    margin-top: 2.5vw;
+    margin-top: 4vw;
+    height: 5vw;
+    width: 5vw;
+   background: no-repeat top/100% url('./images/logotype/logotypeheader1920.svg');
+
   }
 
   .M_MenuNavigation {
-    margin-top: 2.5vw;
-    margin-left: 10vw;
+    margin-top: -4.5vw;
+    margin-left: 25vw;
   }
 
-  #main {
+  section#main {
     height: 50vw;
+    width: 100vw;
     background: no-repeat top/100% url('./images/new-landing/main-box.svg');
+    // opacity: 0.5;
 
     .zag {
       font-size: 6.5vw;
       line-height: 90%;
       font-weight: 500;
-      position: absolute;
-      top: 18.5vw;
-      left: 17.8vw;
+      position: relative;
+      top: 11vw;
+      left: 17.5vw;
       color: var(--cream);
     }
 
     .more-button {
       height: 2.2vw;
       width: 10.5vw;
-      position: absolute;
-      top: 38vw;
-      left: 18vw;
+      position: relative;
+      top: 16.5vw;
+      left: 17.8vw;
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -69,14 +81,15 @@ body.new_landing {
         height: 1vw;
         width: 1vw;
         background: no-repeat top/100% url('./images/new-landing/button.svg');
+        transform: rotate(-90deg);
       }
     }
 
     .round-label {
       height: 5vw;
       width: 5vw;
-      position: absolute;
-      top: 12.9vw;
+      position: relative;
+      top: -12.1vw;
       left: 7.4vw;
       background-color: var(--blue);
       border-radius: 50%;
@@ -95,8 +108,8 @@ body.new_landing {
     .rec-label {
       height: 17.8vw;
       width: 36.8vw;
-      position: absolute;
-      top: 40.5vw;
+      position: relative;
+      top: 9.5vw;
       left: 52vw;
       background: no-repeat top/100% url('./images/new-landing/main-label.png');
 
@@ -112,15 +125,17 @@ body.new_landing {
     }
   }
 
-  #about {
+  section#about {
     height: 62vw;
+    width: 100vw;
+    // opacity: 0.5;
 
     p {
       font-size: 2.5vw;
       line-height: 115%;
       color: var(--tree);
-      position: absolute;
-      top: 68.5vw;
+      position: relative;
+      top: 12.5vw;
       left: 18vw;
       width: 67vw;
     }
@@ -128,8 +143,8 @@ body.new_landing {
     .label-blue-1 {
       height: 17.8vw;
       width: 36.8vw;
-      position: absolute;
-      top: 84.5vw;
+      position: relative;
+      top: 20.5vw;
       left: 6vw;
       transform: rotate(-4deg);
       background: no-repeat top/100% url('./images/new-landing/about-label-blue-1.svg');
@@ -148,163 +163,174 @@ body.new_landing {
     .label-blue-2 {
       height: 8.8vw;
       width: 36.9vw;
-      position: absolute;
-      top: 93.4vw;
+      position: relative;
+      top: 11.4vw;
       left: 56vw;
       background: no-repeat top/100% url('./images/new-landing/about-label-blue-2.svg');
 
       p {
-          font-size: 2vw;
-          color: var(--cream);
-          line-height: 115%;
-          position: relative;
-          top: 4.6vw;
-          left: 4.2vw;
-          transform: rotate(4.4deg);
-        }
+        font-size: 2vw;
+        color: var(--cream);
+        line-height: 115%;
+        position: relative;
+        top: 4.6vw;
+        left: 4.2vw;
+        transform: rotate(4.4deg);
+      }
     }
 
     .label-orange-1 {
       height: 9.5vw;
       width: 38.8vw;
-      position: absolute;
-      top: 90vw;
+      position: relative;
+      top: 0;
       left: 10vw;
       background: no-repeat top/100% url('./images/new-landing/about-label-orange-1.svg');
 
       p {
-          font-size: 2vw;
-          color: var(--cream);
-          line-height: 115%;
-          position: relative;
-          top: 1.6vw;
-          left: 5.2vw;
-          transform: rotate(355.2deg);
-        }
+        font-size: 2vw;
+        color: var(--cream);
+        line-height: 115%;
+        position: relative;
+        top: 1.6vw;
+        left: 5.2vw;
+        transform: rotate(355.2deg);
+      }
     }
 
     .label-orange-2 {
       height: 8.8vw;
       width: 32.8vw;
-      position: absolute;
-      top: 82.5vw;
+      position: relative;
+      top: -19.5vw;
       left: 53vw;
       background: no-repeat top/100% url('./images/new-landing/about-label-orange-2.svg');
 
       p {
-          font-size: 2vw;
-          color: var(--cream);
-          line-height: 115%;
-          position: relative;
-          top: 1.5vw;
-          left: 5.2vw;
-          transform: rotate(356.5deg);
-        }
+        font-size: 2vw;
+        color: var(--cream);
+        line-height: 115%;
+        position: relative;
+        top: 1.5vw;
+        left: 5.2vw;
+        transform: rotate(356.5deg);
+      }
     }
 
     .label-yellow {
       height: 14.8vw;
       width: 38.9vw;
-      position: absolute;
-      top: 87.5vw;
+      position: relative;
+      top: -20.5vw;
       left: 40vw;
       background: no-repeat top/100% url('./images/new-landing/about-label-yellow.svg');
 
       p {
-          font-size: 2vw;
-          color: var(--cream);
-          line-height: 115%;
-          position: relative;
-          top: 1.5vw;
-          left: 5.2vw;
-          transform: rotate(348.6deg);
-        }
+        font-size: 2vw;
+        color: var(--cream);
+        line-height: 115%;
+        position: relative;
+        top: 1.5vw;
+        left: 5.2vw;
+        transform: rotate(348.6deg);
+      }
     }
 
     .label-round-1 {
       height: 5vw;
       width: 5vw;
-      position: absolute;
-      top: 83vw;
+      position: relative;
+      top: -41vw;
       left: 9.5vw;
       background-color: var(--blue);
       border-radius: 50%;
 
       p {
-          font-size: 3.5vw;
-          color: var(--cream);
-          line-height: 115%;
-          position: relative;
-          top: -2.3vw;
-          left: 1.5vw;
-          transform: rotate(355.2deg);
-        }
+        font-size: 3.5vw;
+        color: var(--cream);
+        line-height: 115%;
+        position: relative;
+        top: -2.3vw;
+        left: 1.5vw;
+        transform: rotate(355.2deg);
+      }
     }
 
     .label-round-2 {
       height: 5vw;
       width: 5vw;
-      position: absolute;
-      top: 100vw;
+      position: relative;
+      top: -34vw;
       left: 35.5vw;
       background-color: var(--blue);
       border-radius: 50%;
 
       p {
-          font-size: 3.5vw;
-          color: var(--cream);
-          line-height: 115%;
-          position: relative;
-          top: -2.4vw;
-          left: 1.45vw;
-          transform: rotate(355deg);
-        }
+        font-size: 3.5vw;
+        color: var(--cream);
+        line-height: 115%;
+        position: relative;
+        top: -2.4vw;
+        left: 1.45vw;
+        transform: rotate(355deg);
+      }
     }
 
     .label-round-3 {
       height: 5vw;
       width: 5vw;
-      position: absolute;
-      top: 85vw;
-      left: 84vw;
+      position: relative;
+      top: -53vw;
+      left: 77vw;
       background-color: var(--blue);
       border-radius: 50%;
 
       p {
-          font-size: 3.5vw;
-          color: var(--cream);
-          line-height: 115%;
-          position: relative;
-          top: -2.4vw;
-          left: 1.45vw;
-          transform: rotate(355deg);
-        }
+        font-size: 3.5vw;
+        color: var(--cream);
+        line-height: 115%;
+        position: relative;
+        top: -2.4vw;
+        left: 1.45vw;
+        transform: rotate(355deg);
+      }
+    }
+
+    .label-mockup-v {
+      height: 21.65vw;
+      width: 13.3vw;
+      position: relative;
+      top: -26vw;
+      left: -3.6vw;
+      background: no-repeat top/100% url('./images/new-landing/mockup-label.svg');
     }
 
     .label-mockup {
       height: 9.65vw;
       width: 28.9vw;
-      position: absolute;
-      top: 108vw;
+      position: relative;
+      top: -48vw;
       left: 5.5vw;
       background: no-repeat top/100% url('./images/new-landing/about-mockup-label-yellow.png');
       overflow: hidden;
 
-        p {
-          font-size: 2vw;
-          color: var(--cream);
-          line-height: 115%;
-          position: relative;
-          top: 10.4vw;
-          left: 7.4vw;
-          transform: rotate(6deg);
-        }
+      p {
+        font-size: 2vw;
+        color: var(--cream);
+        line-height: 115%;
+        position: relative;
+        top: 10.4vw;
+        left: 7.4vw;
+        transform: rotate(6deg);
+      }
     }
   }
 
-  #mockup {
+  section#mockup {
     height: 85.2vw;
+    width: 100vw;
     background: no-repeat top/100% url('./images/new-landing/mockup-box.svg');
+    // opacity: 0.5;
 
     p {
       font-size: 3.8vw;
@@ -316,27 +342,21 @@ body.new_landing {
       width: 67vw;
     }
 
-    .label-mockup-v {
-      height: 21.65vw;
-      width: 3.3vw;
-      position: absolute;
-      top: 115vw;
-      left: 6.8vw;
-      background: no-repeat top/100% url('./images/new-landing/mockup-label.svg');
-    }
-
     .nout {
       height: 50.65vw;
       width: 77.3vw;
-      position: absolute;
-      top: 139vw;
+      position: relative;
+      top: 9vw;
       left: 11.2vw;
       background: no-repeat top/100% url('./images/new-landing/mockup-nout.svg');
     }
   }
 
-  #mission {
+  section#mission {
     height: 153vw;
+    width: 100vw;
+    // overflow-x: hidden;
+    // opacity: 0.5;
 
     .first {
       font-size: 2.5vw;
@@ -360,8 +380,8 @@ body.new_landing {
     .line-material-1 {
       height: 31vw;
       width: 20vw;
-      position: absolute;
-      top: 223vw;
+      position: relative;
+      top: 5vw;
       left: 3vw;
       background: no-repeat top/100% url('./images/new-landing/mission-1.svg');
 
@@ -379,8 +399,8 @@ body.new_landing {
     .line-material-2 {
       height: 33vw;
       width: 31vw;
-      position: absolute;
-      top: 224.5vw;
+      position: relative;
+      top: -25vw;
       left: 21.3vw;
       background: no-repeat top/100% url('./images/new-landing/mission-2.svg');
 
@@ -398,8 +418,8 @@ body.new_landing {
     .line-material-3 {
       height: 38vw;
       width: 29vw;
-      position: absolute;
-      top: 225.5vw;
+      position: relative;
+      top: -56.5vw;
       left: 49vw;
       background: no-repeat top/100% url('./images/new-landing/mission-3.svg');
 
@@ -417,8 +437,8 @@ body.new_landing {
     .line-material-4 {
       height: 34vw;
       width: 26vw;
-      position: absolute;
-      top: 222.8vw;
+      position: relative;
+      top: -97.2vw;
       left: 71.1vw;
       background: no-repeat top/100% url('./images/new-landing/mission-4.svg');
 
@@ -437,8 +457,8 @@ body.new_landing {
       font-size: 3.8vw;
       line-height: 100%;
       color: var(--tree);
-      position: absolute;
-      top: 269.5vw;
+      position: relative;
+      top: -85vw;
       left: 18vw;
       width: 67vw;
     }
@@ -446,8 +466,8 @@ body.new_landing {
     .mobile-1 {
       height: 66.5vw;
       width: 68vw;
-      position: absolute;
-      top: 276.5vw;
+      position: relative;
+      top: -158.5vw;
       left: 6.1vw;
       background: no-repeat top/100% url('./images/new-landing/mission-phone-1.png');
     }
@@ -455,29 +475,39 @@ body.new_landing {
     .running-line {
       height: 5.5vw;
       width: 300vw;
-      position: absolute;
-      top: 318vw;
+      position: relative;
+      top: -111vw;
       left: 0vw;
       background: no-repeat top/100% url('./images/new-landing/mission-running-line.png');
-      animation: animat 12s linear infinite;
+      animation: animat 30s linear infinite;
       overflow-x: hidden;
 
-      @keyframes animat {0% {left: 0;} 100% {left: -332vw;}}
+      @keyframes animat {
+        0% {
+          left: 0;
+        }
+
+        100% {
+          left: -100vw;
+        }
+      }
     }
 
     .mobile-2 {
       height: 63.5vw;
       width: 52vw;
-      position: absolute;
-      top: 278.5vw;
+      position: relative;
+      top: -86.5vw;
       left: 34vw;
       background: no-repeat top/100% url('./images/new-landing/mission-phone-2.svg');
     }
   }
 
-  #box {
+  section#box {
     height: 66vw;
+    width: 100vw;
     background: no-repeat top/100% url('./images/new-landing/box-box.svg');
+    // opacity: 0.5;
 
     p {
       font-size: 2.5vw;
@@ -492,8 +522,8 @@ body.new_landing {
     .item-1 {
       height: 65vw;
       width: 63vw;
-      position: absolute;
-      top: 350.5vw;
+      position: relative;
+      top: -11.5vw;
       left: 0vw;
       background: no-repeat top/100% url('./images/new-landing/box-skovorodz.svg');
     }
@@ -501,8 +531,8 @@ body.new_landing {
     .item-2 {
       height: 39vw;
       width: 38vw;
-      position: absolute;
-      top: 382.5vw;
+      position: relative;
+      top: -45.5vw;
       left: 35vw;
       background: no-repeat top/100% url('./images/new-landing/box-lightbulb.svg');
     }
@@ -510,15 +540,17 @@ body.new_landing {
     .item-3 {
       height: 29vw;
       width: 29vw;
-      position: absolute;
-      top: 375.5vw;
+      position: relative;
+      top: -90.5vw;
       left: 66vw;
       background: no-repeat top/100% url('./images/new-landing/box-shirt.svg');
     }
   }
 
-  #articles {
+  section#articles {
     height: 54vw;
+    width: 100vw;
+    // opacity: 0.5;
 
     p {
       font-size: 2.5vw;
@@ -569,6 +601,7 @@ body.new_landing {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    // opacity: 0.5;
 
     p.zag-fut {
       font-size: 4.5vw;
@@ -585,8 +618,8 @@ body.new_landing {
     input {
       all: unset;
       border: none;
-     -webkit-box-shadow: none;
-     -moz-box-shadow: none;
+      -webkit-box-shadow: none;
+      -moz-box-shadow: none;
       box-shadow: none;
       border: none;
       border-radius: 2.083vw;
@@ -630,7 +663,7 @@ body.new_landing {
     .social-net {
       width: 6.5vw;
       height: 2vw;
-      position: absolute;
+      position: relative;
       bottom: 3vw;
       left: -39.5vw;
       display: flex;
