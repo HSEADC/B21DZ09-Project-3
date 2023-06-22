@@ -59,7 +59,7 @@
       <!-- Обертка -->
       <div class="swiper-wrapper">
         <!-- Слайды -->
-        <a class="swiper-slide M_Card Banner" href="./checklists/Veschi-dlya-letnego-otpuska.html">
+        <a class="swiper-slide M_Card Banner" href="./checklists/Veschi-dlya-letnego-otpuska.html" data-tags="lifestyle">
           <img src="../images/masks/bannermask.svg" alt="">
           <div class="Q_CardContent Banner">
             <img src="../images/covers/checklists/Veschi-dlya-letnego-otpuska.jpg" alt="">
@@ -68,7 +68,7 @@
             <h1>Вещи для летнего отпуска</h1>
             <!-- Categories -->
             <div class="C_Tags">
-              <div class="A_CategoryTag" data-tag="lifestyle">
+              <div class="A_CategoryTag">
                 <p>Лайфстайл</p>
               </div>
               <div class="A_CategoryTag WithLeftIcon">
@@ -78,7 +78,7 @@
             </div>
           </div>
         </a>
-        <a class="swiper-slide M_Card Banner" href="./checklists/Kak-vybrat-produkty.html">
+        <a class="swiper-slide M_Card Banner" href="./checklists/Kak-vybrat-produkty.html" data-tags="foods">
           <img src="../images/masks/bannermask.svg" alt="">
           <div class="Q_CardContent Banner">
             <img src="../images/covers/checklists/Kak-vybrat-produkty.jpg" alt="">
@@ -86,7 +86,7 @@
           <div class="HeadTagBlock">
             <h1>Как выбрать продукты</h1>
             <div class="C_Tags">
-              <div class="A_CategoryTag" data-tag="foods">
+              <div class="A_CategoryTag">
                 <p>Продукты</p>
               </div>
               <div class="A_CategoryTag WithLeftIcon">
@@ -96,7 +96,7 @@
             </div>
           </div>
         </a>
-        <a class="swiper-slide M_Card Banner" href="./checklists/Dokumenty-dlya-postupleniya.html">
+        <a class="swiper-slide M_Card Banner" href="./checklists/Dokumenty-dlya-postupleniya.html" data-tags="documents">
           <img src="../images/masks/bannermask.svg" alt="">
           <div class="Q_CardContent Banner">
             <img src="../images/covers/checklists/Dokumenty-dlya-postupleniya.jpg" alt="">
@@ -104,7 +104,7 @@
           <div class="HeadTagBlock">
             <h1>Документы для поступления</h1>
             <div class="C_Tags">
-              <div class="A_CategoryTag" data-tag="documents">
+              <div class="A_CategoryTag">
                 <p>Документы</p>
               </div>
               <div class="A_CategoryTag WithLeftIcon">
@@ -119,126 +119,133 @@
     </div>
     <!-- Фильтр -->
     <div class="M_CategoriesButtonsScroll">
-      <button class="A_CircleButton Beige" type="button" name="button">
+      <button class="A_CircleButton Beige" type="button" name="button" id="LeftButton">
         <div class="Q_Icons Tree LeftArrow"></div>
       </button>
-      <div class="C_CategoriesButtons">
-        <button class="Active" type="button" name="button"><p>Все</p></button>
-        <button class="Inactive" type="button" name="button"><p>Техника</p></button>
-        <button class="Inactive" type="button" name="button"><p>Документы</p></button>
-        <button class="Inactive" type="button" name="button"><p>Готовка</p></button>
+      <div class="W_CategoriesScroll">
+        <div class="C_CategoriesButtons">
+          <button class="Active" type="button" name="button" id="firsttag"><p>Все</p></button>
+          <button class="Inactive" type="button" name="button"><p>Лайфстайл</p></button>
+          <button class="Inactive" type="button" name="button"><p>Продукты</p></button>
+          <button class="Inactive" type="button" name="button"><p>Документы</p></button>
+          <button class="Inactive" type="button" name="button"><p>Праздники</p></button>
+          <button class="Inactive" type="button" name="button"><p>Физическое здоровье</p></button>
+          <button class="Inactive" type="button" name="button"><p>Работа</p></button>
+          <button class="Inactive" type="button" name="button"><p>Уборка</p></button>
+          <button class="Inactive" type="button" name="button" id="lasttag"><p>Переезд</p></button>
+        </div>
       </div>
-      <button class="A_CircleButton Beige" type="button" name="button">
+      <button class="A_CircleButton Beige" type="button" name="button" id="RightButton">
         <div class="Q_Icons Tree RightArrow"></div>
       </button>
     </div>
     <!-- Материалы -->
     <div class="W_Grid Check">
-      <a class="M_Card Beige Check" href="./checklists/Chem-nakryt-stol-na-prazdnik.html">
+      <a class="M_Card Beige Check" href="./checklists/Chem-nakryt-stol-na-prazdnik.html" data-tags="holidays">
         <div class="Q_CardContent Check">
           <img src="../images/covers/checklists/Chem-nakryt-stol-na-prazdnik.jpg" alt="">
         </div>
         <div class="HeadTagBlock">
           <h3>Чем накрыть стол на праздник</h3>
           <div class="C_Tags">
-            <div class="A_CategoryTag" data-tag="holidays">
+            <div class="A_CategoryTag">
               <p>Праздники</p>
             </div>
           </div>
         </div>
       </a>
-      <a class="M_Card Beige Check" href="./checklists/Chto-polojit-v-aptechku.html">
+      <a class="M_Card Beige Check" href="./checklists/Chto-polojit-v-aptechku.html" data-tags="physichealth">
         <div class="Q_CardContent Check">
           <img src="../images/covers/checklists/Chto-polojit-v-aptechku.jpg" alt="">
         </div>
         <div class="HeadTagBlock">
           <h3>Что положить в аптечку</h3>
           <div class="C_Tags">
-            <div class="A_CategoryTag" data-tag="physichealth">
+            <div class="A_CategoryTag">
               <p>Физическое здоровье</p>
             </div>
           </div>
         </div>
       </a>
-      <a class="M_Card Beige Check" href="./checklists/Dokumenty-dlya-postupleniya.html">
+      <a class="M_Card Beige Check" href="./checklists/Dokumenty-dlya-postupleniya.html" data-tags="documents,study">
         <div class="Q_CardContent Check">
           <img src="../images/covers/checklists/Dokumenty-dlya-postupleniya.jpg" alt="">
         </div>
         <div class="HeadTagBlock">
           <h3>Документы для поступления</h3>
           <div class="C_Tags">
-            <div class="A_CategoryTag" data-tag="documents">
+            <div class="A_CategoryTag">
               <p>Документы</p>
             </div>
-            <div class="A_CategoryTag" data-tag="study">
+            <div class="A_CategoryTag">
               <p>Учеба</p>
             </div>
           </div>
         </div>
       </a>
-      <a class="M_Card Beige Check" href="./checklists/Dokumenty-dlya-raboty.html">
+      <a class="M_Card Beige Check" href="./checklists/Dokumenty-dlya-raboty.html" data-tags="documents,work">
         <div class="Q_CardContent Check">
           <img src="../images/covers/checklists/Dokumenty-dlya-raboty.jpg" alt="">
         </div>
         <div class="HeadTagBlock">
           <h3>Документы для работы</h3>
           <div class="C_Tags">
-            <div class="A_CategoryTag" data-tag="documents">
+            <div class="A_CategoryTag">
               <p>Документы</p>
             </div>
-            <div class="A_CategoryTag" data-tag="work">
+            <div class="A_CategoryTag">
               <p>Работа</p>
             </div>
           </div>
         </div>
       </a>
-      <a class="M_Card Beige Check" href="./checklists/Generalnaya-uborka-v-kvartire.html">
+      <a class="M_Card Beige Check" href="./checklists/Generalnaya-uborka-v-kvartire.html" data-tags="cleaning">
         <div class="Q_CardContent Check">
           <img src="../images/covers/checklists/Generalnaya-uborka-v-kvartire.jpg" alt="">
         </div>
         <div class="HeadTagBlock">
           <h3>Генеральная уборка в квартире</h3>
           <div class="C_Tags">
-            <div class="A_CategoryTag" data-tag="cleaning">
+            <div class="A_CategoryTag">
               <p>Уборка</p>
             </div>
           </div>
         </div>
       </a>
-      <a class="M_Card Beige Check" href="./checklists/Kak-vybrat-produkty.html">
+      <a class="M_Card Beige Check" href="./checklists/Kak-vybrat-produkty.html" data-tags="foods">
         <div class="Q_CardContent Check">
           <img src="../images/covers/checklists/Kak-vybrat-produkty.jpg" alt="">
         </div>
         <div class="HeadTagBlock">
           <h3>Как выбрать продукты</h3>
           <div class="C_Tags">
-            <div class="A_CategoryTag" data-tag="foods">
+            <div class="A_CategoryTag">
               <p>Продукты</p>
             </div>
           </div>
         </div>
       </a>
-      <a class="M_Card Beige Check" href="./checklists/Veschi-dlya-bystrogo-pereezda.html">
+      <a class="M_Card Beige Check" href="./checklists/Veschi-dlya-bystrogo-pereezda.html" data-tags="moving">
         <div class="Q_CardContent Check">
           <img src="../images/covers/checklists/Veschi-dlya-bystrogo-pereezda.jpg" alt="">
         </div>
         <div class="HeadTagBlock">
           <h3>Вещи для быстрого переезда</h3>
           <div class="C_Tags">
-            <div class="A_CategoryTag" data-tag="moving">
+            <div class="A_CategoryTag">
               <p>Переезд</p>
             </div>
           </div>
         </div>
       </a>
-      <a class="M_Card Beige Check" href="./checklists/Veschi-dlya-letnego-otpuska.html">
+      <a class="M_Card Beige Check" href="./checklists/Veschi-dlya-letnego-otpuska.html" data-tags="lifestyle">
         <div class="Q_CardContent Check">
           <img src="../images/covers/checklists/Veschi-dlya-letnego-otpuska.jpg" alt="">
         </div>
         <div class="HeadTagBlock">
           <h3>Вещи для летнего отпуска</h3>
           <div class="C_Tags">
-            <div class="A_CategoryTag" data-tag="lifestyle">
+            <div class="A_CategoryTag">
               <p>Лайфстайл</p>
             </div>
           </div>
@@ -251,30 +258,30 @@
         <div class="A_Logotype Footer"></div>
         <p>Self — это энциклопедия взрослой жизни, помогающая молодёжи справиться с бытовыми трудностями</p>
         <div class="A_NetworksButtons">
-          <button class="A_NetworkButton" id="vk"></button>
-          <button class="A_NetworkButton" id="telegram"></button>
-          <button class="A_NetworkButton" id="instagram"></button>
+          <button class="A_NetworkButton" id="vk" onclick="location.href='https://vk.com/self_web';"></button>
+          <button class="A_NetworkButton" id="telegram" onclick="location.href='https://t.me/self_web';"></button>
+          <button class="A_NetworkButton" id="instagram" onclick="location.href='http://instagram.com/self_web/';"></button>
         </div>
       </div>
       <div class="С_FooterLinksSection">
         <div class="M_FooterLinksBlock">
           <p>Инструкции</p>
           <div class="C_FooterLinks">
-            <a href="#">Инструкции</a>
+            <a href="../instructions.html">Инструкции</a>
           </div>
         </div>
         <div class="M_FooterLinksBlock">
           <p>Материалы</p>
           <div class="C_FooterLinks">
-            <a href="#">Авторские статьи</a>
-            <a href="#">Видео</a>
-            <a href="#">Чек-листы</a>
+            <a href="articles.html">Авторские статьи</a>
+            <a href="videos.html">Видео</a>
+            <a href="checklists.html">Чек-листы</a>
           </div>
         </div>
         <div class="M_FooterLinksBlock">
           <p>Вопрос-ответ</p>
           <div class="C_FooterLinks">
-            <a href="#">Вопрос-ответ</a>
+            <a href="../questions.html">Вопрос-ответ</a>
           </div>
         </div>
       </div>

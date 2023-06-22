@@ -55,12 +55,11 @@
       </div>
     </div>
     <!-- Баннер -->
-    <!-- Баннер -->
     <div class="swiper swiperBanner">
       <!-- Обертка -->
       <div class="swiper-wrapper">
         <!-- Слайды -->
-        <a class="swiper-slide M_Card Banner" href="./articles/Pravila-zapolneniya-gramotnogo-rezyume.html">
+        <a class="swiper-slide M_Card Banner" href="./articles/Pravila-zapolneniya-gramotnogo-rezyume.html" data-tags="work">
           <img src="../images/masks/bannermask.svg" alt="">
           <div class="Q_CardContent Banner">
             <img src="../images/covers/articles/Pravila-zapolneniya-gramotnogo-rezyume.jpg" alt="">
@@ -73,14 +72,14 @@
                   <div class="A_Avatar CategoryTag" id="IvanKolobkov"></div>
                   <p>Иван Колобков</p>
                 </div>
-                <div class="A_CategoryTag" data-tag="work">
+                <div class="A_CategoryTag">
                   <p>Работа</p>
                 </div>
               </div>
             </div>
           </div>
         </a>
-        <a class="swiper-slide M_Card Banner" href="./articles/Adaptatsiya-v-universitete-sovety-pervokursniku.html">
+        <a class="swiper-slide M_Card Banner" href="./articles/Adaptatsiya-v-universitete-sovety-pervokursniku.html" data-tags="lifestyle">
           <img src="../images/masks/bannermask.svg" alt="">
           <div class="Q_CardContent Banner">
             <img src="../images/covers/articles/Adaptatsiya-v-universitete-sovety-pervokursniku.jpg" alt="">
@@ -93,14 +92,14 @@
                   <div class="A_Avatar CategoryTag" id="IrinaAgeeva"></div>
                   <p>Ирина Агеева</p>
                 </div>
-                <div class="A_CategoryTag" data-tag="lifestyle">
+                <div class="A_CategoryTag">
                   <p>Лайфстайл</p>
                 </div>
               </div>
             </div>
           </div>
         </a>
-        <a class="swiper-slide M_Card Banner" href="./articles/Kak-sehat-ot-roditelej-moj-opyt.html">
+        <a class="swiper-slide M_Card Banner" href="./articles/Kak-sehat-ot-roditelej-moj-opyt.html" data-tags="moving">
           <img src="../images/masks/bannermask.svg" alt="">
           <div class="Q_CardContent Banner">
             <img src="../images/covers/articles/Kak-sehat-ot-roditelej-moj-opyt.jpg" alt="">
@@ -113,7 +112,7 @@
                   <div class="A_Avatar CategoryTag" id="ElenaSaveleva"></div>
                   <p>Елена Савельева</p>
                 </div>
-                <div class="A_CategoryTag" data-tag="moving">
+                <div class="A_CategoryTag">
                   <p>Переезд</p>
                 </div>
               </div>
@@ -125,22 +124,29 @@
     </div>
     <!-- Фильтр -->
     <div class="M_CategoriesButtonsScroll">
-      <button class="A_CircleButton Beige" type="button" name="button">
+      <button class="A_CircleButton Beige" type="button" name="button" id="LeftButton">
         <div class="Q_Icons Tree LeftArrow"></div>
       </button>
-      <div class="C_CategoriesButtons">
-        <button class="Active" type="button" name="button"><p>Все</p></button>
-        <button class="Inactive" type="button" name="button"><p>Техника</p></button>
-        <button class="Inactive" type="button" name="button"><p>Документы</p></button>
-        <button class="Inactive" type="button" name="button"><p>Готовка</p></button>
+      <div class="W_CategoriesScroll">
+        <div class="C_CategoriesButtons">
+          <button class="Active" type="button" name="button" id="firsttag"><p>Все</p></button>
+          <button class="Inactive" type="button" name="button"><p>Лайфстайл</p></button>
+          <button class="Inactive" type="button" name="button"><p>Продукты</p></button>
+          <button class="Inactive" type="button" name="button"><p>Документы</p></button>
+          <button class="Inactive" type="button" name="button"><p>Праздники</p></button>
+          <button class="Inactive" type="button" name="button"><p>Физическое здоровье</p></button>
+          <button class="Inactive" type="button" name="button"><p>Работа</p></button>
+          <button class="Inactive" type="button" name="button"><p>Уборка</p></button>
+          <button class="Inactive" type="button" name="button" id="lasttag"><p>Переезд</p></button>
+        </div>
       </div>
-      <button class="A_CircleButton Beige" type="button" name="button">
+      <button class="A_CircleButton Beige" type="button" name="button" id="RightButton">
         <div class="Q_Icons Tree RightArrow"></div>
       </button>
     </div>
     <!-- Материалы -->
     <div class="W_Grid Article">
-      <a class="M_Card Beige Article" href="./articles/Kak-ya-pereezjala-iz-Norilska-v-Moskvu.html">
+      <a class="M_Card Beige Article" href="./articles/Kak-ya-pereezjala-iz-Norilska-v-Moskvu.html" data-tags="moving">
         <div class="Q_CardContent Article">
           <img src="../images/covers/articles/Kak-ya-pereezjala-iz-Norilska-v-Moskvu.jpg" alt="">
         </div>
@@ -152,7 +158,7 @@
                 <div class="A_Avatar CategoryTag" id="AlexandraShushina"></div>
                 <p>Александра Шушина</p>
               </div>
-              <div class="A_CategoryTag" data-tag="moving">
+              <div class="A_CategoryTag">
                 <p>Переезд</p>
               </div>
             </div>
@@ -162,7 +168,7 @@
           </div>
         </div>
       </a>
-      <a class="M_Card Beige Article" href="./articles/Pravila-zapolneniya-gramotnogo-rezyume.html">
+      <a class="M_Card Beige Article" href="./articles/Pravila-zapolneniya-gramotnogo-rezyume.html" data-tags="work">
         <div class="Q_CardContent Article"></div>
         <div class="Q_CardContent Article">
           <img src="../images/covers/articles/Pravila-zapolneniya-gramotnogo-rezyume.jpg" alt="">
@@ -175,7 +181,7 @@
                 <div class="A_Avatar CategoryTag" id="IvanKolobkov"></div>
                 <p>Иван Колобков</p>
               </div>
-              <div class="A_CategoryTag" data-tag="work">
+              <div class="A_CategoryTag">
                 <p>Работа</p>
               </div>
             </div>
@@ -185,7 +191,7 @@
           </div>
         </div>
       </a>
-      <a class="M_Card Beige Article" href="./articles/Adaptatsiya-v-universitete-sovety-pervokursniku.html">
+      <a class="M_Card Beige Article" href="./articles/Adaptatsiya-v-universitete-sovety-pervokursniku.html" data-tags="lifestyle">
         <div class="Q_CardContent Article"></div>
         <div class="Q_CardContent Article">
           <img src="../images/covers/articles/Adaptatsiya-v-universitete-sovety-pervokursniku.jpg" alt="">
@@ -198,7 +204,7 @@
                 <div class="A_Avatar CategoryTag" id="IrinaAgeeva"></div>
                 <p>Ирина Агеева</p>
               </div>
-              <div class="A_CategoryTag" data-tag="lifestyle">
+              <div class="A_CategoryTag">
                 <p>Лайфстайл</p>
               </div>
             </div>
@@ -208,7 +214,7 @@
           </div>
         </div>
       </a>
-      <a class="M_Card Beige Article" href="./articles/Aromatizatory-dlya-doma-chto-vybrat.html">
+      <a class="M_Card Beige Article" href="./articles/Aromatizatory-dlya-doma-chto-vybrat.html" data-tags="lifestyle">
         <div class="Q_CardContent Article"></div>
         <div class="Q_CardContent Article">
           <img src="../images/covers/articles/Aromatizatory-dlya-doma-chto-vybrat.jpg" alt="">
@@ -221,7 +227,7 @@
                 <div class="A_Avatar CategoryTag" id="GalinaGladysheva"></div>
                 <p>Галина Гладышева</p>
               </div>
-              <div class="A_CategoryTag" data-tag="lifestyle">
+              <div class="A_CategoryTag">
                 <p>Лайфстайл</p>
               </div>
             </div>
@@ -231,7 +237,7 @@
           </div>
         </div>
       </a>
-      <a class="M_Card Beige Article" href="./articles/Pylesos-vs robot-pylesos-chto-vybrat.html">
+      <a class="M_Card Beige Article" href="./articles/Pylesos-vs robot-pylesos-chto-vybrat.html" data-tags="cleaning">
         <div class="Q_CardContent Article"></div>
         <div class="Q_CardContent Article">
           <img src="../images/covers/articles/Pylesos-vs robot-pylesos-chto-vybrat.jpg" alt="">
@@ -244,7 +250,7 @@
                 <div class="A_Avatar CategoryTag" id="AlinaVasilkova"></div>
                 <p>Алина Василькова</p>
               </div>
-              <div class="A_CategoryTag" data-tag="cleaning">
+              <div class="A_CategoryTag">
                 <p>Уборка</p>
               </div>
             </div>
@@ -254,7 +260,7 @@
           </div>
         </div>
       </a>
-      <a class="M_Card Beige Article" href="./articles/Kak-sehat-ot-roditelej-moj-opyt.html">
+      <a class="M_Card Beige Article" href="./articles/Kak-sehat-ot-roditelej-moj-opyt.html" data-tags="moving">
         <div class="Q_CardContent Article"></div>
         <div class="Q_CardContent Article">
           <img src="../images/covers/articles/Kak-sehat-ot-roditelej-moj-opyt.jpg" alt="">
@@ -267,7 +273,7 @@
                 <div class="A_Avatar CategoryTag" id="ElenaSaveleva"></div>
                 <p>Елена Савельева</p>
               </div>
-              <div class="A_CategoryTag" data-tag="moving">
+              <div class="A_CategoryTag">
                 <p>Переезд</p>
               </div>
             </div>
@@ -284,30 +290,30 @@
         <div class="A_Logotype Footer"></div>
         <p>Self — это энциклопедия взрослой жизни, помогающая молодёжи справиться с бытовыми трудностями</p>
         <div class="A_NetworksButtons">
-          <button class="A_NetworkButton" id="vk"></button>
-          <button class="A_NetworkButton" id="telegram"></button>
-          <button class="A_NetworkButton" id="instagram"></button>
+          <button class="A_NetworkButton" id="vk" onclick="location.href='https://vk.com/self_web';"></button>
+          <button class="A_NetworkButton" id="telegram" onclick="location.href='https://t.me/self_web';"></button>
+          <button class="A_NetworkButton" id="instagram" onclick="location.href='http://instagram.com/self_web/';"></button>
         </div>
       </div>
       <div class="С_FooterLinksSection">
         <div class="M_FooterLinksBlock">
           <p>Инструкции</p>
           <div class="C_FooterLinks">
-            <a href="#">Инструкции</a>
+            <a href="../instructions.html">Инструкции</a>
           </div>
         </div>
         <div class="M_FooterLinksBlock">
           <p>Материалы</p>
           <div class="C_FooterLinks">
-            <a href="#">Авторские статьи</a>
-            <a href="#">Видео</a>
-            <a href="#">Чек-листы</a>
+            <a href="articles.html">Авторские статьи</a>
+            <a href="videos.html">Видео</a>
+            <a href="checklists.html">Чек-листы</a>
           </div>
         </div>
         <div class="M_FooterLinksBlock">
           <p>Вопрос-ответ</p>
           <div class="C_FooterLinks">
-            <a href="#">Вопрос-ответ</a>
+            <a href="../questions.html">Вопрос-ответ</a>
           </div>
         </div>
       </div>

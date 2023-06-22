@@ -73,7 +73,7 @@
       <!-- Обертка -->
       <div class="swiper-wrapper">
         <!-- Слайды -->
-        <a class="swiper-slide M_Card Banner" href="./instructions/Podklyuchenie-interneta-vse-tonkosti-i-sekrety.html">
+        <a class="swiper-slide M_Card Banner" href="./instructions/Podklyuchenie-interneta-vse-tonkosti-i-sekrety.html" data-tags="tech">
           <img src="./images/masks/bannermask.svg" alt="">
           <div class="Q_CardContent Banner Instruction">
             <img src="./images/covers/instructions/banner/Podklyuchenie-interneta-vse-tonkosti-i-sekrety.jpg" alt="">
@@ -81,7 +81,7 @@
           <div class="HeadTagBlock">
             <h1>Подключение интернета: все тонкости и секреты</h1>
             <div class="C_Tags">
-              <div class="A_CategoryTag" data-set="tech">
+              <div class="A_CategoryTag">
                 <p>Техника</p>
               </div>
               <div class="A_CategoryTag WithLeftIcon">
@@ -91,7 +91,7 @@
             </div>
           </div>
         </a>
-        <a class="swiper-slide M_Card Banner" href="./instructions/Vybiraem-udobnyj-stul.html">
+        <a class="swiper-slide M_Card Banner" href="./instructions/Vybiraem-udobnyj-stul.html" data-tags="moving">
           <img src="./images/masks/bannermask.svg" alt="">
           <div class="Q_CardContent Banner Instruction">
             <img src="./images/covers/instructions/banner/Vybiraem-udobnyj-stul.jpg" alt="">
@@ -99,7 +99,7 @@
           <div class="HeadTagBlock">
             <h1>Выбираем удобный стул</h1>
             <div class="C_Tags">
-              <div class="A_CategoryTag" data-set="moving">
+              <div class="A_CategoryTag">
                 <p>Переезд</p>
               </div>
               <div class="A_CategoryTag WithLeftIcon">
@@ -109,7 +109,7 @@
             </div>
           </div>
         </a>
-        <a class="swiper-slide M_Card Banner" href="./instructions/Kak-oplatit-kommunalku.html">
+        <a class="swiper-slide M_Card Banner" href="./instructions/Kak-oplatit-kommunalku.html" data-tags="services">
           <img src="./images/masks/bannermask.svg" alt="">
           <div class="Q_CardContent Banner Instruction">
             <img src="./images/covers/instructions/banner/Kak-oplatit-kommunalku.jpg" alt="">
@@ -117,7 +117,7 @@
           <div class="HeadTagBlock">
             <h1>Как оплатить коммуналку</h1>
             <div class="C_Tags">
-              <div class="A_CategoryTag" data-set="services">
+              <div class="A_CategoryTag">
                 <p>Службы</p>
               </div>
               <div class="A_CategoryTag WithLeftIcon">
@@ -132,22 +132,29 @@
     </div>
     <!-- Фильтры -->
     <div class="M_CategoriesButtonsScroll">
-      <button class="A_CircleButton Beige" type="button" name="button">
+      <button class="A_CircleButton Beige" type="button" name="button" id="LeftButton">
         <div class="Q_Icons Tree LeftArrow"></div>
       </button>
-      <div class="C_CategoriesButtons">
-        <button class="Active" type="button" name="button"><p>Все</p></button>
-        <button class="Inactive" type="button" name="button"><p>Техника</p></button>
-        <button class="Inactive" type="button" name="button"><p>Документы</p></button>
-        <button class="Inactive" type="button" name="button"><p>Готовка</p></button>
+      <div class="W_CategoriesScroll">
+        <div class="C_CategoriesButtons">
+          <button class="Active" type="button" name="button" id="firsttag"><p>Все</p></button>
+          <button class="Inactive" type="button" name="button"><p>Лайфстайл</p></button>
+          <button class="Inactive" type="button" name="button"><p>Продукты</p></button>
+          <button class="Inactive" type="button" name="button"><p>Документы</p></button>
+          <button class="Inactive" type="button" name="button"><p>Праздники</p></button>
+          <button class="Inactive" type="button" name="button"><p>Физическое здоровье</p></button>
+          <button class="Inactive" type="button" name="button"><p>Работа</p></button>
+          <button class="Inactive" type="button" name="button"><p>Уборка</p></button>
+          <button class="Inactive" type="button" name="button" id="lasttag"><p>Переезд</p></button>
+        </div>
       </div>
-      <button class="A_CircleButton Beige" type="button" name="button">
+      <button class="A_CircleButton Beige" type="button" name="button" id="RightButton">
         <div class="Q_Icons Tree RightArrow"></div>
       </button>
     </div>
     <!-- Сетка инструкций -->
     <div class="W_Grid Instruction">
-      <a class="M_Card Beige Instruction Large" href="./instructions/Kak-ochistit-noutbuk-ot-pyli.html">
+      <a class="M_Card Beige Instruction Large" href="./instructions/Kak-ochistit-noutbuk-ot-pyli.html" data-tags="tech">
         <div class="Q_CardContent Instruction">
           <img src="./images/covers/instructions/Kak-ochistit-noutbuk-ot-pyli.png" alt="">
         </div>
@@ -155,7 +162,7 @@
           <h3>Как очистить ноутбук от пыли</h3>
           <!-- Categories -->
           <div class="C_Tags">
-            <div class="A_CategoryTag" data-set="tech">
+            <div class="A_CategoryTag">
               <p>Техника</p>
             </div>
             <div class="A_CategoryTag WithLeftIcon">
@@ -165,7 +172,7 @@
           </div>
         </div>
       </a>
-      <a class="M_Card Beige Instruction" href="./instructions/Kak-oplatit-kommunalku.html">
+      <a class="M_Card Beige Instruction" href="./instructions/Kak-oplatit-kommunalku.html" data-tags="services">
         <div class="Q_CardContent Instruction">
           <img src="./images/covers/instructions/Kak-oplatit-kommunalku.png" alt="">
         </div>
@@ -173,7 +180,7 @@
           <h3>Как оплатить коммуналку</h3>
           <!-- Categories -->
           <div class="C_Tags">
-            <div class="A_CategoryTag" data-set="services">
+            <div class="A_CategoryTag">
               <p>Службы</p>
             </div>
             <div class="A_CategoryTag WithLeftIcon">
@@ -183,7 +190,7 @@
           </div>
         </div>
       </a>
-      <a class="M_Card Beige Instruction" href="./instructions/Kak-otpravit-posylku.html">
+      <a class="M_Card Beige Instruction" href="./instructions/Kak-otpravit-posylku.html" data-tags="services">
         <div class="Q_CardContent Instruction">
           <img src="./images/covers/instructions/Kak-otpravit-posylku.png" alt="">
         </div>
@@ -191,7 +198,7 @@
           <h3>Как отправить посылку</h3>
           <!-- Categories -->
           <div class="C_Tags">
-            <div class="A_CategoryTag" data-set="services">
+            <div class="A_CategoryTag">
               <p>Службы</p>
             </div>
             <div class="A_CategoryTag WithLeftIcon">
@@ -201,7 +208,7 @@
           </div>
         </div>
       </a>
-      <a class="M_Card Beige Instruction" href="./instructions/Kak-prishit-zaplatku.html">
+      <a class="M_Card Beige Instruction" href="./instructions/Kak-prishit-zaplatku.html" data-tags="lifestyle">
         <div class="Q_CardContent Instruction">
           <img src="./images/covers/instructions/Kak-prishit-zaplatku.png" alt="">
         </div>
@@ -209,7 +216,7 @@
           <h3>Как пришить заплатку</h3>
           <!-- Categories -->
           <div class="C_Tags">
-            <div class="A_CategoryTag" data-set="lifestyle">
+            <div class="A_CategoryTag">
               <p>Лайфстайл</p>
             </div>
             <div class="A_CategoryTag WithLeftIcon">
@@ -219,7 +226,7 @@
           </div>
         </div>
       </a>
-      <a class="M_Card Beige Instruction" href="./instructions/Podklyuchenie-interneta-vse-tonkosti-i-sekrety.html">
+      <a class="M_Card Beige Instruction" href="./instructions/Podklyuchenie-interneta-vse-tonkosti-i-sekrety.html" data-tags="tech">
         <div class="Q_CardContent Instruction">
           <img src="./images/covers/instructions/Podklyuchenie-interneta-vse-tonkosti-i-sekrety.png" alt="">
         </div>
@@ -227,7 +234,7 @@
           <h3>Подключение интернета: все тонкости и секреты</h3>
           <!-- Categories -->
           <div class="C_Tags">
-            <div class="A_CategoryTag" data-set="tech">
+            <div class="A_CategoryTag">
               <p>Техника</p>
             </div>
             <div class="A_CategoryTag WithLeftIcon">
@@ -237,7 +244,7 @@
           </div>
         </div>
       </a>
-      <a class="M_Card Beige Instruction" href="./instructions/Varim-yajtso-vsmyatku.html">
+      <a class="M_Card Beige Instruction" href="./instructions/Varim-yajtso-vsmyatku.html" data-tags="recipes">
         <div class="Q_CardContent Instruction">
           <img src="./images/covers/instructions/Varim-yajtso-vsmyatku.png" alt="">
         </div>
@@ -245,7 +252,7 @@
           <h3>Варим яйцо всмятку</h3>
           <!-- Categories -->
           <div class="C_Tags">
-            <div class="A_CategoryTag" data-set="recipes">
+            <div class="A_CategoryTag">
               <p>Рецепты</p>
             </div>
             <div class="A_CategoryTag WithLeftIcon">
@@ -255,7 +262,7 @@
           </div>
         </div>
       </a>
-      <a class="M_Card Beige Instruction" href="./instructions/Vybiraem-udobnyj-stul.html">
+      <a class="M_Card Beige Instruction" href="./instructions/Vybiraem-udobnyj-stul.html" data-tags="moving">
         <div class="Q_CardContent Instruction">
           <img src="./images/covers/instructions/Vybiraem-udobnyj-stul.png" alt="">
         </div>
@@ -263,7 +270,7 @@
           <h3>Выбираем удобный стул</h3>
           <!-- Categories -->
           <div class="C_Tags">
-            <div class="A_CategoryTag" data-set="moving">
+            <div class="A_CategoryTag">
               <p>Переезд</p>
             </div>
             <div class="A_CategoryTag WithLeftIcon">
