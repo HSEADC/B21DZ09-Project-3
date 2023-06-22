@@ -65,6 +65,48 @@ function swiperAdditional() {
   });
 };
 
+// Скролл фильтров
+
+const lastTag = document.getElementById('lasttag')
+const firstTag = document.getElementById('firsttag')
+
+function filtersScrollToRight() {
+  lastTag.scrollIntoView({
+    behavior: "auto",
+    block: "nearest",
+    inline: "nearest"}
+  );
+}
+
+function filtersScrollToLeft() {
+  firstTag.scrollIntoView({
+    behavior: "auto",
+    block: "nearest",
+    inline: "nearest"}
+  );
+}
+
+document.getElementById('RightButton').addEventListener("click", filtersScrollToRight);
+document.getElementById('LeftButton').addEventListener("click", filtersScrollToLeft);
+
+// Фильтр
+
+function getMCardDataTags() {
+    const mCards = document.getElementsByClassName('M_Card')
+    const tags = []
+
+    for (let i = 0; i < mCards.length; i++) {
+      const mCard = mCards[i];
+      const mCardTags = mCard.dataset.tags.split(',')
+      // mCardTags.forEach((item) => {
+      //   tags.push(item)
+      // })
+      tags.push(...mCardTags)
+    }
+
+  console.log(tags)
+}
+
 window.addEventListener('resize', (event) => {
   bannerAnimation();
   swiperAdditional();
@@ -73,4 +115,5 @@ window.addEventListener('resize', (event) => {
 window.addEventListener('DOMContentLoaded', (event) => {
   bannerAnimation();
   swiperAdditional();
+  getMCardDataTags();
 });

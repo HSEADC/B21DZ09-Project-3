@@ -68,7 +68,7 @@
             <h1>Как выбирать фрукты</h1>
             <div class="W_TagsAndTime">
               <div class="C_Tags">
-                <div class="A_CategoryTag" data-tag="foods">
+                <div class="A_CategoryTag" data-tags="foods">
                   <p>Продукты</p>
                 </div>
               </div>
@@ -88,7 +88,7 @@
             <h1>Выбираем цветы на праздник</h1>
             <div class="W_TagsAndTime">
               <div class="C_Tags">
-                <div class="A_CategoryTag" data-tag="plants">
+                <div class="A_CategoryTag" data-tags="plants">
                   <p>Растения</p>
                 </div>
               </div>
@@ -108,7 +108,7 @@
             <h1>Собираем чемодан</h1>
             <div class="W_TagsAndTime">
               <div class="C_Tags">
-                <div class="A_CategoryTag" data-tag="moving">
+                <div class="A_CategoryTag" data-tags="moving">
                   <p>Переезд</p>
                 </div>
               </div>
@@ -124,22 +124,29 @@
     </div>
     <!-- Фильтр -->
     <div class="M_CategoriesButtonsScroll">
-      <button class="A_CircleButton Beige" type="button" name="button">
+      <button class="A_CircleButton Beige" type="button" name="button" id="LeftButton">
         <div class="Q_Icons Tree LeftArrow"></div>
       </button>
-      <div class="C_CategoriesButtons">
-        <button class="Active" type="button" name="button"><p>Все</p></button>
-        <button class="Inactive" type="button" name="button"><p>Техника</p></button>
-        <button class="Inactive" type="button" name="button"><p>Документы</p></button>
-        <button class="Inactive" type="button" name="button"><p>Готовка</p></button>
+      <div class="W_CategoriesScroll">
+        <div class="C_CategoriesButtons">
+          <button class="Active" type="button" name="button" id="firsttag"><p>Все</p></button>
+          <button class="Inactive" type="button" name="button"><p>Лайфстайл</p></button>
+          <button class="Inactive" type="button" name="button"><p>Продукты</p></button>
+          <button class="Inactive" type="button" name="button"><p>Документы</p></button>
+          <button class="Inactive" type="button" name="button"><p>Праздники</p></button>
+          <button class="Inactive" type="button" name="button"><p>Физическое здоровье</p></button>
+          <button class="Inactive" type="button" name="button"><p>Работа</p></button>
+          <button class="Inactive" type="button" name="button"><p>Уборка</p></button>
+          <button class="Inactive" type="button" name="button" id="lasttag"><p>Переезд</p></button>
+        </div>
       </div>
-      <button class="A_CircleButton Beige" type="button" name="button">
+      <button class="A_CircleButton Beige" type="button" name="button" id="RightButton">
         <div class="Q_Icons Tree RightArrow"></div>
       </button>
     </div>
     <!-- Материалы -->
     <div class="W_Grid Video">
-      <a class="M_Card Video" href="./videos/10-bystryh-blyud-iz-tykvy.html">
+      <a class="M_Card Video" href="./videos/10-bystryh-blyud-iz-tykvy.html" data-tags="recipe">
         <div class="Q_CardContent Video">
           <img src="../images/covers/videos/10-bystryh-blyud-iz-tykvy.jpg" alt="">
         </div>
@@ -147,7 +154,7 @@
           <h3>10 быстрых блюд из тыквы</h3>
           <div class="W_TagsAndTime">
             <div class="C_Tags">
-              <div class="A_CategoryTag" data-tag="recipe">
+              <div class="A_CategoryTag">
                 <p>Рецепты</p>
               </div>
             </div>
@@ -158,7 +165,7 @@
           </div>
         </div>
       </a>
-      <a class="M_Card Video" href="./videos/Uhod-za-bolshimi-rasteniyami.html">
+      <a class="M_Card Video" href="./videos/Uhod-za-bolshimi-rasteniyami.html" data-tags="plants">
         <div class="Q_CardContent Video">
           <img src="../images/covers/videos/Uhod-za-bolshimi-rasteniyami.jpg" alt="">
         </div>
@@ -166,7 +173,7 @@
           <h3>Уход за большими растениями</h3>
           <div class="W_TagsAndTime">
             <div class="C_Tags">
-              <div class="A_CategoryTag" data-tag="plants">
+              <div class="A_CategoryTag">
                 <p>Растения</p>
               </div>
             </div>
@@ -177,7 +184,7 @@
           </div>
         </div>
       </a>
-      <a class="M_Card Video" href="./videos/Generalnaya-uborka.html">
+      <a class="M_Card Video" href="./videos/Generalnaya-uborka.html" data-tags="cleaning">
         <div class="Q_CardContent Video">
           <img src="../images/covers/videos/Generalnaya-uborka.jpg" alt="">
         </div>
@@ -185,7 +192,7 @@
           <h3>Генеральная уборка</h3>
           <div class="W_TagsAndTime">
             <div class="C_Tags">
-              <div class="A_CategoryTag" data-tag="cleaning">
+              <div class="A_CategoryTag">
                 <p>Уборка</p>
               </div>
             </div>
@@ -196,7 +203,7 @@
           </div>
         </div>
       </a>
-      <a class="M_Card Video" href="./videos/Poklejka-oboev.html">
+      <a class="M_Card Video" href="./videos/Poklejka-oboev.html" data-tags="repair">
         <div class="Q_CardContent Video">
           <img src="../images/covers/videos/Poklejka-oboev.jpg" alt="">
         </div>
@@ -204,7 +211,7 @@
           <h3>Поклейка обоев</h3>
           <div class="W_TagsAndTime">
             <div class="C_Tags">
-              <div class="A_CategoryTag" data-tag="repair">
+              <div class="A_CategoryTag">
                 <p>Ремонт</p>
               </div>
             </div>
@@ -215,7 +222,7 @@
           </div>
         </div>
       </a>
-      <a class="M_Card Video" href="./videos/Sobiraem-chemodan.html">
+      <a class="M_Card Video" href="./videos/Sobiraem-chemodan.html" data-tags="moving">
         <div class="Q_CardContent Video">
           <img src="../images/covers/videos/Sobiraem-chemodan.jpg" alt="">
         </div>
@@ -223,7 +230,7 @@
           <h3>Собираем чемодан</h3>
           <div class="W_TagsAndTime">
             <div class="C_Tags">
-              <div class="A_CategoryTag" data-tag="moving">
+              <div class="A_CategoryTag">
                 <p>Переезд</p>
               </div>
             </div>
@@ -234,7 +241,7 @@
           </div>
         </div>
       </a>
-      <a class="M_Card Video" href="./videos/Vybiraem-tsvety-na-prazdnik.html">
+      <a class="M_Card Video" href="./videos/Vybiraem-tsvety-na-prazdnik.html" data-tags="plants">
         <div class="Q_CardContent Video">
           <img src="../images/covers/videos/Vybiraem-tsvety-na-prazdnik.jpg" alt="">
         </div>
@@ -242,7 +249,7 @@
           <h3>Выбираем цветы на праздник</h3>
           <div class="W_TagsAndTime">
             <div class="C_Tags">
-              <div class="A_CategoryTag" data-tag="plants">
+              <div class="A_CategoryTag">
                 <p>Растения</p>
               </div>
             </div>
@@ -253,7 +260,7 @@
           </div>
         </div>
       </a>
-      <a class="M_Card Video" href="./videos/Kak-vybirat-frukty.html">
+      <a class="M_Card Video" href="./videos/Kak-vybirat-frukty.html" data-tags="foods">
         <div class="Q_CardContent Video">
           <img src="../images/covers/videos/Kak-vybirat-frukty.jpg" alt="">
         </div>
@@ -261,7 +268,7 @@
           <h3>Как выбирать фрукты</h3>
           <div class="W_TagsAndTime">
             <div class="C_Tags">
-              <div class="A_CategoryTag" data-tag="foods">
+              <div class="A_CategoryTag">
                 <p>Продукты</p>
               </div>
             </div>
@@ -279,30 +286,30 @@
         <div class="A_Logotype Footer"></div>
         <p>Self — это энциклопедия взрослой жизни, помогающая молодёжи справиться с бытовыми трудностями</p>
         <div class="A_NetworksButtons">
-          <button class="A_NetworkButton" id="vk"></button>
-          <button class="A_NetworkButton" id="telegram"></button>
-          <button class="A_NetworkButton" id="instagram"></button>
+          <button class="A_NetworkButton" id="vk" onclick="location.href='https://vk.com/self_web';"></button>
+          <button class="A_NetworkButton" id="telegram" onclick="location.href='https://t.me/self_web';"></button>
+          <button class="A_NetworkButton" id="instagram" onclick="location.href='http://instagram.com/self_web/';"></button>
         </div>
       </div>
       <div class="С_FooterLinksSection">
         <div class="M_FooterLinksBlock">
           <p>Инструкции</p>
           <div class="C_FooterLinks">
-            <a href="#">Инструкции</a>
+            <a href="../instructions.html">Инструкции</a>
           </div>
         </div>
         <div class="M_FooterLinksBlock">
           <p>Материалы</p>
           <div class="C_FooterLinks">
-            <a href="#">Авторские статьи</a>
-            <a href="#">Видео</a>
-            <a href="#">Чек-листы</a>
+            <a href="articles.html">Авторские статьи</a>
+            <a href="videos.html">Видео</a>
+            <a href="checklists.html">Чек-листы</a>
           </div>
         </div>
         <div class="M_FooterLinksBlock">
           <p>Вопрос-ответ</p>
           <div class="C_FooterLinks">
-            <a href="#">Вопрос-ответ</a>
+            <a href="../questions.html">Вопрос-ответ</a>
           </div>
         </div>
       </div>

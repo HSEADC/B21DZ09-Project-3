@@ -421,6 +421,16 @@
     padding: 2px 18px 2px 12px;
     column-gap: 4px;
   }
+
+  &.Article, &.Video, &.Check {
+    background: var(--orange);
+    color: var(--cream);
+  }
+
+  &.Instruction {
+    background: var(--blue);
+    color: var(--cream);
+  }
 }
 
 // Categories collection
@@ -773,24 +783,10 @@
         }
       }
     }
-
-    &.Instruction {
-
-      &#internet {
-        background: no-repeat center/cover url('./images/covers/instructions/internet.png'), var(--cream);
-      }
-    }
   }
 
   &.Beige {
     background: var(--beige);
-
-    &.Instruction {
-
-      &#internet {
-        background: no-repeat center/cover url('./images/covers/instructions/internet.png'), var(--beige);
-      }
-    }
   }
 }
 
@@ -917,8 +913,17 @@
 }
 
 .swiperAdditional {
-  margin: 20px 0px 0px 0px;
   width: 100%;
+}
+
+body.home {
+
+  > .C_AdditionalCards {
+
+    > .swiperAdditional {
+      margin: 20px 0px 0px 0px;
+    }
+  }
 }
 
 // Mail block
@@ -949,7 +954,6 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
-  padding: 0px 140px;
   margin: 50px 0px;
 }
 
@@ -957,6 +961,17 @@
   display: flex;
   flex-direction: row;
   column-gap: 10px;
+}
+
+.W_CategoriesScroll {
+  position: relative;
+  width: 60%;
+  overflow-x: scroll;
+  white-space: nowrap;
+
+  &::-webkit-scrollbar{
+    display: none;
+  }
 }
 
 // Content
@@ -1059,8 +1074,11 @@
     width: 40%;
   }
 
-  > p {
+  > .ParagraphText {
+    display: flex;
+    row-gap: 20px;
     width: 60%;
+    flex-direction: column;
   }
 
   >.W_PostContent {
@@ -1460,6 +1478,12 @@
     > p {
       margin-bottom: 15px;
     }
+  }
+
+  // Filter tags
+
+  .W_CategoriesScroll {
+    width: 73.2%;
   }
 
   // Content
@@ -1889,6 +1913,20 @@
     }
   }
 
+  // Filter tags
+
+  .M_CategoriesButtonsScroll {
+    margin: 40px 0px;
+
+    > .A_CircleButton {
+      display: none;
+    }
+  }
+
+  .W_CategoriesScroll {
+    width: 100%;
+  }
+
   // Content
 
   .Q_Content {
@@ -1925,8 +1963,11 @@
       width: 100%;
     }
 
-    > p {
+    > .ParagraphText {
+      display: flex;
+      row-gap: 20px;
       width: 100%;
+      flex-direction: column;
     }
 
     >.W_PostContent {
@@ -2511,6 +2552,24 @@
     }
   }
 
+  // Filter tags
+
+  .M_CategoriesButtonsScroll {
+    margin: 7.009vw 0vw;
+
+    > .A_CircleButton {
+      display: none;
+    }
+  }
+
+  .C_CategoriesButtons {
+    column-gap: 8px;
+  }
+
+  .W_CategoriesScroll {
+    width: 100%;
+  }
+
   // Content
 
   .Q_Content {
@@ -2554,8 +2613,11 @@
       width: 100%;
     }
 
-    > p {
+    > .ParagraphText {
+      display: flex;
+      row-gap: 20px;
       width: 100%;
+      flex-direction: column;
     }
 
     >.W_PostContent {
